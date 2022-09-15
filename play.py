@@ -110,76 +110,8 @@ while True:
                 os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/night/'+night_files[night_ran]+'" -vf ass="'+path+'/night/'+night_files[night_ran]+'.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
             continue
         
-        files = os.listdir(path+'/downloads')   #获取文件夹下全部文件
-        files.sort()    #排序文件，按文件名（点播时间）排序
-        count=0     #总共匹配到的点播文件统计
-        for f in files:
-            if((f.find('.mp3') != -1) and (f.find('.download') == -1)): #如果是mp3文件
-                print(path+'/downloads/'+f)
-                seconds = 420
-                bitrate = 0
-                try:
-                    audio = MP3(path+'/downloads/'+f)   #获取mp3文件信息
-                    seconds=audio.info.length   #获取时长
-                    bitrate=audio.info.bitrate  #获取码率
-                except Exception as e:
-                    print(e)
-                    bitrate = 99999999999
-
-                print('mp3 long:'+convert_time(seconds))
-                if((seconds > 420) | (bitrate > 400000)):  #大于十分钟就不播放/码率限制400k以下
-                    print('too long/too big,delete')
-                else:
-                    pic_files = os.listdir(path+'/default_pic') #获取准备的图片文件夹中的所有图片
-                    pic_files.sort()    #排序数组
-                    pic_ran = random.randint(0,len(pic_files)-1)    #随机选一张图片
-                    
-                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' MP3文件为：'+f)
-                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景文件为：'+pic_files[pic_ran])
-                    w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'MP3文件为：'+f+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/log/screenlog_playing.log',"a+")
-                    print('mp3 long:'+convert_time(seconds))
-                    #推流
-
-                    #如果存在封面
-                    if os.path.isfile(path+'/downloads/'+f.replace(".mp3",'')+'.jpg'):
-                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                    else:#如果不存在封面
-                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                    try:    #放完后删除mp3文件、删除字幕、删除点播信息、封面图片
-                        shutil.move(path+'/downloads/'+f,path+'/default_mp3/')
-                        shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.ass',path+'/default_mp3/')
-                        shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.info',path+'/default_mp3/')
-                        if os.path.isfile(path+'/downloads/'+f.replace(".mp3",'')+'.jpg'):
-                            shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.jpg',path+'/default_mp3/')
-                        delpid(f.replace(".mp3",''))
-                    except Exception as e:
-                        print(e)
-                try:
-                    os.remove(path+'/downloads/'+f)
-                    os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.info')
-                    os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.ass')
-                    os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.jpg')
-                    delpid(f.replace(".mp3",''))
-                except:
-                    print('delete error')
-                count+=1    #点播统计加一
-                break
-            if((f.find('ok.flv') != -1) and (f.find('.download') == -1) and (f.find('rendering') == -1)):   #如果是有ok标记的flv文件
-                print('flv:'+f)
-                #直接推流
-                print('ffmpeg -threads 0 -re -i "'+path+"/downloads/"+f+'" -vcodec copy -acodec aac -f flv "'+rtmp+live_code+'"')
-                os.system('ffmpeg -threads 0 -re -i "'+path+"/downloads/"+f+'" -vcodec copy -acodec aac -f flv "'+rtmp+live_code+'"')
-                os.rename(path+'/downloads/'+f,path+'/downloads/'+f.replace("ok",""))   #修改文件名，以免下次循环再次匹配
-                _thread.start_new_thread(remove_v, (f.replace("ok",""),))   #异步搬走文件，以免推流卡顿
-                _thread.start_new_thread(remove_v, (f.replace(".flv","")+".info",))   #异步搬走文件，以免推流卡顿
-                delpid(f.replace("ok.flv",''))
-                #os.remove(path+'/downloads/*.xml')
-                count+=1    #点播统计加一
-                break
-        if(count == 0):     #点播统计为0，说明点播的都放完了
-            print('no media')
+        if(len(os.listdir(path+'/downloads'))==0):
+            print("空")
             mp3_files = os.listdir(path+'/default_mp3') #获取所有缓存文件
             mp3_files.sort()    #排序文件
             mp3_ran = random.randint(0,len(mp3_files)-1)    #随机抽一个文件
@@ -208,6 +140,76 @@ while True:
                 #直接推流
                 print('ffmpeg -threads 0 -re -i "'+path+"/default_mp3/"+mp3_files[mp3_ran]+'" -vcodec copy -acodec copy -f flv "'+rtmp+live_code+'"')
                 os.system('ffmpeg -threads 0 -re -i "'+path+"/default_mp3/"+mp3_files[mp3_ran]+'" -vcodec copy -acodec copy -f flv "'+rtmp+live_code+'"')
+        else:
+            print("非空")
+            files = os.listdir(path+'/downloads')   #获取文件夹下全部文件
+            files.sort()    #排序文件，按文件名（点播时间）排序
+            count=0     #总共匹配到的点播文件统计
+            for f in files:
+                if((f.find('.mp3') != -1) and (f.find('.download') == -1)): #如果是mp3文件
+                    print(path+'/downloads/'+f)
+                    seconds = 420
+                    bitrate = 0
+                    try:
+                        audio = MP3(path+'/downloads/'+f)   #获取mp3文件信息
+                        seconds=audio.info.length   #获取时长
+                        bitrate=audio.info.bitrate  #获取码率
+                    except Exception as e:
+                        print(e)
+                        bitrate = 99999999999
+
+                    print('mp3 long:'+convert_time(seconds))
+                    if((seconds > 420) | (bitrate > 400000)):  #大于十分钟就不播放/码率限制400k以下
+                        print('too long/too big,delete')
+                    else:
+                        pic_files = os.listdir(path+'/default_pic') #获取准备的图片文件夹中的所有图片
+                        pic_files.sort()    #排序数组
+                        pic_ran = random.randint(0,len(pic_files)-1)    #随机选一张图片
+                    
+                        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' MP3文件为：'+f)
+                        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景文件为：'+pic_files[pic_ran])
+                        w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'MP3文件为：'+f+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/log/screenlog_playing.log',"a+")
+                        print('mp3 long:'+convert_time(seconds))
+                        #推流
+
+                        #如果存在封面
+                        if os.path.isfile(path+'/downloads/'+f.replace(".mp3",'')+'.jpg'):
+                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        else:#如果不存在封面
+                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        try:    #放完后删除mp3文件、删除字幕、删除点播信息、封面图片
+                            shutil.move(path+'/downloads/'+f,path+'/default_mp3/')
+                            shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.ass',path+'/default_mp3/')
+                            shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.info',path+'/default_mp3/')
+                            if os.path.isfile(path+'/downloads/'+f.replace(".mp3",'')+'.jpg'):
+                                shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.jpg',path+'/default_mp3/')
+                            delpid(f.replace(".mp3",''))
+                        except Exception as e:
+                            print(e)
+                    try:
+                        os.remove(path+'/downloads/'+f)
+                        os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.info')
+                        os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.ass')
+                        os.remove(path+'/downloads/'+f.replace(".mp3",'')+'.jpg')
+                        delpid(f.replace(".mp3",''))
+                    except:
+                        print('delete error')
+                    count+=1    #点播统计加一
+                    break
+                if((f.find('ok.flv') != -1) and (f.find('.download') == -1) and (f.find('rendering') == -1)):   #如果是有ok标记的flv文件
+                    print('flv:'+f)
+                    #直接推流
+                    print('ffmpeg -threads 0 -re -i "'+path+"/downloads/"+f+'" -vcodec copy -acodec aac -f flv "'+rtmp+live_code+'"')
+                    os.system('ffmpeg -threads 0 -re -i "'+path+"/downloads/"+f+'" -vcodec copy -acodec aac -f flv "'+rtmp+live_code+'"')
+                    os.rename(path+'/downloads/'+f,path+'/downloads/'+f.replace("ok",""))   #修改文件名，以免下次循环再次匹配
+                    _thread.start_new_thread(remove_v, (f.replace("ok",""),))   #异步搬走文件，以免推流卡顿
+                    _thread.start_new_thread(remove_v, (f.replace(".flv","")+".info",))   #异步搬走文件，以免推流卡顿
+                    delpid(f.replace("ok.flv",''))
+                    #os.remove(path+'/downloads/*.xml')
+                    count+=1    #点播统计加一
+                    break
+                
     except Exception as e:
         print(e)
-
