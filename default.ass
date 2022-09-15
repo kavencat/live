@@ -1,0 +1,25 @@
+﻿[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前没人点播，现在播放的是up主自己的歌曲或已点播的歌曲
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~\N
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌歌曲名\Nid网易云歌曲id\N点歌歌曲名空格歌手
+
