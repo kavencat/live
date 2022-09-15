@@ -323,11 +323,11 @@ def get_download_url(s, t, user, song = "nothing"):
             ass_maker.make_ass(filename,'当前网易云id：'+str(s)+"\\N"+song+"\\N点播人："+user,path,lyric,tlyric)   #生成字幕
             #ass_maker.make_ass(filename,'当前网易云id：'+str(s)+"\\N"+song+"\\N点播人："+user,path)   #生成字幕
             ass_maker.make_info(filename,'id：'+str(s)+","+song+",点播人："+user,path)    #生成介绍信息，用来查询
+            send_dm_long('歌曲['+song2+']下载完成，加入播放队列')
             shutil.move(path+'/tmp/'+filename+'.mp3',path+'/downloads/') #移动文件到播放目录
             shutil.move(path+'/tmp/'+filename+'.ass',path+'/downloads/') #移动文件到播放目录
             shutil.move(path+'/tmp/'+filename+'.info',path+'/downloads/') #移动文件到播放目录
             shutil.move(path+'/tmp/'+filename+'.jpg',path+'/downloads/') #移动文件到播放目录
-            send_dm_long('歌曲['+song2+']下载完成，加入播放队列')
             #send_dm_long(t+str(s)+'下载完成，已加入播放队列')
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]已添加排队项目：'+t+str(s))
         elif(t == 'mv'):    #当参数为mv时
@@ -362,10 +362,10 @@ def get_download_url(s, t, user, song = "nothing"):
             encode_lock = False #关闭渲染锁，以便其他任务继续渲染
             del_file(filename+'.mp4')   #删除渲染所用的原文件
             os.rename(path+'/tmp/'+filename+'rendering.flv',path+'/tmp/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
+            send_dm_long(t+str(s)+'渲染完毕，已加入播放队列')
             shutil.move(path+'/tmp/'+filename+'.flv',path+'/downloads/') #移动文件到播放目录
             shutil.move(path+'/tmp/'+filename+'ok.ass',path+'/downloads/') #移动文件到播放目录
             shutil.move(path+'/tmp/'+filename+'ok.info',path+'/downloads/') #移动文件到播放目录
-            send_dm_long(t+str(s)+'渲染完毕，已加入播放队列')
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'渲染完毕，已加入播放队列')
             #os.remove(path+'/downloads/'+video_title+'.cmt.xml')
         try:    #记录日志，已接近废弃
@@ -496,6 +496,9 @@ def download_av(video_url,user):
         del_file(filename+'rendering1.'+v_format)   #删除渲染所用的原文件
         os.rename(path+'/tmp/'+filename+'rendering.flv',path+'/tmp/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
         send_dm_long('视频'+video_title+'渲染完毕，已加入播放队列')
+        shutil.move(path+'/tmp/'+filename+'.flv',path+'/downloads/') #移动文件到播放目录
+        shutil.move(path+'/tmp/'+filename+'ok.ass',path+'/downloads/') #移动文件到播放目录
+        shutil.move(path+'/tmp/'+filename+'ok.info',path+'/downloads/') #移动文件到播放目录
         del_xml(video_title)
         try:    #记录日志，已接近废弃
             log_file = open(path+'/songs.log', 'a')

@@ -21,7 +21,7 @@ def get_v():
         return "h264_omx"
     elif deviceType == "vps":
         return "libx264"
-        
+
 def get_s():
     if stlf == "flv":
         return "flv"
@@ -109,7 +109,7 @@ while True:
                 print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/night/'+night_files[night_ran]+'" -vf ass="'+path+'/night/'+night_files[night_ran]+'.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
                 os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/night/'+night_files[night_ran]+'" -vf ass="'+path+'/night/'+night_files[night_ran]+'.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
             continue
-        
+
         if(len(os.listdir(path+'/downloads'))==0):
             print("空")
             mp3_files = os.listdir(path+'/default_mp3') #获取所有缓存文件
@@ -128,14 +128,14 @@ while True:
                 #推流
                 if(os.path.isfile(path+'/default_mp3/'+mp3_files[mp3_ran].replace(".mp3",'')+'.ass')):
                     if os.path.isfile(path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.jpg'):
-                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
                     else:
-                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                        os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+"/default_mp3/"+mp3_files[mp3_ran].replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
                 else:
-                    print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+'/default.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                    os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'"  -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+'/default.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                    print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+'/default.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                    os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/default_mp3/'+mp3_files[mp3_ran]+'" -vf ass="'+path+'/default.ass" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
             if(mp3_files[mp3_ran].find('.flv') != -1):  #如果为flv视频
                 #直接推流
                 print('ffmpeg -threads 0 -re -i "'+path+"/default_mp3/"+mp3_files[mp3_ran]+'" -vcodec copy -acodec copy -f flv "'+rtmp+live_code+'"')
@@ -165,7 +165,7 @@ while True:
                         pic_files = os.listdir(path+'/default_pic') #获取准备的图片文件夹中的所有图片
                         pic_files.sort()    #排序数组
                         pic_ran = random.randint(0,len(pic_files)-1)    #随机选一张图片
-                    
+
                         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' MP3文件为：'+f)
                         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景文件为：'+pic_files[pic_ran])
                         w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'MP3文件为：'+f+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/log/screenlog_playing.log',"a+")
@@ -174,11 +174,11 @@ while True:
 
                         #如果存在封面
                         if os.path.isfile(path+'/downloads/'+f.replace(".mp3",'')+'.jpg'):
-                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/downloads/'+f.replace(".mp3",'')+'.jpg'+'" -filter_complex "[0:v][1:v]overlay=30:390[cover];[cover]ass='+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'[result]" -i "'+path+'/downloads/'+f+'" -map "[result]" -map 2,0 -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
                         else:#如果不存在封面
-                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
-                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f image2 -i "'+path+'/default_pic/'+pic_files[pic_ran]+'" -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            print('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
+                            os.system('ffmpeg -threads 0 -re -loop 1 '+var_set.r+' -t '+str(int(seconds))+' -f -i "'+path+'/downloads/'+f+'" -vf ass="'+path+"/downloads/"+f.replace(".mp3",'')+'.ass'+'" -pix_fmt yuvj420p -c:v '+get_v()+' -preset:v superfast '+var_set.bitrate+' -acodec aac -f '+get_s()+var_set.vb+' "'+rtmp+live_code+'"')
                         try:    #放完后删除mp3文件、删除字幕、删除点播信息、封面图片
                             shutil.move(path+'/downloads/'+f,path+'/default_mp3/')
                             shutil.move(path+'/downloads/'+f.replace(".mp3",'')+'.ass',path+'/default_mp3/')
@@ -210,6 +210,6 @@ while True:
                     #os.remove(path+'/downloads/*.xml')
                     count+=1    #点播统计加一
                     break
-                
+
     except Exception as e:
         print(e)
