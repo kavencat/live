@@ -72,12 +72,22 @@ libomxil-bellagio:
 sudo apt-get install libomxil-bellagio-dev
 ```
 
+编译安装srt：
+```Bash
+git clone https://github.com/Haivision/srt
+cd srt
+./configure
+make -j4
+sudo make install
+cd ..
+```
+
 编译并安装ffmpeg（时间较长，半小时左右，64位系统不支持硬件编码，移除硬件编码支撑，添加SRT推流支撑）：
 
 ```Bash
-wget http://ffmpeg.org/releases/ffmpeg-4.0.tar.bz2
-tar jxvf ffmpeg-4.0.tar.bz2
-cd ffmpeg-4.0
+wget http://ffmpeg.org/releases/ffmpeg-6.0.tar.bz2
+tar jxvf ffmpeg-6.0.tar.bz2
+cd ffmpeg-6.0
 sudo ./configure --arch=arm64 --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree --enable-libass --enable-libfreetype  --enable-libsrt 
 make -j4
 sudo make install
