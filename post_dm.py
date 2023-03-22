@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+#encoding:utf-8
 import urllib
 import urllib.request
 import http.cookiejar
@@ -77,8 +77,8 @@ def convert_time(n):
 #用于删除下载文件，防止报错
 def del_file(f):
     try:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete'+path+'/tmp/'+f)
-        os.remove(path+'/tmp/'+f)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete'+path+'/downloads/'+f)
+        os.remove(path+'/downloads/'+f)
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+f+"文件删除成功！")
     except:
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete error')
@@ -115,9 +115,6 @@ def check_free():
     size = 1048576
     for f in files:          #遍历所有文件
         size += os.path.getsize(path+'/downloads/'+f)  #累加大小
-    files = os.listdir(path+'/tmp')#获取缓存文件夹下所有文件
-    for f in files:         #遍历所有文件
-        size += os.path.getsize(path+'/tmp/'+f)#累加大小
     files = os.listdir(path+'/default_mp3')#获取缓存文件夹下所有文件
     for f in files:         #遍历所有文件
         size += os.path.getsize(path+'/default_mp3/'+f)#累加大小
@@ -152,7 +149,7 @@ def clean_files():
 
 #删除之前残留的没渲染完的文件
 def last_files():
-    files = os.listdir(path+'/tmp') #获取下载文件夹下所有文件
+    files = os.listdir(path+'/downloads') #获取下载文件夹下所有文件
     for f in files:
         if f.find('rendering.flv') != -1:
             del_file(f)   #删除文件
@@ -262,7 +259,7 @@ def get_download_url(s, t, user, song = "nothing"):
             opener=urllib.request.build_opener()
             opener.addheaders=[('User-Agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36')]
             urllib.request.install_opener(opener)
-            urllib.request.urlretrieve("http://music.163.com/song/media/outer/url?id="+str(s), path+'/tmp/'+filename+'.mp3') #下载歌曲
+            urllib.request.urlretrieve("http://music.163.com/song/media/outer/url?id="+str(s), path+'/downloads/'+filename+'.mp3') #下载歌曲
 
             #print("http://music.163.com/song/media/outer/url?id="+str(s))
 
@@ -285,13 +282,14 @@ def get_download_url(s, t, user, song = "nothing"):
             else:
                 song = "关键词："+song
                 song2 = song
+            pic_url = ""
             if pic_url != "":
                 try:
                     #伪装浏览器，防止屏蔽
                     opener=urllib.request.build_opener()
                     opener.addheaders=[('User-Agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36')]
                     urllib.request.install_opener(opener)
-                    urllib.request.urlretrieve(pic_url+"?param=200y200", path+'/tmp/'+filename+'.jpg') #下载封面
+                    urllib.request.urlretrieve(pic_url+"?param=200y200", path+'/downloads/'+filename+'.jpg') #下载封面
                 except Exception as e: #下载出错
                     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]下载封面出错：'+pic_url)
                     print(e)
@@ -300,7 +298,7 @@ def get_download_url(s, t, user, song = "nothing"):
             seconds = 420
             bitrate = 0
             try:
-                audio = MP3(path+'/tmp/'+filename+'.mp3')   #获取mp3文件信息
+                audio = MP3(path+'/downloads/'+filename+'.mp3')   #获取mp3文件信息
                 seconds=audio.info.length   #获取时长
                 bitrate=audio.info.bitrate  #获取码率
             except Exception as e:
@@ -324,10 +322,7 @@ def get_download_url(s, t, user, song = "nothing"):
             #ass_maker.make_ass(filename,'当前网易云id：'+str(s)+"\\N"+song+"\\N点播人："+user,path)   #生成字幕
             ass_maker.make_info(filename,'id：'+str(s)+","+song+",点播人："+user,path)    #生成介绍信息，用来查询
             send_dm_long('歌曲['+song2+']下载完成，加入播放队列')
-            shutil.move(path+'/tmp/'+filename+'.mp3',path+'/downloads/') #移动文件到播放目录
-            shutil.move(path+'/tmp/'+filename+'.ass',path+'/downloads/') #移动文件到播放目录
-            shutil.move(path+'/tmp/'+filename+'.info',path+'/downloads/') #移动文件到播放目录
-            shutil.move(path+'/tmp/'+filename+'.jpg',path+'/downloads/') #移动文件到播放目录
+            time.sleep(5)
             #send_dm_long(t+str(s)+'下载完成，已加入播放队列')
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]已添加排队项目：'+t+str(s))
         elif(t == 'mv'):    #当参数为mv时
@@ -343,7 +338,7 @@ def get_download_url(s, t, user, song = "nothing"):
 
             #print(url)
 
-            urllib.request.urlretrieve(url, path+'/tmp/'+filename+'.mp4') #下载mv
+            urllib.request.urlretrieve(url, path+'/downloads/'+filename+'.mp4') #下载mv
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]'+t+str(s)+'下载完成')
             if(song == "nothing"):  #当直接用id点mv时
                 ass_maker.make_ass(filename+'ok','当前MV网易云id：'+str(s)+"\\N点播人："+user,path)#生成字幕
@@ -358,14 +353,11 @@ def get_download_url(s, t, user, song = "nothing"):
             encode_lock = True  #进入渲染，加上渲染锁，防止其他视频一起渲染
             send_dm_long(t+str(s)+'正在渲染')
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'正在渲染')
-            os.system('ffmpeg -threads 1 -i "'+path+'/tmp/'+filename+'.mp4" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/tmp/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/tmp/'+filename+'rendering.flv"')
+            os.system('ffmpeg -threads 1 -i "'+path+'/downloads/'+filename+'.mp4" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/downloads/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/downloads/'+filename+'rendering.flv"')
             encode_lock = False #关闭渲染锁，以便其他任务继续渲染
             del_file(filename+'.mp4')   #删除渲染所用的原文件
-            os.rename(path+'/tmp/'+filename+'rendering.flv',path+'/tmp/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
+            os.rename(path+'/downloads/'+filename+'rendering.flv',path+'/downloads/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
             send_dm_long(t+str(s)+'渲染完毕，已加入播放队列')
-            shutil.move(path+'/tmp/'+filename+'.flv',path+'/downloads/') #移动文件到播放目录
-            shutil.move(path+'/tmp/'+filename+'ok.ass',path+'/downloads/') #移动文件到播放目录
-            shutil.move(path+'/tmp/'+filename+'ok.info',path+'/downloads/') #移动文件到播放目录
             print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'渲染完毕，已加入播放队列')
             #os.remove(path+'/downloads/'+video_title+'.cmt.xml')
         try:    #记录日志，已接近废弃
@@ -474,9 +466,9 @@ def download_av(video_url,user):
         filename = str(time.mktime(datetime.datetime.now().timetuple()))    #用时间戳设定文件名
         os.system('you-get '+video_url+' -o '+path+'/tmp -O '+filename+'rendering1')  #下载视频文件
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'you-get '+video_url+' -o '+path+'/tmp -O '+filename+'rendering1')
-        if(os.path.isfile(path+'/tmp/'+filename+'rendering1.flv')):   #判断视频格式
+        if(os.path.isfile(path+'/downloads/'+filename+'rendering1.flv')):   #判断视频格式
             v_format = 'flv'
-        elif(os.path.isfile(path+'/tmp/'+filename+'rendering1.mp4')):
+        elif(os.path.isfile(path+'/downloads/'+filename+'rendering1.mp4')):
             v_format = 'mp4'
         else:
             send_dm_long('视频'+video_title+'下载失败，请重试')
@@ -490,15 +482,11 @@ def download_av(video_url,user):
             time.sleep(1)   #等待
         encode_lock = True  #进入渲染，加上渲染锁，防止其他视频一起渲染
         send_dm_long('视频'+video_title+'正在渲染')
-        #print('ffmpeg -threads 1 -i "'+path+'/downloads/'+filename+'rendering1.'+v_format+'" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/downloads/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/downloads/'+filename+'rendering.flv"')
-        os.system('ffmpeg -threads 1 -i "'+path+'/tmp/'+filename+'rendering1.'+v_format+'" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/tmp/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/downloads/'+filename+'rendering.flv"')
+        os.system('ffmpeg -threads 1 -i "'+path+'/downloads/'+filename+'rendering1.'+v_format+'" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/downloads/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/downloads/'+filename+'rendering.flv"')
         encode_lock = False #关闭渲染锁，以便其他任务继续渲染
         del_file(filename+'rendering1.'+v_format)   #删除渲染所用的原文件
-        os.rename(path+'/tmp/'+filename+'rendering.flv',path+'/tmp/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
+        os.rename(path+'/downloads/'+filename+'rendering.flv',path+'/downloads/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
         send_dm_long('视频'+video_title+'渲染完毕，已加入播放队列')
-        shutil.move(path+'/tmp/'+filename+'.flv',path+'/downloads/') #移动文件到播放目录
-        shutil.move(path+'/tmp/'+filename+'ok.ass',path+'/downloads/') #移动文件到播放目录
-        shutil.move(path+'/tmp/'+filename+'ok.info',path+'/downloads/') #移动文件到播放目录
         del_xml(video_title)
         try:    #记录日志，已接近废弃
             log_file = open(path+'/songs.log', 'a')
