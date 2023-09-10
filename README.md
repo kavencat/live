@@ -72,6 +72,8 @@ libomxil-bellagio:
 sudo apt-get install libomxil-bellagio-dev
 ```
 
+
+
 编译安装srt：
 ```Bash
 git clone https://github.com/Haivision/srt
@@ -82,7 +84,7 @@ sudo make install
 cd ..
 ```
 
-编译并安装ffmpeg（时间较长，半小时左右，64位系统不支持硬件编码，移除硬件编码支撑，添加SRT推流支撑）：
+编译并安装ffmpeg（时间较长，半小时左右，64位系统不支持硬件编码，移除硬件编码支撑）：
 
 ```Bash
 wget http://ffmpeg.org/releases/ffmpeg-6.0.tar.bz2

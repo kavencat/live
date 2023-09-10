@@ -1,4 +1,4 @@
-#encoding:utf-8
+#-- coding: utf-8 --**
 import urllib
 import urllib.request
 import http.cookiejar
@@ -8,6 +8,7 @@ import os
 import sys
 import datetime
 import ass_maker
+import requests
 import var_set
 import _thread
 import random
@@ -123,6 +124,22 @@ def check_free():
         return True
     else:
         return False
+
+#用于直播状态检查 True 在直播  Flase 未直播
+def livestats():
+    url = 'https://api.bilibili.com/x/space/acc/info?mid=31438300'
+    headers = {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+    }
+    res = requests.get(url,headers=headers)
+    result = res.content.decode('utf-8')
+    jsonobj = json.loads(result)
+    livestats = jsonobj['data']['live_room']['liveStatus']
+    if livestats == 1:
+        return True
+    else:
+        return False
+
 
 #检查已使用空间，并在超过时，自动删除缓存的视频
 def clean_files():
@@ -415,7 +432,7 @@ def playlist_download(id,user):
         #print(song['url'])
         mid = str(song['id'])
         #str(song['url'].replace('http://music.163.com/song/media/outer/url?id=',''))
-        print(mid)
+        #print(mid)
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'name:'+song['name']+'id:'+mid)
         if(ck_id('id:'+mid,"jsongs.log")):
             send_dm_long('您所点播的歌曲['+song['name']+']，在禁播列表，请重新点播…')
@@ -643,11 +660,11 @@ def pick_msg(s, user):
     if ((user=='kavencat') | (user=='柠檬0325') | (user=='兼职的bh3舰长')):    #debug使用，请自己修改
         if(s=='锁定'):
             rp_lock = True
-            send_dm_long('已锁定点播功能，不响应任何弹幕')
+            send_dm_long('已锁定点播功能，不响应任何非管理员限定弹幕')
         if(s=='解锁'):
             rp_lock = False
             send_dm_long('已解锁点播功能，开始响应弹幕请求')
-        if(s=='清空列表'):
+        if(s=='清空点播列表'):
             if(encode_lock):
                 send_dm_long('有渲染任务，无法清空')
                 return
@@ -657,7 +674,7 @@ def pick_msg(s, user):
                 del_id(i[0:12:],"songs.log","songs2.log")
                 del_id(i[0:12:],"play.log","play2.log")
             os.system('killall ffmpeg')
-            send_dm_long('已经清空列表~')
+            send_dm_long('清空点播列表成功~')
         if(s=='清空已点列表'):
             if(encode_lock):
                 send_dm_long('有渲染任务，无法清空')
@@ -667,20 +684,36 @@ def pick_msg(s, user):
                 del_file_default_mp3(i)
                 del_id(i[0:12:],"songs.log","songs2.log")
             os.system('killall ffmpeg')
-            send_dm_long('已经清空列表~')
+            send_dm_long('清空已点列表成功~')
         if(s.find('加入禁单')==0):
-            w_log(s.replace('加入禁单','')+'\r\n',path+'/jsongs.log','a+')
-            #os.system('killall ffmpeg')
-            send_dm_long('['+s.replace('加入禁单','')+']已加入禁播列表~')
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'重启脚本……')
-            os.system('killall ffmpeg') #强行结束ffmpeg进程
-            restart_program()
+            send_dm_long('已收到'+user+'的指令')
+            if ck_id(s.replace('加入禁单',''),'jsongs.log') == False:
+                w_log(s.replace('加入禁单','')+'\r\n',path+'/jsongs.log','a+')
+                #os.system('killall ffmpeg')
+                send_dm_long('['+s.replace('加入禁单','')+']加入禁播列表成功……')
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'重启脚本……')
+                os.system('killall ffmpeg') #强行结束ffmpeg进程
+                restart_program()
+            else:
+                send_dm_long('['+s.replace('加入禁单','')+']已经加入禁播列表~')
+            
         if(s=='重启点播脚本'):
             send_dm_long('点播脚本重启中……')
             restart_program()
         if(s=='切歌'):
             send_dm_long('已执行切歌动作')
             os.system('killall ffmpeg') #强行结束ffmpeg进程
+            return
+        if(s=='更换背景'):
+            send_dm_long('已收到'+user+'的指令')
+            #send_dm_long('正在进行背景图片下载更换中……')
+            try:
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 开始背景图片更换……')
+                os.system('python3 gj/dmimg.py') #运行更新图片脚本
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景图片更换成功！')
+                #send_dm_long('背景图片更新成功')
+            except:
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景图片更换失败！')
             return
     if((user == '柠檬0325') | rp_lock):  #防止自循环
         return
@@ -1131,7 +1164,7 @@ def get_dm_loop():
         dm_result = get_dm()
         for t_get in dm_result['data']['room']:
             if(check_dm(t_get)):
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]['+t_get['timeline']+']'+t_get['nickname']+':'+t_get['text'])
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())) +' '+t_get['nickname']+': '+t_get['text'])
                 #send_dm('用户'+t_get['nickname']+'发送了'+t_get['text']) #别开，会死循环
                 text = t_get['text']
                 pick_msg(text,t_get['nickname'])   #新弹幕检测是否匹配为命令

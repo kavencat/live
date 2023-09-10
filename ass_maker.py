@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+#encoding:utf-8
 import os
 import time
 import re
@@ -28,15 +28,15 @@ Video Zoom Percent: 1
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
-Style: left_down,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
-Style: right_down,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
-Style: left_up,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
-Style: right_up,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
-Style: center_up,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
-Style: center_up_big,文泉驿微米黑,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
-Style: center_down,文泉驿微米黑,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
-Style: center_down_big,文泉驿微米黑,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -45,14 +45,14 @@ Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\\N'''+'点播�
 Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
 Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\\N点歌歌曲名\\Nid网易云歌曲id\\N点歌歌曲名空格歌手
 '''+ass+asst+timer_get
-    file = open(path+'/tmp/'+str(filename)+'.ass','w')    #保存ass字幕文件
+    file = open(path+'/downloads/'+str(filename)+'.ass','w')    #保存ass字幕文件
     file.write(file_content)
     file.close()
 
 #生成info文件
 def make_info(filename, info, path):
     file_content = info
-    file = open(path+'/tmp/'+str(filename)+'.info','w')
+    file = open(path+'/downloads/'+str(filename)+'.info','w')
     file.write(file_content)
     file.close()
 
@@ -64,9 +64,9 @@ def s3t(sec):
 def timer_create(filename, path):
     result='\r\n'
     filename = filename.replace('ok','')
-    if(os.path.isfile(path+'/tmp/'+str(filename)+'.mp3')):
+    if(os.path.isfile(path+'/downloads/'+str(filename)+'.mp3')):
         try:
-            audio = MP3(path+'/tmp/'+str(filename)+'.mp3')   #获取mp3文件信息
+            audio = MP3(path+'/downloads/'+str(filename)+'.mp3')   #获取mp3文件信息
             seconds=int(audio.info.length)   #获取时长
             for i in range(1, seconds):
                 result+='Dialogue: 2,'+s3t(i-1)+'.00,'+s3t(i)+'.00,right_down,,0,0,0,,歌曲时间:'+s3t(i)+'/'+s3t(seconds)+'\r\n'
@@ -75,30 +75,30 @@ def timer_create(filename, path):
             print(e)
     else:
         try:
-            if(os.path.isfile(path+'/tmp/'+str(filename)+'.mp4')):    #获取视频文件信息
-                print(path+'/tmp/'+str(filename)+'.mp4')
-                vv = VideoFileClip(path+'/tmp/'+str(filename)+'.mp4')
+            if(os.path.isfile(path+'/downloads/'+str(filename)+'.mp4')):    #获取视频文件信息
+                print(path+'/downloads/'+str(filename)+'.mp4')
+                vv = VideoFileClip(path+'/downloads/'+str(filename)+'.mp4')
                 seconds=int(vv.duration)   #获取时长
                 print('time seconds:'+str(seconds))
                 for i in range(1, seconds):
                     result+='Dialogue: 2,'+s3t(i-1)+'.00,'+s3t(i)+'.00,right_down,,0,0,0,,视频时间:'+s3t(i)+'/'+s3t(seconds)+'\r\n'
-            elif(os.path.isfile(path+'/tmp/'+str(filename)+'rendering1.flv')):
-                print(path+'/tmp/'+str(filename)+'rendering1.flv')
-                vv = VideoFileClip(path+'/tmp/'+str(filename)+'rendering1.flv')
+            elif(os.path.isfile(path+'/downloads/'+str(filename)+'rendering1.flv')):
+                print(path+'/downloads/'+str(filename)+'rendering1.flv')
+                vv = VideoFileClip(path+'/downloads/'+str(filename)+'rendering1.flv')
                 seconds=int(vv.duration)   #获取时长
                 print('time seconds:'+str(seconds))
                 for i in range(1, seconds):
                     result+='Dialogue: 2,'+s3t(i-1)+'.00,'+s3t(i)+'.00,right_down,,0,0,0,,视频时间:'+s3t(i)+'/'+s3t(seconds)+'\r\n'
-            elif(os.path.isfile(path+'/tmp/'+str(filename)+'rendering1.mp4')):
-                print(path+'/tmp/'+str(filename)+'rendering1.mp4')
-                vv = VideoFileClip(path+'/tmp/'+str(filename)+'rendering1.mp4')
+            elif(os.path.isfile(path+'/downloads/'+str(filename)+'rendering1.mp4')):
+                print(path+'/downloads/'+str(filename)+'rendering1.mp4')
+                vv = VideoFileClip(path+'/downloads/'+str(filename)+'rendering1.mp4')
                 seconds=int(vv.duration)   #获取时长
                 print('time seconds:'+str(seconds))
                 for i in range(1, seconds):
                     result+='Dialogue: 2,'+s3t(i-1)+'.00,'+s3t(i)+'.00,right_down,,0,0,0,,视频时间:'+s3t(i)+'/'+s3t(seconds)+'\r\n'
             else:
                 print('no files found!')
-                print(path+'/tmp/'+str(filename))
+                print(path+'/downloads/'+str(filename))
         except Exception as e:
             print('shit(get video length)')
             print(e)

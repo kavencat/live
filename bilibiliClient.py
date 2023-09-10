@@ -1,173 +1,143 @@
-# -*- coding:utf-8 -*-
+# -*- coding: utf-8 -*-
 import asyncio
-import aiohttp
-import xml.dom.minidom
+import http.cookies
 import random
-import json
-from struct import *
-import json
-import re
+from typing import *
 import var_set
-import numpy
-import os
-import post_dm
-import urllib
-import urllib.request
-import json
-import blivedm
-import threading
-from threading import Timer
 import time
+import post_dm
 
-def check_sizes(f):
-    size = os.path.getsize('/home/pi/live/log/screenlog_'+f+'.log')
-    size2 = round(size/1024/1024,2)
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+f+'log文件大小：'+str(size2)+'MB')
-    if(size2>1):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 删除'+f+'log文件！')
-        os.remove('/home/pi/live/log/screenlog_'+f+'.log')
+import aiohttp
 
-roomId = int(var_set.roomid)
+import blivedm
+import blivedm.models.web as web_models
 
-class MyBLiveClient(blivedm.BLiveClient):
-    # 演示如何自定义handler
-    _COMMAND_HANDLERS = blivedm.BLiveClient._COMMAND_HANDLERS.copy()
+# 直播间ID的取值看直播间URL
+TEST_ROOM_IDS = [
+    var_set.roomid,
+]
 
-    async def __on_vip_enter(self, command):
-        if(command['cmd'] == 'WELCOME'):
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 欢迎月费老爷'+command['data']['uname']+'进入直播间！')
-            post_dm.send_dm_long('欢迎老爷'+command['data']['uname']+'进入直播间！')
-        if(command['cmd'] == 'LIVE'):
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 准备直播中……')
-            check_sizes('danmu')
-            check_sizes('play')
-            check_sizes('playing')
-            
-        if(command['cmd'] == 'INTERACT_WORD'):
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 有用户进入')
-            post_dm.send_dm_long('欢迎'+command['data']['uname']+'进入直播间！')
-            replay = ["点个关注？？", "关注个，以后可以坐“飞机”直达~", "感谢你的到来！","可以点歌哦！","免费点歌哦！","多多关照！"]
-            post_dm.send_dm_long(f'欢迎来到直播间！{replay[random.randint(0, len(replay)-1)]}')
-            
-            
-    _COMMAND_HANDLERS['WELCOME'] = __on_vip_enter
-    _COMMAND_HANDLERS['LIVE'] = __on_vip_enter
-    _COMMAND_HANDLERS['INTERACT_WORD'] = __on_vip_enter
-    _COMMAND_HANDLERS['GUIARD_MSG'] = __on_vip_enter
-    _COMMAND_HANDLERS['CLOSE'] = __on_vip_enter
-    _COMMAND_HANDLERS['GUARD_MSG'] = __on_vip_enter
-    _COMMAND_HANDLERS['WELCOME_GUARD'] = __on_vip_enter
-    _COMMAND_HANDLERS['WARNING'] = __on_vip_enter
-        
-    async def _on_receive_popularity(self, popularity: int):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' 当前人气值：{popularity}')
+# 这里填一个已登录账号的cookie。不填cookie也可以连接，但是收到弹幕的用户名会打码，UID会变成0
+SESSDATA = var_set.cookie[var_set.cookie.index('ATA=')+4:var_set.cookie.index('; bi')]
 
-    async def _on_receive_danmaku(self, danmaku: blivedm.DanmakuMessage):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' {danmaku.uname}：{danmaku.msg}')
-        post_dm.pick_msg(danmaku.msg,danmaku.uname)
-        post_dm.w_log(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" "+danmaku.uname+":"+danmaku.msg+'\r\n','/home/pi/live/log/screenlog_dmlog.log','a')
-
-    async def _on_receive_gift(self, gift: blivedm.GiftMessage):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' {gift.uname} 赠送{gift.gift_name}x{gift.num} （{gift.num}瓜子x{gift.total_coin}）')
-        try:
-            gift_count = 0
-            try:
-                gift_count = numpy.load('users/'+gift.uname+'.npy')
-            except:
-                gift_count = 0
-            try:
-                os.remove('users/'+gift.uname+'.npy')
-            except:
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete error')
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'获取'+gift.uname+'送过'+str(gift_count)+'个瓜子')
-            f = urllib.request.urlopen("https://api.live.bilibili.com/gift/v3/live/gift_config")
-            gift_info = json.loads(f.read().decode('utf-8'))
-            for i in gift_info['data']:
-                if i['name'] == gift.gift_name:
-                    gift_count = gift_count + gift.num * i['price']
-                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]gift match',i['name'],i['price'])
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+gift.uname+'瓜子数改为'+str(gift_count))
-            try:
-                numpy.save('users/'+gift.uname+'.npy', gift_count)
-            except:
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'create error')
-            post_dm.send_dm_long('感谢'+gift.uname+'送的'+str(gift.num)+'个'+gift.gift_name+'！')
-        except:
-            pass
-
-    async def _on_buy_guard(self, message: blivedm.GuardBuyMessage):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' {message.username} 购买{message.gift_name}')
-
-    async def _on_super_chat(self, message: blivedm.SuperChatMessage):
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' 醒目留言 ¥{message.price} {message.uname}：{message.message}')
+session: Optional[aiohttp.ClientSession] = None
 
 
 async def main():
-    # 参数1是直播间ID
-    # 如果SSL验证失败就把ssl设为False
-    client = MyBLiveClient(roomId, ssl=True)
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 正在连接直播间…………')
-    future = client.start()
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 进入直播间…………')
-    
-    i = 0
-    
-    #用于写入记录文件
+    init_session()
+    try:
+        await run_single_client()
+        await run_multi_clients()
+    finally:
+        await session.close()
 
-    def w_fanlog():
-        bili = blivedm.BiliSpider()
-        res = bili.get_fans_info("31438300","1","1")
-        try:
-            post_dm.w_log('[昵称]'+res['data']['list'][i]['uname']+'[mid]'+str(res['data']['list'][i]['mid']),'fans.log','w')
-        except:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'读取关注用户失败！')
-            
-    w_fanlog()
+
+def init_session():
+    cookies = http.cookies.SimpleCookie()
+    cookies['SESSDATA'] = SESSDATA
+    cookies['SESSDATA']['domain'] = 'bilibili.com'
+
+    global session
+    session = aiohttp.ClientSession()
+    session.cookie_jar.update_cookies(cookies)
+
+
+async def run_single_client():
+    """
+    演示监听一个直播间
+    """
+    room_id = random.choice(TEST_ROOM_IDS)
+    client = blivedm.BLiveClient(room_id, session=session)
+    handler = MyHandler()
+    client.set_handler(handler)
+
+    client.start()
+    try:
+        # 演示5秒后停止
+        await asyncio.sleep(5)
+        client.stop()
+
+        await client.join()
+    finally:
+        await client.stop_and_close()
+
+
+async def run_multi_clients():
+    """
+    演示同时监听多个直播间
+    """
+    clients = [blivedm.BLiveClient(room_id, session=session) for room_id in TEST_ROOM_IDS]
+    handler = MyHandler()
     
-    def cheakfans():
-        wfan=post_dm.r_log('fans.log','r')
-        i=0
-        bili = blivedm.BiliSpider()
-        res = bili.get_fans_info("31438300","1","1")
-        try:
-            #print("检查是否有听众关注！")
-            sfan ='[昵称]'+res['data']['list'][i]['uname']+'[mid]'+str(res['data']['list'][i]['mid'])
-            if(sfan == wfan):
-                i=0
-            else:
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 有用户关注！')
-                post_dm.w_log(sfan,'fans.log','w')
-                nfans = post_dm.r_log('fans.log','r')
-                post_dm.send_dm_long('感谢'+nfans+'的关注！')
-        except:
-            sfan = wfan
-        t = threading.Timer(2, cheakfans)
-        t.start()
-        
-    t = threading.Timer(2, cheakfans)
-    t.start()
-    
-    #def send():
-    #    replay = ["点个关注？？", "关注个，以后可以坐“飞机”直达~", "感谢你的到来！","可以点歌哦！","免费点歌哦！","多多关照！","歌曲限制为1分钟以上6分钟以下！","歌曲不正确请查看简介有解决办法！","请理性点播歌曲！"]
-    #    post_dm.send_dm_long(f'欢迎来到直播间！{replay[random.randint(0, len(replay)-1)]}')
-    #    t = threading.Timer(600, send)
-    #    t.start()
-        
-    #t = threading.Timer(600, send)
-    #t.start()
+    for client in clients:
+        client.set_handler(handler)
+        client.start()
 
     try:
-        # 5秒后停止，测试用
-        # await asyncio.sleep(5)
-        # future = client.stop()
-        # 或者
-        # future.cancel()
-        
-        await future
+        await asyncio.gather(*(
+            client.join() for client in clients
+        ))
     finally:
-        await client.close()
+        await asyncio.gather(*(
+            client.stop_and_close() for client in clients
+        ))
 
+
+class MyHandler(blivedm.BaseHandler):
+    # # 演示如何添加自定义回调
+    _CMD_CALLBACK_DICT = blivedm.BaseHandler._CMD_CALLBACK_DICT.copy()
+    print(_CMD_CALLBACK_DICT)
+    
+    #async def __on_vip_enter(self,client: blivedm.BLiveClient,command):
+    #    print(command['cmd'])
+    #    if(command['cmd'] == 'LIVE'):
+    #        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 正在直播中……')
+            
+    #    if(command['cmd'] == 'INTERACT_WORD'):
+    #        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 听众['+command['data']['uname']+'] 进入直播……')
+    #        post_dm.send_dm_long('欢迎【'+command['data']['uname']+'】进入直播间！')
+            
+    #_CMD_CALLBACK_DICT['LIVE'] = __on_vip_enter
+    #_CMD_CALLBACK_DICT['INTERACT_WORD'] = __on_vip_enter
+    #_CMD_CALLBACK_DICT['ENTRY_EFFECT_MUST_RECEIVE'] = __on_vip_enter
+    
+    #
+    # # 入场消息回调
+    # def __interact_word_callback(self, client: blivedm.BLiveClient, command: dict):
+    #     print(f"[{client.room_id}] INTERACT_WORD: self_type={type(self).__name__}, room_id={client.room_id},"
+    #           f" uname={command['data']['uname']}")
+    # _CMD_CALLBACK_DICT['INTERACT_WORD'] = __interact_word_callback  # noqa
+
+    def _on_heartbeat(self, client: blivedm.BLiveClient, message: web_models.HeartbeatMessage):
+        #print(f'[{client.room_id}] 心跳')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [{client.room_id}] 当前人气值：{message.popularity}')
+
+    def _on_danmaku(self, client: blivedm.BLiveClient, message: web_models.DanmakuMessage):
+        #print(f'[{client.room_id}] {message.uname}：{message.msg}')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [{client.room_id}] {message.uname}：{message.msg}')
+        post_dm.pick_msg(message.msg,message.uname)
+        post_dm.w_log(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" "+message.uname+":"+message.msg+'\r\n',var_set.path+'/log/screenlog_dmlog.log','a')
+
+    def _on_gift(self, client: blivedm.BLiveClient, message: web_models.GiftMessage):
+        #print(f'[{client.room_id}] {message.uname} 赠送{message.gift_name}x{message.num}'
+        #      f' （{message.coin_type}瓜子x{message.total_coin}）')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [{client.room_id}] {message.uname} 赠送{message.gift_name}x{message.num}'
+              f' （{message.coin_type}瓜子x{message.total_coin}）')
+        post_dm.send_dm_long('感谢['+message.uname+']赠送的['+message.gift_name+']'+str(message.num)+'个！')
+        git_count = post_dm.get_coin(message.uname)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 观众['+message.uname+']已有'+str(git_count)+message.coin_type+'瓜子！')
+        post_dm.give_coin(message.uname,message.num*message.total_coin)
+        git_count = post_dm.get_coin(message.uname)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 观众['+message.uname+']现有'+str(git_count)+message.coin_type+'瓜子！')
+
+    def _on_buy_guard(self, client: blivedm.BLiveClient, message: web_models.GuardBuyMessage):
+        #print(f'[{client.room_id}] {message.username} 购买{message.gift_name}')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [{client.room_id}] {message.username} 购买{message.gift_name}')
+
+    def _on_super_chat(self, client: blivedm.BLiveClient, message: web_models.SuperChatMessage):
+        #print(f'[{client.room_id}] 醒目留言 ¥{message.price} {message.uname}：{message.message}')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [{client.room_id}] 醒目留言 ¥{message.price} {message.uname}：{message.message}')
 
 
 if __name__ == '__main__':
-    asyncio.get_event_loop().run_until_complete(main())
+    asyncio.run(main())

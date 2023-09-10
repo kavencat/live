@@ -53,7 +53,6 @@ def input_index():
  
 def main():
   shutil.rmtree("/home/pi/live/default_pic")
-  os.mkdir("/home/pi/live/default_pic")
   index = input_index()
   i = 1
   while i <= index:

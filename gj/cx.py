@@ -1,5 +1,7 @@
+# -*- coding:utf-8 -*-
 import numpy
 import os
+
 
 path = "/home/pi/live"
 def get_coin(user):

@@ -1,9 +1,8 @@
-# -*- coding:utf-8 -*-
+#encoding:utf-8
 import urllib
 import urllib.request
 import re
 import time
-
 
 #获取歌曲信息，没api可用所以只能去抓网页了23333
 def get_song_info(id):
