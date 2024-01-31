@@ -6,6 +6,7 @@ from typing import *
 import var_set
 import time
 import post_dm
+import re
 
 import aiohttp
 
@@ -17,8 +18,12 @@ TEST_ROOM_IDS = [
     var_set.roomid,
 ]
 
+rule = r'ATA=(.*?);'
+
 # 这里填一个已登录账号的cookie。不填cookie也可以连接，但是收到弹幕的用户名会打码，UID会变成0
-SESSDATA = var_set.cookie[var_set.cookie.index('ATA=')+4:var_set.cookie.index('; bi')]
+#SESSDATA = var_set.cookie[var_set.cookie.index('ATA=')+4:var_set.cookie.index('; bi')]
+
+SESSDATA = re.findall(rule , var_set.cookie)[0]
 
 session: Optional[aiohttp.ClientSession] = None
 
