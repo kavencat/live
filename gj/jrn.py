@@ -6,7 +6,7 @@ import time
 
 class ImageRename():
     def __init__(self):
-        self.path = 'default_pic'
+        self.path = '../default_pic'
         
     def rename(self):
         filelist = os.listdir(self.path)

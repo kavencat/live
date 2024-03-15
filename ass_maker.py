@@ -43,7 +43,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,'''+info+'''
 Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\\N'''+'点播日期：'+time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'''
 Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
-Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\\N点歌歌曲名\\Nid网易云歌曲id\\N点歌歌曲名空格歌手
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\\N点歌(歌曲名)\\Nid(网易云歌曲id)\\N点歌(歌曲名空格歌手)
 '''+ass+asst+timer_get
     file = open(path+'/downloads/'+str(filename)+'.ass','w')    #保存ass字幕文件
     file.write(file_content)

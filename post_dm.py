@@ -1,4 +1,4 @@
-#-- coding: utf-8 --**
+#encoding:utf-8
 import urllib
 import urllib.request
 import http.cookiejar
@@ -64,9 +64,9 @@ def w_log(nr,file,w):#nr写入文件内容，file写入的文件名，wd文件�
         lfile = open(file, w)
         lfile.writelines(nr)
         lfile.close()
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'写入记录成功！')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]写入记录成功！')
     except:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'写入记录失败！')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]写入记录失败！')
 
 
 #格式化时间，暂时没啥用，以后估计也没啥用
@@ -78,20 +78,20 @@ def convert_time(n):
 #用于删除下载文件，防止报错
 def del_file(f):
     try:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete'+path+'/downloads/'+f)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]delete'+path+'/downloads/'+f)
         os.remove(path+'/downloads/'+f)
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+f+"文件删除成功！")
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+f+"文件删除成功！")
     except:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete error')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]delete error')
 
 #用于删除存档文件，防止报错
 def del_file_default_mp3(f):
     try:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete'+path+'/default_mp3/'+f)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]delete'+path+'/default_mp3/'+f)
         os.remove(path+'/default_mp3/'+f)
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+f+"文件删除成功！")
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+f+"文件删除成功！")
     except:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'delete error')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]delete error')
 
 #用于删除id 1是过渡文件
 def del_id(id,file,file1):
@@ -106,7 +106,7 @@ def del_id(id,file,file1):
         f1.close
         os.remove(file)
         os.rename(file1,file)
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+"id"+id+"删除成功！")
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+"id"+id+"删除成功！")
     except:
         return False
 
@@ -120,7 +120,7 @@ def check_free():
     for f in files:         #遍历所有文件
         size += os.path.getsize(path+'/default_mp3/'+f)#累加大小
     if(size > var_set.free_space*1024*1024):  #判断是否超过设定大小
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+"space size:"+str(size))
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]space size:'+str(size))
         return True
     else:
         return False
@@ -153,10 +153,13 @@ def clean_files():
                 del_file_default_mp3(f.replace(".flv",'')+'ok.info')
                 del_id(f[0:12:],"songs.log","songs2.log")
             elif((f.find('.mp3') != -1) & (check_free())):    #检查可用空间是否依旧超过设置大小，mp3文件
-                del_file_default_mp3(f)   #删除文件
-                del_file_default_mp3(f.replace(".mp3",'')+'.ass')
-                del_file_default_mp3(f.replace(".mp3",'')+'.info')
-                del_file_default_mp3(f.replace(".mp3",'')+'.jpg')
+                files = glob.glob(path+'/default_mp3/'+f.replace(".mp3",'')+'.*')
+                for file in files:
+                    del_file_default_mp3(f)   #删除文件
+                
+                #del_file_default_mp3(f.replace(".mp3",'')+'.ass')
+                #del_file_default_mp3(f.replace(".mp3",'')+'.info')
+                #del_file_default_mp3(f.replace(".mp3",'')+'.jpg')
                 del_id(f[0:12:],"songs.log","songs2.log")
             elif(check_free() == False):    #符合空间大小占用设置时，停止删除操作
                 is_boom = False
@@ -204,7 +207,7 @@ def w_play(id,fil,fil1):
                 f1.write(ls)
         f.close
         f1.close
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+"id"+id+"添加成功！")
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+"id"+id+"添加成功！")
     except:
         return False
 
@@ -237,7 +240,7 @@ def seach_file(file,path):
 def movef(f):
     try:
         shutil.move(path+"/default_mp3/"+f,path+"/downloads")
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+"[log]"+f+"移动完成！")
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+f+"移动完成！")
     except:
         return False
 
@@ -246,8 +249,6 @@ def del_xml(f):
         del_file(f+".cmt.xml")
     except:
         return False
-
-
 
 #下载歌曲，传入参数：
 #s：数值型，传入歌曲/mv的id
@@ -268,7 +269,7 @@ def get_download_url(s, t, user, song = "nothing"):
             send_dm_long('用户'+user+'赠送的瓜子不够点mv哦,还差'+str(500-get_coin(user))+'瓜子的礼物')
             return
     send_dm_long('正在下载'+t+str(s))
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]getting url:'+t+str(s))
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]getting url:'+t+str(s))
     try:
         filename = str(time.mktime(datetime.datetime.now().timetuple()))    #获取时间戳，用来当作文件名
         if(t == 'id'):  #当参数为歌曲时
@@ -299,16 +300,17 @@ def get_download_url(s, t, user, song = "nothing"):
             else:
                 song = "关键词："+song
                 song2 = song
-            pic_url = ""
+            
             if pic_url != "":
                 try:
+                    print("pic_url"+pic_url)
                     #伪装浏览器，防止屏蔽
                     opener=urllib.request.build_opener()
                     opener.addheaders=[('User-Agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36')]
                     urllib.request.install_opener(opener)
                     urllib.request.urlretrieve(pic_url+"?param=200y200", path+'/downloads/'+filename+'.jpg') #下载封面
                 except Exception as e: #下载出错
-                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]下载封面出错：'+pic_url)
+                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]下载封面出错：'+pic_url)
                     print(e)
                     del_file(filename+'.jpg')
 
@@ -321,7 +323,7 @@ def get_download_url(s, t, user, song = "nothing"):
             except Exception as e:
                 print(e)
                 bitrate = 99999999999
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'mp3时长:'+convert_time(seconds))
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]mp3时长:'+convert_time(seconds))
 
             if(seconds==0):
                 send_dm_long('id'+str(s)+'下载失败！')
@@ -333,7 +335,7 @@ def get_download_url(s, t, user, song = "nothing"):
                 del_file(filename+'.ass')
                 del_file(filename+'.info')
                 del_file(filename+'.jpg')
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'too long/too big,delete')
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]too long/too big,delete')
                 return()
             ass_maker.make_ass(filename,'当前网易云id：'+str(s)+"\\N"+song+"\\N点播人："+user,path,lyric,tlyric)   #生成字幕
             #ass_maker.make_ass(filename,'当前网易云id：'+str(s)+"\\N"+song+"\\N点播人："+user,path)   #生成字幕
@@ -346,7 +348,7 @@ def get_download_url(s, t, user, song = "nothing"):
             params = urllib.parse.urlencode({t: s}) #格式化参数
             f = urllib.request.urlopen(download_api_url + "?%s" % params,timeout=5)   #设定获取的网址
             url = f.read().decode('utf-8')  #读取结果
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'网址：'+url)
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]获取'+t+str(s)+'网址：'+url)
 
             #伪装浏览器，防止屏蔽
             opener=urllib.request.build_opener()
@@ -356,7 +358,7 @@ def get_download_url(s, t, user, song = "nothing"):
             #print(url)
 
             urllib.request.urlretrieve(url, path+'/downloads/'+filename+'.mp4') #下载mv
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]'+t+str(s)+'下载完成')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+t+str(s)+'下载完成')
             if(song == "nothing"):  #当直接用id点mv时
                 ass_maker.make_ass(filename+'ok','当前MV网易云id：'+str(s)+"\\N点播人："+user,path)#生成字幕
                 ass_maker.make_info(filename+'ok','MVid：'+str(s)+",点播人："+user,path)#生成介绍信息，用来查询
@@ -364,18 +366,18 @@ def get_download_url(s, t, user, song = "nothing"):
                 ass_maker.make_ass(filename+'ok','当前MV网易云id：'+str(s)+"\\NMV点播关键词："+song+"\\N点播人："+user,path)#生成字幕
                 ass_maker.make_info(filename+'ok','MVid：'+str(s)+",关键词："+song+",点播人："+user,path)#生成介绍信息，用来查询
             send_dm_long(t+str(s)+'下载完成，等待渲染')
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'下载完成，等待渲染')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]获取'+t+str(s)+'下载完成，等待渲染')
             while (encode_lock):    #渲染锁，如果现在有渲染任务，则无限循环等待
                 time.sleep(1)   #等待
             encode_lock = True  #进入渲染，加上渲染锁，防止其他视频一起渲染
             send_dm_long(t+str(s)+'正在渲染')
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'正在渲染')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]获取'+t+str(s)+'正在渲染')
             os.system('ffmpeg -threads 1 -i "'+path+'/downloads/'+filename+'.mp4" -aspect 16:9 -vf "scale=1280:720, ass='+path+"/downloads/"+filename+'ok.ass'+'" -c:v '+get_v()+' -preset ultrafast -maxrate '+var_set.maxrate+'k -tune fastdecode -acodec aac -b:a 192k "'+path+'/downloads/'+filename+'rendering.flv"')
             encode_lock = False #关闭渲染锁，以便其他任务继续渲染
             del_file(filename+'.mp4')   #删除渲染所用的原文件
             os.rename(path+'/downloads/'+filename+'rendering.flv',path+'/downloads/'+filename+'ok.flv') #重命名文件，标记为渲染完毕（ok）
             send_dm_long(t+str(s)+'渲染完毕，已加入播放队列')
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]获取'+t+str(s)+'渲染完毕，已加入播放队列')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]获取'+t+str(s)+'渲染完毕，已加入播放队列')
             #os.remove(path+'/downloads/'+video_title+'.cmt.xml')
         try:    #记录日志，已接近废弃
             log_file = open(path+'/songs.log', 'a')
@@ -385,14 +387,14 @@ def get_download_url(s, t, user, song = "nothing"):
             log_playfile.writelines(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())) + ','+user+','+t+str(s)+','+song+','+filename+'\r\n')
             log_playfile.close()
         except:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[error]log error')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log][error]log error')
     except Exception as e: #下载出错
         send_dm_long('出错了：请检查命令或重试')
         if t == 'id' and var_set.use_gift_check:   #归还用掉的瓜子
             give_coin(user,100)
         elif t == 'mv' and var_set.use_gift_check:
             give_coin(user,500)
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]下载文件出错：'+t+str(s))
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]下载文件出错：'+t+str(s))
         print(e)
         del_file(filename+'.mp4')
         del_file(filename+'.mp3')
@@ -424,7 +426,7 @@ def playlist_download(id,user):
             else:
                 send_dm_long('正在下载歌单前'+str(len(playlists))+'首')
     except Exception as e:  #防炸
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'shit(playlist)')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]shit(playlist)')
         print(e)
         send_dm_long('出错了：请检查命令或重试')
 
@@ -433,7 +435,7 @@ def playlist_download(id,user):
         mid = str(song['id'])
         #str(song['url'].replace('http://music.163.com/song/media/outer/url?id=',''))
         #print(mid)
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'name:'+song['name']+'id:'+mid)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]name:'+song['name']+'id:'+mid)
         if(ck_id('id:'+mid,"jsongs.log")):
             send_dm_long('您所点播的歌曲['+song['name']+']，在禁播列表，请重新点播…')
             return
@@ -469,7 +471,7 @@ def download_av(video_url,user):
         return
     try:
         v_format = 'flv'
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]downloading bilibili video:'+str(video_url))
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]downloading bilibili video:'+str(video_url))
         #if(vieo_url.find('page')):
         #    print(video_url('https://www.bilibili.com/video/BV','')[1:13:])
         #else:
@@ -477,12 +479,12 @@ def download_av(video_url,user):
         #print('you-get '+video_url+' --json')
         video_info = json.loads(os.popen('you-get '+video_url+' --json').read())    #获取视频标题，标题错误则说明点播参数不对，跳到except
         video_title = video_info["title"]   #获取标题
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+video_title)
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+video_title)
         send_dm_long('正在下载'+video_title)
         #send_dm('注意，视频下载十分费时，请耐心等待')
         filename = str(time.mktime(datetime.datetime.now().timetuple()))    #用时间戳设定文件名
         os.system('you-get '+video_url+' -o '+path+'/tmp -O '+filename+'rendering1')  #下载视频文件
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'you-get '+video_url+' -o '+path+'/tmp -O '+filename+'rendering1')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]you-get '+video_url+' -o '+path+'/tmp -O '+filename+'rendering1')
         if(os.path.isfile(path+'/downloads/'+filename+'rendering1.flv')):   #判断视频格式
             v_format = 'flv'
         elif(os.path.isfile(path+'/downloads/'+filename+'rendering1.mp4')):
@@ -530,7 +532,7 @@ def download_av(video_url,user):
 
 #搜索歌曲并下载
 def search_song(s,user):
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]searching song:'+s)
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]searching song:'+s)
     params = urllib.parse.urlencode({'type': 1, 's': s})    #格式化参数
     f = urllib.request.urlopen("http://s.music.163.com/search/get/?%s" % params,timeout=3)    #设置接口网址
     search_result = json.loads(f.read().decode('utf-8'))    #获取结果
@@ -610,7 +612,7 @@ def take_coin(user, take_sum):
     try:
         numpy.save('users/'+user+'.npy', gift_count)
     except:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'create error')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]create error')
 
 #检查并扣除指定数量的瓜子
 def check_coin(user, take_sum):
@@ -631,7 +633,7 @@ def give_coin(user, give_sum):
     try:
         numpy.save('users/'+user+'.npy', gift_count)
     except:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'create error')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]create error')
 
 def check_night():
     print(time.localtime()[3])
@@ -652,12 +654,12 @@ def psum():
 #切歌请求次数统计
 jump_to_next_counter = 0
 rp_lock = False
-def pick_msg(s, user):
+def pick_msg(s, user, uid):
     global jump_to_next_counter #切歌请求次数统计
     global encode_lock  #视频渲染任务锁
     global rp_lock
     s = s.replace(' ','')
-    if ((user=='kavencat') | (user=='柠檬0325') | (user=='兼职的bh3舰长')):    #debug使用，请自己修改
+    if ((uid==97489590) | (uid==31438300)):    #debug使用，请自己修改 31438300-kavencat 97489590-柠檬0325
         if(s=='锁定'):
             rp_lock = True
             send_dm_long('已锁定点播功能，不响应任何非管理员限定弹幕')
@@ -687,18 +689,31 @@ def pick_msg(s, user):
             send_dm_long('清空已点列表成功~')
         if(s.find('加入禁单')==0):
             send_dm_long('已收到'+user+'的指令')
-            if ck_id(s.replace('加入禁单',''),'jsongs.log') == False:
-                w_log(s.replace('加入禁单','')+'\r\n',path+'/jsongs.log','a+')
-                #os.system('killall ffmpeg')
-                send_dm_long('['+s.replace('加入禁单','')+']加入禁播列表成功……')
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'重启脚本……')
-                os.system('killall ffmpeg') #强行结束ffmpeg进程
-                restart_program()
-            else:
+            if ck_id(s.replace('加入禁单',''),'jsongs.log') :
                 send_dm_long('['+s.replace('加入禁单','')+']已经加入禁播列表~')
+            else:
+                w_log(s.replace('加入禁单','')+'\r\n',path+'/jsongs.log','a+')
+                send_dm_long('['+s.replace('加入禁单','')+']加入禁播列表成功……')
+                if ck_id(s.replace('加入禁单',''),'songs.log') :
+                    f = r_name(s.replace('加入禁单',''),"songs.log")
+                    del_id(s.replace('加入禁单',''),"songs.log","songs2.log")
+                    del_file_default_mp3(f+".ass")
+                    del_file_default_mp3(f+".info")
+                    del_file_default_mp3(f+".mp3")
+                    
+                if ck_id(s.replace('加入禁单',''),'play.log') :
+                    os.system('killall ffmpeg') #强行结束ffmpeg进程
+                    f = r_name(s.replace('加入禁单',''),"play.log")
+                    del_id(s.replace('加入禁单',''),"play.log","play2.log")
+                    del_file(f+".ass")
+                    del_file(f+".info")
+                    del_file(f+".mp3")
+                
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'重启脚本……')
+                restart_program()
             
-        if(s=='重启点播脚本'):
-            send_dm_long('点播脚本重启中……')
+        if(s=='重启弹幕脚本'):
+            send_dm_long('弹幕脚本重启中……')
             restart_program()
         if(s=='切歌'):
             send_dm_long('已执行切歌动作')
@@ -708,14 +723,14 @@ def pick_msg(s, user):
             send_dm_long('已收到'+user+'的指令')
             #send_dm_long('正在进行背景图片下载更换中……')
             try:
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 开始背景图片更换……')
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]开始背景图片更换……')
                 os.system('python3 gj/dmimg.py') #运行更新图片脚本
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景图片更换成功！')
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]背景图片更换成功！')
                 #send_dm_long('背景图片更新成功')
             except:
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景图片更换失败！')
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]背景图片更换失败！')
             return
-    if((user == '柠檬0325') | rp_lock):  #防止自循环
+    if((uid==97489590) | rp_lock):  #防止自循环
         return
     #下面的不作解释，很简单一看就懂
     if(s.find('mvid+') == 0):
@@ -743,7 +758,7 @@ def pick_msg(s, user):
         try:
             search_mv(s.replace('mv+', '', 1),user)
         except:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]mv not found')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]mv not found')
             send_dm_long('出错了：没这mv')
     elif(s.find('mvid') == 0):
         if check_night():
@@ -794,7 +809,7 @@ def pick_msg(s, user):
                 return
             search_mv(s.replace('mv', '', 1),user)
         except:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]mv not found')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]mv not found')
             send_dm_long('出错了：没这mv')
     elif (s.find('id') == 0):
         if check_night():
@@ -856,7 +871,7 @@ def pick_msg(s, user):
         try:
             search_song(s.replace('点歌', '', 1),user)
         except:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]song not found')
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]song not found')
             send_dm_long('出错了：没这首歌')
     elif (s.find('喵') > -1):
         replay = ["喵？？", "喵喵！", "喵。。喵？", "喵喵喵~", "喵！"]
@@ -889,7 +904,7 @@ def pick_msg(s, user):
                     all_the_text = info_file.read()
                     info_file.close()
                 except Exception as e:
-                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+e)
+                    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+e)
                 if(songs_count < 10):
                     send_dm_long(all_the_text)
                 songs_count += 1
@@ -971,7 +986,7 @@ def pick_msg(s, user):
             else:
                 #视频网址格式：https://www.bilibili.com/video/avxxxx/#page=x
                 ture_url=s.replace('#p','?p=')
-                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+ture_url)
+                print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+ture_url)
                 ture_url=ture_url.replace('BV','https://www.bilibili.com/video/BV')
                 _thread.start_new_thread(download_av, (ture_url,user))
         except:
@@ -1079,7 +1094,8 @@ def send_dm(s):
     dm_lock = True
     try:
         url = "https://api.live.bilibili.com/msg/send"
-        postdata =urllib.parse.urlencode({
+        #postdata =urllib.parse.urlencode({
+        postdata = {
         'color':'16777215',
         'fontsize':'25',
         'mode':'1',
@@ -1088,7 +1104,8 @@ def send_dm(s):
         'roomid':roomid,
         'csrf_token':csrf_token,
         'csrf':csrf_token
-        }).encode("utf8","ignore")
+        }
+        #}).encode("utf8","ignore")
         header = {
         "Accept":"application/json, text/javascript, */*; q=0.01",
         "Accept-Encoding":"utf-8, zip, deflate, br",
@@ -1099,15 +1116,17 @@ def send_dm(s):
         "Referer":"https://live.bilibili.com/"+roomid,
         "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 Vivaldi/2.2.1388.37"
         }
-        req = urllib.request.Request(url,postdata,header)
-        dm_result = json.loads(urllib.request.urlopen(req,timeout=3).read().decode("utf8"))
+        #req = urllib.request.Request(url,postdata,header)
+        req = requests.post(url=url, headers=header, data=postdata).text
+        #dm_result = json.loads(urllib.request.urlopen(req,timeout=3).read().decode("utf-8"))
+        dm_result = json.loads(req)
         if len(dm_result['msg']) > 0:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[error]弹幕发送失败：'+s)
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+dm_result)
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log][error]弹幕发送失败：'+s)
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]'+dm_result)
         else:
-            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[log]发送弹幕：'+s)
+            print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]发送弹幕：'+s)
     except Exception as e:
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'[error]send dm error')
+        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log][error]send dm error')
         print(e)
     time.sleep(1.5)
     dm_lock = False
@@ -1143,7 +1162,7 @@ def get_dm():
     "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0"
     }
     req = urllib.request.Request(url,postdata,header)
-    dm_result = json.loads(urllib.request.urlopen(req,timeout=1).read().decode("utf8"))
+    dm_result = json.loads(urllib.request.urlopen(req,timeout=1).read().decode("utf-8"))
     #for t_get in dm_result['data']['room']:
         #print('[log]['+t_get['timeline']+']'+t_get['nickname']+':'+t_get['text']).decode("utf8")
     return dm_result
@@ -1167,14 +1186,11 @@ def get_dm_loop():
                 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())) +' '+t_get['nickname']+': '+t_get['text'])
                 #send_dm('用户'+t_get['nickname']+'发送了'+t_get['text']) #别开，会死循环
                 text = t_get['text']
-                pick_msg(text,t_get['nickname'])   #新弹幕检测是否匹配为命令
+                pick_msg(text,t_get['nickname'],t_get['uid'])   #新弹幕检测是否匹配为命令
         temp_dm = dm_result
         time.sleep(1)
 
-def test():
-    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'ok')
-
-print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+'程序已启动，连接房间id：'+roomid)
+print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]程序已启动，连接房间id：'+roomid)
 send_dm_long('弹幕监控已启动，可以点歌了')
 
 # while True: #防炸

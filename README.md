@@ -32,14 +32,14 @@
 ### 先准备餐具：
 
 ```Bash
-sudo apt-get update
-sudo apt-get -y install autoconf automake build-essential libass-dev libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config texinfo wget zlib1g-dev
+sudo apt update
+sudo apt -y install autoconf automake build-essential libass-dev libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config texinfo wget zlib1g-dev
 ```
 
 安装x264编码器（时间较长）：
 
 ```Bash
-git clone git://git.videolan.org/x264
+git clone https://github.com/kavencat/x264.git
 cd x264
 ./configure --host=arm64-unknown-linux-gnueabi --enable-static --disable-opencl --enable-shared
 make
@@ -48,28 +48,42 @@ cd ..
 rm -rf x264
 ```
 
+或者
+
+```Bash
+wget https://code.videolan.org/videolan/x264/-/archive/master/x264-master.tar.bz2
+tar jxvf x264-master.tar.bz2
+cd x264-master
+./configure --host=arm64-unknown-linux-gnueabi --enable-static --disable-opencl --enable-shared
+make
+sudo make install
+cd ..
+rm -rf x264
+```
+
+
 libmp3lame：
 
 ```Bash
-sudo apt-get install libmp3lame-dev
+sudo apt install libmp3lame-dev
 ```
 
 libopus:
 
 ```Bash
-sudo apt-get install libopus-dev
+sudo apt install libopus-dev
 ```
 
 libvpx:
 
 ```Bash
-sudo apt-get install libvpx-dev
+sudo apt install libvpx-dev
 ```
 
 libomxil-bellagio:
 
 ```Bash
-sudo apt-get install libomxil-bellagio-dev
+sudo apt install libomxil-bellagio-dev
 ```
 
 
@@ -87,9 +101,9 @@ cd ..
 编译并安装ffmpeg（时间较长，半小时左右，64位系统不支持硬件编码，移除硬件编码支撑）：
 
 ```Bash
-wget http://ffmpeg.org/releases/ffmpeg-6.0.tar.bz2
-tar jxvf ffmpeg-6.0.tar.bz2
-cd ffmpeg-6.0
+wget http://ffmpeg.org/releases/ffmpeg-6.1.1.tar.bz2
+tar jxvf ffmpeg-6.1.1.tar.bz2
+cd ffmpeg-6.1.1
 sudo ./configure --arch=arm64 --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree --enable-libass --enable-libfreetype  --enable-libsrt 
 make -j4
 sudo make install
@@ -101,13 +115,29 @@ cd ..
 安装python3：
 
 ```Bash
-sudo apt-get install python3
+sudo apt install python3
 ```
 
 安装pip3：
 
 ```Bash
-sudo apt-get install python3-pip
+sudo apt install python3-pip
+```
+
+使用清华大学PyPI 镜像：
+
+```Bash
+pip
+临时使用
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+```
+
+设为默认
+升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
+
+```Bash
+python -m pip install --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 安装python3的mutagen库：
@@ -149,7 +179,7 @@ sudo pip3 install requests
 安装screen:
 
 ```Bash
-sudo apt-get install screen
+sudo apt install screen
 ```
 
 安装中文字体
@@ -187,7 +217,7 @@ sudo raspi-config
 下载本项目：
 
 ```Bash
-git clone https://gitee.com/kavencat/python-bilibililive.git
+git clone https://github.com/kavencat/live.git
 ```
 
 或(原程序)

@@ -9,14 +9,14 @@ import time
 # http://www.netbian.com/index_2.htm
 
 
-if os.path.exists('default_pic/'):
+if os.path.exists('../default_pic/'):
     pass
 else:
-    os.mkdir('default_pic/')
+    os.mkdir('../default_pic/')
     print('目录创建成功')
 
-shutil.rmtree("default_pic")
-os.mkdir("default_pic")
+shutil.rmtree("../default_pic")
+os.mkdir("../default_pic")
 
 #print("请输入下载图片的开始页码：")
 index = '1'
@@ -53,7 +53,7 @@ def downloadimg(url):
 		img_url = selector.css('.pic p a img::attr(src)').get()
 		title = selector.css('.pic p a img::attr(title)').get()
 		img_url_response = requests.get(url=img_url, headers=headers, cookies=cookies)
-		path = "default_pic/"+title+'.jpg'
+		path = "../default_pic/"+title+'.jpg'
  
 		with open(path, mode='wb') as f:
 			f.write(img_url_response.content)
@@ -78,7 +78,7 @@ else:
 	print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+url)
 	downloadimg(url)
 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" 重命名及转换图片文件……")
-os.system("python3 gj/jrn.py")
-os.system("sudo chmod -R 777 default_pic")
+os.system("python3 jrn.py")
+os.system("sudo chmod -R 777 ../default_pic")
 #print("下载完成,将在3秒后关闭...")
 sleep(3)
