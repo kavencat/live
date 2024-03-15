@@ -33,7 +33,7 @@
 
 ```Bash
 sudo apt update
-sudo apt -y install autoconf automake build-essential libass-dev libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config texinfo wget zlib1g-dev
+sudo apt -y install autoconf automake build-essential libass-dev libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config tclsh pkg-config cmake libssl-dev texinfo wget zlib1g-dev
 ```
 
 安装x264编码器（时间较长）：
@@ -126,10 +126,10 @@ sudo apt install python3-pip
 
 使用清华大学PyPI 镜像：
 
-```Bash
 pip
 临时使用
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+```Bash
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 
 设为默认
