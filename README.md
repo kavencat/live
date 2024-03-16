@@ -136,32 +136,32 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
 
 ```Bash
-python -m pip install --upgrade pip
+python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 安装python3的mutagen库：
 
 ```Bash
-sudo pip3 install mutagen
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple mutagen
 ```
 
 安装python3的you-get库：
 
 ```Bash
-sudo pip3 install you-get
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple you-get
 ```
 
 安装python3的moviepy库：
 
 ```Bash
-sudo pip3 install moviepy
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple moviepy
 ```
 
 安装python3的aiohttp库：
 
 ```Bash
-sudo pip3 install aiohttp
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple aiohttp
 ```
 
 安装python3的numpy需要的库：
@@ -170,10 +170,22 @@ sudo pip3 install aiohttp
 sudo apt-get install libatlas-base-dev
 ```
 
+安装python3的numpy库：
+
+```Bash
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
+```
+
+安装python3的brotli库：
+
+```Bash
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple brotli
+```
+
 安装python3的requests库：
 
 ```Bash
-sudo pip3 install requests
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
 ```
 
 安装screen:
