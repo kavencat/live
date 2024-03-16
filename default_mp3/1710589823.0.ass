@@ -1,0 +1,352 @@
+[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前网易云id：2091562936\N歌名：Summertime Friends\N点播人：柠檬_cat
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\N点播日期：2024-03-16 19:50:25
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌(歌曲名)\Nid(网易云歌曲id)\N点歌(歌曲名空格歌手)
+
+Dialogue: 2,0:00:00.00,0:00:00.17,center_down,,0,0,0,,　 作曲 : Alex Pall/Andrew Taggart/Scott Harris　\N　In the back of the bar　
+Dialogue: 2,0:00:00.00,0:00:00.17,center_down_big,,0,0,0,,　 作词 : Alex Pall/Andrew Taggart/Scott Harris　
+Dialogue: 2,0:00:00.00,0:00:00.17,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:00.17,0:00:00.34,center_down,,0,0,0,,　In the back of the bar　\N　You talking to me with the lights on　
+Dialogue: 2,0:00:00.17,0:00:00.34,center_down_big,,0,0,0,,　 作曲 : Alex Pall/Andrew Taggart/Scott Harris　
+Dialogue: 2,0:00:00.17,0:00:00.34,center_down,,0,0,0,,　 　\N　 作词 : Alex Pall/Andrew Taggart/Scott Harris　
+Dialogue: 2,0:00:00.34,0:00:03.28,center_down,,0,0,0,,　You talking to me with the lights on　\N　You told me love don’t exist　
+Dialogue: 2,0:00:00.34,0:00:03.28,center_down_big,,0,0,0,,　In the back of the bar　
+Dialogue: 2,0:00:00.34,0:00:03.28,center_down,,0,0,0,,　 作词 : Alex Pall/Andrew Taggart/Scott Harris　\N　 作曲 : Alex Pall/Andrew Taggart/Scott Harris　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_down,,0,0,0,,　You told me love don’t exist　\N　And if it does, it doesn’t last long　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_down_big,,0,0,0,,　You talking to me with the lights on　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_down,,0,0,0,,　 作曲 : Alex Pall/Andrew Taggart/Scott Harris　\N　In the back of the bar　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_down,,0,0,0,,　And if it does, it doesn’t last long　\N　And in the city it hits　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_down_big,,0,0,0,,　You told me love don’t exist　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_down,,0,0,0,,　In the back of the bar　\N　You talking to me with the lights on　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_down,,0,0,0,,　And in the city it hits　\N　I send this drink into the last call　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_down_big,,0,0,0,,　And if it does, it doesn’t last long　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_down,,0,0,0,,　You talking to me with the lights on　\N　You told me love don’t exist　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_down,,0,0,0,,　I send this drink into the last call　\N　I know you’re leaving with him　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_down_big,,0,0,0,,　And in the city it hits　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_down,,0,0,0,,　You told me love don’t exist　\N　And if it does, it doesn’t last long　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_down,,0,0,0,,　I know you’re leaving with him　\N　But can you wait until the last song?　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_down_big,,0,0,0,,　I send this drink into the last call　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_down,,0,0,0,,　And if it does, it doesn’t last long　\N　And in the city it hits　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_down,,0,0,0,,　But can you wait until the last song?　\N　I know what your summertime friends have to say about me　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_down_big,,0,0,0,,　I know you’re leaving with him　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_down,,0,0,0,,　And in the city it hits　\N　I send this drink into the last call　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_down,,0,0,0,,　I know what your summertime friends have to say about me　\N　But you always want to see me again　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_down_big,,0,0,0,,　But can you wait until the last song?　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_down,,0,0,0,,　I send this drink into the last call　\N　I know you’re leaving with him　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_down,,0,0,0,,　But you always want to see me again　\N　This should be the last time you’re gonna leave without me　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_down_big,,0,0,0,,　I know what your summertime friends have to say about me　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_down,,0,0,0,,　I know you’re leaving with him　\N　But can you wait until the last song?　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_down,,0,0,0,,　This should be the last time you’re gonna leave without me　\N　And the last time you call me your friend　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_down_big,,0,0,0,,　But you always want to see me again　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_down,,0,0,0,,　But can you wait until the last song?　\N　I know what your summertime friends have to say about me　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_down,,0,0,0,,　And the last time you call me your friend　\N　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_down_big,,0,0,0,,　This should be the last time you’re gonna leave without me　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_down,,0,0,0,,　I know what your summertime friends have to say about me　\N　But you always want to see me again　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_down,,0,0,0,,　And oh, and I get so mad that we’re not together　\N　And oh, yeah I want you bad　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_down_big,,0,0,0,,　And the last time you call me your friend　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_down,,0,0,0,,　But you always want to see me again　\N　This should be the last time you’re gonna leave without me　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_down,,0,0,0,,　And oh, yeah I want you bad　\N　It doesn’t matter where you are　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_down_big,,0,0,0,,　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_down,,0,0,0,,　This should be the last time you’re gonna leave without me　\N　And the last time you call me your friend　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_down,,0,0,0,,　It doesn’t matter where you are　\N　It doesn’t matter where you are　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_down_big,,0,0,0,,　And oh, yeah I want you bad　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_down,,0,0,0,,　And the last time you call me your friend　\N　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_down,,0,0,0,,　It doesn’t matter where you are　\N　We’re in the back of your car　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_down_big,,0,0,0,,　It doesn’t matter where you are　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_down,,0,0,0,,　And oh, and I get so mad that we’re not together　\N　And oh, yeah I want you bad　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_down,,0,0,0,,　We’re in the back of your car　\N　You’re telling me it’s not the right time now　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_down_big,,0,0,0,,　It doesn’t matter where you are　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_down,,0,0,0,,　And oh, yeah I want you bad　\N　It doesn’t matter where you are　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_down,,0,0,0,,　You’re telling me it’s not the right time now　\N　But you can never decide　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_down_big,,0,0,0,,　We’re in the back of your car　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_down,,0,0,0,,　It doesn’t matter where you are　\N　It doesn’t matter where you are　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_down,,0,0,0,,　But you can never decide　\N　for tonight can you just say i’m right　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_down_big,,0,0,0,,　You’re telling me it’s not the right time now　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_down,,0,0,0,,　It doesn’t matter where you are　\N　We’re in the back of your car　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_down,,0,0,0,,　for tonight can you just say i’m right　\N　say I’m right　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_down_big,,0,0,0,,　But you can never decide　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_down,,0,0,0,,　We’re in the back of your car　\N　You’re telling me it’s not the right time now　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_down,,0,0,0,,　say I’m right　\N　say i’m right　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_down_big,,0,0,0,,　for tonight can you just say i’m right　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_down,,0,0,0,,　You’re telling me it’s not the right time now　\N　But you can never decide　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_down,,0,0,0,,　say i’m right　\N　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_down_big,,0,0,0,,　say I’m right　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_down,,0,0,0,,　But you can never decide　\N　for tonight can you just say i’m right　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_down,,0,0,0,,　And oh, and I get so mad that we’re not together　\N　I, yeah I want you bad　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_down_big,,0,0,0,,　say i’m right　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_down,,0,0,0,,　for tonight can you just say i’m right　\N　say I’m right　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_down,,0,0,0,,　I, yeah I want you bad　\N　It doesn’t matter where you are　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_down_big,,0,0,0,,　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_down,,0,0,0,,　say I’m right　\N　say i’m right　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_down,,0,0,0,,　It doesn’t matter where you are　\N　(Don’t leave)　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_down_big,,0,0,0,,　I, yeah I want you bad　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_down,,0,0,0,,　say i’m right　\N　And oh, and I get so mad that we’re not together　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_down,,0,0,0,,　(Don’t leave)　\N　It doesn’t matter where you are　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_down_big,,0,0,0,,　It doesn’t matter where you are　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_down,,0,0,0,,　And oh, and I get so mad that we’re not together　\N　I, yeah I want you bad　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_down,,0,0,0,,　It doesn’t matter where you are　\N　(Don't leave)　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_down_big,,0,0,0,,　(Don’t leave)　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_down,,0,0,0,,　I, yeah I want you bad　\N　It doesn’t matter where you are　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_down,,0,0,0,,　(Don't leave)　\N　And oh, yeah, I get so mad that we’re not together　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_down_big,,0,0,0,,　It doesn’t matter where you are　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_down,,0,0,0,,　It doesn’t matter where you are　\N　(Don’t leave)　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_down,,0,0,0,,　And oh, yeah, I get so mad that we’re not together　\N　And oh, yeah I want you bad　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_down_big,,0,0,0,,　(Don't leave)　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_down,,0,0,0,,　(Don’t leave)　\N　It doesn’t matter where you are　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_down,,0,0,0,,　And oh, yeah I want you bad　\N　 　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_down_big,,0,0,0,,　And oh, yeah, I get so mad that we’re not together　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_down,,0,0,0,,　It doesn’t matter where you are　\N　(Don't leave)　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_down_big,,0,0,0,,　And oh, yeah I want you bad　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_down,,0,0,0,,　(Don't leave)　\N　And oh, yeah, I get so mad that we’re not together　
+
+Dialogue: 2,0:00:00.34,0:00:03.28,center_up,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:00.34,0:00:03.28,center_up_big,,0,0,0,,　 在酒馆的小角落　
+Dialogue: 2,0:00:00.34,0:00:03.28,center_up,,0,0,0,,　 灯光下 你与我交谈　\N　 你告诉我 爱已不复　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_up,,0,0,0,,　 　\N　 在酒馆的小角落　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_up_big,,0,0,0,,　 灯光下 你与我交谈　
+Dialogue: 2,0:00:03.28,0:00:06.33,center_up,,0,0,0,,　 你告诉我 爱已不复　\N　 倘若是真心话 感情确实不算长久　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_up,,0,0,0,,　 在酒馆的小角落　\N　 灯光下 你与我交谈　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_up_big,,0,0,0,,　 你告诉我 爱已不复　
+Dialogue: 2,0:00:06.33,0:00:09.26,center_up,,0,0,0,,　 倘若是真心话 感情确实不算长久　\N　 在这城市里 痛感来袭　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_up,,0,0,0,,　 灯光下 你与我交谈　\N　 你告诉我 爱已不复　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_up_big,,0,0,0,,　 倘若是真心话 感情确实不算长久　
+Dialogue: 2,0:00:09.26,0:00:12.35,center_up,,0,0,0,,　 在这城市里 痛感来袭　\N　 在打烊前 我又点了杯酒　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_up,,0,0,0,,　 你告诉我 爱已不复　\N　 倘若是真心话 感情确实不算长久　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_up_big,,0,0,0,,　 在这城市里 痛感来袭　
+Dialogue: 2,0:00:12.35,0:00:15.24,center_up,,0,0,0,,　 在打烊前 我又点了杯酒　\N　 心里明白 你即将随他离去　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_up,,0,0,0,,　 倘若是真心话 感情确实不算长久　\N　 在这城市里 痛感来袭　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_up_big,,0,0,0,,　 在打烊前 我又点了杯酒　
+Dialogue: 2,0:00:15.24,0:00:18.33,center_up,,0,0,0,,　 心里明白 你即将随他离去　\N　 但你可否等等 至最后的歌响起　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_up,,0,0,0,,　 在这城市里 痛感来袭　\N　 在打烊前 我又点了杯酒　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_up_big,,0,0,0,,　 心里明白 你即将随他离去　
+Dialogue: 2,0:00:18.33,0:00:21.24,center_up,,0,0,0,,　 但你可否等等 至最后的歌响起　\N　 我清楚你那些夏日好友 会说我些什么　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_up,,0,0,0,,　 在打烊前 我又点了杯酒　\N　 心里明白 你即将随他离去　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_up_big,,0,0,0,,　 但你可否等等 至最后的歌响起　
+Dialogue: 2,0:00:21.24,0:00:24.74,center_up,,0,0,0,,　 我清楚你那些夏日好友 会说我些什么　\N　 但你肯定还想 再见我一面　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_up,,0,0,0,,　 心里明白 你即将随他离去　\N　 但你可否等等 至最后的歌响起　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_up_big,,0,0,0,,　 我清楚你那些夏日好友 会说我些什么　
+Dialogue: 2,0:00:24.74,0:00:28.04,center_up,,0,0,0,,　 但你肯定还想 再见我一面　\N　 也许这是最后一面了 你将离我而去　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_up,,0,0,0,,　 但你可否等等 至最后的歌响起　\N　 我清楚你那些夏日好友 会说我些什么　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_up_big,,0,0,0,,　 但你肯定还想 再见我一面　
+Dialogue: 2,0:00:28.04,0:00:31.13,center_up,,0,0,0,,　 也许这是最后一面了 你将离我而去　\N　 也是最后一次 还称得上是你朋友　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_up,,0,0,0,,　 我清楚你那些夏日好友 会说我些什么　\N　 但你肯定还想 再见我一面　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_up_big,,0,0,0,,　 也许这是最后一面了 你将离我而去　
+Dialogue: 2,0:00:31.13,0:00:34.31,center_up,,0,0,0,,　 也是最后一次 还称得上是你朋友　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_up,,0,0,0,,　 但你肯定还想 再见我一面　\N　 也许这是最后一面了 你将离我而去　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_up_big,,0,0,0,,　 也是最后一次 还称得上是你朋友　
+Dialogue: 2,0:00:34.31,0:00:37.20,center_up,,0,0,0,,　 分开以后 我恍若失心　\N　 我真的很想你　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_up,,0,0,0,,　 也许这是最后一面了 你将离我而去　\N　 也是最后一次 还称得上是你朋友　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_up_big,,0,0,0,,　 分开以后 我恍若失心　
+Dialogue: 2,0:00:37.20,0:00:43.34,center_up,,0,0,0,,　 我真的很想你　\N　 无论你在何处　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_up,,0,0,0,,　 也是最后一次 还称得上是你朋友　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_up_big,,0,0,0,,　 我真的很想你　
+Dialogue: 2,0:00:43.34,0:00:48.34,center_up,,0,0,0,,　 无论你在何处　\N　 无论你在何处　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_up,,0,0,0,,　 分开以后 我恍若失心　\N　 我真的很想你　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_up_big,,0,0,0,,　 无论你在何处　
+Dialogue: 2,0:00:48.34,0:01:00.35,center_up,,0,0,0,,　 无论你在何处　\N　 我们坐在你车的后座　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_up,,0,0,0,,　 我真的很想你　\N　 无论你在何处　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_up_big,,0,0,0,,　 无论你在何处　
+Dialogue: 2,0:01:00.35,0:01:12.35,center_up,,0,0,0,,　 我们坐在你车的后座　\N　 你告诉我 现在不合时宜　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_up,,0,0,0,,　 无论你在何处　\N　 无论你在何处　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_up_big,,0,0,0,,　 我们坐在你车的后座　
+Dialogue: 2,0:01:12.35,0:01:15.32,center_up,,0,0,0,,　 你告诉我 现在不合时宜　\N　 问起该在何时 你却犹豫不决　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_up,,0,0,0,,　 无论你在何处　\N　 我们坐在你车的后座　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_up_big,,0,0,0,,　 你告诉我 现在不合时宜　
+Dialogue: 2,0:01:15.32,0:01:18.33,center_up,,0,0,0,,　 问起该在何时 你却犹豫不决　\N　 今晚我可否说 我好的很　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_up,,0,0,0,,　 我们坐在你车的后座　\N　 你告诉我 现在不合时宜　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_up_big,,0,0,0,,　 问起该在何时 你却犹豫不决　
+Dialogue: 2,0:01:18.33,0:01:21.46,center_up,,0,0,0,,　 今晚我可否说 我好的很　\N　 说我也无妨　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_up,,0,0,0,,　 你告诉我 现在不合时宜　\N　 问起该在何时 你却犹豫不决　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_up_big,,0,0,0,,　 今晚我可否说 我好的很　
+Dialogue: 2,0:01:21.46,0:01:23.22,center_up,,0,0,0,,　 说我也无妨　\N　 说我也无妨　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_up,,0,0,0,,　 问起该在何时 你却犹豫不决　\N　 今晚我可否说 我好的很　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_up_big,,0,0,0,,　 说我也无妨　
+Dialogue: 2,0:01:23.22,0:01:23.99,center_up,,0,0,0,,　 说我也无妨　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_up,,0,0,0,,　 今晚我可否说 我好的很　\N　 说我也无妨　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_up_big,,0,0,0,,　 说我也无妨　
+Dialogue: 2,0:01:23.99,0:01:25.38,center_up,,0,0,0,,　 分开以后 我恍若失心　\N　 我真的很想你　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_up,,0,0,0,,　 说我也无妨　\N　 说我也无妨　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_up_big,,0,0,0,,　 分开以后 我恍若失心　
+Dialogue: 2,0:01:25.38,0:01:31.34,center_up,,0,0,0,,　 我真的很想你　\N　 无论你在何处　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_up,,0,0,0,,　 说我也无妨　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_up_big,,0,0,0,,　 我真的很想你　
+Dialogue: 2,0:01:31.34,0:01:36.30,center_up,,0,0,0,,　 无论你在何处　\N　 (不要你离开)　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_up,,0,0,0,,　 分开以后 我恍若失心　\N　 我真的很想你　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_up_big,,0,0,0,,　 无论你在何处　
+Dialogue: 2,0:01:36.30,0:01:42.94,center_up,,0,0,0,,　 (不要你离开)　\N　 无论你在何处　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_up,,0,0,0,,　 我真的很想你　\N　 无论你在何处　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_up_big,,0,0,0,,　 (不要你离开)　
+Dialogue: 2,0:01:42.94,0:01:48.30,center_up,,0,0,0,,　 无论你在何处　\N　 (不要你离开)　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_up,,0,0,0,,　 无论你在何处　\N　 (不要你离开)　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_up_big,,0,0,0,,　 无论你在何处　
+Dialogue: 2,0:01:48.30,0:01:55.08,center_up,,0,0,0,,　 (不要你离开)　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_up,,0,0,0,,　 (不要你离开)　\N　 无论你在何处　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_up_big,,0,0,0,,　 (不要你离开)　
+Dialogue: 2,0:01:55.08,0:02:01.68,center_up,,0,0,0,,　 分开以后 我恍若失心　\N　 我真的很想你　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_up,,0,0,0,,　 无论你在何处　\N　 (不要你离开)　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_up_big,,0,0,0,,　 分开以后 我恍若失心　
+Dialogue: 2,0:02:01.68,0:02:07.55,center_up,,0,0,0,,　 我真的很想你　\N　 　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_up,,0,0,0,,　 (不要你离开)　\N　 分开以后 我恍若失心　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_up_big,,0,0,0,,　 我真的很想你　
+Dialogue: 2,0:02:07.55,0:10:00.00,center_up,,0,0,0,,　 　\N　 　
+
+Dialogue: 2,0:00:00.00,0:00:01.00,right_down,,0,0,0,,歌曲时间:0:00:01/0:02:16
+Dialogue: 2,0:00:01.00,0:00:02.00,right_down,,0,0,0,,歌曲时间:0:00:02/0:02:16
+Dialogue: 2,0:00:02.00,0:00:03.00,right_down,,0,0,0,,歌曲时间:0:00:03/0:02:16
+Dialogue: 2,0:00:03.00,0:00:04.00,right_down,,0,0,0,,歌曲时间:0:00:04/0:02:16
+Dialogue: 2,0:00:04.00,0:00:05.00,right_down,,0,0,0,,歌曲时间:0:00:05/0:02:16
+Dialogue: 2,0:00:05.00,0:00:06.00,right_down,,0,0,0,,歌曲时间:0:00:06/0:02:16
+Dialogue: 2,0:00:06.00,0:00:07.00,right_down,,0,0,0,,歌曲时间:0:00:07/0:02:16
+Dialogue: 2,0:00:07.00,0:00:08.00,right_down,,0,0,0,,歌曲时间:0:00:08/0:02:16
+Dialogue: 2,0:00:08.00,0:00:09.00,right_down,,0,0,0,,歌曲时间:0:00:09/0:02:16
+Dialogue: 2,0:00:09.00,0:00:10.00,right_down,,0,0,0,,歌曲时间:0:00:10/0:02:16
+Dialogue: 2,0:00:10.00,0:00:11.00,right_down,,0,0,0,,歌曲时间:0:00:11/0:02:16
+Dialogue: 2,0:00:11.00,0:00:12.00,right_down,,0,0,0,,歌曲时间:0:00:12/0:02:16
+Dialogue: 2,0:00:12.00,0:00:13.00,right_down,,0,0,0,,歌曲时间:0:00:13/0:02:16
+Dialogue: 2,0:00:13.00,0:00:14.00,right_down,,0,0,0,,歌曲时间:0:00:14/0:02:16
+Dialogue: 2,0:00:14.00,0:00:15.00,right_down,,0,0,0,,歌曲时间:0:00:15/0:02:16
+Dialogue: 2,0:00:15.00,0:00:16.00,right_down,,0,0,0,,歌曲时间:0:00:16/0:02:16
+Dialogue: 2,0:00:16.00,0:00:17.00,right_down,,0,0,0,,歌曲时间:0:00:17/0:02:16
+Dialogue: 2,0:00:17.00,0:00:18.00,right_down,,0,0,0,,歌曲时间:0:00:18/0:02:16
+Dialogue: 2,0:00:18.00,0:00:19.00,right_down,,0,0,0,,歌曲时间:0:00:19/0:02:16
+Dialogue: 2,0:00:19.00,0:00:20.00,right_down,,0,0,0,,歌曲时间:0:00:20/0:02:16
+Dialogue: 2,0:00:20.00,0:00:21.00,right_down,,0,0,0,,歌曲时间:0:00:21/0:02:16
+Dialogue: 2,0:00:21.00,0:00:22.00,right_down,,0,0,0,,歌曲时间:0:00:22/0:02:16
+Dialogue: 2,0:00:22.00,0:00:23.00,right_down,,0,0,0,,歌曲时间:0:00:23/0:02:16
+Dialogue: 2,0:00:23.00,0:00:24.00,right_down,,0,0,0,,歌曲时间:0:00:24/0:02:16
+Dialogue: 2,0:00:24.00,0:00:25.00,right_down,,0,0,0,,歌曲时间:0:00:25/0:02:16
+Dialogue: 2,0:00:25.00,0:00:26.00,right_down,,0,0,0,,歌曲时间:0:00:26/0:02:16
+Dialogue: 2,0:00:26.00,0:00:27.00,right_down,,0,0,0,,歌曲时间:0:00:27/0:02:16
+Dialogue: 2,0:00:27.00,0:00:28.00,right_down,,0,0,0,,歌曲时间:0:00:28/0:02:16
+Dialogue: 2,0:00:28.00,0:00:29.00,right_down,,0,0,0,,歌曲时间:0:00:29/0:02:16
+Dialogue: 2,0:00:29.00,0:00:30.00,right_down,,0,0,0,,歌曲时间:0:00:30/0:02:16
+Dialogue: 2,0:00:30.00,0:00:31.00,right_down,,0,0,0,,歌曲时间:0:00:31/0:02:16
+Dialogue: 2,0:00:31.00,0:00:32.00,right_down,,0,0,0,,歌曲时间:0:00:32/0:02:16
+Dialogue: 2,0:00:32.00,0:00:33.00,right_down,,0,0,0,,歌曲时间:0:00:33/0:02:16
+Dialogue: 2,0:00:33.00,0:00:34.00,right_down,,0,0,0,,歌曲时间:0:00:34/0:02:16
+Dialogue: 2,0:00:34.00,0:00:35.00,right_down,,0,0,0,,歌曲时间:0:00:35/0:02:16
+Dialogue: 2,0:00:35.00,0:00:36.00,right_down,,0,0,0,,歌曲时间:0:00:36/0:02:16
+Dialogue: 2,0:00:36.00,0:00:37.00,right_down,,0,0,0,,歌曲时间:0:00:37/0:02:16
+Dialogue: 2,0:00:37.00,0:00:38.00,right_down,,0,0,0,,歌曲时间:0:00:38/0:02:16
+Dialogue: 2,0:00:38.00,0:00:39.00,right_down,,0,0,0,,歌曲时间:0:00:39/0:02:16
+Dialogue: 2,0:00:39.00,0:00:40.00,right_down,,0,0,0,,歌曲时间:0:00:40/0:02:16
+Dialogue: 2,0:00:40.00,0:00:41.00,right_down,,0,0,0,,歌曲时间:0:00:41/0:02:16
+Dialogue: 2,0:00:41.00,0:00:42.00,right_down,,0,0,0,,歌曲时间:0:00:42/0:02:16
+Dialogue: 2,0:00:42.00,0:00:43.00,right_down,,0,0,0,,歌曲时间:0:00:43/0:02:16
+Dialogue: 2,0:00:43.00,0:00:44.00,right_down,,0,0,0,,歌曲时间:0:00:44/0:02:16
+Dialogue: 2,0:00:44.00,0:00:45.00,right_down,,0,0,0,,歌曲时间:0:00:45/0:02:16
+Dialogue: 2,0:00:45.00,0:00:46.00,right_down,,0,0,0,,歌曲时间:0:00:46/0:02:16
+Dialogue: 2,0:00:46.00,0:00:47.00,right_down,,0,0,0,,歌曲时间:0:00:47/0:02:16
+Dialogue: 2,0:00:47.00,0:00:48.00,right_down,,0,0,0,,歌曲时间:0:00:48/0:02:16
+Dialogue: 2,0:00:48.00,0:00:49.00,right_down,,0,0,0,,歌曲时间:0:00:49/0:02:16
+Dialogue: 2,0:00:49.00,0:00:50.00,right_down,,0,0,0,,歌曲时间:0:00:50/0:02:16
+Dialogue: 2,0:00:50.00,0:00:51.00,right_down,,0,0,0,,歌曲时间:0:00:51/0:02:16
+Dialogue: 2,0:00:51.00,0:00:52.00,right_down,,0,0,0,,歌曲时间:0:00:52/0:02:16
+Dialogue: 2,0:00:52.00,0:00:53.00,right_down,,0,0,0,,歌曲时间:0:00:53/0:02:16
+Dialogue: 2,0:00:53.00,0:00:54.00,right_down,,0,0,0,,歌曲时间:0:00:54/0:02:16
+Dialogue: 2,0:00:54.00,0:00:55.00,right_down,,0,0,0,,歌曲时间:0:00:55/0:02:16
+Dialogue: 2,0:00:55.00,0:00:56.00,right_down,,0,0,0,,歌曲时间:0:00:56/0:02:16
+Dialogue: 2,0:00:56.00,0:00:57.00,right_down,,0,0,0,,歌曲时间:0:00:57/0:02:16
+Dialogue: 2,0:00:57.00,0:00:58.00,right_down,,0,0,0,,歌曲时间:0:00:58/0:02:16
+Dialogue: 2,0:00:58.00,0:00:59.00,right_down,,0,0,0,,歌曲时间:0:00:59/0:02:16
+Dialogue: 2,0:00:59.00,0:01:00.00,right_down,,0,0,0,,歌曲时间:0:01:00/0:02:16
+Dialogue: 2,0:01:00.00,0:01:01.00,right_down,,0,0,0,,歌曲时间:0:01:01/0:02:16
+Dialogue: 2,0:01:01.00,0:01:02.00,right_down,,0,0,0,,歌曲时间:0:01:02/0:02:16
+Dialogue: 2,0:01:02.00,0:01:03.00,right_down,,0,0,0,,歌曲时间:0:01:03/0:02:16
+Dialogue: 2,0:01:03.00,0:01:04.00,right_down,,0,0,0,,歌曲时间:0:01:04/0:02:16
+Dialogue: 2,0:01:04.00,0:01:05.00,right_down,,0,0,0,,歌曲时间:0:01:05/0:02:16
+Dialogue: 2,0:01:05.00,0:01:06.00,right_down,,0,0,0,,歌曲时间:0:01:06/0:02:16
+Dialogue: 2,0:01:06.00,0:01:07.00,right_down,,0,0,0,,歌曲时间:0:01:07/0:02:16
+Dialogue: 2,0:01:07.00,0:01:08.00,right_down,,0,0,0,,歌曲时间:0:01:08/0:02:16
+Dialogue: 2,0:01:08.00,0:01:09.00,right_down,,0,0,0,,歌曲时间:0:01:09/0:02:16
+Dialogue: 2,0:01:09.00,0:01:10.00,right_down,,0,0,0,,歌曲时间:0:01:10/0:02:16
+Dialogue: 2,0:01:10.00,0:01:11.00,right_down,,0,0,0,,歌曲时间:0:01:11/0:02:16
+Dialogue: 2,0:01:11.00,0:01:12.00,right_down,,0,0,0,,歌曲时间:0:01:12/0:02:16
+Dialogue: 2,0:01:12.00,0:01:13.00,right_down,,0,0,0,,歌曲时间:0:01:13/0:02:16
+Dialogue: 2,0:01:13.00,0:01:14.00,right_down,,0,0,0,,歌曲时间:0:01:14/0:02:16
+Dialogue: 2,0:01:14.00,0:01:15.00,right_down,,0,0,0,,歌曲时间:0:01:15/0:02:16
+Dialogue: 2,0:01:15.00,0:01:16.00,right_down,,0,0,0,,歌曲时间:0:01:16/0:02:16
+Dialogue: 2,0:01:16.00,0:01:17.00,right_down,,0,0,0,,歌曲时间:0:01:17/0:02:16
+Dialogue: 2,0:01:17.00,0:01:18.00,right_down,,0,0,0,,歌曲时间:0:01:18/0:02:16
+Dialogue: 2,0:01:18.00,0:01:19.00,right_down,,0,0,0,,歌曲时间:0:01:19/0:02:16
+Dialogue: 2,0:01:19.00,0:01:20.00,right_down,,0,0,0,,歌曲时间:0:01:20/0:02:16
+Dialogue: 2,0:01:20.00,0:01:21.00,right_down,,0,0,0,,歌曲时间:0:01:21/0:02:16
+Dialogue: 2,0:01:21.00,0:01:22.00,right_down,,0,0,0,,歌曲时间:0:01:22/0:02:16
+Dialogue: 2,0:01:22.00,0:01:23.00,right_down,,0,0,0,,歌曲时间:0:01:23/0:02:16
+Dialogue: 2,0:01:23.00,0:01:24.00,right_down,,0,0,0,,歌曲时间:0:01:24/0:02:16
+Dialogue: 2,0:01:24.00,0:01:25.00,right_down,,0,0,0,,歌曲时间:0:01:25/0:02:16
+Dialogue: 2,0:01:25.00,0:01:26.00,right_down,,0,0,0,,歌曲时间:0:01:26/0:02:16
+Dialogue: 2,0:01:26.00,0:01:27.00,right_down,,0,0,0,,歌曲时间:0:01:27/0:02:16
+Dialogue: 2,0:01:27.00,0:01:28.00,right_down,,0,0,0,,歌曲时间:0:01:28/0:02:16
+Dialogue: 2,0:01:28.00,0:01:29.00,right_down,,0,0,0,,歌曲时间:0:01:29/0:02:16
+Dialogue: 2,0:01:29.00,0:01:30.00,right_down,,0,0,0,,歌曲时间:0:01:30/0:02:16
+Dialogue: 2,0:01:30.00,0:01:31.00,right_down,,0,0,0,,歌曲时间:0:01:31/0:02:16
+Dialogue: 2,0:01:31.00,0:01:32.00,right_down,,0,0,0,,歌曲时间:0:01:32/0:02:16
+Dialogue: 2,0:01:32.00,0:01:33.00,right_down,,0,0,0,,歌曲时间:0:01:33/0:02:16
+Dialogue: 2,0:01:33.00,0:01:34.00,right_down,,0,0,0,,歌曲时间:0:01:34/0:02:16
+Dialogue: 2,0:01:34.00,0:01:35.00,right_down,,0,0,0,,歌曲时间:0:01:35/0:02:16
+Dialogue: 2,0:01:35.00,0:01:36.00,right_down,,0,0,0,,歌曲时间:0:01:36/0:02:16
+Dialogue: 2,0:01:36.00,0:01:37.00,right_down,,0,0,0,,歌曲时间:0:01:37/0:02:16
+Dialogue: 2,0:01:37.00,0:01:38.00,right_down,,0,0,0,,歌曲时间:0:01:38/0:02:16
+Dialogue: 2,0:01:38.00,0:01:39.00,right_down,,0,0,0,,歌曲时间:0:01:39/0:02:16
+Dialogue: 2,0:01:39.00,0:01:40.00,right_down,,0,0,0,,歌曲时间:0:01:40/0:02:16
+Dialogue: 2,0:01:40.00,0:01:41.00,right_down,,0,0,0,,歌曲时间:0:01:41/0:02:16
+Dialogue: 2,0:01:41.00,0:01:42.00,right_down,,0,0,0,,歌曲时间:0:01:42/0:02:16
+Dialogue: 2,0:01:42.00,0:01:43.00,right_down,,0,0,0,,歌曲时间:0:01:43/0:02:16
+Dialogue: 2,0:01:43.00,0:01:44.00,right_down,,0,0,0,,歌曲时间:0:01:44/0:02:16
+Dialogue: 2,0:01:44.00,0:01:45.00,right_down,,0,0,0,,歌曲时间:0:01:45/0:02:16
+Dialogue: 2,0:01:45.00,0:01:46.00,right_down,,0,0,0,,歌曲时间:0:01:46/0:02:16
+Dialogue: 2,0:01:46.00,0:01:47.00,right_down,,0,0,0,,歌曲时间:0:01:47/0:02:16
+Dialogue: 2,0:01:47.00,0:01:48.00,right_down,,0,0,0,,歌曲时间:0:01:48/0:02:16
+Dialogue: 2,0:01:48.00,0:01:49.00,right_down,,0,0,0,,歌曲时间:0:01:49/0:02:16
+Dialogue: 2,0:01:49.00,0:01:50.00,right_down,,0,0,0,,歌曲时间:0:01:50/0:02:16
+Dialogue: 2,0:01:50.00,0:01:51.00,right_down,,0,0,0,,歌曲时间:0:01:51/0:02:16
+Dialogue: 2,0:01:51.00,0:01:52.00,right_down,,0,0,0,,歌曲时间:0:01:52/0:02:16
+Dialogue: 2,0:01:52.00,0:01:53.00,right_down,,0,0,0,,歌曲时间:0:01:53/0:02:16
+Dialogue: 2,0:01:53.00,0:01:54.00,right_down,,0,0,0,,歌曲时间:0:01:54/0:02:16
+Dialogue: 2,0:01:54.00,0:01:55.00,right_down,,0,0,0,,歌曲时间:0:01:55/0:02:16
+Dialogue: 2,0:01:55.00,0:01:56.00,right_down,,0,0,0,,歌曲时间:0:01:56/0:02:16
+Dialogue: 2,0:01:56.00,0:01:57.00,right_down,,0,0,0,,歌曲时间:0:01:57/0:02:16
+Dialogue: 2,0:01:57.00,0:01:58.00,right_down,,0,0,0,,歌曲时间:0:01:58/0:02:16
+Dialogue: 2,0:01:58.00,0:01:59.00,right_down,,0,0,0,,歌曲时间:0:01:59/0:02:16
+Dialogue: 2,0:01:59.00,0:02:00.00,right_down,,0,0,0,,歌曲时间:0:02:00/0:02:16
+Dialogue: 2,0:02:00.00,0:02:01.00,right_down,,0,0,0,,歌曲时间:0:02:01/0:02:16
+Dialogue: 2,0:02:01.00,0:02:02.00,right_down,,0,0,0,,歌曲时间:0:02:02/0:02:16
+Dialogue: 2,0:02:02.00,0:02:03.00,right_down,,0,0,0,,歌曲时间:0:02:03/0:02:16
+Dialogue: 2,0:02:03.00,0:02:04.00,right_down,,0,0,0,,歌曲时间:0:02:04/0:02:16
+Dialogue: 2,0:02:04.00,0:02:05.00,right_down,,0,0,0,,歌曲时间:0:02:05/0:02:16
+Dialogue: 2,0:02:05.00,0:02:06.00,right_down,,0,0,0,,歌曲时间:0:02:06/0:02:16
+Dialogue: 2,0:02:06.00,0:02:07.00,right_down,,0,0,0,,歌曲时间:0:02:07/0:02:16
+Dialogue: 2,0:02:07.00,0:02:08.00,right_down,,0,0,0,,歌曲时间:0:02:08/0:02:16
+Dialogue: 2,0:02:08.00,0:02:09.00,right_down,,0,0,0,,歌曲时间:0:02:09/0:02:16
+Dialogue: 2,0:02:09.00,0:02:10.00,right_down,,0,0,0,,歌曲时间:0:02:10/0:02:16
+Dialogue: 2,0:02:10.00,0:02:11.00,right_down,,0,0,0,,歌曲时间:0:02:11/0:02:16
+Dialogue: 2,0:02:11.00,0:02:12.00,right_down,,0,0,0,,歌曲时间:0:02:12/0:02:16
+Dialogue: 2,0:02:12.00,0:02:13.00,right_down,,0,0,0,,歌曲时间:0:02:13/0:02:16
+Dialogue: 2,0:02:13.00,0:02:14.00,right_down,,0,0,0,,歌曲时间:0:02:14/0:02:16
+Dialogue: 2,0:02:14.00,0:02:15.00,right_down,,0,0,0,,歌曲时间:0:02:15/0:02:16

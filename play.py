@@ -17,12 +17,12 @@ vb = var_set.vb
 stlf = var_set.stle #引入设置的直播形式
 
 def check_sizes(f):
-    size = os.path.getsize(var_set.path+'/log/screenlog_'+f+'.log')
+    size = os.path.getsize(var_set.path+'/logs/screenlog_'+f+'.log')
     size2 = round(size/1024/1024,2)
     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' '+f+'log文件大小：'+str(size2)+'MB')
     if(size2>1):
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 删除'+f+'log文件！')
-        os.remove(var_set.path+'/log/screenlog_'+f+'.log')
+        os.remove(var_set.path+'/logs/screenlog_'+f+'.log')
 
 def get_v():
     if deviceType == "pi":
@@ -144,7 +144,7 @@ while True:
                     
                     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' MP3文件为：'+f)
                     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景文件为：'+pic_files[pic_ran])
-                    w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'当前为点播音乐！'+'\n'+'MP3文件为：'+f+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/log/screenlog_playing.log',"a+")
+                    w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'当前为点播音乐！'+'\n'+'MP3文件为：'+f+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/logs/screenlog_playing.log',"a+")
                     print('mp3 long:'+convert_time(seconds))
                     #推流
 
@@ -207,7 +207,7 @@ while True:
                 seconds=audio.info.length   #获取时长
                 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' MP3文件为：'+mp3_files[mp3_ran])
                 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' 背景文件为：'+pic_files[pic_ran])
-                w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'MP3文件为：'+mp3_files[mp3_ran]+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/log/screenlog_playing.log',"a+")
+                w_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+'\n'+'MP3文件为：'+mp3_files[mp3_ran]+'\n'+'背景文件为：'+pic_files[pic_ran]+'\n',path+'/logs/screenlog_playing.log',"a+")
                 print('mp3 long:'+convert_time(seconds))
                 #推流
                 if(os.path.isfile(path+'/default_mp3/'+mp3_files[mp3_ran].replace(".mp3",'')+'.ass')):

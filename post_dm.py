@@ -277,7 +277,7 @@ def get_download_url(s, t, user, song = "nothing"):
             opener=urllib.request.build_opener()
             opener.addheaders=[('User-Agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36')]
             urllib.request.install_opener(opener)
-            urllib.request.urlretrieve("http://music.163.com/song/media/outer/url?id="+str(s), path+'/downloads/'+filename+'.mp3') #下载歌曲
+            urllib.request.urlretrieve("https://music.163.com/song/media/outer/url?id="+str(s), path+'/downloads/'+filename+'.mp3') #下载歌曲
 
             #print("http://music.163.com/song/media/outer/url?id="+str(s))
 
@@ -659,6 +659,7 @@ def pick_msg(s, user, uid):
     global encode_lock  #视频渲染任务锁
     global rp_lock
     s = s.replace(' ','')
+    w_log(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" "+user+":"+s+'\r\n',path+'/logs/screenlog_dmlog.log','a+')
     if ((uid==97489590) | (uid==31438300)):    #debug使用，请自己修改 31438300-kavencat 97489590-柠檬0325
         if(s=='锁定'):
             rp_lock = True
@@ -730,7 +731,7 @@ def pick_msg(s, user, uid):
             except:
                 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]背景图片更换失败！')
             return
-    if((uid==97489590) | rp_lock):  #防止自循环
+    if((uid==31438300) | rp_lock):  #防止自循环
         return
     #下面的不作解释，很简单一看就懂
     if(s.find('mvid+') == 0):

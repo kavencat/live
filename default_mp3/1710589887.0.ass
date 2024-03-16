@@ -1,0 +1,639 @@
+[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前网易云id：1857784319\N歌名：One Minute（一分钟）\N点播人：柠檬_cat
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\N点播日期：2024-03-16 19:51:36
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌(歌曲名)\Nid(网易云歌曲id)\N点歌(歌曲名空格歌手)
+
+Dialogue: 2,0:00:00.00,0:00:00.77,center_down,,0,0,0,,　 作曲 : Andrew James Hopkins/Hope Natasha McDonald　\N　 One minute you're on my side　
+Dialogue: 2,0:00:00.00,0:00:00.77,center_down_big,,0,0,0,,　 作词 : Andrew James Hopkins/Hope Natasha McDonald　
+Dialogue: 2,0:00:00.00,0:00:00.77,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:00.77,0:00:01.54,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:00:00.77,0:00:01.54,center_down_big,,0,0,0,,　 作曲 : Andrew James Hopkins/Hope Natasha McDonald　
+Dialogue: 2,0:00:00.77,0:00:01.54,center_down,,0,0,0,,　 　\N　 作词 : Andrew James Hopkins/Hope Natasha McDonald　
+Dialogue: 2,0:00:01.54,0:00:04.38,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:00:01.54,0:00:04.38,center_down_big,,0,0,0,,　 One minute you're on my side　
+Dialogue: 2,0:00:01.54,0:00:04.38,center_down,,0,0,0,,　 作词 : Andrew James Hopkins/Hope Natasha McDonald　\N　 作曲 : Andrew James Hopkins/Hope Natasha McDonald　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_down_big,,0,0,0,,　 Then you're nowhere in sight　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_down,,0,0,0,,　 作曲 : Andrew James Hopkins/Hope Natasha McDonald　\N　 One minute you're on my side　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_down_big,,0,0,0,,　 You're tied to me　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_down_big,,0,0,0,,　 Then you can't wait to leave　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_down,,0,0,0,,　　\N　 I'm glad I was convenient　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_down,,0,0,0,,　 I'm glad I was convenient　\N　 For the time that you needed me　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_down,,0,0,0,,　 For the time that you needed me　\N　 Let it hit you when you're leavin　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_down_big,,0,0,0,,　 I'm glad I was convenient　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_down,,0,0,0,,　 Let it hit you when you're leavin　\N　 Cause I'm sure you'll be back when you get lonely　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_down_big,,0,0,0,,　 For the time that you needed me　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_down,,0,0,0,,　　\N　 I'm glad I was convenient　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_down,,0,0,0,,　 Cause I'm sure you'll be back when you get lonely　\N　 It　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_down_big,,0,0,0,,　 Let it hit you when you're leavin　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_down,,0,0,0,,　 I'm glad I was convenient　\N　 For the time that you needed me　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_down,,0,0,0,,　 It　\N　 Didn't take you much　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_down_big,,0,0,0,,　 Cause I'm sure you'll be back when you get lonely　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_down,,0,0,0,,　 For the time that you needed me　\N　 Let it hit you when you're leavin　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_down,,0,0,0,,　 Didn't take you much　\N　 To drop me off　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_down_big,,0,0,0,,　 It　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_down,,0,0,0,,　 Let it hit you when you're leavin　\N　 Cause I'm sure you'll be back when you get lonely　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_down,,0,0,0,,　 To drop me off　\N　 When you found somebody else　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_down_big,,0,0,0,,　 Didn't take you much　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_down,,0,0,0,,　 Cause I'm sure you'll be back when you get lonely　\N　 It　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_down,,0,0,0,,　 When you found somebody else　\N　 Someone new to take off your belt　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_down_big,,0,0,0,,　 To drop me off　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_down,,0,0,0,,　 It　\N　 Didn't take you much　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_down,,0,0,0,,　 Someone new to take off your belt　\N　 Oh well, oh well　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_down_big,,0,0,0,,　 When you found somebody else　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_down,,0,0,0,,　 Didn't take you much　\N　 To drop me off　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_down,,0,0,0,,　 Oh well, oh well　\N　　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_down_big,,0,0,0,,　 Someone new to take off your belt　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_down,,0,0,0,,　 To drop me off　\N　 When you found somebody else　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_down,,0,0,0,,　　\N　 You　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_down_big,,0,0,0,,　 Oh well, oh well　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_down,,0,0,0,,　 When you found somebody else　\N　 Someone new to take off your belt　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_down,,0,0,0,,　 You　\N　 Chew me up　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_down,,0,0,0,,　 Someone new to take off your belt　\N　 Oh well, oh well　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_down,,0,0,0,,　 Chew me up　\N　 And keep me round　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_down_big,,0,0,0,,　 You　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_down,,0,0,0,,　 Oh well, oh well　\N　　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_down,,0,0,0,,　 And keep me round　\N　　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_down_big,,0,0,0,,　 Chew me up　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_down,,0,0,0,,　　\N　 You　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_down,,0,0,0,,　　\N　 You　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_down_big,,0,0,0,,　 And keep me round　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_down,,0,0,0,,　 You　\N　 Chew me up　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_down,,0,0,0,,　 You　\N　 Fill your cup　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_down,,0,0,0,,　 Chew me up　\N　 And keep me round　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_down,,0,0,0,,　 Fill your cup　\N　 Then spit me out　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_down_big,,0,0,0,,　 You　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_down,,0,0,0,,　 And keep me round　\N　　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_down,,0,0,0,,　 Then spit me out　\N　　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_down_big,,0,0,0,,　 Fill your cup　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_down,,0,0,0,,　　\N　 You　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_down,,0,0,0,,　　\N　 One minute you're on my side　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_down_big,,0,0,0,,　 Then spit me out　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_down,,0,0,0,,　 You　\N　 Fill your cup　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_down,,0,0,0,,　 Fill your cup　\N　 Then spit me out　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_down_big,,0,0,0,,　 One minute you're on my side　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_down,,0,0,0,,　 Then spit me out　\N　　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_down_big,,0,0,0,,　 Then you're nowhere in sight　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_down,,0,0,0,,　　\N　 One minute you're on my side　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_down_big,,0,0,0,,　 You're tied to me　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_down_big,,0,0,0,,　 Then you can't wait to leave　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_down,,0,0,0,,　　\N　 It's not my fault that you can't live without me　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_down,,0,0,0,,　 It's not my fault that you can't live without me　\N　 Got things to do, people to see, and still you love to tell me　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_down,,0,0,0,,　 Got things to do, people to see, and still you love to tell me　\N　 I'm an independent woman, take out what I put in　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_down_big,,0,0,0,,　 It's not my fault that you can't live without me　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_down,,0,0,0,,　 I'm an independent woman, take out what I put in　\N　 Sometimes I can't help it, doing things I shouldn't　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_down_big,,0,0,0,,　 Got things to do, people to see, and still you love to tell me　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_down,,0,0,0,,　　\N　 It's not my fault that you can't live without me　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_down,,0,0,0,,　 Sometimes I can't help it, doing things I shouldn't　\N　 But I guess you got feelings involved　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_down_big,,0,0,0,,　 I'm an independent woman, take out what I put in　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_down,,0,0,0,,　 It's not my fault that you can't live without me　\N　 Got things to do, people to see, and still you love to tell me　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_down,,0,0,0,,　 But I guess you got feelings involved　\N　 So maybe I should change my ways and stop acting cold　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_down_big,,0,0,0,,　 Sometimes I can't help it, doing things I shouldn't　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_down,,0,0,0,,　 Got things to do, people to see, and still you love to tell me　\N　 I'm an independent woman, take out what I put in　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_down,,0,0,0,,　 So maybe I should change my ways and stop acting cold　\N　 But good behavior gets so old　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_down_big,,0,0,0,,　 But I guess you got feelings involved　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_down,,0,0,0,,　 I'm an independent woman, take out what I put in　\N　 Sometimes I can't help it, doing things I shouldn't　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_down,,0,0,0,,　 But good behavior gets so old　\N　　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_down_big,,0,0,0,,　 So maybe I should change my ways and stop acting cold　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_down,,0,0,0,,　 Sometimes I can't help it, doing things I shouldn't　\N　 But I guess you got feelings involved　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_down,,0,0,0,,　　\N　 So I chew you up　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_down_big,,0,0,0,,　 But good behavior gets so old　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_down,,0,0,0,,　 But I guess you got feelings involved　\N　 So maybe I should change my ways and stop acting cold　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_down,,0,0,0,,　 So I chew you up　\N　 And keep you around　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_down,,0,0,0,,　 So maybe I should change my ways and stop acting cold　\N　 But good behavior gets so old　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_down,,0,0,0,,　 And keep you around　\N　 Yeah I fill my cup　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_down_big,,0,0,0,,　 So I chew you up　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_down,,0,0,0,,　 But good behavior gets so old　\N　　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_down,,0,0,0,,　 Yeah I fill my cup　\N　 And spit you out　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_down_big,,0,0,0,,　 And keep you around　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_down,,0,0,0,,　　\N　 So I chew you up　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_down,,0,0,0,,　 And spit you out　\N　　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_down_big,,0,0,0,,　 Yeah I fill my cup　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_down,,0,0,0,,　 So I chew you up　\N　 And keep you around　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_down,,0,0,0,,　　\N　 One minute you're on my side　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_down_big,,0,0,0,,　 And spit you out　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_down,,0,0,0,,　 And keep you around　\N　 Yeah I fill my cup　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_down,,0,0,0,,　 Yeah I fill my cup　\N　 And spit you out　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_down_big,,0,0,0,,　 One minute you're on my side　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_down,,0,0,0,,　 And spit you out　\N　　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_down_big,,0,0,0,,　 Then you're nowhere in sight　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_down,,0,0,0,,　　\N　 One minute you're on my side　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_down,,0,0,0,,　 One minute you're on my side　\N　 Then you're nowhere in sight　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_down,,0,0,0,,　 Then you're nowhere in sight　\N　 One minute you care　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_down_big,,0,0,0,,　 You're tied to me　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_down,,0,0,0,,　 In one minute　\N　　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_down_big,,0,0,0,,　 Then you can't wait to leave　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_down,,0,0,0,,　　\N　 You're tied to me　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_down_big,,0,0,0,,　 One minute you care　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_down,,0,0,0,,　 You're tied to me　\N　 Then you can't wait to leave　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_down,,0,0,0,,　 Then you can't wait to leave　\N　 One minute you care　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_down,,0,0,0,,　 In one minute　\N　 You care　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_down,,0,0,0,,　 One minute you care　\N　 Then you're not there　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_down,,0,0,0,,　 You care　\N　 Then you're not there　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_down_big,,0,0,0,,　 You care　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_down,,0,0,0,,　 You go friend to finished　\N　 In one minute　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_down_big,,0,0,0,,　 Then you're not there　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_down,,0,0,0,,　 In one minute　\N　 You care　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_down,,0,0,0,,　 In one minute　\N　 　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_down_big,,0,0,0,,　 You go friend to finished　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_down,,0,0,0,,　 You care　\N　 Then you're not there　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_down_big,,0,0,0,,　 In one minute　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_down,,0,0,0,,　 Then you're not there　\N　 You go friend to finished　
+
+Dialogue: 2,0:00:01.54,0:00:04.38,center_up,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:01.54,0:00:04.38,center_up_big,,0,0,0,,　这一分钟你在我身边　
+Dialogue: 2,0:00:01.54,0:00:04.38,center_up,,0,0,0,,　让你又不知所踪　\N　这一分钟你在乎　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_up,,0,0,0,,　 　\N　这一分钟你在我身边　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_up_big,,0,0,0,,　让你又不知所踪　
+Dialogue: 2,0:00:04.38,0:00:07.12,center_up,,0,0,0,,　这一分钟你在乎　\N　下一分钟你又消失了　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_up,,0,0,0,,　这一分钟你在我身边　\N　让你又不知所踪　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_up_big,,0,0,0,,　这一分钟你在乎　
+Dialogue: 2,0:00:07.12,0:00:08.70,center_up,,0,0,0,,　下一分钟你又消失了　\N　去找朋友们玩乐　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_up,,0,0,0,,　让你又不知所踪　\N　这一分钟你在乎　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_up_big,,0,0,0,,　下一分钟你又消失了　
+Dialogue: 2,0:00:08.70,0:00:10.02,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_up,,0,0,0,,　这一分钟你在乎　\N　下一分钟你又消失了　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_up_big,,0,0,0,,　去找朋友们玩乐　
+Dialogue: 2,0:00:10.02,0:00:12.17,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_up,,0,0,0,,　下一分钟你又消失了　\N　去找朋友们玩乐　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:00:12.17,0:00:13.16,center_up,,0,0,0,,　　\N　一会儿很黏我　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:13.16,0:00:13.33,center_up,,0,0,0,,　一会儿很黏我　\N　一会儿又迫不及待要离开　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_up_big,,0,0,0,,　一会儿很黏我　
+Dialogue: 2,0:00:13.33,0:00:15.13,center_up,,0,0,0,,　一会儿又迫不及待要离开　\N　这一分钟你是在乎的　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_up,,0,0,0,,　　\N　一会儿很黏我　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_up_big,,0,0,0,,　一会儿又迫不及待要离开　
+Dialogue: 2,0:00:15.13,0:00:18.13,center_up,,0,0,0,,　这一分钟你是在乎的　\N　下一分钟你又不知所踪了　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_up,,0,0,0,,　一会儿很黏我　\N　一会儿又迫不及待要离开　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_up_big,,0,0,0,,　这一分钟你是在乎的　
+Dialogue: 2,0:00:18.13,0:00:19.56,center_up,,0,0,0,,　下一分钟你又不知所踪了　\N　然后去找朋友们疯玩　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_up,,0,0,0,,　一会儿又迫不及待要离开　\N　这一分钟你是在乎的　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_up_big,,0,0,0,,　下一分钟你又不知所踪了　
+Dialogue: 2,0:00:19.56,0:00:20.94,center_up,,0,0,0,,　然后去找朋友们疯玩　\N　对我若即若离　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_up,,0,0,0,,　这一分钟你是在乎的　\N　下一分钟你又不知所踪了　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_up_big,,0,0,0,,　然后去找朋友们疯玩　
+Dialogue: 2,0:00:20.94,0:00:23.16,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_up,,0,0,0,,　下一分钟你又不知所踪了　\N　然后去找朋友们疯玩　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:00:23.16,0:00:24.40,center_up,,0,0,0,,　　\N　很高兴那些你曾需要我的时候　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_up,,0,0,0,,　然后去找朋友们疯玩　\N　对我若即若离　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:24.40,0:00:24.93,center_up,,0,0,0,,　很高兴那些你曾需要我的时候　\N　我都随叫随到　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_up_big,,0,0,0,,　很高兴那些你曾需要我的时候　
+Dialogue: 2,0:00:24.93,0:00:27.23,center_up,,0,0,0,,　我都随叫随到　\N　当你要离开的时候就让这些回忆击垮你吧　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_up,,0,0,0,,　　\N　很高兴那些你曾需要我的时候　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_up_big,,0,0,0,,　我都随叫随到　
+Dialogue: 2,0:00:27.23,0:00:30.39,center_up,,0,0,0,,　当你要离开的时候就让这些回忆击垮你吧　\N　因为我确信当你孤单时会想回到我身边的　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_up,,0,0,0,,　很高兴那些你曾需要我的时候　\N　我都随叫随到　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_up_big,,0,0,0,,　当你要离开的时候就让这些回忆击垮你吧　
+Dialogue: 2,0:00:30.39,0:00:32.44,center_up,,0,0,0,,　因为我确信当你孤单时会想回到我身边的　\N　　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_up,,0,0,0,,　我都随叫随到　\N　当你要离开的时候就让这些回忆击垮你吧　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_up_big,,0,0,0,,　因为我确信当你孤单时会想回到我身边的　
+Dialogue: 2,0:00:32.44,0:00:35.14,center_up,,0,0,0,,　　\N　甩掉我　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_up,,0,0,0,,　当你要离开的时候就让这些回忆击垮你吧　\N　因为我确信当你孤单时会想回到我身边的　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:35.14,0:00:35.85,center_up,,0,0,0,,　甩掉我　\N　和那些想解开你腰带的　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_up,,0,0,0,,　因为我确信当你孤单时会想回到我身边的　\N　　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_up_big,,0,0,0,,　甩掉我　
+Dialogue: 2,0:00:35.85,0:00:37.23,center_up,,0,0,0,,　和那些想解开你腰带的　\N　人在一起　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_up,,0,0,0,,　　\N　甩掉我　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_up_big,,0,0,0,,　和那些想解开你腰带的　
+Dialogue: 2,0:00:37.23,0:00:38.38,center_up,,0,0,0,,　人在一起　\N　花不了你多少时间　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_up,,0,0,0,,　甩掉我　\N　和那些想解开你腰带的　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_up_big,,0,0,0,,　人在一起　
+Dialogue: 2,0:00:38.38,0:00:40.69,center_up,,0,0,0,,　花不了你多少时间　\N　哦好吧 就这样吧　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_up,,0,0,0,,　和那些想解开你腰带的　\N　人在一起　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_up_big,,0,0,0,,　花不了你多少时间　
+Dialogue: 2,0:00:40.69,0:00:43.38,center_up,,0,0,0,,　哦好吧 就这样吧　\N　　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_up,,0,0,0,,　人在一起　\N　花不了你多少时间　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_up_big,,0,0,0,,　哦好吧 就这样吧　
+Dialogue: 2,0:00:43.38,0:00:45.24,center_up,,0,0,0,,　　\N　你　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_up,,0,0,0,,　花不了你多少时间　\N　哦好吧 就这样吧　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:45.24,0:00:45.42,center_up,,0,0,0,,　你　\N　把我吃干抹净　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_up,,0,0,0,,　哦好吧 就这样吧　\N　　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_up_big,,0,0,0,,　你　
+Dialogue: 2,0:00:45.42,0:00:46.04,center_up,,0,0,0,,　把我吃干抹净　\N　又对我若即若离　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_up,,0,0,0,,　　\N　你　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_up_big,,0,0,0,,　把我吃干抹净　
+Dialogue: 2,0:00:46.04,0:00:47.39,center_up,,0,0,0,,　又对我若即若离　\N　　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_up,,0,0,0,,　你　\N　把我吃干抹净　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_up_big,,0,0,0,,　又对我若即若离　
+Dialogue: 2,0:00:47.39,0:00:49.58,center_up,,0,0,0,,　　\N　你　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_up,,0,0,0,,　把我吃干抹净　\N　又对我若即若离　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:49.58,0:00:51.29,center_up,,0,0,0,,　你　\N　盛满你的杯子　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_up,,0,0,0,,　又对我若即若离　\N　　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_up_big,,0,0,0,,　你　
+Dialogue: 2,0:00:51.29,0:00:51.70,center_up,,0,0,0,,　盛满你的杯子　\N　把我浇得湿透　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_up,,0,0,0,,　　\N　你　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_up_big,,0,0,0,,　盛满你的杯子　
+Dialogue: 2,0:00:51.70,0:00:52.77,center_up,,0,0,0,,　把我浇得湿透　\N　　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_up,,0,0,0,,　你　\N　盛满你的杯子　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_up_big,,0,0,0,,　把我浇得湿透　
+Dialogue: 2,0:00:52.77,0:00:56.29,center_up,,0,0,0,,　　\N　这一分钟你在我身边　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_up,,0,0,0,,　盛满你的杯子　\N　把我浇得湿透　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:56.29,0:00:56.45,center_up,,0,0,0,,　这一分钟你在我身边　\N　然后你又不见了　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_up,,0,0,0,,　把我浇得湿透　\N　　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_up_big,,0,0,0,,　这一分钟你在我身边　
+Dialogue: 2,0:00:56.45,0:00:58.86,center_up,,0,0,0,,　然后你又不见了　\N　这一分钟你在乎　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_up,,0,0,0,,　　\N　这一分钟你在我身边　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_up_big,,0,0,0,,　然后你又不见了　
+Dialogue: 2,0:00:58.86,0:01:01.54,center_up,,0,0,0,,　这一分钟你在乎　\N　下一分钟又不见踪影了　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_up,,0,0,0,,　这一分钟你在我身边　\N　然后你又不见了　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_up_big,,0,0,0,,　这一分钟你在乎　
+Dialogue: 2,0:01:01.54,0:01:03.11,center_up,,0,0,0,,　下一分钟又不见踪影了　\N　去和朋友们玩　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_up,,0,0,0,,　然后你又不见了　\N　这一分钟你在乎　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_up_big,,0,0,0,,　下一分钟又不见踪影了　
+Dialogue: 2,0:01:03.11,0:01:04.51,center_up,,0,0,0,,　去和朋友们玩　\N　对我若即若离　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_up,,0,0,0,,　这一分钟你在乎　\N　下一分钟又不见踪影了　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_up_big,,0,0,0,,　去和朋友们玩　
+Dialogue: 2,0:01:04.51,0:01:06.57,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_up,,0,0,0,,　下一分钟又不见踪影了　\N　去和朋友们玩　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:01:06.57,0:01:07.66,center_up,,0,0,0,,　　\N　一会离不开我　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_up,,0,0,0,,　去和朋友们玩　\N　对我若即若离　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:07.66,0:01:07.83,center_up,,0,0,0,,　一会离不开我　\N　一会又迫不及待想离开　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_up_big,,0,0,0,,　一会离不开我　
+Dialogue: 2,0:01:07.83,0:01:09.63,center_up,,0,0,0,,　一会又迫不及待想离开　\N　这一分钟你在乎　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_up,,0,0,0,,　　\N　一会离不开我　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_up_big,,0,0,0,,　一会又迫不及待想离开　
+Dialogue: 2,0:01:09.63,0:01:12.44,center_up,,0,0,0,,　这一分钟你在乎　\N　然后又不知所踪　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_up,,0,0,0,,　一会离不开我　\N　一会又迫不及待想离开　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_up_big,,0,0,0,,　这一分钟你在乎　
+Dialogue: 2,0:01:12.44,0:01:14.02,center_up,,0,0,0,,　然后又不知所踪　\N　去找朋友们玩乐　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_up,,0,0,0,,　一会又迫不及待想离开　\N　这一分钟你在乎　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_up_big,,0,0,0,,　然后又不知所踪　
+Dialogue: 2,0:01:14.02,0:01:15.32,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_up,,0,0,0,,　这一分钟你在乎　\N　然后又不知所踪　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_up_big,,0,0,0,,　去找朋友们玩乐　
+Dialogue: 2,0:01:15.32,0:01:17.45,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_up,,0,0,0,,　然后又不知所踪　\N　去找朋友们玩乐　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:01:17.45,0:01:18.72,center_up,,0,0,0,,　　\N　你离不开我 并不是我的错　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:18.72,0:01:18.89,center_up,,0,0,0,,　你离不开我 并不是我的错　\N　有事情做 人去相处 和告诉我你一直爱我　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_up_big,,0,0,0,,　你离不开我 并不是我的错　
+Dialogue: 2,0:01:18.89,0:01:21.14,center_up,,0,0,0,,　有事情做 人去相处 和告诉我你一直爱我　\N　我是个独立的女人 自给自足　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_up,,0,0,0,,　　\N　你离不开我 并不是我的错　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_up_big,,0,0,0,,　有事情做 人去相处 和告诉我你一直爱我　
+Dialogue: 2,0:01:21.14,0:01:23.88,center_up,,0,0,0,,　我是个独立的女人 自给自足　\N　有时我克制不住 做一些不应该的事情　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_up,,0,0,0,,　你离不开我 并不是我的错　\N　有事情做 人去相处 和告诉我你一直爱我　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_up_big,,0,0,0,,　我是个独立的女人 自给自足　
+Dialogue: 2,0:01:23.88,0:01:26.89,center_up,,0,0,0,,　有时我克制不住 做一些不应该的事情　\N　但我猜你是动了真情　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_up,,0,0,0,,　有事情做 人去相处 和告诉我你一直爱我　\N　我是个独立的女人 自给自足　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_up_big,,0,0,0,,　有时我克制不住 做一些不应该的事情　
+Dialogue: 2,0:01:26.89,0:01:30.31,center_up,,0,0,0,,　但我猜你是动了真情　\N　所以或许我应该改变我的方式不去故作冷漠　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_up,,0,0,0,,　我是个独立的女人 自给自足　\N　有时我克制不住 做一些不应该的事情　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_up_big,,0,0,0,,　但我猜你是动了真情　
+Dialogue: 2,0:01:30.31,0:01:32.39,center_up,,0,0,0,,　所以或许我应该改变我的方式不去故作冷漠　\N　但是又觉得你会厌烦　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_up,,0,0,0,,　有时我克制不住 做一些不应该的事情　\N　但我猜你是动了真情　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_up_big,,0,0,0,,　所以或许我应该改变我的方式不去故作冷漠　
+Dialogue: 2,0:01:32.39,0:01:35.35,center_up,,0,0,0,,　但是又觉得你会厌烦　\N　　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_up,,0,0,0,,　但我猜你是动了真情　\N　所以或许我应该改变我的方式不去故作冷漠　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_up_big,,0,0,0,,　但是又觉得你会厌烦　
+Dialogue: 2,0:01:35.35,0:01:40.20,center_up,,0,0,0,,　　\N　所以我把你吃干抹净　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_up,,0,0,0,,　所以或许我应该改变我的方式不去故作冷漠　\N　但是又觉得你会厌烦　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:40.20,0:01:40.36,center_up,,0,0,0,,　所以我把你吃干抹净　\N　又对你若即若离　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_up,,0,0,0,,　但是又觉得你会厌烦　\N　　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_up_big,,0,0,0,,　所以我把你吃干抹净　
+Dialogue: 2,0:01:40.36,0:01:41.66,center_up,,0,0,0,,　又对你若即若离　\N　耶我盛满我的杯子　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_up,,0,0,0,,　　\N　所以我把你吃干抹净　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_up_big,,0,0,0,,　又对你若即若离　
+Dialogue: 2,0:01:41.66,0:01:45.53,center_up,,0,0,0,,　耶我盛满我的杯子　\N　然后把你浇得湿透　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_up,,0,0,0,,　所以我把你吃干抹净　\N　又对你若即若离　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_up_big,,0,0,0,,　耶我盛满我的杯子　
+Dialogue: 2,0:01:45.53,0:01:47.30,center_up,,0,0,0,,　然后把你浇得湿透　\N　　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_up,,0,0,0,,　又对你若即若离　\N　耶我盛满我的杯子　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_up_big,,0,0,0,,　然后把你浇得湿透　
+Dialogue: 2,0:01:47.30,0:01:50.56,center_up,,0,0,0,,　　\N　一会儿你在我身边　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_up,,0,0,0,,　耶我盛满我的杯子　\N　然后把你浇得湿透　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:50.56,0:01:50.73,center_up,,0,0,0,,　一会儿你在我身边　\N　之后你又消失了　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_up,,0,0,0,,　然后把你浇得湿透　\N　　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_up_big,,0,0,0,,　一会儿你在我身边　
+Dialogue: 2,0:01:50.73,0:01:53.34,center_up,,0,0,0,,　之后你又消失了　\N　一会儿你在乎　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_up,,0,0,0,,　　\N　一会儿你在我身边　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_up_big,,0,0,0,,　之后你又消失了　
+Dialogue: 2,0:01:53.34,0:01:56.09,center_up,,0,0,0,,　一会儿你在乎　\N　一会你又不知所踪了　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_up,,0,0,0,,　一会儿你在我身边　\N　之后你又消失了　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_up_big,,0,0,0,,　一会儿你在乎　
+Dialogue: 2,0:01:56.09,0:01:57.57,center_up,,0,0,0,,　一会你又不知所踪了　\N　去找朋友们玩乐　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_up,,0,0,0,,　之后你又消失了　\N　一会儿你在乎　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_up_big,,0,0,0,,　一会你又不知所踪了　
+Dialogue: 2,0:01:57.57,0:01:59.01,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_up,,0,0,0,,　一会儿你在乎　\N　一会你又不知所踪了　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_up_big,,0,0,0,,　去找朋友们玩乐　
+Dialogue: 2,0:01:59.01,0:02:01.02,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_up,,0,0,0,,　一会你又不知所踪了　\N　去找朋友们玩乐　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:02:01.02,0:02:02.23,center_up,,0,0,0,,　　\N　你一会儿离不开我　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:02.23,0:02:02.38,center_up,,0,0,0,,　你一会儿离不开我　\N　一会儿又等不急要离开　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_up,,0,0,0,,　对我若即若离　\N　　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_up_big,,0,0,0,,　你一会儿离不开我　
+Dialogue: 2,0:02:02.38,0:02:04.18,center_up,,0,0,0,,　一会儿又等不急要离开　\N　一会儿你在乎　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_up,,0,0,0,,　　\N　你一会儿离不开我　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_up_big,,0,0,0,,　一会儿又等不急要离开　
+Dialogue: 2,0:02:04.18,0:02:06.90,center_up,,0,0,0,,　一会儿你在乎　\N　一会儿又不知所踪了　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_up,,0,0,0,,　你一会儿离不开我　\N　一会儿又等不急要离开　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_up_big,,0,0,0,,　一会儿你在乎　
+Dialogue: 2,0:02:06.90,0:02:08.52,center_up,,0,0,0,,　一会儿又不知所踪了　\N　去找朋友们玩乐　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_up,,0,0,0,,　一会儿又等不急要离开　\N　一会儿你在乎　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_up_big,,0,0,0,,　一会儿又不知所踪了　
+Dialogue: 2,0:02:08.52,0:02:09.91,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_up,,0,0,0,,　一会儿你在乎　\N　一会儿又不知所踪了　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_up_big,,0,0,0,,　去找朋友们玩乐　
+Dialogue: 2,0:02:09.91,0:02:11.77,center_up,,0,0,0,,　对我若即若离　\N　一会儿在乎　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_up,,0,0,0,,　一会儿又不知所踪了　\N　去找朋友们玩乐　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:02:11.77,0:02:12.75,center_up,,0,0,0,,　一会儿在乎　\N　一会儿玩消失　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_up_big,,0,0,0,,　一会儿在乎　
+Dialogue: 2,0:02:12.75,0:02:13.99,center_up,,0,0,0,,　一会儿玩消失　\N　去找朋友们玩乐　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_up,,0,0,0,,　对我若即若离　\N　一会儿在乎　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_up_big,,0,0,0,,　一会儿玩消失　
+Dialogue: 2,0:02:13.99,0:02:15.49,center_up,,0,0,0,,　去找朋友们玩乐　\N　对我若即若离　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_up,,0,0,0,,　一会儿在乎　\N　一会儿玩消失　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_up_big,,0,0,0,,　去找朋友们玩乐　
+Dialogue: 2,0:02:15.49,0:02:17.24,center_up,,0,0,0,,　对我若即若离　\N　 　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_up,,0,0,0,,　一会儿玩消失　\N　去找朋友们玩乐　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_up_big,,0,0,0,,　对我若即若离　
+Dialogue: 2,0:02:17.24,0:10:00.00,center_up,,0,0,0,,　 　\N　 　
+
+Dialogue: 2,0:00:00.00,0:00:01.00,right_down,,0,0,0,,歌曲时间:0:00:01/0:02:21
+Dialogue: 2,0:00:01.00,0:00:02.00,right_down,,0,0,0,,歌曲时间:0:00:02/0:02:21
+Dialogue: 2,0:00:02.00,0:00:03.00,right_down,,0,0,0,,歌曲时间:0:00:03/0:02:21
+Dialogue: 2,0:00:03.00,0:00:04.00,right_down,,0,0,0,,歌曲时间:0:00:04/0:02:21
+Dialogue: 2,0:00:04.00,0:00:05.00,right_down,,0,0,0,,歌曲时间:0:00:05/0:02:21
+Dialogue: 2,0:00:05.00,0:00:06.00,right_down,,0,0,0,,歌曲时间:0:00:06/0:02:21
+Dialogue: 2,0:00:06.00,0:00:07.00,right_down,,0,0,0,,歌曲时间:0:00:07/0:02:21
+Dialogue: 2,0:00:07.00,0:00:08.00,right_down,,0,0,0,,歌曲时间:0:00:08/0:02:21
+Dialogue: 2,0:00:08.00,0:00:09.00,right_down,,0,0,0,,歌曲时间:0:00:09/0:02:21
+Dialogue: 2,0:00:09.00,0:00:10.00,right_down,,0,0,0,,歌曲时间:0:00:10/0:02:21
+Dialogue: 2,0:00:10.00,0:00:11.00,right_down,,0,0,0,,歌曲时间:0:00:11/0:02:21
+Dialogue: 2,0:00:11.00,0:00:12.00,right_down,,0,0,0,,歌曲时间:0:00:12/0:02:21
+Dialogue: 2,0:00:12.00,0:00:13.00,right_down,,0,0,0,,歌曲时间:0:00:13/0:02:21
+Dialogue: 2,0:00:13.00,0:00:14.00,right_down,,0,0,0,,歌曲时间:0:00:14/0:02:21
+Dialogue: 2,0:00:14.00,0:00:15.00,right_down,,0,0,0,,歌曲时间:0:00:15/0:02:21
+Dialogue: 2,0:00:15.00,0:00:16.00,right_down,,0,0,0,,歌曲时间:0:00:16/0:02:21
+Dialogue: 2,0:00:16.00,0:00:17.00,right_down,,0,0,0,,歌曲时间:0:00:17/0:02:21
+Dialogue: 2,0:00:17.00,0:00:18.00,right_down,,0,0,0,,歌曲时间:0:00:18/0:02:21
+Dialogue: 2,0:00:18.00,0:00:19.00,right_down,,0,0,0,,歌曲时间:0:00:19/0:02:21
+Dialogue: 2,0:00:19.00,0:00:20.00,right_down,,0,0,0,,歌曲时间:0:00:20/0:02:21
+Dialogue: 2,0:00:20.00,0:00:21.00,right_down,,0,0,0,,歌曲时间:0:00:21/0:02:21
+Dialogue: 2,0:00:21.00,0:00:22.00,right_down,,0,0,0,,歌曲时间:0:00:22/0:02:21
+Dialogue: 2,0:00:22.00,0:00:23.00,right_down,,0,0,0,,歌曲时间:0:00:23/0:02:21
+Dialogue: 2,0:00:23.00,0:00:24.00,right_down,,0,0,0,,歌曲时间:0:00:24/0:02:21
+Dialogue: 2,0:00:24.00,0:00:25.00,right_down,,0,0,0,,歌曲时间:0:00:25/0:02:21
+Dialogue: 2,0:00:25.00,0:00:26.00,right_down,,0,0,0,,歌曲时间:0:00:26/0:02:21
+Dialogue: 2,0:00:26.00,0:00:27.00,right_down,,0,0,0,,歌曲时间:0:00:27/0:02:21
+Dialogue: 2,0:00:27.00,0:00:28.00,right_down,,0,0,0,,歌曲时间:0:00:28/0:02:21
+Dialogue: 2,0:00:28.00,0:00:29.00,right_down,,0,0,0,,歌曲时间:0:00:29/0:02:21
+Dialogue: 2,0:00:29.00,0:00:30.00,right_down,,0,0,0,,歌曲时间:0:00:30/0:02:21
+Dialogue: 2,0:00:30.00,0:00:31.00,right_down,,0,0,0,,歌曲时间:0:00:31/0:02:21
+Dialogue: 2,0:00:31.00,0:00:32.00,right_down,,0,0,0,,歌曲时间:0:00:32/0:02:21
+Dialogue: 2,0:00:32.00,0:00:33.00,right_down,,0,0,0,,歌曲时间:0:00:33/0:02:21
+Dialogue: 2,0:00:33.00,0:00:34.00,right_down,,0,0,0,,歌曲时间:0:00:34/0:02:21
+Dialogue: 2,0:00:34.00,0:00:35.00,right_down,,0,0,0,,歌曲时间:0:00:35/0:02:21
+Dialogue: 2,0:00:35.00,0:00:36.00,right_down,,0,0,0,,歌曲时间:0:00:36/0:02:21
+Dialogue: 2,0:00:36.00,0:00:37.00,right_down,,0,0,0,,歌曲时间:0:00:37/0:02:21
+Dialogue: 2,0:00:37.00,0:00:38.00,right_down,,0,0,0,,歌曲时间:0:00:38/0:02:21
+Dialogue: 2,0:00:38.00,0:00:39.00,right_down,,0,0,0,,歌曲时间:0:00:39/0:02:21
+Dialogue: 2,0:00:39.00,0:00:40.00,right_down,,0,0,0,,歌曲时间:0:00:40/0:02:21
+Dialogue: 2,0:00:40.00,0:00:41.00,right_down,,0,0,0,,歌曲时间:0:00:41/0:02:21
+Dialogue: 2,0:00:41.00,0:00:42.00,right_down,,0,0,0,,歌曲时间:0:00:42/0:02:21
+Dialogue: 2,0:00:42.00,0:00:43.00,right_down,,0,0,0,,歌曲时间:0:00:43/0:02:21
+Dialogue: 2,0:00:43.00,0:00:44.00,right_down,,0,0,0,,歌曲时间:0:00:44/0:02:21
+Dialogue: 2,0:00:44.00,0:00:45.00,right_down,,0,0,0,,歌曲时间:0:00:45/0:02:21
+Dialogue: 2,0:00:45.00,0:00:46.00,right_down,,0,0,0,,歌曲时间:0:00:46/0:02:21
+Dialogue: 2,0:00:46.00,0:00:47.00,right_down,,0,0,0,,歌曲时间:0:00:47/0:02:21
+Dialogue: 2,0:00:47.00,0:00:48.00,right_down,,0,0,0,,歌曲时间:0:00:48/0:02:21
+Dialogue: 2,0:00:48.00,0:00:49.00,right_down,,0,0,0,,歌曲时间:0:00:49/0:02:21
+Dialogue: 2,0:00:49.00,0:00:50.00,right_down,,0,0,0,,歌曲时间:0:00:50/0:02:21
+Dialogue: 2,0:00:50.00,0:00:51.00,right_down,,0,0,0,,歌曲时间:0:00:51/0:02:21
+Dialogue: 2,0:00:51.00,0:00:52.00,right_down,,0,0,0,,歌曲时间:0:00:52/0:02:21
+Dialogue: 2,0:00:52.00,0:00:53.00,right_down,,0,0,0,,歌曲时间:0:00:53/0:02:21
+Dialogue: 2,0:00:53.00,0:00:54.00,right_down,,0,0,0,,歌曲时间:0:00:54/0:02:21
+Dialogue: 2,0:00:54.00,0:00:55.00,right_down,,0,0,0,,歌曲时间:0:00:55/0:02:21
+Dialogue: 2,0:00:55.00,0:00:56.00,right_down,,0,0,0,,歌曲时间:0:00:56/0:02:21
+Dialogue: 2,0:00:56.00,0:00:57.00,right_down,,0,0,0,,歌曲时间:0:00:57/0:02:21
+Dialogue: 2,0:00:57.00,0:00:58.00,right_down,,0,0,0,,歌曲时间:0:00:58/0:02:21
+Dialogue: 2,0:00:58.00,0:00:59.00,right_down,,0,0,0,,歌曲时间:0:00:59/0:02:21
+Dialogue: 2,0:00:59.00,0:01:00.00,right_down,,0,0,0,,歌曲时间:0:01:00/0:02:21
+Dialogue: 2,0:01:00.00,0:01:01.00,right_down,,0,0,0,,歌曲时间:0:01:01/0:02:21
+Dialogue: 2,0:01:01.00,0:01:02.00,right_down,,0,0,0,,歌曲时间:0:01:02/0:02:21
+Dialogue: 2,0:01:02.00,0:01:03.00,right_down,,0,0,0,,歌曲时间:0:01:03/0:02:21
+Dialogue: 2,0:01:03.00,0:01:04.00,right_down,,0,0,0,,歌曲时间:0:01:04/0:02:21
+Dialogue: 2,0:01:04.00,0:01:05.00,right_down,,0,0,0,,歌曲时间:0:01:05/0:02:21
+Dialogue: 2,0:01:05.00,0:01:06.00,right_down,,0,0,0,,歌曲时间:0:01:06/0:02:21
+Dialogue: 2,0:01:06.00,0:01:07.00,right_down,,0,0,0,,歌曲时间:0:01:07/0:02:21
+Dialogue: 2,0:01:07.00,0:01:08.00,right_down,,0,0,0,,歌曲时间:0:01:08/0:02:21
+Dialogue: 2,0:01:08.00,0:01:09.00,right_down,,0,0,0,,歌曲时间:0:01:09/0:02:21
+Dialogue: 2,0:01:09.00,0:01:10.00,right_down,,0,0,0,,歌曲时间:0:01:10/0:02:21
+Dialogue: 2,0:01:10.00,0:01:11.00,right_down,,0,0,0,,歌曲时间:0:01:11/0:02:21
+Dialogue: 2,0:01:11.00,0:01:12.00,right_down,,0,0,0,,歌曲时间:0:01:12/0:02:21
+Dialogue: 2,0:01:12.00,0:01:13.00,right_down,,0,0,0,,歌曲时间:0:01:13/0:02:21
+Dialogue: 2,0:01:13.00,0:01:14.00,right_down,,0,0,0,,歌曲时间:0:01:14/0:02:21
+Dialogue: 2,0:01:14.00,0:01:15.00,right_down,,0,0,0,,歌曲时间:0:01:15/0:02:21
+Dialogue: 2,0:01:15.00,0:01:16.00,right_down,,0,0,0,,歌曲时间:0:01:16/0:02:21
+Dialogue: 2,0:01:16.00,0:01:17.00,right_down,,0,0,0,,歌曲时间:0:01:17/0:02:21
+Dialogue: 2,0:01:17.00,0:01:18.00,right_down,,0,0,0,,歌曲时间:0:01:18/0:02:21
+Dialogue: 2,0:01:18.00,0:01:19.00,right_down,,0,0,0,,歌曲时间:0:01:19/0:02:21
+Dialogue: 2,0:01:19.00,0:01:20.00,right_down,,0,0,0,,歌曲时间:0:01:20/0:02:21
+Dialogue: 2,0:01:20.00,0:01:21.00,right_down,,0,0,0,,歌曲时间:0:01:21/0:02:21
+Dialogue: 2,0:01:21.00,0:01:22.00,right_down,,0,0,0,,歌曲时间:0:01:22/0:02:21
+Dialogue: 2,0:01:22.00,0:01:23.00,right_down,,0,0,0,,歌曲时间:0:01:23/0:02:21
+Dialogue: 2,0:01:23.00,0:01:24.00,right_down,,0,0,0,,歌曲时间:0:01:24/0:02:21
+Dialogue: 2,0:01:24.00,0:01:25.00,right_down,,0,0,0,,歌曲时间:0:01:25/0:02:21
+Dialogue: 2,0:01:25.00,0:01:26.00,right_down,,0,0,0,,歌曲时间:0:01:26/0:02:21
+Dialogue: 2,0:01:26.00,0:01:27.00,right_down,,0,0,0,,歌曲时间:0:01:27/0:02:21
+Dialogue: 2,0:01:27.00,0:01:28.00,right_down,,0,0,0,,歌曲时间:0:01:28/0:02:21
+Dialogue: 2,0:01:28.00,0:01:29.00,right_down,,0,0,0,,歌曲时间:0:01:29/0:02:21
+Dialogue: 2,0:01:29.00,0:01:30.00,right_down,,0,0,0,,歌曲时间:0:01:30/0:02:21
+Dialogue: 2,0:01:30.00,0:01:31.00,right_down,,0,0,0,,歌曲时间:0:01:31/0:02:21
+Dialogue: 2,0:01:31.00,0:01:32.00,right_down,,0,0,0,,歌曲时间:0:01:32/0:02:21
+Dialogue: 2,0:01:32.00,0:01:33.00,right_down,,0,0,0,,歌曲时间:0:01:33/0:02:21
+Dialogue: 2,0:01:33.00,0:01:34.00,right_down,,0,0,0,,歌曲时间:0:01:34/0:02:21
+Dialogue: 2,0:01:34.00,0:01:35.00,right_down,,0,0,0,,歌曲时间:0:01:35/0:02:21
+Dialogue: 2,0:01:35.00,0:01:36.00,right_down,,0,0,0,,歌曲时间:0:01:36/0:02:21
+Dialogue: 2,0:01:36.00,0:01:37.00,right_down,,0,0,0,,歌曲时间:0:01:37/0:02:21
+Dialogue: 2,0:01:37.00,0:01:38.00,right_down,,0,0,0,,歌曲时间:0:01:38/0:02:21
+Dialogue: 2,0:01:38.00,0:01:39.00,right_down,,0,0,0,,歌曲时间:0:01:39/0:02:21
+Dialogue: 2,0:01:39.00,0:01:40.00,right_down,,0,0,0,,歌曲时间:0:01:40/0:02:21
+Dialogue: 2,0:01:40.00,0:01:41.00,right_down,,0,0,0,,歌曲时间:0:01:41/0:02:21
+Dialogue: 2,0:01:41.00,0:01:42.00,right_down,,0,0,0,,歌曲时间:0:01:42/0:02:21
+Dialogue: 2,0:01:42.00,0:01:43.00,right_down,,0,0,0,,歌曲时间:0:01:43/0:02:21
+Dialogue: 2,0:01:43.00,0:01:44.00,right_down,,0,0,0,,歌曲时间:0:01:44/0:02:21
+Dialogue: 2,0:01:44.00,0:01:45.00,right_down,,0,0,0,,歌曲时间:0:01:45/0:02:21
+Dialogue: 2,0:01:45.00,0:01:46.00,right_down,,0,0,0,,歌曲时间:0:01:46/0:02:21
+Dialogue: 2,0:01:46.00,0:01:47.00,right_down,,0,0,0,,歌曲时间:0:01:47/0:02:21
+Dialogue: 2,0:01:47.00,0:01:48.00,right_down,,0,0,0,,歌曲时间:0:01:48/0:02:21
+Dialogue: 2,0:01:48.00,0:01:49.00,right_down,,0,0,0,,歌曲时间:0:01:49/0:02:21
+Dialogue: 2,0:01:49.00,0:01:50.00,right_down,,0,0,0,,歌曲时间:0:01:50/0:02:21
+Dialogue: 2,0:01:50.00,0:01:51.00,right_down,,0,0,0,,歌曲时间:0:01:51/0:02:21
+Dialogue: 2,0:01:51.00,0:01:52.00,right_down,,0,0,0,,歌曲时间:0:01:52/0:02:21
+Dialogue: 2,0:01:52.00,0:01:53.00,right_down,,0,0,0,,歌曲时间:0:01:53/0:02:21
+Dialogue: 2,0:01:53.00,0:01:54.00,right_down,,0,0,0,,歌曲时间:0:01:54/0:02:21
+Dialogue: 2,0:01:54.00,0:01:55.00,right_down,,0,0,0,,歌曲时间:0:01:55/0:02:21
+Dialogue: 2,0:01:55.00,0:01:56.00,right_down,,0,0,0,,歌曲时间:0:01:56/0:02:21
+Dialogue: 2,0:01:56.00,0:01:57.00,right_down,,0,0,0,,歌曲时间:0:01:57/0:02:21
+Dialogue: 2,0:01:57.00,0:01:58.00,right_down,,0,0,0,,歌曲时间:0:01:58/0:02:21
+Dialogue: 2,0:01:58.00,0:01:59.00,right_down,,0,0,0,,歌曲时间:0:01:59/0:02:21
+Dialogue: 2,0:01:59.00,0:02:00.00,right_down,,0,0,0,,歌曲时间:0:02:00/0:02:21
+Dialogue: 2,0:02:00.00,0:02:01.00,right_down,,0,0,0,,歌曲时间:0:02:01/0:02:21
+Dialogue: 2,0:02:01.00,0:02:02.00,right_down,,0,0,0,,歌曲时间:0:02:02/0:02:21
+Dialogue: 2,0:02:02.00,0:02:03.00,right_down,,0,0,0,,歌曲时间:0:02:03/0:02:21
+Dialogue: 2,0:02:03.00,0:02:04.00,right_down,,0,0,0,,歌曲时间:0:02:04/0:02:21
+Dialogue: 2,0:02:04.00,0:02:05.00,right_down,,0,0,0,,歌曲时间:0:02:05/0:02:21
+Dialogue: 2,0:02:05.00,0:02:06.00,right_down,,0,0,0,,歌曲时间:0:02:06/0:02:21
+Dialogue: 2,0:02:06.00,0:02:07.00,right_down,,0,0,0,,歌曲时间:0:02:07/0:02:21
+Dialogue: 2,0:02:07.00,0:02:08.00,right_down,,0,0,0,,歌曲时间:0:02:08/0:02:21
+Dialogue: 2,0:02:08.00,0:02:09.00,right_down,,0,0,0,,歌曲时间:0:02:09/0:02:21
+Dialogue: 2,0:02:09.00,0:02:10.00,right_down,,0,0,0,,歌曲时间:0:02:10/0:02:21
+Dialogue: 2,0:02:10.00,0:02:11.00,right_down,,0,0,0,,歌曲时间:0:02:11/0:02:21
+Dialogue: 2,0:02:11.00,0:02:12.00,right_down,,0,0,0,,歌曲时间:0:02:12/0:02:21
+Dialogue: 2,0:02:12.00,0:02:13.00,right_down,,0,0,0,,歌曲时间:0:02:13/0:02:21
+Dialogue: 2,0:02:13.00,0:02:14.00,right_down,,0,0,0,,歌曲时间:0:02:14/0:02:21
+Dialogue: 2,0:02:14.00,0:02:15.00,right_down,,0,0,0,,歌曲时间:0:02:15/0:02:21
+Dialogue: 2,0:02:15.00,0:02:16.00,right_down,,0,0,0,,歌曲时间:0:02:16/0:02:21
+Dialogue: 2,0:02:16.00,0:02:17.00,right_down,,0,0,0,,歌曲时间:0:02:17/0:02:21
+Dialogue: 2,0:02:17.00,0:02:18.00,right_down,,0,0,0,,歌曲时间:0:02:18/0:02:21
+Dialogue: 2,0:02:18.00,0:02:19.00,right_down,,0,0,0,,歌曲时间:0:02:19/0:02:21
+Dialogue: 2,0:02:19.00,0:02:20.00,right_down,,0,0,0,,歌曲时间:0:02:20/0:02:21

@@ -1,0 +1,2899 @@
+2024-03-16 19:32:39 [log]程序已启动，连接房间id：3702914
+2024-03-16 19:32:39 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-16 19:32:42 [log]当前人气值：1
+2024-03-16 19:32:47 [log]当前人气值：1
+2024-03-16 19:33:17 [log]当前人气值：1
+2024-03-16 19:33:38 [log]柠檬_cat：点歌默
+19
+2024-03-16 19:33:38 [log]发送弹幕：已收到柠檬_cat的指令
+2024-03-16 19:33:39 [log]searching song:默
+2024-03-16 19:33:40 [log]写入记录失败！
+2024-03-16 19:33:40 [log]kavencat：已收到柠檬_cat的指令
+2024-03-16 19:33:40 [log]写入记录失败！
+2024-03-16 19:33:40 [log]发送弹幕：正在下载id31473269
+2024-03-16 19:33:42 [log]getting url:id31473269
+2024-03-16 19:33:43 [log]kavencat：正在下载id31473269
+2024-03-16 19:33:43 [log]写入记录失败！
+2024-03-16 19:33:43 get info: 默（电影《何以笙箫默》主题插曲） http://p1.music.126.net/OCGt5ln0lPPtPbVJ3VEKtA==/109951163020570422.jpg
+pic_urlhttp://p1.music.126.net/OCGt5ln0lPPtPbVJ3VEKtA==/109951163020570422.jpg
+2024-03-16 19:33:43 [log]mp3时长:00:05:25
+2024-03-16 19:33:44 [log]发送弹幕：歌曲[默（电影《何以笙箫默》主题插曲）]下载完成，加入播放队
+2024-03-16 19:33:45 [log]kavencat：歌曲[默（电影《何以笙箫默》主题插曲）]下载完成，加入播放队
+2024-03-16 19:33:45 [log]写入记录失败！
+2024-03-16 19:33:46 [log]发送弹幕：列
+2024-03-16 19:33:47 [log]当前人气值：1
+2024-03-16 19:33:48 [log]kavencat：列
+2024-03-16 19:33:48 [log]写入记录失败！
+2024-03-16 19:33:52 [log]已添加排队项目：id31473269
+2024-03-16 19:33:52 [log][error]log error
+2024-03-16 19:34:17 [log]当前人气值：1
+2024-03-16 19:34:47 [log]当前人气值：1
+2024-03-16 19:35:17 [log]当前人气值：1
+2024-03-16 19:35:47 [log]当前人气值：1
+2024-03-16 19:36:17 [log]当前人气值：1
+2024-03-16 19:36:47 [log]当前人气值：1
+2024-03-16 19:37:17 [log]当前人气值：1
+2024-03-16 19:37:47 [log]当前人气值：1
+2024-03-16 19:38:17 [log]当前人气值：1
+2024-03-16 19:38:47 [log]当前人气值：1
+2024-03-16 19:39:17 [log]当前人气值：1
+2024-03-16 19:39:47 [log]当前人气值：1
+2024-03-16 19:40:17 [log]当前人气值：1
+2024-03-16 19:40:18 [log]柠檬_cat：歌单id3026045580
+19
+2024-03-16 19:40:18 [log]发送弹幕：已收到柠檬_cat的指令
+2024-03-16 19:40:20 [log]写入记录失败！
+2024-03-16 19:40:21 [log]kavencat：已收到柠檬_cat的指令
+2024-03-16 19:40:21 [log]写入记录失败！
+2024-03-16 19:40:21 [log]发送弹幕：正在下载歌单前2首
+Exception ignored in thread started by: <function playlist_download at 0x7f90d21d00>
+Traceback (most recent call last):
+  File "/home/pi/live/post_dm.py", line 435, in playlist_download
+    mid = str(song['id'])
+              ~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-16 19:40:23 [log]kavencat：正在下载歌单前2首
+2024-03-16 19:40:23 [log]写入记录失败！
+2024-03-16 19:40:47 [log]当前人气值：1
+2024-03-16 19:41:17 [log]当前人气值：1
+2024-03-16 19:41:47 [log]当前人气值：1
+2024-03-16 19:42:17 [log]当前人气值：1
+2024-03-16 19:42:47 [log]当前人气值：1
+2024-03-16 19:43:10 [log]听众[kavencat] 进入直播……
+2024-03-16 19:43:10 [log]发送弹幕：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-16 19:43:12 [log]kavencat：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-16 19:43:12 [log]写入记录失败！
+2024-03-16 19:43:17 [log]当前人气值：1
+2024-03-16 19:43:33 [log]kavencat：重启弹幕脚本
+2024-03-16 19:43:33 [log]发送弹幕：弹幕脚本重启中……
+2024-03-16 19:43:36 [log]程序已启动，连接房间id：3702914
+2024-03-16 19:43:36 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-16 19:43:39 [log]当前人气值：1
+2024-03-16 19:43:44 [log]当前人气值：1
+2024-03-16 19:44:14 [log]当前人气值：1
+2024-03-16 19:44:44 [log]当前人气值：1
+2024-03-16 19:45:14 [log]当前人气值：1
+2024-03-16 19:45:44 [log]当前人气值：1
+2024-03-16 19:46:14 [log]当前人气值：1
+2024-03-16 19:46:38 [log]柠檬_cat：歌单826174145 9
+19
+2024-03-16 19:46:38 [log]发送弹幕：已收到柠檬_cat的指令
+2024-03-16 19:46:40 [log]写入记录失败！
+2024-03-16 19:46:40 [log]kavencat：已收到柠檬_cat的指令
+2024-03-16 19:46:40 [log]写入记录失败！
+2024-03-16 19:46:41 [log]发送弹幕：正在下载歌单前35首
+Exception ignored in thread started by: <function playlist_download at 0x7f805a1d00>
+Traceback (most recent call last):
+  File "/home/pi/live/post_dm.py", line 438, in playlist_download
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+' [log]name:'+song['name']+'id:'+mid)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+TypeError: can only concatenate str (not "int") to str
+2024-03-16 19:46:43 [log]kavencat：正在下载歌单前35首
+2024-03-16 19:46:43 [log]写入记录失败！
+2024-03-16 19:46:44 [log]当前人气值：1
+2024-03-16 19:47:14 [log]当前人气值：1
+2024-03-16 19:47:44 [log]当前人气值：1
+2024-03-16 19:47:48 [log]kavencat：重启弹幕脚本
+2024-03-16 19:47:48 [log]发送弹幕：弹幕脚本重启中……
+2024-03-16 19:47:51 [log]程序已启动，连接房间id：3702914
+2024-03-16 19:47:51 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-16 19:47:54 [log]当前人气值：1
+2024-03-16 19:47:59 [log]当前人气值：1
+2024-03-16 19:48:29 [log]当前人气值：1
+2024-03-16 19:48:59 [log]当前人气值：1
+2024-03-16 19:49:29 [log]当前人气值：1
+2024-03-16 19:49:59 [log]当前人气值：1
+2024-03-16 19:50:16 [log]柠檬_cat：歌单1
+19
+2024-03-16 19:50:16 [log]发送弹幕：已收到柠檬_cat的指令
+2024-03-16 19:50:18 [log]写入记录失败！
+2024-03-16 19:50:19 [log]kavencat：已收到柠檬_cat的指令
+2024-03-16 19:50:19 [log]写入记录失败！
+2024-03-16 19:50:20 [log]发送弹幕：正在下载歌单前35首
+2024-03-16 19:50:21 [log]kavencat：正在下载歌单前35首
+2024-03-16 19:50:21 [log]写入记录失败！
+2024-03-16 19:50:21 [log]name:Summertime Friendsid:2091562936
+2024-03-16 19:50:22 [log]发送弹幕：正在下载id2091562936
+2024-03-16 19:50:23 [log]getting url:id2091562936
+2024-03-16 19:50:24 [log]kavencat：正在下载id2091562936
+2024-03-16 19:50:24 [log]写入记录失败！
+2024-03-16 19:50:25 get info: Summertime Friends http://p1.music.126.net/B_7riqi2qEzLOZhgHvE5ow==/109951168988734181.jpg
+pic_urlhttp://p1.music.126.net/B_7riqi2qEzLOZhgHvE5ow==/109951168988734181.jpg
+2024-03-16 19:50:25 [log]mp3时长:00:02:16
+2024-03-16 19:50:26 [log]发送弹幕：歌曲[Summertime Friends]下载完成，加入播
+2024-03-16 19:50:27 [log]发送弹幕：放队列
+2024-03-16 19:50:28 [log]kavencat：歌曲[Summertime Friends]下载完成，加入播
+2024-03-16 19:50:28 [log]写入记录失败！
+2024-03-16 19:50:28 [log]kavencat：放队列
+2024-03-16 19:50:28 [log]写入记录失败！
+2024-03-16 19:50:29 [log]当前人气值：1
+2024-03-16 19:50:34 [log]已添加排队项目：id2091562936
+2024-03-16 19:50:34 [log][error]log error
+2024-03-16 19:50:34 [log]name:遺憾id:210287
+2024-03-16 19:50:34 [log]发送弹幕：正在下载id210287
+2024-03-16 19:50:36 [log]getting url:id210287
+2024-03-16 19:50:37 [log]kavencat：正在下载id210287
+2024-03-16 19:50:37 [log]写入记录失败！
+2024-03-16 19:50:38 get info: 遺憾 http://p2.music.126.net/A3pPeY-0kQhugTmG87LVgg==/109951167910663420.jpg
+pic_urlhttp://p2.music.126.net/A3pPeY-0kQhugTmG87LVgg==/109951167910663420.jpg
+can't sync to MPEG frame
+2024-03-16 19:50:38 [log]mp3时长:00:07:00
+2024-03-16 19:50:38 [log]发送弹幕：id210287歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:50:40 [log]delete/home/pi/live/downloads/1710589836.0.mp3
+2024-03-16 19:50:40 [log]1710589836.0.mp3文件删除成功！
+2024-03-16 19:50:40 [log]delete/home/pi/live/downloads/1710589836.0.ass
+2024-03-16 19:50:40 [log]delete error
+2024-03-16 19:50:40 [log]delete/home/pi/live/downloads/1710589836.0.info
+2024-03-16 19:50:40 [log]delete error
+2024-03-16 19:50:40 [log]delete/home/pi/live/downloads/1710589836.0.jpg
+2024-03-16 19:50:40 [log]1710589836.0.jpg文件删除成功！
+2024-03-16 19:50:40 [log]too long/too big,delete
+2024-03-16 19:50:40 [log]name:第一百零一首诗id:1442827199
+2024-03-16 19:50:40 [log]发送弹幕：正在下载id1442827199
+2024-03-16 19:50:41 [log]kavencat：id210287歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:50:41 [log]写入记录失败！
+2024-03-16 19:50:41 [log]kavencat：正在下载id1442827199
+2024-03-16 19:50:41 [log]写入记录失败！
+2024-03-16 19:50:42 [log]getting url:id1442827199
+2024-03-16 19:50:44 get info: 第一百零一首诗 http://p1.music.126.net/ckp1eu-Wa7H9Ic8dNLZJ-A==/109951164931712336.jpg
+pic_urlhttp://p1.music.126.net/ckp1eu-Wa7H9Ic8dNLZJ-A==/109951164931712336.jpg
+2024-03-16 19:50:44 [log]mp3时长:00:03:46
+2024-03-16 19:50:44 [log]发送弹幕：歌曲[第一百零一首诗]下载完成，加入播放队列
+2024-03-16 19:50:46 [log]kavencat：歌曲[第一百零一首诗]下载完成，加入播放队列
+2024-03-16 19:50:46 [log]写入记录失败！
+2024-03-16 19:50:50 [log]已添加排队项目：id1442827199
+2024-03-16 19:50:50 [log][error]log error
+2024-03-16 19:50:50 [log]name:人世之歌id:2060005362
+2024-03-16 19:50:51 [log]发送弹幕：正在下载id2060005362
+2024-03-16 19:50:52 [log]getting url:id2060005362
+2024-03-16 19:50:52 [log]kavencat：正在下载id2060005362
+2024-03-16 19:50:52 [log]写入记录失败！
+2024-03-16 19:50:54 get info: 人世之歌 http://p2.music.126.net/vJ6Jn8C2kfmEtyXRNx3HxQ==/109951168707218675.jpg
+pic_urlhttp://p2.music.126.net/vJ6Jn8C2kfmEtyXRNx3HxQ==/109951168707218675.jpg
+can't sync to MPEG frame
+2024-03-16 19:50:54 [log]mp3时长:00:07:00
+2024-03-16 19:50:55 [log]发送弹幕：id2060005362歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:50:56 [log]kavencat：id2060005362歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:50:56 [log]写入记录失败！
+2024-03-16 19:50:56 [log]delete/home/pi/live/downloads/1710589852.0.mp3
+2024-03-16 19:50:56 [log]1710589852.0.mp3文件删除成功！
+2024-03-16 19:50:56 [log]delete/home/pi/live/downloads/1710589852.0.ass
+2024-03-16 19:50:56 [log]delete error
+2024-03-16 19:50:56 [log]delete/home/pi/live/downloads/1710589852.0.info
+2024-03-16 19:50:56 [log]delete error
+2024-03-16 19:50:56 [log]delete/home/pi/live/downloads/1710589852.0.jpg
+2024-03-16 19:50:56 [log]1710589852.0.jpg文件删除成功！
+2024-03-16 19:50:56 [log]too long/too big,delete
+2024-03-16 19:50:56 [log]name:人来人往id:66378
+2024-03-16 19:50:57 [log]发送弹幕：正在下载id66378
+2024-03-16 19:50:58 [log]getting url:id66378
+2024-03-16 19:50:59 [log]当前人气值：1
+2024-03-16 19:50:59 [log]kavencat：正在下载id66378
+2024-03-16 19:50:59 [log]写入记录失败！
+2024-03-16 19:51:00 get info: 人来人往 http://p2.music.126.net/Ix20svgUVF_9_SLO4kqqdQ==/109951163432559430.jpg
+pic_urlhttp://p2.music.126.net/Ix20svgUVF_9_SLO4kqqdQ==/109951163432559430.jpg
+can't sync to MPEG frame
+2024-03-16 19:51:00 [log]mp3时长:00:07:00
+2024-03-16 19:51:01 [log]发送弹幕：id66378歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:02 [log]delete/home/pi/live/downloads/1710589858.0.mp3
+2024-03-16 19:51:02 [log]1710589858.0.mp3文件删除成功！
+2024-03-16 19:51:02 [log]delete/home/pi/live/downloads/1710589858.0.ass
+2024-03-16 19:51:02 [log]delete error
+2024-03-16 19:51:02 [log]delete/home/pi/live/downloads/1710589858.0.info
+2024-03-16 19:51:02 [log]delete error
+2024-03-16 19:51:02 [log]delete/home/pi/live/downloads/1710589858.0.jpg
+2024-03-16 19:51:02 [log]1710589858.0.jpg文件删除成功！
+2024-03-16 19:51:02 [log]too long/too big,delete
+2024-03-16 19:51:02 [log]name:Saltwaterid:423314485
+2024-03-16 19:51:03 [log]发送弹幕：正在下载id423314485
+2024-03-16 19:51:03 [log]kavencat：id66378歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:03 [log]写入记录失败！
+2024-03-16 19:51:03 [log]kavencat：正在下载id423314485
+2024-03-16 19:51:03 [log]写入记录失败！
+2024-03-16 19:51:04 [log]getting url:id423314485
+2024-03-16 19:51:07 get info: Saltwater http://p1.music.126.net/s1PShUHI6dKeejxYcfVOhA==/109951163409468835.jpg
+pic_urlhttp://p1.music.126.net/s1PShUHI6dKeejxYcfVOhA==/109951163409468835.jpg
+2024-03-16 19:51:07 [log]mp3时长:00:04:07
+2024-03-16 19:51:07 [log]发送弹幕：歌曲[Saltwater]下载完成，加入播放队列
+2024-03-16 19:51:09 [log]kavencat：歌曲[Saltwater]下载完成，加入播放队列
+2024-03-16 19:51:09 [log]写入记录失败！
+2024-03-16 19:51:14 [log]已添加排队项目：id423314485
+2024-03-16 19:51:14 [log][error]log error
+2024-03-16 19:51:14 [log]name:清风徐来id:34586075
+2024-03-16 19:51:14 [log]发送弹幕：正在下载id34586075
+2024-03-16 19:51:16 [log]getting url:id34586075
+2024-03-16 19:51:16 [log]kavencat：正在下载id34586075
+2024-03-16 19:51:16 [log]写入记录失败！
+2024-03-16 19:51:18 get info: 清风徐来（电影《港囧》主题曲） http://p1.music.126.net/HoA-JTIrGIN-0WxaGqmu8A==/3367804116560203.jpg
+pic_urlhttp://p1.music.126.net/HoA-JTIrGIN-0WxaGqmu8A==/3367804116560203.jpg
+can't sync to MPEG frame
+2024-03-16 19:51:18 [log]mp3时长:00:07:00
+2024-03-16 19:51:18 [log]发送弹幕：id34586075歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:20 [log]kavencat：id34586075歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:20 [log]写入记录失败！
+2024-03-16 19:51:20 [log]delete/home/pi/live/downloads/1710589876.0.mp3
+2024-03-16 19:51:20 [log]1710589876.0.mp3文件删除成功！
+2024-03-16 19:51:20 [log]delete/home/pi/live/downloads/1710589876.0.ass
+2024-03-16 19:51:20 [log]delete error
+2024-03-16 19:51:20 [log]delete/home/pi/live/downloads/1710589876.0.info
+2024-03-16 19:51:20 [log]delete error
+2024-03-16 19:51:20 [log]delete/home/pi/live/downloads/1710589876.0.jpg
+2024-03-16 19:51:20 [log]1710589876.0.jpg文件删除成功！
+2024-03-16 19:51:20 [log]too long/too big,delete
+2024-03-16 19:51:20 [log]name:The Hillsid:32337668
+2024-03-16 19:51:20 [log]发送弹幕：正在下载id32337668
+2024-03-16 19:51:22 [log]getting url:id32337668
+2024-03-16 19:51:22 [log]kavencat：正在下载id32337668
+2024-03-16 19:51:22 [log]写入记录失败！
+2024-03-16 19:51:24 get info: The Hills http://p2.music.126.net/nCkxwj8wKCeU055wipjZ2Q==/109951167086563993.jpg
+pic_urlhttp://p2.music.126.net/nCkxwj8wKCeU055wipjZ2Q==/109951167086563993.jpg
+can't sync to MPEG frame
+2024-03-16 19:51:24 [log]mp3时长:00:07:00
+2024-03-16 19:51:24 [log]发送弹幕：id32337668歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:26 [log]delete/home/pi/live/downloads/1710589882.0.mp3
+2024-03-16 19:51:26 [log]1710589882.0.mp3文件删除成功！
+2024-03-16 19:51:26 [log]delete/home/pi/live/downloads/1710589882.0.ass
+2024-03-16 19:51:26 [log]delete error
+2024-03-16 19:51:26 [log]delete/home/pi/live/downloads/1710589882.0.info
+2024-03-16 19:51:26 [log]delete error
+2024-03-16 19:51:26 [log]delete/home/pi/live/downloads/1710589882.0.jpg
+2024-03-16 19:51:26 [log]1710589882.0.jpg文件删除成功！
+2024-03-16 19:51:26 [log]too long/too big,delete
+2024-03-16 19:51:26 [log]name:One Minuteid:1857784319
+2024-03-16 19:51:26 [log]发送弹幕：正在下载id1857784319
+2024-03-16 19:51:26 [log]kavencat：id32337668歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:51:26 [log]写入记录失败！
+2024-03-16 19:51:26 [log]kavencat：正在下载id1857784319
+2024-03-16 19:51:26 [log]写入记录失败！
+2024-03-16 19:51:27 [log]getting url:id1857784319
+2024-03-16 19:51:29 [log]当前人气值：1
+2024-03-16 19:51:36 get info: One Minute（一分钟） http://p1.music.126.net/JQOcM-Wc7bBDc6o5cXroXw==/109951166137361389.jpg
+pic_urlhttp://p1.music.126.net/JQOcM-Wc7bBDc6o5cXroXw==/109951166137361389.jpg
+2024-03-16 19:51:36 [log]mp3时长:00:02:21
+2024-03-16 19:51:36 [log]发送弹幕：歌曲[One Minute（一分钟）]下载完成，加入播放队列
+2024-03-16 19:51:38 [log]kavencat：歌曲[One Minute（一分钟）]下载完成，加入播放队列
+2024-03-16 19:51:38 [log]写入记录失败！
+2024-03-16 19:51:43 [log]已添加排队项目：id1857784319
+2024-03-16 19:51:43 [log][error]log error
+2024-03-16 19:51:43 [log]name:Nowhere (feat. Gervs)id:1830163770
+2024-03-16 19:51:43 [log]发送弹幕：正在下载id1830163770
+2024-03-16 19:51:45 [log]getting url:id1830163770
+2024-03-16 19:51:46 [log]kavencat：正在下载id1830163770
+2024-03-16 19:51:46 [log]写入记录失败！
+2024-03-16 19:51:47 get info: Nowhere (feat. Gervs) http://p2.music.126.net/MEaT7nTcaXKGDAnpMa15ug==/109951165811437514.jpg
+pic_urlhttp://p2.music.126.net/MEaT7nTcaXKGDAnpMa15ug==/109951165811437514.jpg
+2024-03-16 19:51:47 [log]mp3时长:00:03:33
+2024-03-16 19:51:47 [log]发送弹幕：歌曲[Nowhere (feat. Gervs)]下载完成，
+2024-03-16 19:51:49 [log]发送弹幕：加入播放队列
+2024-03-16 19:51:50 [log]kavencat：歌曲[Nowhere (feat. Gervs)]下载完成，
+2024-03-16 19:51:50 [log]写入记录失败！
+2024-03-16 19:51:50 [log]kavencat：加入播放队列
+2024-03-16 19:51:50 [log]写入记录失败！
+2024-03-16 19:51:56 [log]已添加排队项目：id1830163770
+2024-03-16 19:51:56 [log][error]log error
+2024-03-16 19:51:56 [log]name:Intentionsid:1421443440
+2024-03-16 19:51:56 [log]发送弹幕：正在下载id1421443440
+2024-03-16 19:51:58 [log]getting url:id1421443440
+2024-03-16 19:51:59 [log]当前人气值：1
+2024-03-16 19:51:59 [log]kavencat：正在下载id1421443440
+2024-03-16 19:51:59 [log]写入记录失败！
+2024-03-16 19:52:00 get info: Intentions http://p1.music.126.net/arL022NQ94WEv97FzlwTgA==/109951164707732979.jpg
+pic_urlhttp://p1.music.126.net/arL022NQ94WEv97FzlwTgA==/109951164707732979.jpg
+can't sync to MPEG frame
+2024-03-16 19:52:00 [log]mp3时长:00:07:00
+2024-03-16 19:52:00 [log]发送弹幕：id1421443440歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:02 [log]delete/home/pi/live/downloads/1710589918.0.mp3
+2024-03-16 19:52:02 [log]1710589918.0.mp3文件删除成功！
+2024-03-16 19:52:02 [log]delete/home/pi/live/downloads/1710589918.0.ass
+2024-03-16 19:52:02 [log]delete error
+2024-03-16 19:52:02 [log]delete/home/pi/live/downloads/1710589918.0.info
+2024-03-16 19:52:02 [log]delete error
+2024-03-16 19:52:02 [log]delete/home/pi/live/downloads/1710589918.0.jpg
+2024-03-16 19:52:02 [log]1710589918.0.jpg文件删除成功！
+2024-03-16 19:52:02 [log]too long/too big,delete
+2024-03-16 19:52:02 [log]name:Olderid:1872385516
+2024-03-16 19:52:02 [log]发送弹幕：正在下载id1872385516
+2024-03-16 19:52:03 [log]kavencat：id1421443440歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:03 [log]写入记录失败！
+2024-03-16 19:52:03 [log]kavencat：正在下载id1872385516
+2024-03-16 19:52:03 [log]写入记录失败！
+2024-03-16 19:52:04 [log]getting url:id1872385516
+2024-03-16 19:52:06 get info: Older http://p1.music.126.net/oXz61gTd9uZt_dZWPSZBjw==/109951166317345599.jpg
+pic_urlhttp://p1.music.126.net/oXz61gTd9uZt_dZWPSZBjw==/109951166317345599.jpg
+can't sync to MPEG frame
+2024-03-16 19:52:06 [log]mp3时长:00:07:00
+2024-03-16 19:52:06 [log]发送弹幕：id1872385516歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:08 [log]delete/home/pi/live/downloads/1710589924.0.mp3
+2024-03-16 19:52:08 [log]1710589924.0.mp3文件删除成功！
+2024-03-16 19:52:08 [log]delete/home/pi/live/downloads/1710589924.0.ass
+2024-03-16 19:52:08 [log]delete error
+2024-03-16 19:52:08 [log]delete/home/pi/live/downloads/1710589924.0.info
+2024-03-16 19:52:08 [log]delete error
+2024-03-16 19:52:08 [log]delete/home/pi/live/downloads/1710589924.0.jpg
+2024-03-16 19:52:08 [log]1710589924.0.jpg文件删除成功！
+2024-03-16 19:52:08 [log]too long/too big,delete
+2024-03-16 19:52:08 [log]name:秋天的海id:288003
+2024-03-16 19:52:08 [log]kavencat：id1872385516歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:08 [log]写入记录失败！
+2024-03-16 19:52:08 [log]发送弹幕：正在下载id288003
+2024-03-16 19:52:10 [log]getting url:id288003
+2024-03-16 19:52:10 [log]kavencat：正在下载id288003
+2024-03-16 19:52:10 [log]写入记录失败！
+2024-03-16 19:52:12 get info: 秋天的海 http://p2.music.126.net/J1DSHYAW4iLr8cOO1aIsKQ==/109951169002958030.jpg
+pic_urlhttp://p2.music.126.net/J1DSHYAW4iLr8cOO1aIsKQ==/109951169002958030.jpg
+can't sync to MPEG frame
+2024-03-16 19:52:12 [log]mp3时长:00:07:00
+2024-03-16 19:52:13 [log]发送弹幕：id288003歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:14 [log]delete/home/pi/live/downloads/1710589930.0.mp3
+2024-03-16 19:52:14 [log]1710589930.0.mp3文件删除成功！
+2024-03-16 19:52:14 [log]delete/home/pi/live/downloads/1710589930.0.ass
+2024-03-16 19:52:14 [log]delete error
+2024-03-16 19:52:14 [log]delete/home/pi/live/downloads/1710589930.0.info
+2024-03-16 19:52:14 [log]delete error
+2024-03-16 19:52:14 [log]delete/home/pi/live/downloads/1710589930.0.jpg
+2024-03-16 19:52:14 [log]1710589930.0.jpg文件删除成功！
+2024-03-16 19:52:14 [log]too long/too big,delete
+2024-03-16 19:52:14 [log]name:Taxiid:1466516156
+2024-03-16 19:52:14 [log]kavencat：id288003歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:14 [log]写入记录失败！
+2024-03-16 19:52:15 [log]发送弹幕：正在下载id1466516156
+2024-03-16 19:52:16 [log]getting url:id1466516156
+2024-03-16 19:52:17 [log]kavencat：正在下载id1466516156
+2024-03-16 19:52:17 [log]写入记录失败！
+2024-03-16 19:52:18 get info: Taxi http://p2.music.126.net/RJhcFlU-UJ8SqV-1IDRDPA==/109951165180322559.jpg
+pic_urlhttp://p2.music.126.net/RJhcFlU-UJ8SqV-1IDRDPA==/109951165180322559.jpg
+can't sync to MPEG frame
+2024-03-16 19:52:18 [log]mp3时长:00:07:00
+2024-03-16 19:52:18 [log]发送弹幕：id1466516156歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:20 [log]delete/home/pi/live/downloads/1710589936.0.mp3
+2024-03-16 19:52:20 [log]1710589936.0.mp3文件删除成功！
+2024-03-16 19:52:20 [log]delete/home/pi/live/downloads/1710589936.0.ass
+2024-03-16 19:52:20 [log]delete error
+2024-03-16 19:52:20 [log]delete/home/pi/live/downloads/1710589936.0.info
+2024-03-16 19:52:20 [log]delete error
+2024-03-16 19:52:20 [log]delete/home/pi/live/downloads/1710589936.0.jpg
+2024-03-16 19:52:20 [log]1710589936.0.jpg文件删除成功！
+2024-03-16 19:52:20 [log]too long/too big,delete
+2024-03-16 19:52:20 [log]name:I Never Learnedid:1449268223
+2024-03-16 19:52:20 [log]发送弹幕：正在下载id1449268223
+2024-03-16 19:52:21 [log]kavencat：id1466516156歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:52:21 [log]写入记录失败！
+2024-03-16 19:52:21 [log]kavencat：正在下载id1449268223
+2024-03-16 19:52:21 [log]写入记录失败！
+2024-03-16 19:52:22 [log]getting url:id1449268223
+2024-03-16 19:52:24 get info: I Never Learned http://p1.music.126.net/yZ6vUA_yB-8KIIMvMYYIoA==/109951166031595482.jpg
+pic_urlhttp://p1.music.126.net/yZ6vUA_yB-8KIIMvMYYIoA==/109951166031595482.jpg
+2024-03-16 19:52:24 [log]mp3时长:00:02:32
+2024-03-16 19:52:24 [log]发送弹幕：歌曲[I Never Learned]下载完成，加入播放队列
+2024-03-16 19:52:26 [log]kavencat：歌曲[I Never Learned]下载完成，加入播放队列
+2024-03-16 19:52:26 [log]写入记录失败！
+2024-03-16 19:52:29 [log]当前人气值：1
+2024-03-16 19:52:31 [log]已添加排队项目：id1449268223
+2024-03-16 19:52:31 [log][error]log error
+2024-03-16 19:52:31 [log]name:离人id:188989
+2024-03-16 19:52:31 [log]发送弹幕：正在下载id188-98-9
+2024-03-16 19:52:32 [log]getting url:id188989
+2024-03-16 19:52:32 [log]kavencat：正在下载id188-98-9
+2024-03-16 19:52:32 [log]写入记录失败！
+2024-03-16 19:52:34 get info: 离人 http://p2.music.126.net/DL_RPI7thpa6Epqf3TT3-g==/109951167222031144.jpg
+pic_urlhttp://p2.music.126.net/DL_RPI7thpa6Epqf3TT3-g==/109951167222031144.jpg
+2024-03-16 19:52:34 [log]mp3时长:00:04:50
+2024-03-16 19:52:34 [log]发送弹幕：歌曲[离人]下载完成，加入播放队列
+2024-03-16 19:52:36 [log]kavencat：歌曲[离人]下载完成，加入播放队列
+2024-03-16 19:52:36 [log]写入记录失败！
+2024-03-16 19:52:41 [log]已添加排队项目：id188989
+2024-03-16 19:52:41 [log]name:都是夜归人id:306967
+2024-03-16 19:52:41 [log]发送弹幕：正在下载id306967
+2024-03-16 19:52:43 [log]kavencat：正在下载id306967
+2024-03-16 19:52:43 [log]写入记录失败！
+2024-03-16 19:52:43 [log]getting url:id306967
+2024-03-16 19:52:45 get info: 都是夜归人（新加坡电视剧《都市夜归人》主题曲） http://p2.music.126.net/tujGmilZzfthd7HhVOl2Pw==/109951167320353104.jpg
+pic_urlhttp://p2.music.126.net/tujGmilZzfthd7HhVOl2Pw==/109951167320353104.jpg
+2024-03-16 19:52:45 [log]mp3时长:00:05:01
+2024-03-16 19:52:45 [log]发送弹幕：歌曲[都是夜归人（新加坡电视剧《都市夜归人》主题曲）]下载完
+2024-03-16 19:52:47 [log]kavencat：歌曲[都是夜归人（新加坡电视剧《都市夜归人》主题曲）]下载完
+2024-03-16 19:52:47 [log]写入记录失败！
+2024-03-16 19:52:47 [log]发送弹幕：成，加入播放队列
+2024-03-16 19:52:49 [log]kavencat：成，加入播放队列
+2024-03-16 19:52:49 [log]写入记录失败！
+2024-03-16 19:52:54 [log]已添加排队项目：id306967
+2024-03-16 19:52:54 [log]name:Before Uid:1919737699
+2024-03-16 19:52:54 [log]发送弹幕：正在下载id1919737699
+2024-03-16 19:52:56 [log]getting url:id1919737699
+2024-03-16 19:52:56 [log]kavencat：正在下载id1919737699
+2024-03-16 19:52:56 [log]写入记录失败！
+2024-03-16 19:52:58 get info: Before U http://p1.music.126.net/-OSyiGoetISKHMTdMQrYsQ==/109951167042181717.jpg
+pic_urlhttp://p1.music.126.net/-OSyiGoetISKHMTdMQrYsQ==/109951167042181717.jpg
+2024-03-16 19:52:58 [log]mp3时长:00:02:34
+2024-03-16 19:52:58 [log]发送弹幕：歌曲[Before U]下载完成，加入播放队列
+2024-03-16 19:52:59 [log]当前人气值：1
+2024-03-16 19:53:01 [log]kavencat：歌曲[Before U]下载完成，加入播放队列
+2024-03-16 19:53:01 [log]写入记录失败！
+2024-03-16 19:53:05 [log]已添加排队项目：id1919737699
+2024-03-16 19:53:05 [log]name:云水禅心id:160488
+2024-03-16 19:53:05 [log]发送弹幕：正在下载id160488
+2024-03-16 19:53:07 [log]getting url:id160488
+2024-03-16 19:53:08 [log]kavencat：正在下载id160488
+2024-03-16 19:53:08 [log]写入记录失败！
+2024-03-16 19:53:09 get info: 云水禅心 http://p1.music.126.net/g2k7rBYrW6wSmeYgrTNEcw==/109951164910334130.jpg
+pic_urlhttp://p1.music.126.net/g2k7rBYrW6wSmeYgrTNEcw==/109951164910334130.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:09 [log]mp3时长:00:07:00
+2024-03-16 19:53:09 [log]发送弹幕：id160488歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:11 [log]delete/home/pi/live/downloads/1710589987.0.mp3
+2024-03-16 19:53:11 [log]1710589987.0.mp3文件删除成功！
+2024-03-16 19:53:11 [log]delete/home/pi/live/downloads/1710589987.0.ass
+2024-03-16 19:53:11 [log]delete error
+2024-03-16 19:53:11 [log]delete/home/pi/live/downloads/1710589987.0.info
+2024-03-16 19:53:11 [log]delete error
+2024-03-16 19:53:11 [log]delete/home/pi/live/downloads/1710589987.0.jpg
+2024-03-16 19:53:11 [log]1710589987.0.jpg文件删除成功！
+2024-03-16 19:53:11 [log]too long/too big,delete
+2024-03-16 19:53:11 [log]name:数星星(bonus童音版） id:5236254
+2024-03-16 19:53:11 [log]发送弹幕：正在下载id5236254
+2024-03-16 19:53:11 [log]kavencat：id160488歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:11 [log]写入记录失败！
+2024-03-16 19:53:11 [log]kavencat：正在下载id5236254
+2024-03-16 19:53:11 [log]写入记录失败！
+2024-03-16 19:53:13 [log]getting url:id5236254
+2024-03-16 19:53:15 get info: 数星星(bonus童音版）  http://p2.music.126.net/_d5Kxo0WgTdQ8YieSt4WMg==/109951164910454469.jpg
+pic_urlhttp://p2.music.126.net/_d5Kxo0WgTdQ8YieSt4WMg==/109951164910454469.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:15 [log]mp3时长:00:07:00
+2024-03-16 19:53:15 [log]发送弹幕：id5236254歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:17 [log]kavencat：id5236254歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:17 [log]写入记录失败！
+2024-03-16 19:53:17 [log]delete/home/pi/live/downloads/1710589993.0.mp3
+2024-03-16 19:53:17 [log]1710589993.0.mp3文件删除成功！
+2024-03-16 19:53:17 [log]delete/home/pi/live/downloads/1710589993.0.ass
+2024-03-16 19:53:17 [log]delete error
+2024-03-16 19:53:17 [log]delete/home/pi/live/downloads/1710589993.0.info
+2024-03-16 19:53:17 [log]delete error
+2024-03-16 19:53:17 [log]delete/home/pi/live/downloads/1710589993.0.jpg
+2024-03-16 19:53:17 [log]1710589993.0.jpg文件删除成功！
+2024-03-16 19:53:17 [log]too long/too big,delete
+2024-03-16 19:53:17 [log]name:Are You Sleepingid:1440982964
+2024-03-16 19:53:17 [log][error]弹幕发送失败：正在下载id144098296-4
+2024-03-16 19:53:17 [log][error]send dm error
+can only concatenate str (not "dict") to str
+2024-03-16 19:53:19 [log]getting url:id1440982964
+2024-03-16 19:53:21 get info: Are You Sleeping http://p1.music.126.net/E6YFsvIT_Bkk892plWF5pg==/109951164910292152.jpg
+pic_urlhttp://p1.music.126.net/E6YFsvIT_Bkk892plWF5pg==/109951164910292152.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:21 [log]mp3时长:00:07:00
+2024-03-16 19:53:21 [log][error]弹幕发送失败：id144098296-4歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:53:21 [log][error]send dm error
+can only concatenate str (not "dict") to str
+2024-03-16 19:53:23 [log]发送弹幕：放
+2024-03-16 19:53:25 [log]delete/home/pi/live/downloads/1710589999.0.mp3
+2024-03-16 19:53:25 [log]1710589999.0.mp3文件删除成功！
+2024-03-16 19:53:25 [log]delete/home/pi/live/downloads/1710589999.0.ass
+2024-03-16 19:53:25 [log]delete error
+2024-03-16 19:53:25 [log]delete/home/pi/live/downloads/1710589999.0.info
+2024-03-16 19:53:25 [log]delete error
+2024-03-16 19:53:25 [log]delete/home/pi/live/downloads/1710589999.0.jpg
+2024-03-16 19:53:25 [log]1710589999.0.jpg文件删除成功！
+2024-03-16 19:53:25 [log]too long/too big,delete
+2024-03-16 19:53:25 [log]name:Mantaid:1409329965
+2024-03-16 19:53:25 [log]发送弹幕：正在下载id1409329965
+2024-03-16 19:53:26 [log]kavencat：放
+2024-03-16 19:53:26 [log]写入记录失败！
+2024-03-16 19:53:26 [log]kavencat：正在下载id1409329965
+2024-03-16 19:53:26 [log]写入记录失败！
+2024-03-16 19:53:27 [log]getting url:id1409329965
+2024-03-16 19:53:29 get info: Manta http://p2.music.126.net/U1cEFusbO0qFyGBJleH5EA==/109951164546416875.jpg
+pic_urlhttp://p2.music.126.net/U1cEFusbO0qFyGBJleH5EA==/109951164546416875.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:29 [log]mp3时长:00:07:00
+2024-03-16 19:53:29 [log]当前人气值：1
+2024-03-16 19:53:29 [log]发送弹幕：id1409329965歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:31 [log]delete/home/pi/live/downloads/1710590007.0.mp3
+2024-03-16 19:53:31 [log]1710590007.0.mp3文件删除成功！
+2024-03-16 19:53:31 [log]delete/home/pi/live/downloads/1710590007.0.ass
+2024-03-16 19:53:31 [log]delete error
+2024-03-16 19:53:31 [log]delete/home/pi/live/downloads/1710590007.0.info
+2024-03-16 19:53:31 [log]delete error
+2024-03-16 19:53:31 [log]delete/home/pi/live/downloads/1710590007.0.jpg
+2024-03-16 19:53:31 [log]1710590007.0.jpg文件删除成功！
+2024-03-16 19:53:31 [log]too long/too big,delete
+2024-03-16 19:53:31 [log]name:Merry Christmasid:1899742433
+2024-03-16 19:53:31 [log]发送弹幕：正在下载id18-99742433
+2024-03-16 19:53:31 [log]kavencat：id1409329965歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:53:31 [log]写入记录失败！
+2024-03-16 19:53:31 [log]kavencat：正在下载id18-99742433
+2024-03-16 19:53:31 [log]写入记录失败！
+2024-03-16 19:53:32 [log]getting url:id1899742433
+2024-03-16 19:53:34 [log]听众[人气313342206] 进入直播……
+2024-03-16 19:53:34 [log]发送弹幕：欢迎【人气313342206】进入直播间！欢迎点播歌曲！
+2024-03-16 19:53:34 get info: Merry Christmas http://p2.music.126.net/k9XILWILHc2YGUkeepGQMg==/109951166677694936.jpg
+pic_urlhttp://p2.music.126.net/k9XILWILHc2YGUkeepGQMg==/109951166677694936.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:34 [log]mp3时长:00:07:00
+2024-03-16 19:53:36 [log]发送弹幕：id18-99742433歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:53:36 [log]kavencat：欢迎【人气313342206】进入直播间！欢迎点播歌曲！
+2024-03-16 19:53:36 [log]写入记录失败！
+2024-03-16 19:53:36 [log]kavencat：id18-99742433歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:53:36 [log]写入记录失败！
+2024-03-16 19:53:38 [log]发送弹幕：放
+2024-03-16 19:53:39 [log]delete/home/pi/live/downloads/1710590012.0.mp3
+2024-03-16 19:53:39 [log]1710590012.0.mp3文件删除成功！
+2024-03-16 19:53:39 [log]delete/home/pi/live/downloads/1710590012.0.ass
+2024-03-16 19:53:39 [log]delete error
+2024-03-16 19:53:39 [log]delete/home/pi/live/downloads/1710590012.0.info
+2024-03-16 19:53:39 [log]delete error
+2024-03-16 19:53:39 [log]delete/home/pi/live/downloads/1710590012.0.jpg
+2024-03-16 19:53:39 [log]1710590012.0.jpg文件删除成功！
+2024-03-16 19:53:39 [log]too long/too big,delete
+2024-03-16 19:53:39 [log]name:漠河舞厅·2022id:1894094482
+2024-03-16 19:53:40 [log]发送弹幕：正在下载id18-94094482
+2024-03-16 19:53:40 [log]kavencat：放
+2024-03-16 19:53:40 [log]写入记录失败！
+2024-03-16 19:53:40 [log]kavencat：正在下载id18-94094482
+2024-03-16 19:53:40 [log]写入记录失败！
+2024-03-16 19:53:41 [log]getting url:id1894094482
+2024-03-16 19:53:43 get info: 漠河舞厅·2022 http://p2.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg
+pic_urlhttp://p2.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg
+2024-03-16 19:53:43 [log]mp3时长:00:05:04
+2024-03-16 19:53:43 [log]发送弹幕：歌曲[漠河舞厅·2022]下载完成，加入播放队列
+2024-03-16 19:53:45 [log]kavencat：歌曲[漠河舞厅·2022]下载完成，加入播放队列
+2024-03-16 19:53:45 [log]写入记录失败！
+2024-03-16 19:53:50 [log]已添加排队项目：id1894094482
+2024-03-16 19:53:50 [log]name:Splitid:1895117572
+2024-03-16 19:53:50 [log]发送弹幕：正在下载id18-95117572
+2024-03-16 19:53:52 [log]getting url:id1895117572
+2024-03-16 19:53:52 [log]kavencat：正在下载id18-95117572
+2024-03-16 19:53:52 [log]写入记录失败！
+2024-03-16 19:53:54 get info: Split http://p2.music.126.net/bZqZJ4ClIxAaqYVujLvKsw==/109951166623484927.jpg
+pic_urlhttp://p2.music.126.net/bZqZJ4ClIxAaqYVujLvKsw==/109951166623484927.jpg
+can't sync to MPEG frame
+2024-03-16 19:53:54 [log]mp3时长:00:07:00
+2024-03-16 19:53:54 [log]发送弹幕：id18-95117572歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:53:56 [log]kavencat：id18-95117572歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:53:56 [log]写入记录失败！
+2024-03-16 19:53:56 [log]发送弹幕：放
+2024-03-16 19:53:58 [log]delete/home/pi/live/downloads/1710590032.0.mp3
+2024-03-16 19:53:58 [log]1710590032.0.mp3文件删除成功！
+2024-03-16 19:53:58 [log]delete/home/pi/live/downloads/1710590032.0.ass
+2024-03-16 19:53:58 [log]delete error
+2024-03-16 19:53:58 [log]delete/home/pi/live/downloads/1710590032.0.info
+2024-03-16 19:53:58 [log]delete error
+2024-03-16 19:53:58 [log]delete/home/pi/live/downloads/1710590032.0.jpg
+2024-03-16 19:53:58 [log]1710590032.0.jpg文件删除成功！
+2024-03-16 19:53:58 [log]too long/too big,delete
+2024-03-16 19:53:58 [log]name:过id:1804879213
+2024-03-16 19:53:58 [log]发送弹幕：正在下载id1804879213
+2024-03-16 19:53:58 [log]kavencat：放
+2024-03-16 19:53:58 [log]写入记录失败！
+2024-03-16 19:53:58 [log]kavencat：正在下载id1804879213
+2024-03-16 19:53:58 [log]写入记录失败！
+2024-03-16 19:53:59 [log]当前人气值：1
+2024-03-16 19:53:59 [log]getting url:id1804879213
+2024-03-16 19:54:01 get info: 过 http://p2.music.126.net/fwXShM46KdIj3hB8_lJ71g==/109951165545588869.jpg
+pic_urlhttp://p2.music.126.net/fwXShM46KdIj3hB8_lJ71g==/109951165545588869.jpg
+2024-03-16 19:54:01 [log]mp3时长:00:03:23
+2024-03-16 19:54:01 [log]发送弹幕：歌曲[过]下载完成，加入播放队列
+2024-03-16 19:54:03 [log]kavencat：歌曲[过]下载完成，加入播放队列
+2024-03-16 19:54:03 [log]写入记录失败！
+2024-03-16 19:54:08 [log]已添加排队项目：id1804879213
+2024-03-16 19:54:08 [log]name:Cold Heart (PNAU Remix)id:1869074366
+2024-03-16 19:54:08 [log]发送弹幕：正在下载id1869074366
+2024-03-16 19:54:10 [log]getting url:id1869074366
+2024-03-16 19:54:10 [log]kavencat：正在下载id1869074366
+2024-03-16 19:54:10 [log]写入记录失败！
+2024-03-16 19:54:12 get info: Cold Heart (PNAU Remix) http://p1.music.126.net/qAPd-6YdKYMDe-G_eOL4Lg==/109951166277929331.jpg
+pic_urlhttp://p1.music.126.net/qAPd-6YdKYMDe-G_eOL4Lg==/109951166277929331.jpg
+2024-03-16 19:54:12 [log]mp3时长:00:03:22
+2024-03-16 19:54:12 [log]发送弹幕：歌曲[Cold Heart (PNAU Remix)]下载完
+2024-03-16 19:54:14 [log]kavencat：歌曲[Cold Heart (PNAU Remix)]下载完
+2024-03-16 19:54:14 [log]写入记录失败！
+2024-03-16 19:54:14 [log]发送弹幕：成，加入播放队列
+2024-03-16 19:54:16 [log]kavencat：成，加入播放队列
+2024-03-16 19:54:16 [log]写入记录失败！
+2024-03-16 19:54:20 [log]已添加排队项目：id1869074366
+2024-03-16 19:54:20 [log]name:Scared to Be Lonelyid:456175020
+2024-03-16 19:54:21 [log]发送弹幕：正在下载id456175020
+2024-03-16 19:54:22 [log]getting url:id456175020
+2024-03-16 19:54:23 [log]kavencat：正在下载id456175020
+2024-03-16 19:54:23 [log]写入记录失败！
+2024-03-16 19:54:24 get info: Scared to Be Lonely http://p1.music.126.net/1yEWvh0OGQ4LvnwAikvBPA==/109951168595761385.jpg
+pic_urlhttp://p1.music.126.net/1yEWvh0OGQ4LvnwAikvBPA==/109951168595761385.jpg
+can't sync to MPEG frame
+2024-03-16 19:54:24 [log]mp3时长:00:07:00
+2024-03-16 19:54:25 [log]发送弹幕：id456175020歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:54:26 [log]delete/home/pi/live/downloads/1710590062.0.mp3
+2024-03-16 19:54:26 [log]1710590062.0.mp3文件删除成功！
+2024-03-16 19:54:26 [log]delete/home/pi/live/downloads/1710590062.0.ass
+2024-03-16 19:54:26 [log]delete error
+2024-03-16 19:54:26 [log]delete/home/pi/live/downloads/1710590062.0.info
+2024-03-16 19:54:26 [log]delete error
+2024-03-16 19:54:26 [log]delete/home/pi/live/downloads/1710590062.0.jpg
+2024-03-16 19:54:26 [log]1710590062.0.jpg文件删除成功！
+2024-03-16 19:54:26 [log]too long/too big,delete
+2024-03-16 19:54:26 [log]name:红色的河id:1464928350
+2024-03-16 19:54:27 [log]发送弹幕：正在下载id146-4928350
+2024-03-16 19:54:27 [log]kavencat：id456175020歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:54:27 [log]写入记录失败！
+2024-03-16 19:54:27 [log]kavencat：正在下载id146-4928350
+2024-03-16 19:54:27 [log]写入记录失败！
+2024-03-16 19:54:28 [log]getting url:id1464928350
+2024-03-16 19:54:29 [log]当前人气值：1
+2024-03-16 19:54:30 get info: 红色的河 http://p2.music.126.net/cDeq8TYgfNPHu5YaZBu-5w==/109951165161505058.jpg
+pic_urlhttp://p2.music.126.net/cDeq8TYgfNPHu5YaZBu-5w==/109951165161505058.jpg
+can't sync to MPEG frame
+2024-03-16 19:54:30 [log]mp3时长:00:07:00
+2024-03-16 19:54:31 [log]发送弹幕：id146-4928350歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:54:33 [log]发送弹幕：放
+2024-03-16 19:54:33 [log]kavencat：id146-4928350歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:54:33 [log]写入记录失败！
+2024-03-16 19:54:33 [log]kavencat：放
+2024-03-16 19:54:33 [log]写入记录失败！
+2024-03-16 19:54:34 [log]delete/home/pi/live/downloads/1710590068.0.mp3
+2024-03-16 19:54:34 [log]1710590068.0.mp3文件删除成功！
+2024-03-16 19:54:34 [log]delete/home/pi/live/downloads/1710590068.0.ass
+2024-03-16 19:54:34 [log]delete error
+2024-03-16 19:54:34 [log]delete/home/pi/live/downloads/1710590068.0.info
+2024-03-16 19:54:34 [log]delete error
+2024-03-16 19:54:34 [log]delete/home/pi/live/downloads/1710590068.0.jpg
+2024-03-16 19:54:34 [log]1710590068.0.jpg文件删除成功！
+2024-03-16 19:54:34 [log]too long/too big,delete
+2024-03-16 19:54:34 [log]name:だから僕は音楽を辞めたid:1365644808
+2024-03-16 19:54:35 [log]发送弹幕：正在下载id13656-44808
+2024-03-16 19:54:36 [log]getting url:id1365644808
+2024-03-16 19:54:37 [log]kavencat：正在下载id13656-44808
+2024-03-16 19:54:37 [log]写入记录失败！
+2024-03-16 19:54:39 get info: だから僕は音楽を辞めた http://p1.music.126.net/P7VAJKrEZPJxvY_FjIslXw==/109951164077533841.jpg
+pic_urlhttp://p1.music.126.net/P7VAJKrEZPJxvY_FjIslXw==/109951164077533841.jpg
+2024-03-16 19:54:39 [log]mp3时长:00:04:05
+2024-03-16 19:54:39 [log]发送弹幕：歌曲[だから僕は音楽を辞めた]下载完成，加入播放队列
+2024-03-16 19:54:41 [log]kavencat：歌曲[だから僕は音楽を辞めた]下载完成，加入播放队列
+2024-03-16 19:54:41 [log]写入记录失败！
+2024-03-16 19:54:46 [log]已添加排队项目：id1365644808
+2024-03-16 19:54:46 [log]name:莫斯科没有眼泪id:383267
+2024-03-16 19:54:46 [log]发送弹幕：正在下载id383267
+2024-03-16 19:54:48 [log]getting url:id383267
+2024-03-16 19:54:48 [log]kavencat：正在下载id383267
+2024-03-16 19:54:48 [log]写入记录失败！
+2024-03-16 19:54:50 get info: 莫斯科没有眼泪 http://p1.music.126.net/h5FhfbxqpupHFxvEc-M6CQ==/109951163263877684.jpg
+pic_urlhttp://p1.music.126.net/h5FhfbxqpupHFxvEc-M6CQ==/109951163263877684.jpg
+can't sync to MPEG frame
+2024-03-16 19:54:50 [log]mp3时长:00:07:00
+2024-03-16 19:54:50 [log]发送弹幕：id383267歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:54:52 [log]kavencat：id383267歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:54:52 [log]写入记录失败！
+2024-03-16 19:54:52 [log]delete/home/pi/live/downloads/1710590088.0.mp3
+2024-03-16 19:54:52 [log]1710590088.0.mp3文件删除成功！
+2024-03-16 19:54:52 [log]delete/home/pi/live/downloads/1710590088.0.ass
+2024-03-16 19:54:52 [log]delete error
+2024-03-16 19:54:52 [log]delete/home/pi/live/downloads/1710590088.0.info
+2024-03-16 19:54:52 [log]delete error
+2024-03-16 19:54:52 [log]delete/home/pi/live/downloads/1710590088.0.jpg
+2024-03-16 19:54:52 [log]1710590088.0.jpg文件删除成功！
+2024-03-16 19:54:52 [log]too long/too big,delete
+2024-03-16 19:54:52 [log]name:桃子假象id:1323267645
+2024-03-16 19:54:52 [log]发送弹幕：正在下载id13232676-45
+2024-03-16 19:54:54 [log]getting url:id1323267645
+2024-03-16 19:54:54 [log]kavencat：正在下载id13232676-45
+2024-03-16 19:54:54 [log]写入记录失败！
+2024-03-16 19:54:56 get info: 桃子假象 http://p2.music.126.net/I1IeAUTXE6wEsfjBDjAafg==/109951163649581250.jpg
+pic_urlhttp://p2.music.126.net/I1IeAUTXE6wEsfjBDjAafg==/109951163649581250.jpg
+2024-03-16 19:54:56 [log]mp3时长:00:04:56
+2024-03-16 19:54:56 [log]发送弹幕：歌曲[桃子假象]下载完成，加入播放队列
+2024-03-16 19:54:58 [log]kavencat：歌曲[桃子假象]下载完成，加入播放队列
+2024-03-16 19:54:58 [log]写入记录失败！
+2024-03-16 19:54:59 [log]当前人气值：1
+2024-03-16 19:55:02 [log]已添加排队项目：id1323267645
+2024-03-16 19:55:02 [log]name:How Long Will I Love Youid:27810037
+2024-03-16 19:55:03 [log]发送弹幕：正在下载id27810037
+2024-03-16 19:55:04 [log]getting url:id27810037
+2024-03-16 19:55:05 [log]kavencat：正在下载id27810037
+2024-03-16 19:55:05 [log]写入记录失败！
+2024-03-16 19:55:06 get info: How Long Will I Love You http://p2.music.126.net/olKOd9XTWJnS1plHsglZyg==/109951168031039462.jpg
+pic_urlhttp://p2.music.126.net/olKOd9XTWJnS1plHsglZyg==/109951168031039462.jpg
+can't sync to MPEG frame
+2024-03-16 19:55:06 [log]mp3时长:00:07:00
+2024-03-16 19:55:07 [log]发送弹幕：id27810037歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:55:08 [log]delete/home/pi/live/downloads/1710590104.0.mp3
+2024-03-16 19:55:08 [log]1710590104.0.mp3文件删除成功！
+2024-03-16 19:55:08 [log]delete/home/pi/live/downloads/1710590104.0.ass
+2024-03-16 19:55:08 [log]delete error
+2024-03-16 19:55:08 [log]delete/home/pi/live/downloads/1710590104.0.info
+2024-03-16 19:55:08 [log]delete error
+2024-03-16 19:55:08 [log]delete/home/pi/live/downloads/1710590104.0.jpg
+2024-03-16 19:55:08 [log]1710590104.0.jpg文件删除成功！
+2024-03-16 19:55:08 [log]too long/too big,delete
+2024-03-16 19:55:08 [log]name:Long Shotid:16232652
+2024-03-16 19:55:08 [log]kavencat：id27810037歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:55:08 [log]写入记录失败！
+2024-03-16 19:55:09 [log]发送弹幕：正在下载id16232652
+2024-03-16 19:55:10 [log]getting url:id16232652
+2024-03-16 19:55:11 [log]kavencat：正在下载id16232652
+2024-03-16 19:55:11 [log]写入记录失败！
+2024-03-16 19:55:12 get info: Long Shot http://p2.music.126.net/r1MT_LXvm0I0hvjdXrSVcw==/109951165964930972.jpg
+pic_urlhttp://p2.music.126.net/r1MT_LXvm0I0hvjdXrSVcw==/109951165964930972.jpg
+can't sync to MPEG frame
+2024-03-16 19:55:12 [log]mp3时长:00:07:00
+2024-03-16 19:55:13 [log]发送弹幕：id16232652歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:55:14 [log]delete/home/pi/live/downloads/1710590110.0.mp3
+2024-03-16 19:55:14 [log]1710590110.0.mp3文件删除成功！
+2024-03-16 19:55:14 [log]delete/home/pi/live/downloads/1710590110.0.ass
+2024-03-16 19:55:14 [log]delete error
+2024-03-16 19:55:14 [log]delete/home/pi/live/downloads/1710590110.0.info
+2024-03-16 19:55:14 [log]delete error
+2024-03-16 19:55:14 [log]delete/home/pi/live/downloads/1710590110.0.jpg
+2024-03-16 19:55:14 [log]1710590110.0.jpg文件删除成功！
+2024-03-16 19:55:14 [log]too long/too big,delete
+2024-03-16 19:55:14 [log]name:When You Wish Upon A Starid:2299534
+2024-03-16 19:55:14 [log]发送弹幕：正在下载id2299534
+2024-03-16 19:55:15 [log]kavencat：id16232652歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:55:15 [log]写入记录失败！
+2024-03-16 19:55:15 [log]kavencat：正在下载id2299534
+2024-03-16 19:55:15 [log]写入记录失败！
+2024-03-16 19:55:16 [log]getting url:id2299534
+2024-03-16 19:55:18 get info: When You Wish Upon A Star http://p2.music.126.net/BeQjn0_AnqM3jwxrkqGASA==/109951169011484328.jpg
+pic_urlhttp://p2.music.126.net/BeQjn0_AnqM3jwxrkqGASA==/109951169011484328.jpg
+2024-03-16 19:55:18 [log]mp3时长:00:03:23
+2024-03-16 19:55:18 [log]发送弹幕：歌曲[When You Wish Upon A Star]下
+2024-03-16 19:55:20 [log]发送弹幕：载完成，加入播放队列
+2024-03-16 19:55:20 [log]kavencat：歌曲[When You Wish Upon A Star]下
+2024-03-16 19:55:20 [log]写入记录失败！
+2024-03-16 19:55:20 [log]kavencat：载完成，加入播放队列
+2024-03-16 19:55:20 [log]写入记录失败！
+2024-03-16 19:55:26 [log]已添加排队项目：id2299534
+2024-03-16 19:55:26 [log]name:Happy Now?id:1887215864
+2024-03-16 19:55:27 [log]发送弹幕：正在下载id188721586-4
+2024-03-16 19:55:28 [log]getting url:id1887215864
+2024-03-16 19:55:29 [log]当前人气值：1
+2024-03-16 19:55:29 [log]kavencat：正在下载id188721586-4
+2024-03-16 19:55:29 [log]写入记录失败！
+2024-03-16 19:55:30 get info: Happy Now? http://p1.music.126.net/RFxgjunlII7caFc5XFCetQ==/109951167923009398.jpg
+pic_urlhttp://p1.music.126.net/RFxgjunlII7caFc5XFCetQ==/109951167923009398.jpg
+2024-03-16 19:55:30 [log]mp3时长:00:02:52
+2024-03-16 19:55:30 [log]发送弹幕：歌曲[Happy Now?]下载完成，加入播放队列
+2024-03-16 19:55:32 [log]kavencat：歌曲[Happy Now?]下载完成，加入播放队列
+2024-03-16 19:55:32 [log]写入记录失败！
+2024-03-16 19:55:37 [log]已添加排队项目：id1887215864
+2024-03-16 19:55:37 [log]name:The Kids Are All Dyingid:1887216745
+2024-03-16 19:55:37 [log]发送弹幕：正在下载id1887216745
+2024-03-16 19:55:38 [log]听众[柠檬_cat] 进入直播……
+2024-03-16 19:55:38 [log]getting url:id1887216745
+2024-03-16 19:55:39 [log]发送弹幕：欢迎【柠檬_cat】进入直播间！欢迎点播歌曲！
+2024-03-16 19:55:40 get info: The Kids Are All Dying http://p1.music.126.net/RFxgjunlII7caFc5XFCetQ==/109951167923009398.jpg
+pic_urlhttp://p1.music.126.net/RFxgjunlII7caFc5XFCetQ==/109951167923009398.jpg
+2024-03-16 19:55:40 [log]mp3时长:00:02:47
+2024-03-16 19:55:41 [log]kavencat：正在下载id1887216745
+2024-03-16 19:55:41 [log]写入记录失败！
+2024-03-16 19:55:41 [log]kavencat：欢迎【柠檬_cat】进入直播间！欢迎点播歌曲！
+2024-03-16 19:55:41 [log]写入记录失败！
+2024-03-16 19:55:41 [log]发送弹幕：歌曲[The Kids Are All Dying]下载完成
+2024-03-16 19:55:43 [log]发送弹幕：，加入播放队列
+2024-03-16 19:55:44 [log]kavencat：歌曲[The Kids Are All Dying]下载完成
+2024-03-16 19:55:44 [log]写入记录失败！
+2024-03-16 19:55:44 [log]kavencat：，加入播放队列
+2024-03-16 19:55:44 [log]写入记录失败！
+2024-03-16 19:55:50 [log]已添加排队项目：id1887216745
+2024-03-16 19:55:50 [log]name:Wouldn’t Change A Thingid:1886440330
+2024-03-16 19:55:50 [log]发送弹幕：正在下载id1886-440330
+2024-03-16 19:55:52 [log]getting url:id1886440330
+2024-03-16 19:55:53 [log]kavencat：正在下载id1886-440330
+2024-03-16 19:55:53 [log]写入记录失败！
+2024-03-16 19:55:54 get info: Wouldn’t Change A Thing http://p1.music.126.net/EF81Bn6HIojDzH0lhWvHvw==/109951166513371218.jpg
+pic_urlhttp://p1.music.126.net/EF81Bn6HIojDzH0lhWvHvw==/109951166513371218.jpg
+can't sync to MPEG frame
+2024-03-16 19:55:54 [log]mp3时长:00:07:00
+2024-03-16 19:55:54 [log]发送弹幕：id1886-440330歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:55:56 [log]发送弹幕：放
+2024-03-16 19:55:57 [log]kavencat：id1886-440330歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:55:57 [log]写入记录失败！
+2024-03-16 19:55:57 [log]kavencat：放
+2024-03-16 19:55:57 [log]写入记录失败！
+2024-03-16 19:55:57 [log]delete/home/pi/live/downloads/1710590152.0.mp3
+2024-03-16 19:55:57 [log]1710590152.0.mp3文件删除成功！
+2024-03-16 19:55:57 [log]delete/home/pi/live/downloads/1710590152.0.ass
+2024-03-16 19:55:57 [log]delete error
+2024-03-16 19:55:57 [log]delete/home/pi/live/downloads/1710590152.0.info
+2024-03-16 19:55:57 [log]delete error
+2024-03-16 19:55:57 [log]delete/home/pi/live/downloads/1710590152.0.jpg
+2024-03-16 19:55:57 [log]1710590152.0.jpg文件删除成功！
+2024-03-16 19:55:57 [log]too long/too big,delete
+2024-03-16 19:55:57 [log]name:Listenid:453176145
+2024-03-16 19:55:58 [log]发送弹幕：正在下载id453176145
+2024-03-16 19:55:59 [log]当前人气值：1
+2024-03-16 19:55:59 [log]kavencat：正在下载id453176145
+2024-03-16 19:55:59 [log]写入记录失败！
+2024-03-16 19:55:59 [log]getting url:id453176145
+2024-03-16 19:56:01 get info: Listen http://p1.music.126.net/ef4_-UVy0tn8Nln6T0J0hw==/18764265441339024.jpg
+pic_urlhttp://p1.music.126.net/ef4_-UVy0tn8Nln6T0J0hw==/18764265441339024.jpg
+can't sync to MPEG frame
+2024-03-16 19:56:01 [log]mp3时长:00:07:00
+2024-03-16 19:56:02 [log]发送弹幕：id453176145歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:03 [log]delete/home/pi/live/downloads/1710590159.0.mp3
+2024-03-16 19:56:03 [log]1710590159.0.mp3文件删除成功！
+2024-03-16 19:56:03 [log]delete/home/pi/live/downloads/1710590159.0.ass
+2024-03-16 19:56:03 [log]delete error
+2024-03-16 19:56:03 [log]delete/home/pi/live/downloads/1710590159.0.info
+2024-03-16 19:56:03 [log]delete error
+2024-03-16 19:56:03 [log]delete/home/pi/live/downloads/1710590159.0.jpg
+2024-03-16 19:56:03 [log]1710590159.0.jpg文件删除成功！
+2024-03-16 19:56:03 [log]too long/too big,delete
+2024-03-16 19:56:03 [log]name:女子達id:41636930
+2024-03-16 19:56:04 [log]发送弹幕：正在下载id41636930
+2024-03-16 19:56:04 [log]kavencat：id453176145歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:04 [log]写入记录失败！
+2024-03-16 19:56:04 [log]kavencat：正在下载id41636930
+2024-03-16 19:56:04 [log]写入记录失败！
+2024-03-16 19:56:05 [log]getting url:id41636930
+2024-03-16 19:56:07 get info: 女子達 http://p2.music.126.net/Zw81uWcg7-_-pa9smWTq5Q==/109951163968502721.jpg
+pic_urlhttp://p2.music.126.net/Zw81uWcg7-_-pa9smWTq5Q==/109951163968502721.jpg
+can't sync to MPEG frame
+2024-03-16 19:56:07 [log]mp3时长:00:07:00
+2024-03-16 19:56:08 [log]发送弹幕：id41636930歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:09 [log]delete/home/pi/live/downloads/1710590165.0.mp3
+2024-03-16 19:56:09 [log]1710590165.0.mp3文件删除成功！
+2024-03-16 19:56:09 [log]delete/home/pi/live/downloads/1710590165.0.ass
+2024-03-16 19:56:09 [log]delete error
+2024-03-16 19:56:09 [log]delete/home/pi/live/downloads/1710590165.0.info
+2024-03-16 19:56:09 [log]delete error
+2024-03-16 19:56:09 [log]delete/home/pi/live/downloads/1710590165.0.jpg
+2024-03-16 19:56:09 [log]1710590165.0.jpg文件删除成功！
+2024-03-16 19:56:09 [log]too long/too big,delete
+2024-03-16 19:56:09 [log]name:预谋邂逅id:27501813
+2024-03-16 19:56:09 [log]发送弹幕：正在下载id27501813
+2024-03-16 19:56:10 [log]kavencat：id41636930歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:10 [log]写入记录失败！
+2024-03-16 19:56:10 [log]kavencat：正在下载id27501813
+2024-03-16 19:56:10 [log]写入记录失败！
+2024-03-16 19:56:11 [log]getting url:id27501813
+2024-03-16 19:56:13 get info: 预谋邂逅 http://p2.music.126.net/qIidLufYNrVLGh2ubQEumw==/109951166583511574.jpg
+pic_urlhttp://p2.music.126.net/qIidLufYNrVLGh2ubQEumw==/109951166583511574.jpg
+2024-03-16 19:56:13 [log]mp3时长:00:04:16
+2024-03-16 19:56:14 [log]发送弹幕：歌曲[预谋邂逅]下载完成，加入播放队列
+2024-03-16 19:56:16 [log]kavencat：歌曲[预谋邂逅]下载完成，加入播放队列
+2024-03-16 19:56:16 [log]写入记录失败！
+2024-03-16 19:56:20 [log]已添加排队项目：id27501813
+2024-03-16 19:56:20 [log]name:Peachesid:1885130650
+2024-03-16 19:56:21 [log]发送弹幕：正在下载id1885130650
+2024-03-16 19:56:23 [log]getting url:id1885130650
+2024-03-16 19:56:24 [log]kavencat：正在下载id1885130650
+2024-03-16 19:56:24 [log]写入记录失败！
+2024-03-16 19:56:25 get info: Peaches http://p1.music.126.net/SELca2rh7Y2jB_3Q_UyYqg==/109951166501256926.jpg
+pic_urlhttp://p1.music.126.net/SELca2rh7Y2jB_3Q_UyYqg==/109951166501256926.jpg
+can't sync to MPEG frame
+2024-03-16 19:56:25 [log]mp3时长:00:07:00
+2024-03-16 19:56:25 [log]发送弹幕：id1885130650歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:27 [log]delete/home/pi/live/downloads/1710590183.0.mp3
+2024-03-16 19:56:27 [log]1710590183.0.mp3文件删除成功！
+2024-03-16 19:56:27 [log]delete/home/pi/live/downloads/1710590183.0.ass
+2024-03-16 19:56:27 [log]delete error
+2024-03-16 19:56:27 [log]delete/home/pi/live/downloads/1710590183.0.info
+2024-03-16 19:56:27 [log]delete error
+2024-03-16 19:56:27 [log]delete/home/pi/live/downloads/1710590183.0.jpg
+2024-03-16 19:56:27 [log]1710590183.0.jpg文件删除成功！
+2024-03-16 19:56:27 [log]too long/too big,delete
+2024-03-16 19:56:27 [log]name:郭源潮id:477251491
+2024-03-16 19:56:27 [log]发送弹幕：正在下载id477251491
+2024-03-16 19:56:28 [log]kavencat：id1885130650歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:28 [log]写入记录失败！
+2024-03-16 19:56:28 [log]kavencat：正在下载id477251491
+2024-03-16 19:56:28 [log]写入记录失败！
+2024-03-16 19:56:29 [log]getting url:id477251491
+2024-03-16 19:56:29 [log]当前人气值：1
+2024-03-16 19:56:30 get info: 郭源潮 http://p1.music.126.net/GkeTNB4NaPDTHASyDyJ3FA==/18878614649031775.jpg
+pic_urlhttp://p1.music.126.net/GkeTNB4NaPDTHASyDyJ3FA==/18878614649031775.jpg
+2024-03-16 19:56:30 [log]mp3时长:00:07:26
+2024-03-16 19:56:31 [log]发送弹幕：id477251491歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:32 [log]delete/home/pi/live/downloads/1710590189.0.mp3
+2024-03-16 19:56:32 [log]1710590189.0.mp3文件删除成功！
+2024-03-16 19:56:32 [log]delete/home/pi/live/downloads/1710590189.0.ass
+2024-03-16 19:56:32 [log]delete error
+2024-03-16 19:56:32 [log]delete/home/pi/live/downloads/1710590189.0.info
+2024-03-16 19:56:32 [log]delete error
+2024-03-16 19:56:32 [log]delete/home/pi/live/downloads/1710590189.0.jpg
+2024-03-16 19:56:32 [log]1710590189.0.jpg文件删除成功！
+2024-03-16 19:56:32 [log]too long/too big,delete
+2024-03-16 19:56:32 [log]name:若你爱上油麻地id:430043357
+2024-03-16 19:56:33 [log]发送弹幕：正在下载id430043357
+2024-03-16 19:56:33 [log]kavencat：id477251491歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:33 [log]写入记录失败！
+2024-03-16 19:56:33 [log]kavencat：正在下载id430043357
+2024-03-16 19:56:33 [log]写入记录失败！
+2024-03-16 19:56:34 [log]getting url:id430043357
+2024-03-16 19:56:37 get info: 若你爱上油麻地 http://p2.music.126.net/bPoOwlDdL72AkXjYvj-3aQ==/18623527952064964.jpg
+pic_urlhttp://p2.music.126.net/bPoOwlDdL72AkXjYvj-3aQ==/18623527952064964.jpg
+2024-03-16 19:56:37 [log]mp3时长:00:05:06
+2024-03-16 19:56:37 [log]发送弹幕：歌曲[若你爱上油麻地]下载完成，加入播放队列
+2024-03-16 19:56:39 [log]kavencat：歌曲[若你爱上油麻地]下载完成，加入播放队列
+2024-03-16 19:56:39 [log]写入记录失败！
+2024-03-16 19:56:44 [log]已添加排队项目：id430043357
+2024-03-16 19:56:44 [log]name:Day 1 ◑id:547379788
+2024-03-16 19:56:44 [log]发送弹幕：正在下载id547379788
+2024-03-16 19:56:46 [log]getting url:id547379788
+2024-03-16 19:56:46 [log]kavencat：正在下载id547379788
+2024-03-16 19:56:46 [log]写入记录失败！
+2024-03-16 19:56:48 get info: Day 1 ◑ http://p1.music.126.net/2kdG9HD8iF7qG0CCrXUFsg==/109951163211589953.jpg
+pic_urlhttp://p1.music.126.net/2kdG9HD8iF7qG0CCrXUFsg==/109951163211589953.jpg
+can't sync to MPEG frame
+2024-03-16 19:56:48 [log]mp3时长:00:07:00
+2024-03-16 19:56:48 [log]发送弹幕：id547379788歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:50 [log]delete/home/pi/live/downloads/1710590206.0.mp3
+2024-03-16 19:56:50 [log]1710590206.0.mp3文件删除成功！
+2024-03-16 19:56:50 [log]delete/home/pi/live/downloads/1710590206.0.ass
+2024-03-16 19:56:50 [log]delete error
+2024-03-16 19:56:50 [log]delete/home/pi/live/downloads/1710590206.0.info
+2024-03-16 19:56:50 [log]delete error
+2024-03-16 19:56:50 [log]delete/home/pi/live/downloads/1710590206.0.jpg
+2024-03-16 19:56:50 [log]1710590206.0.jpg文件删除成功！
+2024-03-16 19:56:50 [log]too long/too big,delete
+2024-03-16 19:56:50 [log]name:猛犸id:27510434
+2024-03-16 19:56:50 [log]发送弹幕：正在下载id27510434
+2024-03-16 19:56:50 [log]kavencat：id547379788歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:56:50 [log]写入记录失败！
+2024-03-16 19:56:51 [log]getting url:id27510434
+2024-03-16 19:56:52 [log]kavencat：正在下载id27510434
+2024-03-16 19:56:52 [log]写入记录失败！
+2024-03-16 19:56:53 get info: 猛犸 http://p2.music.126.net/Il00DtS3hP6fahyVcc_quA==/1366692955577181.jpg
+pic_urlhttp://p2.music.126.net/Il00DtS3hP6fahyVcc_quA==/1366692955577181.jpg
+2024-03-16 19:56:53 [log]mp3时长:00:05:04
+2024-03-16 19:56:54 [log]发送弹幕：歌曲[猛犸]下载完成，加入播放队列
+2024-03-16 19:56:55 [log]kavencat：歌曲[猛犸]下载完成，加入播放队列
+2024-03-16 19:56:55 [log]写入记录失败！
+2024-03-16 19:56:59 [log]当前人气值：1
+2024-03-16 19:57:00 [log]已添加排队项目：id27510434
+2024-03-16 19:57:00 [log]name:群青讃歌id:1874743795
+2024-03-16 19:57:01 [log]发送弹幕：正在下载id1874743795
+2024-03-16 19:57:02 [log]getting url:id1874743795
+2024-03-16 19:57:03 [log]kavencat：正在下载id1874743795
+2024-03-16 19:57:03 [log]写入记录失败！
+2024-03-16 19:57:04 get info: 群青讃歌（群青赞歌） http://p1.music.126.net/z4B6g5j5hFaI7jl2CJP2bA==/109951166348993031.jpg
+pic_urlhttp://p1.music.126.net/z4B6g5j5hFaI7jl2CJP2bA==/109951166348993031.jpg
+can't sync to MPEG frame
+2024-03-16 19:57:04 [log]mp3时长:00:07:00
+2024-03-16 19:57:05 [log]发送弹幕：id1874743795歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:06 [log]delete/home/pi/live/downloads/1710590222.0.mp3
+2024-03-16 19:57:06 [log]1710590222.0.mp3文件删除成功！
+2024-03-16 19:57:06 [log]delete/home/pi/live/downloads/1710590222.0.ass
+2024-03-16 19:57:06 [log]delete error
+2024-03-16 19:57:06 [log]delete/home/pi/live/downloads/1710590222.0.info
+2024-03-16 19:57:06 [log]delete error
+2024-03-16 19:57:06 [log]delete/home/pi/live/downloads/1710590222.0.jpg
+2024-03-16 19:57:06 [log]1710590222.0.jpg文件删除成功！
+2024-03-16 19:57:06 [log]too long/too big,delete
+2024-03-16 19:57:06 [log]name:ドラマツルギー (Live Film ver.)id:1874743799
+2024-03-16 19:57:07 [log]发送弹幕：正在下载id1874743799
+2024-03-16 19:57:07 [log]kavencat：id1874743795歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:07 [log]写入记录失败！
+2024-03-16 19:57:07 [log]kavencat：正在下载id1874743799
+2024-03-16 19:57:07 [log]写入记录失败！
+2024-03-16 19:57:08 [log]getting url:id1874743799
+2024-03-16 19:57:10 get info: ドラマツルギー (Live Film ver.) http://p2.music.126.net/z4B6g5j5hFaI7jl2CJP2bA==/109951166348993031.jpg
+pic_urlhttp://p2.music.126.net/z4B6g5j5hFaI7jl2CJP2bA==/109951166348993031.jpg
+can't sync to MPEG frame
+2024-03-16 19:57:10 [log]mp3时长:00:07:00
+2024-03-16 19:57:11 [log]发送弹幕：id1874743799歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:12 [log]kavencat：id1874743799歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:12 [log]写入记录失败！
+2024-03-16 19:57:12 [log]delete/home/pi/live/downloads/1710590228.0.mp3
+2024-03-16 19:57:12 [log]1710590228.0.mp3文件删除成功！
+2024-03-16 19:57:12 [log]delete/home/pi/live/downloads/1710590228.0.ass
+2024-03-16 19:57:12 [log]delete error
+2024-03-16 19:57:12 [log]delete/home/pi/live/downloads/1710590228.0.info
+2024-03-16 19:57:12 [log]delete error
+2024-03-16 19:57:12 [log]delete/home/pi/live/downloads/1710590228.0.jpg
+2024-03-16 19:57:12 [log]1710590228.0.jpg文件删除成功！
+2024-03-16 19:57:12 [log]too long/too big,delete
+2024-03-16 19:57:12 [log]name:有你的快乐id:5239544
+2024-03-16 19:57:12 [log]发送弹幕：正在下载id5239544
+2024-03-16 19:57:14 [log]getting url:id5239544
+2024-03-16 19:57:15 [log]kavencat：正在下载id5239544
+2024-03-16 19:57:15 [log]写入记录失败！
+2024-03-16 19:57:16 get info: 有你的快乐（原曲：Lost in Paradise） http://p1.music.126.net/Y_Z9lNHta4TZ80VgEUkMRA==/109951165641468578.jpg
+pic_urlhttp://p1.music.126.net/Y_Z9lNHta4TZ80VgEUkMRA==/109951165641468578.jpg
+2024-03-16 19:57:16 [log]mp3时长:00:03:17
+2024-03-16 19:57:16 [log]发送弹幕：歌曲[有你的快乐（原曲：Lost in Paradise）]
+2024-03-16 19:57:18 [log]发送弹幕：下载完成，加入播放队列
+2024-03-16 19:57:18 [log]kavencat：歌曲[有你的快乐（原曲：Lost in Paradise）]
+2024-03-16 19:57:18 [log]写入记录失败！
+2024-03-16 19:57:18 [log]kavencat：下载完成，加入播放队列
+2024-03-16 19:57:18 [log]写入记录失败！
+2024-03-16 19:57:24 [log]已添加排队项目：id5239544
+2024-03-16 19:57:24 [log]name:找自己id:150617
+2024-03-16 19:57:25 [log]发送弹幕：正在下载id150617
+2024-03-16 19:57:26 [log]getting url:id150617
+2024-03-16 19:57:26 [log]kavencat：正在下载id150617
+2024-03-16 19:57:26 [log]写入记录失败！
+2024-03-16 19:57:28 get info: 找自己 http://p2.music.126.net/tMQXBMTy8pGjGggX1j0YNQ==/109951169389595068.jpg
+pic_urlhttp://p2.music.126.net/tMQXBMTy8pGjGggX1j0YNQ==/109951169389595068.jpg
+can't sync to MPEG frame
+2024-03-16 19:57:28 [log]mp3时长:00:07:00
+2024-03-16 19:57:29 [log]当前人气值：1
+2024-03-16 19:57:29 [log]发送弹幕：id150617歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:30 [log]kavencat：id150617歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:57:30 [log]写入记录失败！
+2024-03-16 19:57:30 [log]delete/home/pi/live/downloads/1710590246.0.mp3
+2024-03-16 19:57:30 [log]1710590246.0.mp3文件删除成功！
+2024-03-16 19:57:30 [log]delete/home/pi/live/downloads/1710590246.0.ass
+2024-03-16 19:57:30 [log]delete error
+2024-03-16 19:57:30 [log]delete/home/pi/live/downloads/1710590246.0.info
+2024-03-16 19:57:30 [log]delete error
+2024-03-16 19:57:30 [log]delete/home/pi/live/downloads/1710590246.0.jpg
+2024-03-16 19:57:30 [log]1710590246.0.jpg文件删除成功！
+2024-03-16 19:57:30 [log]too long/too big,delete
+2024-03-16 19:57:30 [log]name:山雀id:1805289414
+2024-03-16 19:57:31 [log]发送弹幕：正在下载id180528-9414
+2024-03-16 19:57:32 [log]getting url:id1805289414
+2024-03-16 19:57:33 [log]kavencat：正在下载id180528-9414
+2024-03-16 19:57:33 [log]写入记录失败！
+2024-03-16 19:57:34 get info: 山雀 http://p1.music.126.net/aEehIWg8Qk5DXLGf0XZHqw==/109951166554891221.jpg
+pic_urlhttp://p1.music.126.net/aEehIWg8Qk5DXLGf0XZHqw==/109951166554891221.jpg
+can't sync to MPEG frame
+2024-03-16 19:57:34 [log]mp3时长:00:07:00
+2024-03-16 19:57:35 [log]发送弹幕：id180528-9414歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:57:37 [log]发送弹幕：放
+2024-03-16 19:57:37 [log]kavencat：id180528-9414歌曲时长超7分钟或小于30秒不予播
+2024-03-16 19:57:37 [log]写入记录失败！
+2024-03-16 19:57:37 [log]kavencat：放
+2024-03-16 19:57:37 [log]写入记录失败！
+2024-03-16 19:57:38 [log]delete/home/pi/live/downloads/1710590252.0.mp3
+2024-03-16 19:57:38 [log]1710590252.0.mp3文件删除成功！
+2024-03-16 19:57:38 [log]delete/home/pi/live/downloads/1710590252.0.ass
+2024-03-16 19:57:38 [log]delete error
+2024-03-16 19:57:38 [log]delete/home/pi/live/downloads/1710590252.0.info
+2024-03-16 19:57:38 [log]delete error
+2024-03-16 19:57:38 [log]delete/home/pi/live/downloads/1710590252.0.jpg
+2024-03-16 19:57:38 [log]1710590252.0.jpg文件删除成功！
+2024-03-16 19:57:38 [log]too long/too big,delete
+2024-03-16 19:57:38 [log]name:After Allid:1880334988
+2024-03-16 19:57:39 [log]发送弹幕：正在下载id1880334988
+2024-03-16 19:57:40 [log]getting url:id1880334988
+2024-03-16 19:57:41 [log]kavencat：正在下载id1880334988
+2024-03-16 19:57:41 [log]写入记录失败！
+2024-03-16 19:57:42 get info: After All http://p2.music.126.net/T7FHDU5eQireDDKh_YZZig==/109951166445965299.jpg
+pic_urlhttp://p2.music.126.net/T7FHDU5eQireDDKh_YZZig==/109951166445965299.jpg
+2024-03-16 19:57:42 [log]mp3时长:00:03:28
+2024-03-16 19:57:42 [log]发送弹幕：歌曲[After All]下载完成，加入播放队列
+2024-03-16 19:57:44 [log]kavencat：歌曲[After All]下载完成，加入播放队列
+2024-03-16 19:57:44 [log]写入记录失败！
+2024-03-16 19:57:49 [log]已添加排队项目：id1880334988
+2024-03-16 19:57:49 [log]name:新娘阿花id:1386737233
+2024-03-16 19:57:49 [log]发送弹幕：正在下载id1386737233
+2024-03-16 19:57:51 [log]getting url:id1386737233
+2024-03-16 19:57:51 [log]kavencat：正在下载id1386737233
+2024-03-16 19:57:51 [log]写入记录失败！
+2024-03-16 19:57:52 get info: 新娘阿花 http://p1.music.126.net/piWVR_rqT_NKZju4xats6g==/109951167796976064.jpg
+pic_urlhttp://p1.music.126.net/piWVR_rqT_NKZju4xats6g==/109951167796976064.jpg
+2024-03-16 19:57:52 [log]mp3时长:00:04:13
+2024-03-16 19:57:53 [log]发送弹幕：歌曲[新娘阿花]下载完成，加入播放队列
+2024-03-16 19:57:55 [log]kavencat：歌曲[新娘阿花]下载完成，加入播放队列
+2024-03-16 19:57:55 [log]写入记录失败！
+2024-03-16 19:57:59 [log]当前人气值：1
+2024-03-16 19:57:59 [log]已添加排队项目：id1386737233
+2024-03-16 19:57:59 [log]name:唯一id:1807799505
+2024-03-16 19:58:00 [log]发送弹幕：正在下载id1807799505
+2024-03-16 19:58:01 [log]getting url:id1807799505
+2024-03-16 19:58:01 [log]kavencat：正在下载id1807799505
+2024-03-16 19:58:01 [log]写入记录失败！
+2024-03-16 19:58:03 get info: 唯一 http://p1.music.126.net/5URIeP6GjMFg_hKhGloNTA==/109951165585701063.jpg
+pic_urlhttp://p1.music.126.net/5URIeP6GjMFg_hKhGloNTA==/109951165585701063.jpg
+can't sync to MPEG frame
+2024-03-16 19:58:03 [log]mp3时长:00:07:00
+2024-03-16 19:58:04 [log]发送弹幕：id1807799505歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:58:05 [log]delete/home/pi/live/downloads/1710590281.0.mp3
+2024-03-16 19:58:05 [log]1710590281.0.mp3文件删除成功！
+2024-03-16 19:58:05 [log]delete/home/pi/live/downloads/1710590281.0.ass
+2024-03-16 19:58:05 [log]delete error
+2024-03-16 19:58:05 [log]delete/home/pi/live/downloads/1710590281.0.info
+2024-03-16 19:58:05 [log]delete error
+2024-03-16 19:58:05 [log]delete/home/pi/live/downloads/1710590281.0.jpg
+2024-03-16 19:58:05 [log]1710590281.0.jpg文件删除成功！
+2024-03-16 19:58:05 [log]too long/too big,delete
+2024-03-16 19:58:05 [log]name:零几年听的情歌id:1415829224
+2024-03-16 19:58:05 [log]kavencat：id1807799505歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:58:05 [log]写入记录失败！
+2024-03-16 19:58:05 [log]发送弹幕：正在下载id1415829224
+2024-03-16 19:58:07 [log]getting url:id1415829224
+2024-03-16 19:58:08 [log]kavencat：正在下载id1415829224
+2024-03-16 19:58:08 [log]写入记录失败！
+2024-03-16 19:58:09 get info: 零几年听的情歌 http://p2.music.126.net/zt4AdUaoa3Pow8rjSpdBsA==/109951164616603260.jpg
+pic_urlhttp://p2.music.126.net/zt4AdUaoa3Pow8rjSpdBsA==/109951164616603260.jpg
+can't sync to MPEG frame
+2024-03-16 19:58:09 [log]mp3时长:00:07:00
+2024-03-16 19:58:10 [log]发送弹幕：id1415829224歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:58:11 [log]delete/home/pi/live/downloads/1710590287.0.mp3
+2024-03-16 19:58:11 [log]1710590287.0.mp3文件删除成功！
+2024-03-16 19:58:11 [log]delete/home/pi/live/downloads/1710590287.0.ass
+2024-03-16 19:58:11 [log]delete error
+2024-03-16 19:58:11 [log]delete/home/pi/live/downloads/1710590287.0.info
+2024-03-16 19:58:11 [log]delete error
+2024-03-16 19:58:11 [log]delete/home/pi/live/downloads/1710590287.0.jpg
+2024-03-16 19:58:11 [log]1710590287.0.jpg文件删除成功！
+2024-03-16 19:58:11 [log]too long/too big,delete
+2024-03-16 19:58:11 [log]name:玫瑰往事id:1368563262
+2024-03-16 19:58:12 [log]kavencat：id1415829224歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:58:12 [log]写入记录失败！
+2024-03-16 19:58:13 [log]发送弹幕：正在下载id1368563262
+2024-03-16 19:58:15 [log]getting url:id1368563262
+2024-03-16 19:58:16 [log]kavencat：正在下载id1368563262
+2024-03-16 19:58:16 [log]写入记录失败！
+2024-03-16 19:58:16 get info: 玫瑰往事 http://p1.music.126.net/NtuVzQnYYRay2gycgzSIqQ==/109951164109577025.jpg
+pic_urlhttp://p1.music.126.net/NtuVzQnYYRay2gycgzSIqQ==/109951164109577025.jpg
+2024-03-16 19:58:17 [log]mp3时长:00:03:27
+2024-03-16 19:58:17 [log]发送弹幕：歌曲[玫瑰往事]下载完成，加入播放队列
+2024-03-16 19:58:18 [log]kavencat：歌曲[玫瑰往事]下载完成，加入播放队列
+2024-03-16 19:58:18 [log]写入记录失败！
+2024-03-16 19:58:23 [log]已添加排队项目：id1368563262
+2024-03-16 19:58:23 [log]name:你永远是我的宝贝，宝贝id:1854105063
+2024-03-16 19:58:24 [log]发送弹幕：正在下载id1854105063
+2024-03-16 19:58:25 [log]getting url:id1854105063
+2024-03-16 19:58:26 [log]kavencat：正在下载id1854105063
+2024-03-16 19:58:26 [log]写入记录失败！
+2024-03-16 19:58:27 get info: 你永远是我的宝贝，宝贝 http://p2.music.126.net/H9g5VjEOIZE_akV-JsH_6Q==/109951166095764702.jpg
+pic_urlhttp://p2.music.126.net/H9g5VjEOIZE_akV-JsH_6Q==/109951166095764702.jpg
+2024-03-16 19:58:27 [log]mp3时长:00:05:24
+2024-03-16 19:58:27 [log]发送弹幕：歌曲[你永远是我的宝贝，宝贝]下载完成，加入播放队列
+2024-03-16 19:58:29 [log]当前人气值：1
+2024-03-16 19:58:30 [log]kavencat：歌曲[你永远是我的宝贝，宝贝]下载完成，加入播放队列
+2024-03-16 19:58:30 [log]写入记录失败！
+2024-03-16 19:58:34 [log]已添加排队项目：id1854105063
+2024-03-16 19:58:34 [log]name:声声慢 (京韵版)id:1485850351
+2024-03-16 19:58:34 [log]发送弹幕：正在下载id1485850351
+2024-03-16 19:58:36 [log]getting url:id1485850351
+2024-03-16 19:58:36 [log]kavencat：正在下载id1485850351
+2024-03-16 19:58:36 [log]写入记录失败！
+2024-03-16 19:58:38 get info: 声声慢 (京韵版)（不曾遗忘的符号） http://p2.music.126.net/0X0cvRif6qa0AE-yBibf7g==/109951165379412073.jpg
+pic_urlhttp://p2.music.126.net/0X0cvRif6qa0AE-yBibf7g==/109951165379412073.jpg
+2024-03-16 19:58:38 [log]mp3时长:00:04:25
+2024-03-16 19:58:38 [log]发送弹幕：歌曲[声声慢 (京韵版)（不曾遗忘的符号）]下载完成，加入播
+2024-03-16 19:58:40 [log]发送弹幕：放队列
+2024-03-16 19:58:40 [log]kavencat：歌曲[声声慢 (京韵版)（不曾遗忘的符号）]下载完成，加入播
+2024-03-16 19:58:40 [log]写入记录失败！
+2024-03-16 19:58:40 [log]kavencat：放队列
+2024-03-16 19:58:40 [log]写入记录失败！
+2024-03-16 19:58:47 [log]已添加排队项目：id1485850351
+2024-03-16 19:58:47 [log]name:萱草花id:1822761395
+2024-03-16 19:58:47 [log]发送弹幕：正在下载id1822761395
+2024-03-16 19:58:49 [log]getting url:id1822761395
+2024-03-16 19:58:49 [log]kavencat：正在下载id1822761395
+2024-03-16 19:58:49 [log]写入记录失败！
+2024-03-16 19:58:50 get info: 萱草花（电影《你好，李焕英》主题曲） http://p1.music.126.net/MPG9irW58KM9lzXrtcVTNQ==/109951165776901724.jpg
+pic_urlhttp://p1.music.126.net/MPG9irW58KM9lzXrtcVTNQ==/109951165776901724.jpg
+2024-03-16 19:58:51 [log]mp3时长:00:04:39
+2024-03-16 19:58:51 [log]发送弹幕：歌曲[萱草花（电影《你好，李焕英》主题曲）]下载完成，加入播
+2024-03-16 19:58:53 [log]发送弹幕：放队列
+2024-03-16 19:58:53 [log]kavencat：歌曲[萱草花（电影《你好，李焕英》主题曲）]下载完成，加入播
+2024-03-16 19:58:53 [log]写入记录失败！
+2024-03-16 19:58:53 [log]kavencat：放队列
+2024-03-16 19:58:53 [log]写入记录失败！
+2024-03-16 19:58:59 [log]当前人气值：1
+2024-03-16 19:58:59 [log]已添加排队项目：id1822761395
+2024-03-16 19:58:59 [log]name:亲戚id:1823021007
+2024-03-16 19:59:00 [log]发送弹幕：正在下载id1823021007
+2024-03-16 19:59:01 [log]getting url:id1823021007
+2024-03-16 19:59:01 [log]kavencat：正在下载id1823021007
+2024-03-16 19:59:01 [log]写入记录失败！
+2024-03-16 19:59:03 get info: 亲戚 http://p1.music.126.net/s1pr9R7jJnFbmeNSilkSqQ==/109951165759204679.jpg
+pic_urlhttp://p1.music.126.net/s1pr9R7jJnFbmeNSilkSqQ==/109951165759204679.jpg
+can't sync to MPEG frame
+2024-03-16 19:59:03 [log]mp3时长:00:07:00
+2024-03-16 19:59:04 [log]发送弹幕：id1823021007歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:05 [log]kavencat：id1823021007歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:05 [log]写入记录失败！
+2024-03-16 19:59:05 [log]delete/home/pi/live/downloads/1710590341.0.mp3
+2024-03-16 19:59:05 [log]1710590341.0.mp3文件删除成功！
+2024-03-16 19:59:05 [log]delete/home/pi/live/downloads/1710590341.0.ass
+2024-03-16 19:59:05 [log]delete error
+2024-03-16 19:59:05 [log]delete/home/pi/live/downloads/1710590341.0.info
+2024-03-16 19:59:05 [log]delete error
+2024-03-16 19:59:05 [log]delete/home/pi/live/downloads/1710590341.0.jpg
+2024-03-16 19:59:05 [log]1710590341.0.jpg文件删除成功！
+2024-03-16 19:59:05 [log]too long/too big,delete
+2024-03-16 19:59:05 [log]name:1376心想事成id:1817469683
+2024-03-16 19:59:06 [log]发送弹幕：正在下载id1817469683
+2024-03-16 19:59:07 [log]getting url:id1817469683
+2024-03-16 19:59:08 [log]kavencat：正在下载id1817469683
+2024-03-16 19:59:08 [log]写入记录失败！
+2024-03-16 19:59:09 get info: 1376心想事成 http://p2.music.126.net/MYhCa3q7mupKZv2fXY3OYg==/109951165710053159.jpg
+pic_urlhttp://p2.music.126.net/MYhCa3q7mupKZv2fXY3OYg==/109951165710053159.jpg
+2024-03-16 19:59:09 [log]mp3时长:00:04:07
+2024-03-16 19:59:09 [log]发送弹幕：歌曲[1376心想事成]下载完成，加入播放队列
+2024-03-16 19:59:12 [log]kavencat：歌曲[1376心想事成]下载完成，加入播放队列
+2024-03-16 19:59:12 [log]写入记录失败！
+2024-03-16 19:59:16 [log]已添加排队项目：id1817469683
+2024-03-16 19:59:16 [log]name:我们万岁id:1323304980
+2024-03-16 19:59:16 [log]发送弹幕：正在下载id1323304980
+2024-03-16 19:59:18 [log]getting url:id1323304980
+2024-03-16 19:59:18 [log]kavencat：正在下载id1323304980
+2024-03-16 19:59:18 [log]写入记录失败！
+2024-03-16 19:59:20 get info: 我们万岁 http://p1.music.126.net/n8objKMAfyw-cotbj9CmQw==/109951163676240009.jpg
+pic_urlhttp://p1.music.126.net/n8objKMAfyw-cotbj9CmQw==/109951163676240009.jpg
+can't sync to MPEG frame
+2024-03-16 19:59:20 [log]mp3时长:00:07:00
+2024-03-16 19:59:20 [log]发送弹幕：id1323304980歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:22 [log]delete/home/pi/live/downloads/1710590358.0.mp3
+2024-03-16 19:59:22 [log]1710590358.0.mp3文件删除成功！
+2024-03-16 19:59:22 [log]delete/home/pi/live/downloads/1710590358.0.ass
+2024-03-16 19:59:22 [log]delete error
+2024-03-16 19:59:22 [log]delete/home/pi/live/downloads/1710590358.0.info
+2024-03-16 19:59:22 [log]delete error
+2024-03-16 19:59:22 [log]delete/home/pi/live/downloads/1710590358.0.jpg
+2024-03-16 19:59:22 [log]1710590358.0.jpg文件删除成功！
+2024-03-16 19:59:22 [log]too long/too big,delete
+2024-03-16 19:59:22 [log]name:星辰大海id:1811921555
+2024-03-16 19:59:22 [log]kavencat：id1323304980歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:22 [log]写入记录失败！
+2024-03-16 19:59:22 [log]发送弹幕：正在下载id1811921555
+2024-03-16 19:59:24 [log]getting url:id1811921555
+2024-03-16 19:59:25 [log]kavencat：正在下载id1811921555
+2024-03-16 19:59:25 [log]写入记录失败！
+2024-03-16 19:59:26 get info: 星辰大海 http://p2.music.126.net/0mRcGJSq93o83Q32i7EuIw==/109951167277470394.jpg
+pic_urlhttp://p2.music.126.net/0mRcGJSq93o83Q32i7EuIw==/109951167277470394.jpg
+can't sync to MPEG frame
+2024-03-16 19:59:26 [log]mp3时长:00:07:00
+2024-03-16 19:59:26 [log]发送弹幕：id1811921555歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:28 [log]delete/home/pi/live/downloads/1710590364.0.mp3
+2024-03-16 19:59:28 [log]1710590364.0.mp3文件删除成功！
+2024-03-16 19:59:28 [log]delete/home/pi/live/downloads/1710590364.0.ass
+2024-03-16 19:59:28 [log]delete error
+2024-03-16 19:59:28 [log]delete/home/pi/live/downloads/1710590364.0.info
+2024-03-16 19:59:28 [log]delete error
+2024-03-16 19:59:28 [log]delete/home/pi/live/downloads/1710590364.0.jpg
+2024-03-16 19:59:28 [log]1710590364.0.jpg文件删除成功！
+2024-03-16 19:59:28 [log]too long/too big,delete
+2024-03-16 19:59:28 [log]name:平凡的一天id:569214247
+2024-03-16 19:59:28 [log]发送弹幕：正在下载id569214247
+2024-03-16 19:59:28 [log]kavencat：id1811921555歌曲时长超7分钟或小于30秒不予播放
+2024-03-16 19:59:28 [log]写入记录失败！
+2024-03-16 19:59:28 [log]kavencat：正在下载id569214247
+2024-03-16 19:59:28 [log]写入记录失败！
+2024-03-16 19:59:29 [log]当前人气值：1
+2024-03-16 19:59:29 [log]getting url:id569214247
+2024-03-16 19:59:31 get info: 平凡的一天 http://p2.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg
+pic_urlhttp://p2.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg
+2024-03-16 19:59:31 [log]mp3时长:00:04:36
+2024-03-16 19:59:31 [log]发送弹幕：歌曲[平凡的一天]下载完成，加入播放队列
+2024-03-16 19:59:34 [log]kavencat：歌曲[平凡的一天]下载完成，加入播放队列
+2024-03-16 19:59:34 [log]写入记录失败！
+2024-03-16 19:59:38 [log]已添加排队项目：id569214247
+2024-03-16 19:59:38 [log]name:逛id:1812235233
+2024-03-16 19:59:38 [log]发送弹幕：正在下载id1812235233
+2024-03-16 19:59:40 [log]getting url:id1812235233
+2024-03-16 19:59:40 [log]kavencat：正在下载id1812235233
+2024-03-16 19:59:40 [log]写入记录失败！
+2024-03-16 19:59:42 get info: 逛 http://p1.music.126.net/r2mxkOxzswsInf3KItCa4Q==/109951165639888572.jpg
+pic_urlhttp://p1.music.126.net/r2mxkOxzswsInf3KItCa4Q==/109951165639888572.jpg
+2024-03-16 19:59:42 [log]mp3时长:00:03:39
+2024-03-16 19:59:42 [log]发送弹幕：歌曲[逛]下载完成，加入播放队列
+2024-03-16 19:59:44 [log]kavencat：歌曲[逛]下载完成，加入播放队列
+2024-03-16 19:59:44 [log]写入记录失败！
+2024-03-16 19:59:49 [log]已添加排队项目：id1812235233
+2024-03-16 19:59:49 [log]name:是你想成为的大人吗id:1479706965
+2024-03-16 19:59:49 [log]发送弹幕：正在下载id1479706965
+2024-03-16 19:59:50 [log]getting url:id1479706965
+2024-03-16 19:59:51 [log]kavencat：正在下载id1479706965
+2024-03-16 19:59:51 [log]写入记录失败！
+2024-03-16 19:59:52 get info: 是你想成为的大人吗 http://p1.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg
+pic_urlhttp://p1.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg
+2024-03-16 19:59:52 [log]mp3时长:00:05:31
+2024-03-16 19:59:53 [log]发送弹幕：歌曲[是你想成为的大人吗]下载完成，加入播放队列
+2024-03-16 19:59:54 [log]kavencat：歌曲[是你想成为的大人吗]下载完成，加入播放队列
+2024-03-16 19:59:54 [log]写入记录失败！
+2024-03-16 19:59:59 [log]当前人气值：1
+2024-03-16 19:59:59 [log]已添加排队项目：id1479706965
+2024-03-16 19:59:59 [log]name:Opalineid:1451335145
+2024-03-16 19:59:59 [log]发送弹幕：正在下载id1451335145
+2024-03-16 20:00:01 [log]getting url:id1451335145
+2024-03-16 20:00:01 [log]kavencat：正在下载id1451335145
+2024-03-16 20:00:01 [log]写入记录失败！
+2024-03-16 20:00:03 get info: Opaline http://p2.music.126.net/JCJRrGH_KjO2p43eK-tREg==/109951165092772805.jpg
+pic_urlhttp://p2.music.126.net/JCJRrGH_KjO2p43eK-tREg==/109951165092772805.jpg
+2024-03-16 20:00:03 [log]mp3时长:00:03:12
+2024-03-16 20:00:03 [log]发送弹幕：歌曲[Opaline]下载完成，加入播放队列
+2024-03-16 20:00:05 [log]kavencat：歌曲[Opaline]下载完成，加入播放队列
+2024-03-16 20:00:05 [log]写入记录失败！
+2024-03-16 20:00:10 [log]已添加排队项目：id1451335145
+2024-03-16 20:00:10 [log]name:I Feel Betterid:1451335146
+2024-03-16 20:00:10 [log]发送弹幕：正在下载id1451335146
+2024-03-16 20:00:11 [log]kavencat：正在下载id1451335146
+2024-03-16 20:00:11 [log]写入记录失败！
+2024-03-16 20:00:11 [log]getting url:id1451335146
+2024-03-16 20:00:13 get info: I Feel Better http://p1.music.126.net/JCJRrGH_KjO2p43eK-tREg==/109951165092772805.jpg
+pic_urlhttp://p1.music.126.net/JCJRrGH_KjO2p43eK-tREg==/109951165092772805.jpg
+2024-03-16 20:00:13 [log]mp3时长:00:02:48
+2024-03-16 20:00:14 [log]发送弹幕：歌曲[I Feel Better]下载完成，加入播放队列
+2024-03-16 20:00:15 [log]kavencat：歌曲[I Feel Better]下载完成，加入播放队列
+2024-03-16 20:00:15 [log]写入记录失败！
+2024-03-16 20:00:20 [log]已添加排队项目：id1451335146
+2024-03-16 20:00:20 [log]name:Decimalid:1451333307
+2024-03-16 20:00:21 [log]发送弹幕：目前点播数量已经超过最多点播数量，暂不接受点播……
+2024-03-16 20:00:23 [log]kavencat：目前点播数量已经超过最多点播数量，暂不接受点播……
+2024-03-16 20:00:23 [log]写入记录失败！
+2024-03-16 20:00:29 [log]当前人气值：1
+2024-03-16 20:00:59 [log]当前人气值：1
+2024-03-16 20:01:29 [log]当前人气值：1
+2024-03-16 20:01:59 [log]当前人气值：1
+2024-03-16 20:02:29 [log]当前人气值：1
+2024-03-16 20:02:59 [log]当前人气值：1
+2024-03-16 20:03:29 [log]当前人气值：1
+2024-03-16 20:03:59 [log]当前人气值：1
+2024-03-16 20:04:29 [log]当前人气值：1
+2024-03-16 20:04:59 [log]当前人气值：1
+2024-03-16 20:05:29 [log]当前人气值：1
+2024-03-16 20:05:59 [log]当前人气值：1
+2024-03-16 20:06:29 [log]当前人气值：1
+2024-03-16 20:06:59 [log]当前人气值：1
+2024-03-16 20:07:29 [log]当前人气值：1
+2024-03-16 20:07:59 [log]当前人气值：1
+2024-03-16 20:08:29 [log]当前人气值：1
+2024-03-16 20:08:59 [log]当前人气值：1
+2024-03-16 20:09:29 [log]当前人气值：1
+2024-03-16 20:09:59 [log]当前人气值：1
+2024-03-16 20:10:29 [log]当前人气值：1
+2024-03-16 20:10:59 [log]当前人气值：1
+2024-03-16 20:11:29 [log]当前人气值：1
+2024-03-16 20:11:59 [log]当前人气值：1
+2024-03-16 20:12:29 [log]当前人气值：1
+2024-03-16 20:12:59 [log]当前人气值：1
+2024-03-16 20:13:29 [log]当前人气值：1
+2024-03-16 20:13:59 [log]当前人气值：1
+2024-03-16 20:14:29 [log]当前人气值：1
+2024-03-16 20:14:59 [log]当前人气值：1
+2024-03-16 20:15:29 [log]当前人气值：1
+2024-03-16 20:15:59 [log]当前人气值：1
+2024-03-16 20:16:29 [log]当前人气值：1
+2024-03-16 20:16:59 [log]当前人气值：1
+2024-03-16 20:17:29 [log]当前人气值：1
+2024-03-16 20:17:59 [log]当前人气值：1
+2024-03-16 20:18:29 [log]当前人气值：1
+2024-03-16 20:18:59 [log]当前人气值：1
+2024-03-16 20:19:29 [log]当前人气值：1
+2024-03-16 20:19:59 [log]当前人气值：1
+room=3702914 unknown cmd=COMMON_NOTICE_DANMAKU, command={'cmd': 'COMMON_NOTICE_DANMAKU', 'data': {'content_segments': [{'background_color': None, 'background_color_dark': None, 'font_bold': False, 'font_color': '#FB7299', 'font_color_dark': '', 'highlight_font_color': '', 'highlight_font_color_dark': '', 'img_height': 0, 'img_url': '', 'img_width': 0, 'text': '高能单项赛限时任务：任务即将结束，抓紧完成获取2000金仓鼠奖励吧！未完成任务将无法获得奖励', 'type': 1}], 'danmaku_style': {'background_color': None, 'background_color_dark': None}, 'dmscore': 1008, 'terminals': [1, 2, 3, 4, 5]}}
+2024-03-16 20:20:29 [log]当前人气值：1
+2024-03-16 20:20:59 [log]当前人气值：1
+2024-03-16 20:21:29 [log]当前人气值：1
+2024-03-16 20:21:59 [log]当前人气值：1
+2024-03-16 20:22:29 [log]当前人气值：1
+2024-03-16 20:22:59 [log]当前人气值：1
+2024-03-16 20:23:29 [log]当前人气值：1
+2024-03-16 20:23:59 [log]当前人气值：1
+2024-03-16 20:24:29 [log]当前人气值：1
+2024-03-16 20:24:59 [log]当前人气值：1
+2024-03-16 20:25:29 [log]当前人气值：1
+2024-03-16 20:25:59 [log]当前人气值：1
+2024-03-16 20:26:29 [log]当前人气值：1
+2024-03-16 20:26:59 [log]当前人气值：1
+2024-03-16 20:27:29 [log]当前人气值：1
+2024-03-16 20:27:59 [log]当前人气值：1
+2024-03-16 20:28:29 [log]当前人气值：1
+2024-03-16 20:28:59 [log]当前人气值：1
+2024-03-16 20:29:29 [log]当前人气值：1
+2024-03-16 20:29:59 [log]当前人气值：1
+2024-03-16 20:30:29 [log]当前人气值：1
+2024-03-16 20:30:59 [log]当前人气值：1
+2024-03-16 20:31:29 [log]当前人气值：1
+2024-03-16 20:31:59 [log]当前人气值：1
+2024-03-16 20:32:29 [log]当前人气值：1
+2024-03-16 20:32:59 [log]当前人气值：1
+2024-03-16 20:33:29 [log]当前人气值：1
+2024-03-16 20:33:59 [log]当前人气值：1
+2024-03-16 20:34:29 [log]当前人气值：1
+2024-03-16 20:34:59 [log]当前人气值：1
+2024-03-16 20:35:29 [log]当前人气值：1
+2024-03-16 20:35:59 [log]当前人气值：1
+2024-03-16 20:36:29 [log]当前人气值：1
+2024-03-16 20:36:59 [log]当前人气值：1
+2024-03-16 20:37:29 [log]当前人气值：1
+2024-03-16 20:37:59 [log]当前人气值：1
+2024-03-16 20:38:29 [log]当前人气值：1
+2024-03-16 20:38:59 [log]当前人气值：1
+2024-03-16 20:39:29 [log]当前人气值：1
+2024-03-16 20:39:59 [log]当前人气值：1
+2024-03-16 20:40:29 [log]当前人气值：1
+2024-03-16 20:40:59 [log]当前人气值：1
+2024-03-16 20:41:29 [log]当前人气值：1
+2024-03-16 20:41:59 [log]当前人气值：1
+2024-03-16 20:42:17 [log]听众[新-人类] 进入直播……
+2024-03-16 20:42:18 [log]发送弹幕：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-16 20:42:20 [log]kavencat：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-16 20:42:20 [log]写入记录失败！
+2024-03-16 20:42:29 [log]当前人气值：1
+2024-03-16 20:42:59 [log]当前人气值：1
+2024-03-16 20:43:29 [log]当前人气值：1
+2024-03-16 20:43:59 [log]当前人气值：1
+2024-03-16 20:44:29 [log]当前人气值：1
+2024-03-16 20:44:59 [log]当前人气值：1
+2024-03-16 20:45:29 [log]当前人气值：1
+2024-03-16 20:45:59 [log]当前人气值：1
+2024-03-16 20:46:29 [log]当前人气值：1
+2024-03-16 20:46:59 [log]当前人气值：1
+2024-03-16 20:47:29 [log]当前人气值：1
+2024-03-16 20:47:59 [log]当前人气值：1
+2024-03-16 20:48:29 [log]当前人气值：1
+2024-03-16 20:48:59 [log]当前人气值：1
+2024-03-16 20:49:29 [log]当前人气值：1
+2024-03-16 20:49:59 [log]当前人气值：1
+2024-03-16 20:50:29 [log]当前人气值：1
+2024-03-16 20:50:59 [log]当前人气值：1
+2024-03-16 20:51:29 [log]当前人气值：1
+2024-03-16 20:51:59 [log]当前人气值：1
+2024-03-16 20:52:29 [log]当前人气值：1
+2024-03-16 20:52:59 [log]当前人气值：1
+2024-03-16 20:53:29 [log]当前人气值：1
+2024-03-16 20:53:59 [log]当前人气值：1
+2024-03-16 20:54:29 [log]当前人气值：1
+2024-03-16 20:54:59 [log]当前人气值：1
+2024-03-16 20:55:29 [log]当前人气值：1
+2024-03-16 20:55:59 [log]当前人气值：1
+2024-03-16 20:56:29 [log]当前人气值：1
+2024-03-16 20:56:59 [log]当前人气值：1
+2024-03-16 20:57:29 [log]当前人气值：1
+2024-03-16 20:57:59 [log]当前人气值：1
+2024-03-16 20:58:29 [log]当前人气值：1
+2024-03-16 20:58:59 [log]当前人气值：1
+2024-03-16 20:59:29 [log]当前人气值：1
+2024-03-16 20:59:59 [log]当前人气值：1
+2024-03-16 21:00:29 [log]当前人气值：1
+2024-03-16 21:00:59 [log]当前人气值：1
+2024-03-16 21:01:29 [log]当前人气值：1
+2024-03-16 21:01:59 [log]当前人气值：1
+2024-03-16 21:02:29 [log]当前人气值：1
+2024-03-16 21:02:59 [log]当前人气值：1
+2024-03-16 21:03:29 [log]当前人气值：1
+2024-03-16 21:03:59 [log]当前人气值：1
+2024-03-16 21:04:29 [log]当前人气值：1
+2024-03-16 21:04:59 [log]当前人气值：1
+2024-03-16 21:05:29 [log]当前人气值：1
+2024-03-16 21:05:59 [log]当前人气值：1
+2024-03-16 21:06:29 [log]当前人气值：1
+2024-03-16 21:06:59 [log]当前人气值：1
+2024-03-16 21:07:29 [log]当前人气值：1
+2024-03-16 21:07:59 [log]当前人气值：1
+2024-03-16 21:08:29 [log]当前人气值：1
+2024-03-16 21:08:59 [log]当前人气值：1
+2024-03-16 21:09:29 [log]当前人气值：1
+2024-03-16 21:09:59 [log]当前人气值：1
+2024-03-16 21:10:29 [log]当前人气值：1
+2024-03-16 21:10:59 [log]当前人气值：1
+2024-03-16 21:11:29 [log]当前人气值：1
+2024-03-16 21:11:59 [log]当前人气值：1
+2024-03-16 21:12:29 [log]当前人气值：1
+2024-03-16 21:14:18 [log]程序已启动，连接房间id：3702914
+2024-03-16 21:14:19 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-16 21:14:21 [log]当前人气值：1
+2024-03-16 21:14:26 [log]当前人气值：1
+2024-03-16 21:14:56 [log]当前人气值：1
+2024-03-16 21:15:26 [log]当前人气值：1
+2024-03-16 21:15:56 [log]当前人气值：1
+2024-03-16 21:16:14 [log]kavencat：弹幕监控已启动，可以点歌了
+2024-03-16 21:16:14 [log]写入记录失败！
+2024-03-16 21:16:12 [log]程序已启动，连接房间id：3702914
+2024-03-16 21:16:13 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-16 21:16:16 [log]当前人气值：1
+2024-03-16 21:16:20 [log]当前人气值：1
+2024-03-16 21:16:26 [log]当前人气值：1
+2024-03-16 21:16:56 [log]当前人气值：1
+2024-03-16 21:17:26 [log]当前人气值：1
+2024-03-16 21:17:56 [log]当前人气值：1
+2024-03-16 21:18:26 [log]当前人气值：1
+2024-03-16 21:18:56 [log]当前人气值：1
+2024-03-16 21:19:26 [log]当前人气值：1
+2024-03-16 21:19:56 [log]当前人气值：1
+2024-03-16 21:20:26 [log]当前人气值：1
+room=3702914 unknown cmd=COMMON_NOTICE_DANMAKU, command={'cmd': 'COMMON_NOTICE_DANMAKU', 'data': {'content_segments': [{'background_color': None, 'background_color_dark': None, 'font_bold': False, 'font_color': '#FB7299', 'font_color_dark': '', 'highlight_font_color': '', 'highlight_font_color_dark': '', 'img_height': 0, 'img_url': '', 'img_width': 0, 'text': '高能单项赛限时任务：任务即将结束，抓紧完成获取2000金仓鼠奖励吧！未完成任务将无法获得奖励', 'type': 1}], 'danmaku_style': {'background_color': None, 'background_color_dark': None}, 'dmscore': 1008, 'terminals': [1, 2, 3, 4, 5]}}
+2024-03-16 21:20:56 [log]当前人气值：1
+2024-03-16 21:21:26 [log]当前人气值：1
+2024-03-16 21:21:56 [log]当前人气值：1
+2024-03-16 21:22:26 [log]当前人气值：1
+2024-03-16 21:22:56 [log]当前人气值：1
+2024-03-16 21:23:26 [log]当前人气值：1
+2024-03-16 21:23:56 [log]当前人气值：1
+2024-03-16 21:24:26 [log]当前人气值：1
+2024-03-16 21:24:56 [log]当前人气值：1
+2024-03-16 21:25:26 [log]当前人气值：1
+2024-03-16 21:25:56 [log]当前人气值：1
+2024-03-16 21:26:26 [log]当前人气值：1
+2024-03-16 21:26:56 [log]当前人气值：1
+2024-03-16 21:27:26 [log]当前人气值：1
+2024-03-16 21:27:56 [log]当前人气值：1
+2024-03-16 21:28:26 [log]当前人气值：1
+2024-03-16 21:28:56 [log]当前人气值：1
+2024-03-16 21:29:26 [log]当前人气值：1
+2024-03-16 21:29:56 [log]当前人气值：1
+2024-03-16 21:30:26 [log]当前人气值：1
+2024-03-16 21:30:56 [log]当前人气值：1
+2024-03-16 21:31:26 [log]当前人气值：1
+2024-03-16 21:31:56 [log]当前人气值：1
+2024-03-16 21:32:26 [log]当前人气值：1
+2024-03-16 21:32:56 [log]当前人气值：1
+2024-03-16 21:33:26 [log]当前人气值：1
+2024-03-16 21:33:56 [log]当前人气值：1
+2024-03-16 21:34:26 [log]当前人气值：1
+2024-03-16 21:34:56 [log]当前人气值：1
+2024-03-16 21:35:26 [log]当前人气值：1
+2024-03-16 21:35:57 [log]当前人气值：1
+2024-03-16 21:36:27 [log]当前人气值：1
+2024-03-16 21:36:57 [log]当前人气值：1
+2024-03-16 21:37:27 [log]当前人气值：1
+2024-03-16 21:37:57 [log]当前人气值：1
+2024-03-16 21:38:27 [log]当前人气值：1
+2024-03-16 21:38:57 [log]当前人气值：1
+2024-03-16 21:39:27 [log]当前人气值：1
+2024-03-16 21:39:57 [log]当前人气值：1
+2024-03-16 21:40:27 [log]当前人气值：1
+2024-03-16 21:40:57 [log]当前人气值：1
+2024-03-16 21:41:27 [log]当前人气值：1
+2024-03-16 21:41:57 [log]当前人气值：1
+2024-03-16 21:42:27 [log]当前人气值：1
+2024-03-16 21:42:57 [log]当前人气值：1
+2024-03-16 21:43:27 [log]当前人气值：1
+2024-03-16 21:43:57 [log]当前人气值：1
+2024-03-16 21:44:27 [log]当前人气值：1
+2024-03-16 21:44:57 [log]当前人气值：1
+2024-03-16 21:45:27 [log]当前人气值：1
+2024-03-16 21:45:57 [log]当前人气值：1
+2024-03-16 21:46:27 [log]当前人气值：1
+2024-03-16 21:46:57 [log]当前人气值：1
+2024-03-16 21:47:27 [log]当前人气值：1
+2024-03-16 21:47:57 [log]当前人气值：1
+2024-03-16 21:48:27 [log]当前人气值：1
+2024-03-16 21:48:57 [log]当前人气值：1
+2024-03-16 21:49:27 [log]当前人气值：1
+2024-03-16 21:49:57 [log]当前人气值：1
+2024-03-16 21:50:27 [log]当前人气值：1
+2024-03-16 21:50:57 [log]当前人气值：1
+2024-03-16 21:51:27 [log]当前人气值：1
+2024-03-16 21:51:57 [log]当前人气值：1
+2024-03-16 21:52:27 [log]当前人气值：1
+2024-03-16 21:52:57 [log]当前人气值：1
+2024-03-16 21:53:27 [log]当前人气值：1
+2024-03-16 21:53:57 [log]当前人气值：1
+2024-03-16 21:54:27 [log]当前人气值：1
+2024-03-16 21:54:57 [log]当前人气值：1
+2024-03-16 21:55:27 [log]当前人气值：1
+2024-03-16 21:55:57 [log]当前人气值：1
+2024-03-16 21:56:27 [log]当前人气值：1
+2024-03-16 21:56:57 [log]当前人气值：1
+2024-03-16 21:57:27 [log]当前人气值：1
+2024-03-16 21:57:57 [log]当前人气值：1
+2024-03-16 21:58:27 [log]当前人气值：1
+2024-03-16 21:58:57 [log]当前人气值：1
+2024-03-16 21:59:27 [log]当前人气值：1
+2024-03-16 21:59:57 [log]当前人气值：1
+2024-03-16 22:00:27 [log]当前人气值：1
+2024-03-16 22:00:57 [log]当前人气值：1
+2024-03-16 22:01:27 [log]当前人气值：1
+2024-03-16 22:01:57 [log]当前人气值：1
+2024-03-16 22:02:27 [log]当前人气值：1
+2024-03-16 22:02:57 [log]当前人气值：1
+2024-03-16 22:03:28 [log]当前人气值：1
+2024-03-16 22:03:58 [log]当前人气值：1
+2024-03-16 22:04:28 [log]当前人气值：1
+2024-03-16 22:04:58 [log]当前人气值：1
+2024-03-16 22:05:28 [log]当前人气值：1
+2024-03-16 22:05:58 [log]当前人气值：1
+2024-03-16 22:06:28 [log]当前人气值：1
+2024-03-16 22:06:58 [log]当前人气值：1
+2024-03-16 22:07:28 [log]当前人气值：1
+2024-03-16 22:07:58 [log]当前人气值：1
+2024-03-16 22:08:28 [log]当前人气值：1
+2024-03-16 22:08:58 [log]当前人气值：1
+2024-03-16 22:09:28 [log]当前人气值：1
+2024-03-16 22:09:58 [log]当前人气值：1
+2024-03-16 22:10:28 [log]当前人气值：1
+2024-03-16 22:10:58 [log]当前人气值：1
+2024-03-16 22:11:28 [log]当前人气值：1
+2024-03-16 22:11:58 [log]当前人气值：1
+2024-03-16 22:12:28 [log]当前人气值：1
+2024-03-16 22:12:58 [log]当前人气值：1
+2024-03-16 22:13:28 [log]当前人气值：1
+2024-03-16 22:13:58 [log]当前人气值：1
+2024-03-16 22:14:28 [log]当前人气值：1
+2024-03-16 22:14:58 [log]当前人气值：1
+2024-03-16 22:15:28 [log]当前人气值：1
+2024-03-16 22:15:58 [log]当前人气值：1
+2024-03-16 22:16:28 [log]当前人气值：1
+2024-03-16 22:16:58 [log]当前人气值：1
+2024-03-16 22:17:14 [log]听众[隐居者wh] 进入直播……
+2024-03-16 22:17:14 [log]发送弹幕：欢迎【隐居者wh】进入直播间！欢迎点播歌曲！
+2024-03-16 22:17:17 [log]kavencat：欢迎【隐居者wh】进入直播间！欢迎点播歌曲！
+2024-03-16 22:17:17 [log]写入记录失败！
+2024-03-16 22:17:28 [log]当前人气值：1
+2024-03-16 22:17:58 [log]当前人气值：1
+2024-03-16 22:18:01 [log]听众[我不喜欢big1234] 进入直播……
+2024-03-16 22:18:01 [log]发送弹幕：欢迎【我不喜欢big1234】进入直播间！欢迎点播歌曲！
+2024-03-16 22:18:03 [log]kavencat：欢迎【我不喜欢big1234】进入直播间！欢迎点播歌曲！
+2024-03-16 22:18:03 [log]写入记录失败！
+2024-03-16 22:18:28 [log]当前人气值：1
+2024-03-16 22:18:58 [log]当前人气值：1
+2024-03-16 22:19:03 [log]我不喜欢big1234：i love it
+2024-03-16 22:19:03 [log]写入记录失败！
+2024-03-16 22:19:28 [log]当前人气值：1
+2024-03-16 22:19:58 [log]当前人气值：1
+2024-03-16 22:20:28 [log]当前人气值：1
+2024-03-16 22:20:58 [log]当前人气值：1
+2024-03-16 22:21:28 [log]当前人气值：1
+2024-03-16 22:21:58 [log]当前人气值：1
+2024-03-16 22:22:28 [log]当前人气值：1
+2024-03-16 22:22:58 [log]当前人气值：1
+2024-03-16 22:23:28 [log]当前人气值：1
+2024-03-16 22:23:58 [log]当前人气值：1
+2024-03-16 22:24:28 [log]当前人气值：1
+2024-03-16 22:24:58 [log]当前人气值：1
+2024-03-16 22:25:28 [log]当前人气值：1
+2024-03-16 22:25:58 [log]当前人气值：1
+2024-03-16 22:26:28 [log]当前人气值：1
+2024-03-16 22:26:58 [log]当前人气值：1
+2024-03-16 22:27:28 [log]当前人气值：1
+2024-03-16 22:27:58 [log]当前人气值：1
+2024-03-16 22:28:28 [log]当前人气值：1
+2024-03-16 22:28:58 [log]当前人气值：1
+2024-03-16 22:29:28 [log]当前人气值：1
+2024-03-16 22:29:58 [log]当前人气值：1
+2024-03-16 22:30:28 [log]当前人气值：1
+2024-03-16 22:30:58 [log]当前人气值：1
+2024-03-16 22:31:28 [log]当前人气值：1
+2024-03-16 22:31:58 [log]当前人气值：1
+2024-03-16 22:32:28 [log]当前人气值：1
+2024-03-16 22:32:58 [log]当前人气值：1
+2024-03-16 22:33:28 [log]当前人气值：1
+2024-03-16 22:33:58 [log]当前人气值：1
+2024-03-16 22:34:28 [log]当前人气值：1
+2024-03-16 22:34:59 [log]当前人气值：1
+2024-03-16 22:35:29 [log]当前人气值：1
+2024-03-16 22:35:59 [log]当前人气值：1
+2024-03-16 22:36:29 [log]当前人气值：1
+2024-03-16 22:36:59 [log]当前人气值：1
+2024-03-16 22:37:29 [log]当前人气值：1
+2024-03-16 22:37:59 [log]当前人气值：1
+2024-03-16 22:38:29 [log]当前人气值：1
+2024-03-16 22:38:59 [log]当前人气值：1
+2024-03-16 22:39:29 [log]当前人气值：1
+2024-03-16 22:39:59 [log]当前人气值：1
+2024-03-16 22:40:29 [log]当前人气值：1
+2024-03-16 22:40:59 [log]当前人气值：1
+2024-03-16 22:41:29 [log]当前人气值：1
+2024-03-16 22:41:59 [log]当前人气值：1
+2024-03-16 22:42:29 [log]当前人气值：1
+2024-03-16 22:42:59 [log]当前人气值：1
+2024-03-16 22:43:29 [log]当前人气值：1
+2024-03-16 22:43:59 [log]当前人气值：1
+2024-03-16 22:44:29 [log]当前人气值：1
+2024-03-16 22:44:59 [log]当前人气值：1
+2024-03-16 22:45:29 [log]当前人气值：1
+2024-03-16 22:45:59 [log]当前人气值：1
+2024-03-16 22:46:29 [log]当前人气值：1
+2024-03-16 22:46:59 [log]当前人气值：1
+2024-03-16 22:47:29 [log]当前人气值：1
+2024-03-16 22:47:59 [log]当前人气值：1
+2024-03-16 22:48:29 [log]当前人气值：1
+2024-03-16 22:48:59 [log]当前人气值：1
+2024-03-16 22:49:29 [log]当前人气值：1
+2024-03-16 22:49:59 [log]当前人气值：1
+2024-03-16 22:50:29 [log]当前人气值：1
+2024-03-16 22:50:59 [log]当前人气值：1
+2024-03-16 22:51:23 [log]听众[猛犸象的挥舞] 进入直播……
+2024-03-16 22:51:23 [log]发送弹幕：欢迎【猛犸象的挥舞】进入直播间！欢迎点播歌曲！
+2024-03-16 22:51:25 [log]kavencat：欢迎【猛犸象的挥舞】进入直播间！欢迎点播歌曲！
+2024-03-16 22:51:25 [log]写入记录失败！
+2024-03-16 22:51:29 [log]当前人气值：1
+2024-03-16 22:51:59 [log]当前人气值：1
+2024-03-16 22:52:29 [log]当前人气值：1
+2024-03-16 22:52:59 [log]当前人气值：1
+2024-03-16 22:53:29 [log]当前人气值：1
+2024-03-16 22:53:59 [log]当前人气值：1
+2024-03-16 22:54:29 [log]当前人气值：1
+2024-03-16 22:54:59 [log]当前人气值：1
+2024-03-16 22:55:29 [log]当前人气值：1
+2024-03-16 22:55:59 [log]当前人气值：1
+2024-03-16 22:56:29 [log]当前人气值：1
+2024-03-16 22:56:59 [log]当前人气值：1
+2024-03-16 22:57:29 [log]当前人气值：1
+2024-03-16 22:57:59 [log]当前人气值：1
+2024-03-16 22:58:29 [log]当前人气值：1
+2024-03-16 22:58:59 [log]当前人气值：1
+2024-03-16 22:59:29 [log]当前人气值：1
+2024-03-16 22:59:59 [log]当前人气值：1
+2024-03-16 23:00:29 [log]当前人气值：1
+2024-03-16 23:00:59 [log]当前人气值：1
+2024-03-16 23:01:29 [log]当前人气值：1
+2024-03-16 23:01:59 [log]当前人气值：1
+2024-03-16 23:02:29 [log]当前人气值：1
+2024-03-16 23:02:59 [log]当前人气值：1
+2024-03-16 23:03:29 [log]当前人气值：1
+2024-03-16 23:03:59 [log]当前人气值：1
+2024-03-16 23:04:29 [log]当前人气值：1
+2024-03-16 23:04:59 [log]当前人气值：1
+2024-03-16 23:05:29 [log]当前人气值：1
+2024-03-16 23:05:59 [log]当前人气值：1
+2024-03-16 23:06:29 [log]当前人气值：1
+2024-03-16 23:06:59 [log]当前人气值：1
+2024-03-16 23:07:29 [log]当前人气值：1
+2024-03-16 23:08:00 [log]当前人气值：1
+2024-03-16 23:08:30 [log]当前人气值：1
+2024-03-16 23:09:00 [log]当前人气值：1
+2024-03-16 23:09:30 [log]当前人气值：1
+2024-03-16 23:10:00 [log]当前人气值：1
+2024-03-16 23:10:30 [log]当前人气值：1
+2024-03-16 23:11:00 [log]当前人气值：1
+2024-03-16 23:11:30 [log]当前人气值：1
+2024-03-16 23:12:00 [log]当前人气值：1
+2024-03-16 23:12:30 [log]当前人气值：1
+2024-03-16 23:13:00 [log]当前人气值：1
+2024-03-16 23:13:30 [log]当前人气值：1
+2024-03-16 23:14:00 [log]当前人气值：1
+2024-03-16 23:14:30 [log]当前人气值：1
+2024-03-16 23:15:00 [log]当前人气值：1
+2024-03-16 23:15:30 [log]当前人气值：1
+2024-03-16 23:16:00 [log]当前人气值：1
+2024-03-16 23:16:30 [log]当前人气值：1
+2024-03-16 23:17:00 [log]当前人气值：1
+2024-03-16 23:17:30 [log]当前人气值：1
+2024-03-16 23:18:00 [log]当前人气值：1
+2024-03-16 23:18:30 [log]当前人气值：1
+2024-03-16 23:19:00 [log]当前人气值：1
+2024-03-16 23:19:30 [log]当前人气值：1
+2024-03-16 23:20:00 [log]当前人气值：1
+2024-03-16 23:20:30 [log]当前人气值：1
+2024-03-16 23:21:00 [log]当前人气值：1
+2024-03-16 23:21:30 [log]当前人气值：1
+2024-03-16 23:22:00 [log]当前人气值：1
+2024-03-16 23:22:30 [log]当前人气值：1
+2024-03-16 23:23:00 [log]当前人气值：1
+2024-03-16 23:23:30 [log]当前人气值：1
+2024-03-16 23:24:00 [log]当前人气值：1
+2024-03-16 23:24:30 [log]当前人气值：1
+2024-03-16 23:25:00 [log]当前人气值：1
+2024-03-16 23:25:30 [log]当前人气值：1
+2024-03-16 23:26:00 [log]当前人气值：1
+2024-03-16 23:26:30 [log]当前人气值：1
+2024-03-16 23:27:00 [log]当前人气值：1
+2024-03-16 23:27:30 [log]当前人气值：1
+2024-03-16 23:28:00 [log]当前人气值：1
+2024-03-16 23:28:30 [log]当前人气值：1
+2024-03-16 23:29:00 [log]当前人气值：1
+2024-03-16 23:29:30 [log]当前人气值：1
+2024-03-16 23:30:00 [log]当前人气值：1
+2024-03-16 23:30:30 [log]当前人气值：1
+2024-03-16 23:31:00 [log]当前人气值：1
+2024-03-16 23:31:30 [log]当前人气值：1
+2024-03-16 23:32:00 [log]当前人气值：1
+2024-03-16 23:32:30 [log]当前人气值：1
+2024-03-16 23:33:00 [log]当前人气值：1
+2024-03-16 23:33:30 [log]当前人气值：1
+2024-03-16 23:34:00 [log]当前人气值：1
+2024-03-16 23:34:30 [log]当前人气值：1
+2024-03-16 23:35:00 [log]当前人气值：1
+2024-03-16 23:35:30 [log]当前人气值：1
+2024-03-16 23:36:00 [log]当前人气值：1
+2024-03-16 23:36:30 [log]当前人气值：1
+2024-03-16 23:37:00 [log]当前人气值：1
+2024-03-16 23:37:30 [log]当前人气值：1
+2024-03-16 23:38:00 [log]当前人气值：1
+2024-03-16 23:38:30 [log]当前人气值：1
+2024-03-16 23:39:00 [log]当前人气值：1
+2024-03-16 23:39:30 [log]当前人气值：1
+2024-03-16 23:40:00 [log]当前人气值：1
+2024-03-16 23:40:30 [log]当前人气值：1
+2024-03-16 23:41:00 [log]当前人气值：1
+2024-03-16 23:41:30 [log]当前人气值：1
+2024-03-16 23:42:00 [log]当前人气值：1
+2024-03-16 23:42:30 [log]当前人气值：1
+2024-03-16 23:43:00 [log]当前人气值：1
+2024-03-16 23:43:30 [log]当前人气值：1
+2024-03-16 23:44:00 [log]当前人气值：1
+2024-03-16 23:44:30 [log]当前人气值：1
+2024-03-16 23:45:00 [log]当前人气值：1
+2024-03-16 23:45:30 [log]当前人气值：1
+2024-03-16 23:46:00 [log]当前人气值：1
+2024-03-16 23:46:30 [log]当前人气值：1
+2024-03-16 23:47:00 [log]当前人气值：1
+2024-03-16 23:47:30 [log]当前人气值：1
+2024-03-16 23:48:00 [log]当前人气值：1
+2024-03-16 23:48:30 [log]当前人气值：1
+2024-03-16 23:49:01 [log]当前人气值：1
+2024-03-16 23:49:31 [log]当前人气值：1
+2024-03-16 23:50:01 [log]当前人气值：1
+2024-03-16 23:50:10 [log]听众[时过境迁う] 进入直播……
+2024-03-16 23:50:11 [log]发送弹幕：欢迎【时过境迁う】进入直播间！欢迎点播歌曲！
+2024-03-16 23:50:13 [log]kavencat：欢迎【时过境迁う】进入直播间！欢迎点播歌曲！
+2024-03-16 23:50:13 [log]写入记录失败！
+2024-03-16 23:50:31 [log]当前人气值：1
+2024-03-16 23:51:01 [log]当前人气值：1
+2024-03-16 23:51:31 [log]当前人气值：1
+2024-03-16 23:52:01 [log]当前人气值：1
+2024-03-16 23:52:31 [log]当前人气值：1
+2024-03-16 23:53:01 [log]当前人气值：1
+2024-03-16 23:53:31 [log]当前人气值：1
+2024-03-16 23:54:01 [log]当前人气值：1
+2024-03-16 23:54:31 [log]当前人气值：1
+2024-03-16 23:55:01 [log]当前人气值：1
+2024-03-16 23:55:31 [log]当前人气值：1
+2024-03-16 23:56:01 [log]当前人气值：1
+2024-03-16 23:56:31 [log]当前人气值：1
+2024-03-16 23:57:01 [log]当前人气值：1
+2024-03-16 23:57:31 [log]当前人气值：1
+2024-03-16 23:58:01 [log]当前人气值：1
+2024-03-16 23:58:31 [log]当前人气值：1
+2024-03-16 23:59:01 [log]当前人气值：1
+2024-03-16 23:59:31 [log]当前人气值：1
+2024-03-17 00:00:01 [log]当前人气值：1
+room=3702914 unknown cmd=GUARD_HONOR_THOUSAND, command={'cmd': 'GUARD_HONOR_THOUSAND', 'data': {'add': [], 'del': [396316042]}}
+2024-03-17 00:00:31 [log]当前人气值：1
+2024-03-17 00:01:01 [log]当前人气值：1
+2024-03-17 00:01:31 [log]当前人气值：1
+2024-03-17 00:02:01 [log]当前人气值：1
+2024-03-17 00:02:31 [log]当前人气值：1
+2024-03-17 00:03:01 [log]当前人气值：1
+2024-03-17 00:03:31 [log]当前人气值：1
+2024-03-17 00:04:01 [log]当前人气值：1
+2024-03-17 00:04:31 [log]当前人气值：1
+2024-03-17 00:05:01 [log]当前人气值：1
+2024-03-17 00:05:31 [log]当前人气值：1
+2024-03-17 00:06:01 [log]当前人气值：1
+2024-03-17 00:06:31 [log]当前人气值：1
+2024-03-17 00:07:01 [log]当前人气值：1
+2024-03-17 00:07:31 [log]当前人气值：1
+2024-03-17 00:08:01 [log]当前人气值：1
+2024-03-17 00:08:31 [log]当前人气值：1
+2024-03-17 00:09:01 [log]当前人气值：1
+2024-03-17 00:09:31 [log]当前人气值：1
+2024-03-17 00:10:01 [log]当前人气值：1
+2024-03-17 00:12:45 [log]程序已启动，连接房间id：3702914
+2024-03-17 00:12:45 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-17 00:12:48 [log]当前人气值：1
+2024-03-17 00:12:53 [log]当前人气值：1
+2024-03-17 00:13:23 [log]当前人气值：1
+2024-03-17 00:13:53 [log]当前人气值：1
+2024-03-17 00:14:11 [log]听众[海_绵__宝_宝] 进入直播……
+2024-03-17 00:14:12 [log]发送弹幕：欢迎【海_绵__宝_宝】进入直播间！欢迎点播歌曲！
+2024-03-17 00:14:14 [log]kavencat：欢迎【海_绵__宝_宝】进入直播间！欢迎点播歌曲！
+2024-03-17 00:14:14 [log]写入记录失败！
+2024-03-17 00:14:23 [log]当前人气值：1
+2024-03-17 00:14:53 [log]当前人气值：1
+2024-03-17 00:15:23 [log]当前人气值：1
+2024-03-17 00:15:53 [log]当前人气值：1
+2024-03-17 00:16:23 [log]当前人气值：1
+2024-03-17 00:16:53 [log]当前人气值：1
+2024-03-17 00:17:23 [log]当前人气值：1
+2024-03-17 00:17:37 [log]听众[kavencat] 进入直播……
+2024-03-17 00:17:37 [log]发送弹幕：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-17 00:17:39 [log]kavencat：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-17 00:17:39 [log]写入记录失败！
+2024-03-17 00:17:53 [log]当前人气值：1
+2024-03-17 00:18:05 [log]kavencat：切歌
+2024-03-17 00:18:06 [log]发送弹幕：已执行切歌动作
+2024-03-17 00:18:07 [log]写入记录失败！
+2024-03-17 00:18:08 [log]kavencat：已执行切歌动作
+2024-03-17 00:18:08 [log]写入记录失败！
+2024-03-17 00:18:23 [log]当前人气值：1
+2024-03-17 00:18:53 [log]当前人气值：1
+2024-03-17 00:18:59 [log]kavencat：切歌
+2024-03-17 00:18:59 [log]发送弹幕：已执行切歌动作
+2024-03-17 00:19:00 [log]写入记录失败！
+2024-03-17 00:19:01 [log]kavencat：已执行切歌动作
+2024-03-17 00:19:01 [log]写入记录失败！
+2024-03-17 00:19:23 [log]当前人气值：1
+2024-03-17 00:19:53 [log]当前人气值：1
+2024-03-17 00:20:23 [log]当前人气值：1
+room=3702914 unknown cmd=LIKE_GUIDE_USER, command={'cmd': 'LIKE_GUIDE_USER', 'data': {'show_area': 0, 'like_text': '主播@你：点点赞支持一下我吧', 'uid': 31438300, 'identities': [1], 'msg_type': 6, 'dmscore': 20}}
+2024-03-17 00:20:53 [log]当前人气值：1
+2024-03-17 00:21:23 [log]当前人气值：1
+2024-03-17 00:21:53 [log]当前人气值：1
+2024-03-17 00:22:23 [log]当前人气值：1
+room=3702914 unknown cmd=COMMON_NOTICE_DANMAKU, command={'cmd': 'COMMON_NOTICE_DANMAKU', 'data': {'content_segments': [{'background_color': None, 'background_color_dark': None, 'font_bold': False, 'font_color': '#FB7299', 'font_color_dark': '', 'highlight_font_color': '', 'highlight_font_color_dark': '', 'img_height': 0, 'img_url': '', 'img_width': 0, 'text': '高能单项赛限时任务：任务即将结束，抓紧完成获取2000金仓鼠奖励吧！未完成任务将无法获得奖励', 'type': 1}], 'danmaku_style': {'background_color': None, 'background_color_dark': None}, 'dmscore': 1008, 'terminals': [1, 2, 3, 4, 5]}}
+2024-03-17 00:22:53 [log]当前人气值：1
+2024-03-17 00:23:23 [log]当前人气值：1
+2024-03-17 00:23:53 [log]当前人气值：1
+2024-03-17 00:24:23 [log]当前人气值：1
+2024-03-17 00:24:53 [log]当前人气值：1
+2024-03-17 00:25:23 [log]当前人气值：1
+2024-03-17 00:25:53 [log]当前人气值：1
+2024-03-17 00:26:23 [log]当前人气值：1
+2024-03-17 00:26:53 [log]当前人气值：1
+2024-03-17 00:27:23 [log]当前人气值：1
+2024-03-17 00:27:53 [log]当前人气值：1
+2024-03-17 00:28:23 [log]当前人气值：1
+2024-03-17 00:28:53 [log]当前人气值：1
+2024-03-17 00:29:23 [log]当前人气值：1
+2024-03-17 00:29:53 [log]当前人气值：1
+2024-03-17 00:30:23 [log]当前人气值：1
+2024-03-17 00:30:53 [log]当前人气值：1
+room=3702914 unknown cmd=GUARD_HONOR_THOUSAND, command={'cmd': 'GUARD_HONOR_THOUSAND', 'data': {'add': [], 'del': [3461569182698067, 1398337493, 672328094, 480680646, 399815233, 226102317, 194484313, 27717502, 8739477, 3035105, 745493, 391445, 114866, 70093, 13046]}}
+2024-03-17 00:31:23 [log]当前人气值：1
+2024-03-17 00:31:53 [log]当前人气值：1
+2024-03-17 00:32:23 [log]当前人气值：1
+2024-03-17 00:32:53 [log]当前人气值：1
+2024-03-17 00:33:23 [log]当前人气值：1
+2024-03-17 00:33:53 [log]当前人气值：1
+2024-03-17 00:34:23 [log]当前人气值：1
+2024-03-17 00:34:53 [log]当前人气值：1
+2024-03-17 00:35:23 [log]当前人气值：1
+2024-03-17 00:35:53 [log]当前人气值：1
+2024-03-17 00:36:23 [log]当前人气值：1
+2024-03-17 00:36:53 [log]当前人气值：1
+2024-03-17 00:37:23 [log]当前人气值：1
+2024-03-17 00:37:53 [log]当前人气值：1
+2024-03-17 00:38:23 [log]当前人气值：1
+2024-03-17 00:38:53 [log]当前人气值：1
+2024-03-17 00:39:23 [log]当前人气值：1
+2024-03-17 00:39:53 [log]当前人气值：1
+2024-03-17 00:40:23 [log]当前人气值：1
+2024-03-17 00:40:53 [log]当前人气值：1
+2024-03-17 00:41:23 [log]当前人气值：1
+2024-03-17 00:41:53 [log]当前人气值：1
+2024-03-17 00:42:23 [log]当前人气值：1
+2024-03-17 00:42:53 [log]当前人气值：1
+2024-03-17 00:43:23 [log]当前人气值：1
+2024-03-17 00:43:53 [log]当前人气值：1
+2024-03-17 00:44:23 [log]当前人气值：1
+2024-03-17 00:44:53 [log]当前人气值：1
+2024-03-17 00:45:23 [log]当前人气值：1
+2024-03-17 00:45:53 [log]当前人气值：1
+2024-03-17 00:46:23 [log]当前人气值：1
+2024-03-17 00:46:53 [log]当前人气值：1
+2024-03-17 00:47:23 [log]当前人气值：1
+2024-03-17 00:47:53 [log]当前人气值：1
+2024-03-17 00:48:24 [log]当前人气值：1
+2024-03-17 00:48:54 [log]当前人气值：1
+2024-03-17 00:49:24 [log]当前人气值：1
+2024-03-17 00:49:54 [log]当前人气值：1
+2024-03-17 00:50:24 [log]当前人气值：1
+2024-03-17 00:50:54 [log]当前人气值：1
+2024-03-17 00:51:24 [log]当前人气值：1
+2024-03-17 00:51:54 [log]当前人气值：1
+2024-03-17 00:52:04 [log]听众[京畿提典刑狱司] 进入直播……
+2024-03-17 00:52:04 [log]发送弹幕：欢迎【京畿提典刑狱司】进入直播间！欢迎点播歌曲！
+2024-03-17 00:52:06 [log]kavencat：欢迎【京畿提典刑狱司】进入直播间！欢迎点播歌曲！
+2024-03-17 00:52:06 [log]写入记录失败！
+2024-03-17 00:52:24 [log]当前人气值：1
+2024-03-17 00:52:54 [log]当前人气值：1
+2024-03-17 00:53:24 [log]当前人气值：1
+2024-03-17 00:53:54 [log]当前人气值：1
+2024-03-17 00:54:24 [log]当前人气值：1
+2024-03-17 00:54:54 [log]当前人气值：1
+2024-03-17 00:55:24 [log]当前人气值：1
+2024-03-17 00:55:54 [log]当前人气值：1
+2024-03-17 00:56:24 [log]当前人气值：1
+2024-03-17 00:56:54 [log]当前人气值：1
+2024-03-17 00:57:24 [log]当前人气值：1
+2024-03-17 00:57:54 [log]当前人气值：1
+2024-03-17 00:58:24 [log]当前人气值：1
+2024-03-17 00:58:54 [log]当前人气值：1
+2024-03-17 00:59:24 [log]当前人气值：1
+2024-03-17 00:59:54 [log]当前人气值：1
+2024-03-17 01:00:24 [log]当前人气值：1
+2024-03-17 01:00:54 [log]当前人气值：1
+2024-03-17 01:01:24 [log]当前人气值：1
+2024-03-17 01:01:54 [log]当前人气值：1
+2024-03-17 01:02:24 [log]当前人气值：1
+2024-03-17 01:02:54 [log]当前人气值：1
+2024-03-17 01:03:24 [log]当前人气值：1
+2024-03-17 01:03:54 [log]当前人气值：1
+2024-03-17 01:04:24 [log]当前人气值：1
+2024-03-17 01:04:54 [log]当前人气值：1
+2024-03-17 01:05:24 [log]当前人气值：1
+2024-03-17 01:05:54 [log]当前人气值：1
+2024-03-17 01:06:24 [log]当前人气值：1
+2024-03-17 01:06:54 [log]当前人气值：1
+2024-03-17 01:07:24 [log]当前人气值：1
+2024-03-17 01:07:54 [log]当前人气值：1
+2024-03-17 01:08:24 [log]当前人气值：1
+2024-03-17 01:08:54 [log]当前人气值：1
+2024-03-17 01:09:24 [log]当前人气值：1
+2024-03-17 01:09:54 [log]当前人气值：1
+2024-03-17 01:10:24 [log]当前人气值：1
+2024-03-17 01:10:54 [log]当前人气值：1
+2024-03-17 01:11:24 [log]当前人气值：1
+2024-03-17 01:11:51 [log]听众[eye122003] 进入直播……
+2024-03-17 01:11:51 [log]发送弹幕：欢迎【eye122003】进入直播间！欢迎点播歌曲！
+2024-03-17 01:11:53 [log]kavencat：欢迎【eye122003】进入直播间！欢迎点播歌曲！
+2024-03-17 01:11:53 [log]写入记录失败！
+2024-03-17 01:11:54 [log]当前人气值：1
+2024-03-17 01:12:24 [log]当前人气值：1
+2024-03-17 01:12:54 [log]当前人气值：1
+2024-03-17 01:13:24 [log]当前人气值：1
+2024-03-17 01:13:54 [log]当前人气值：1
+2024-03-17 01:14:24 [log]当前人气值：1
+2024-03-17 01:14:54 [log]当前人气值：1
+2024-03-17 01:15:20 [log]听众[cll300300] 进入直播……
+2024-03-17 01:15:20 [log]发送弹幕：欢迎【cll300300】进入直播间！欢迎点播歌曲！
+2024-03-17 01:15:22 [log]kavencat：欢迎【cll300300】进入直播间！欢迎点播歌曲！
+2024-03-17 01:15:22 [log]写入记录失败！
+2024-03-17 01:15:24 [log]当前人气值：1
+2024-03-17 01:15:54 [log]当前人气值：1
+2024-03-17 01:16:24 [log]当前人气值：1
+2024-03-17 01:16:54 [log]当前人气值：1
+2024-03-17 01:17:24 [log]当前人气值：1
+2024-03-17 01:17:54 [log]当前人气值：1
+2024-03-17 01:18:24 [log]当前人气值：1
+2024-03-17 01:18:54 [log]当前人气值：1
+2024-03-17 01:19:24 [log]当前人气值：1
+2024-03-17 01:19:55 [log]当前人气值：1
+2024-03-17 01:20:25 [log]当前人气值：1
+2024-03-17 01:20:55 [log]当前人气值：1
+2024-03-17 01:21:25 [log]当前人气值：1
+2024-03-17 01:21:55 [log]当前人气值：1
+2024-03-17 01:22:25 [log]当前人气值：1
+2024-03-17 01:22:55 [log]当前人气值：1
+2024-03-17 01:23:25 [log]当前人气值：1
+2024-03-17 01:23:55 [log]当前人气值：1
+2024-03-17 01:24:25 [log]当前人气值：1
+2024-03-17 01:24:55 [log]当前人气值：1
+2024-03-17 01:25:25 [log]当前人气值：1
+2024-03-17 01:25:55 [log]当前人气值：1
+2024-03-17 01:26:25 [log]当前人气值：1
+room=3702914 unknown cmd=LIKE_INFO_V3_CLICK, command={'cmd': 'LIKE_INFO_V3_CLICK', 'data': {'contribution_info': {'grade': 0}, 'dmscore': 24, 'fans_medal': {'anchor_roomid': 0, 'guard_level': 0, 'icon_id': 0, 'is_lighted': 1, 'medal_color': 6126494, 'medal_color_border': 6126494, 'medal_color_end': 6126494, 'medal_color_start': 6126494, 'medal_level': 6, 'medal_name': '马筒搋', 'score': 3099, 'special': '', 'target_id': 1337466652}, 'group_medal': None, 'identities': [3, 1], 'is_mystery': False, 'like_icon': 'https://i0.hdslb.com/bfs/live/23678e3d90402bea6a65251b3e728044c21b1f0f.png', 'like_text': '为主播点赞了', 'msg_type': 6, 'show_area': 1, 'uid': 2970690, 'uinfo': {'base': {'face': 'https://i0.hdslb.com/bfs/face/77d861983d9afc50324079d570a8b45e21c5dd6d.jpg', 'is_mystery': False, 'name': '七番目の我', 'name_color': 0, 'name_color_str': '', 'official_info': {'desc': '', 'role': 0, 'title': '', 'type': -1}, 'origin_info': {'face': 'https://i0.hdslb.com/bfs/face/77d861983d9afc50324079d570a8b45e21c5dd6d.jpg', 'name': '七番目の我'}, 'risk_ctrl_info': None}, 'guard': {'expired_str': '', 'level': 0}, 'guard_leader': None, 'medal': {'color': 6126494, 'color_border': 6126494, 'color_end': 6126494, 'color_start': 6126494, 'guard_icon': '', 'guard_level': 0, 'honor_icon': '', 'id': 0, 'is_light': 1, 'level': 6, 'name': '马筒搋', 'ruid': 1337466652, 'score': 3099, 'typ': 0}, 'title': None, 'uhead_frame': None, 'uid': 2970690, 'wealth': None}, 'uname': '七番目の我', 'uname_color': ''}}
+2024-03-17 01:26:40 [log]七番目の我：打卡
+2024-03-17 01:26:40 [log]发送弹幕：欢迎七番目の我来到直播间……
+2024-03-17 01:26:42 [log]写入记录失败！
+room=3702914 unknown cmd=LIKE_INFO_V3_UPDATE, command={'cmd': 'LIKE_INFO_V3_UPDATE', 'data': {'click_count': 1}}
+2024-03-17 01:26:42 [log]kavencat：欢迎七番目の我来到直播间……
+2024-03-17 01:26:42 [log]写入记录失败！
+2024-03-17 01:26:55 [log]当前人气值：1
+2024-03-17 01:27:25 [log]当前人气值：1
+2024-03-17 01:27:55 [log]当前人气值：1
+2024-03-17 01:28:25 [log]当前人气值：1
+2024-03-17 01:28:55 [log]当前人气值：1
+2024-03-17 01:29:25 [log]当前人气值：1
+2024-03-17 01:29:55 [log]当前人气值：1
+2024-03-17 01:30:25 [log]当前人气值：1
+2024-03-17 01:30:55 [log]当前人气值：1
+2024-03-17 01:31:25 [log]当前人气值：1
+2024-03-17 01:31:55 [log]当前人气值：1
+2024-03-17 01:32:25 [log]当前人气值：1
+2024-03-17 01:32:55 [log]当前人气值：1
+2024-03-17 01:33:25 [log]当前人气值：1
+2024-03-17 01:33:55 [log]当前人气值：1
+2024-03-17 01:34:25 [log]当前人气值：1
+2024-03-17 01:34:55 [log]当前人气值：1
+2024-03-17 01:35:25 [log]当前人气值：1
+2024-03-17 01:35:55 [log]当前人气值：1
+2024-03-17 01:36:25 [log]当前人气值：1
+2024-03-17 01:36:55 [log]当前人气值：1
+2024-03-17 01:37:25 [log]当前人气值：1
+2024-03-17 01:37:55 [log]当前人气值：1
+2024-03-17 01:38:25 [log]当前人气值：1
+2024-03-17 01:38:55 [log]当前人气值：1
+2024-03-17 01:39:25 [log]当前人气值：1
+2024-03-17 01:39:55 [log]当前人气值：1
+2024-03-17 01:40:25 [log]当前人气值：1
+2024-03-17 01:40:55 [log]当前人气值：1
+2024-03-17 01:41:25 [log]当前人气值：1
+2024-03-17 01:41:55 [log]当前人气值：1
+2024-03-17 01:42:25 [log]当前人气值：1
+2024-03-17 01:42:55 [log]当前人气值：1
+2024-03-17 01:43:25 [log]当前人气值：1
+2024-03-17 01:43:55 [log]当前人气值：1
+2024-03-17 01:44:25 [log]当前人气值：1
+2024-03-17 01:44:55 [log]当前人气值：1
+2024-03-17 01:45:25 [log]当前人气值：1
+2024-03-17 01:45:55 [log]当前人气值：1
+2024-03-17 01:46:25 [log]当前人气值：1
+2024-03-17 01:46:55 [log]当前人气值：1
+2024-03-17 01:47:25 [log]当前人气值：1
+2024-03-17 01:47:55 [log]当前人气值：1
+2024-03-17 01:48:25 [log]当前人气值：1
+2024-03-17 01:48:55 [log]当前人气值：1
+2024-03-17 01:49:25 [log]当前人气值：1
+2024-03-17 01:49:55 [log]当前人气值：1
+2024-03-17 01:50:25 [log]当前人气值：1
+2024-03-17 01:50:55 [log]当前人气值：1
+2024-03-17 01:51:25 [log]当前人气值：1
+2024-03-17 01:51:55 [log]当前人气值：1
+2024-03-17 01:52:25 [log]当前人气值：1
+2024-03-17 01:52:55 [log]当前人气值：1
+2024-03-17 01:53:25 [log]当前人气值：1
+2024-03-17 01:53:55 [log]当前人气值：1
+2024-03-17 01:54:25 [log]当前人气值：1
+2024-03-17 01:54:55 [log]当前人气值：1
+2024-03-17 01:55:25 [log]当前人气值：1
+2024-03-17 01:55:55 [log]当前人气值：1
+2024-03-17 01:56:25 [log]当前人气值：1
+2024-03-17 01:56:55 [log]当前人气值：1
+2024-03-17 01:57:25 [log]当前人气值：1
+2024-03-17 01:57:56 [log]当前人气值：1
+2024-03-17 01:58:26 [log]当前人气值：1
+2024-03-17 01:58:56 [log]当前人气值：1
+2024-03-17 01:59:26 [log]当前人气值：1
+2024-03-17 01:59:56 [log]当前人气值：1
+2024-03-17 02:00:26 [log]当前人气值：1
+2024-03-17 02:00:56 [log]当前人气值：1
+2024-03-17 02:01:26 [log]当前人气值：1
+2024-03-17 02:01:56 [log]当前人气值：1
+2024-03-17 02:02:26 [log]当前人气值：1
+2024-03-17 02:02:56 [log]当前人气值：1
+2024-03-17 02:03:26 [log]当前人气值：1
+2024-03-17 02:03:56 [log]当前人气值：1
+2024-03-17 02:04:26 [log]当前人气值：1
+2024-03-17 02:04:56 [log]当前人气值：1
+2024-03-17 02:05:26 [log]当前人气值：1
+2024-03-17 02:05:56 [log]当前人气值：1
+2024-03-17 02:06:26 [log]当前人气值：1
+2024-03-17 02:06:56 [log]当前人气值：1
+2024-03-17 02:07:26 [log]当前人气值：1
+2024-03-17 02:07:56 [log]当前人气值：1
+2024-03-17 02:08:26 [log]当前人气值：1
+2024-03-17 02:08:56 [log]当前人气值：1
+2024-03-17 02:09:26 [log]当前人气值：1
+2024-03-17 02:09:56 [log]当前人气值：1
+2024-03-17 02:10:26 [log]当前人气值：1
+2024-03-17 02:10:56 [log]当前人气值：1
+2024-03-17 02:11:26 [log]当前人气值：1
+2024-03-17 02:11:56 [log]当前人气值：1
+2024-03-17 02:12:26 [log]当前人气值：1
+2024-03-17 02:12:56 [log]当前人气值：1
+2024-03-17 02:13:26 [log]当前人气值：1
+2024-03-17 02:13:56 [log]当前人气值：1
+2024-03-17 02:14:26 [log]当前人气值：1
+2024-03-17 02:14:56 [log]当前人气值：1
+2024-03-17 02:15:26 [log]当前人气值：1
+2024-03-17 02:15:56 [log]当前人气值：1
+2024-03-17 02:16:26 [log]当前人气值：1
+2024-03-17 02:16:56 [log]当前人气值：1
+2024-03-17 02:17:26 [log]当前人气值：1
+2024-03-17 02:17:56 [log]当前人气值：1
+2024-03-17 02:18:26 [log]当前人气值：1
+2024-03-17 02:18:56 [log]当前人气值：1
+2024-03-17 02:19:26 [log]当前人气值：1
+2024-03-17 02:19:56 [log]当前人气值：1
+2024-03-17 02:20:26 [log]当前人气值：1
+2024-03-17 02:20:56 [log]当前人气值：1
+2024-03-17 02:21:26 [log]当前人气值：1
+2024-03-17 02:21:56 [log]当前人气值：1
+2024-03-17 02:22:26 [log]当前人气值：1
+2024-03-17 02:22:56 [log]当前人气值：1
+2024-03-17 02:23:26 [log]当前人气值：1
+2024-03-17 02:23:56 [log]当前人气值：1
+2024-03-17 02:24:26 [log]当前人气值：1
+2024-03-17 02:24:56 [log]当前人气值：1
+2024-03-17 02:25:26 [log]当前人气值：1
+2024-03-17 02:25:56 [log]当前人气值：1
+2024-03-17 02:26:26 [log]当前人气值：1
+2024-03-17 02:26:56 [log]当前人气值：1
+2024-03-17 02:27:26 [log]当前人气值：1
+2024-03-17 02:27:57 [log]当前人气值：1
+2024-03-17 02:28:27 [log]当前人气值：1
+2024-03-17 02:28:57 [log]当前人气值：1
+2024-03-17 02:29:27 [log]当前人气值：1
+2024-03-17 02:29:57 [log]当前人气值：1
+2024-03-17 02:30:27 [log]当前人气值：1
+2024-03-17 02:30:57 [log]当前人气值：1
+2024-03-17 02:31:27 [log]当前人气值：1
+2024-03-17 02:31:57 [log]当前人气值：1
+2024-03-17 02:32:27 [log]当前人气值：1
+2024-03-17 02:32:57 [log]当前人气值：1
+2024-03-17 02:33:27 [log]当前人气值：1
+2024-03-17 02:33:57 [log]当前人气值：1
+2024-03-17 02:34:27 [log]当前人气值：1
+2024-03-17 02:34:57 [log]当前人气值：1
+2024-03-17 02:35:27 [log]当前人气值：1
+2024-03-17 02:35:57 [log]当前人气值：1
+2024-03-17 02:36:27 [log]当前人气值：1
+2024-03-17 02:36:57 [log]当前人气值：1
+2024-03-17 02:37:27 [log]当前人气值：1
+2024-03-17 02:37:57 [log]当前人气值：1
+2024-03-17 02:38:27 [log]当前人气值：1
+2024-03-17 02:38:57 [log]当前人气值：1
+2024-03-17 02:39:27 [log]当前人气值：1
+2024-03-17 02:39:57 [log]当前人气值：1
+2024-03-17 02:40:27 [log]当前人气值：1
+2024-03-17 02:40:57 [log]当前人气值：1
+2024-03-17 02:41:27 [log]当前人气值：1
+2024-03-17 02:41:57 [log]当前人气值：1
+2024-03-17 02:42:27 [log]当前人气值：1
+2024-03-17 02:42:57 [log]当前人气值：1
+2024-03-17 02:43:27 [log]当前人气值：1
+2024-03-17 02:43:57 [log]当前人气值：1
+2024-03-17 02:44:27 [log]当前人气值：1
+2024-03-17 02:44:57 [log]当前人气值：1
+2024-03-17 02:45:27 [log]当前人气值：1
+2024-03-17 02:45:57 [log]当前人气值：1
+2024-03-17 02:46:27 [log]当前人气值：1
+2024-03-17 02:46:57 [log]当前人气值：1
+2024-03-17 02:47:27 [log]当前人气值：1
+2024-03-17 02:47:57 [log]当前人气值：1
+2024-03-17 02:48:27 [log]当前人气值：1
+2024-03-17 02:48:57 [log]当前人气值：1
+2024-03-17 02:49:27 [log]当前人气值：1
+2024-03-17 02:49:57 [log]当前人气值：1
+2024-03-17 02:50:27 [log]当前人气值：1
+2024-03-17 02:50:57 [log]当前人气值：1
+2024-03-17 02:51:27 [log]当前人气值：1
+2024-03-17 02:51:58 [log]当前人气值：1
+2024-03-17 02:52:28 [log]当前人气值：1
+2024-03-17 02:52:58 [log]当前人气值：1
+2024-03-17 02:53:28 [log]当前人气值：1
+2024-03-17 02:53:58 [log]当前人气值：1
+2024-03-17 02:54:28 [log]当前人气值：1
+2024-03-17 02:54:58 [log]当前人气值：1
+2024-03-17 02:55:28 [log]当前人气值：1
+2024-03-17 02:55:58 [log]当前人气值：1
+2024-03-17 02:56:28 [log]当前人气值：1
+2024-03-17 02:56:58 [log]当前人气值：1
+2024-03-17 02:57:28 [log]当前人气值：1
+2024-03-17 02:57:58 [log]当前人气值：1
+2024-03-17 02:58:28 [log]当前人气值：1
+2024-03-17 02:58:58 [log]当前人气值：1
+2024-03-17 02:59:28 [log]当前人气值：1
+2024-03-17 02:59:58 [log]当前人气值：1
+2024-03-17 03:00:28 [log]当前人气值：1
+2024-03-17 03:00:58 [log]当前人气值：1
+2024-03-17 03:01:28 [log]当前人气值：1
+2024-03-17 03:01:58 [log]当前人气值：1
+2024-03-17 03:02:28 [log]当前人气值：1
+2024-03-17 03:02:58 [log]当前人气值：1
+2024-03-17 03:03:28 [log]当前人气值：1
+2024-03-17 03:03:58 [log]当前人气值：1
+2024-03-17 03:04:28 [log]当前人气值：1
+2024-03-17 03:04:58 [log]当前人气值：1
+2024-03-17 03:05:28 [log]当前人气值：1
+2024-03-17 03:05:58 [log]当前人气值：1
+2024-03-17 03:06:28 [log]当前人气值：1
+2024-03-17 03:06:58 [log]当前人气值：1
+2024-03-17 03:07:28 [log]当前人气值：1
+2024-03-17 03:07:58 [log]当前人气值：1
+2024-03-17 03:08:28 [log]当前人气值：1
+2024-03-17 03:08:58 [log]当前人气值：1
+2024-03-17 03:09:28 [log]当前人气值：1
+2024-03-17 03:09:58 [log]当前人气值：1
+2024-03-17 03:10:28 [log]当前人气值：1
+2024-03-17 03:10:58 [log]当前人气值：1
+2024-03-17 03:11:28 [log]当前人气值：1
+2024-03-17 03:11:58 [log]当前人气值：1
+2024-03-17 03:12:28 [log]当前人气值：1
+2024-03-17 03:12:58 [log]当前人气值：1
+2024-03-17 03:13:28 [log]当前人气值：1
+2024-03-17 03:13:58 [log]当前人气值：1
+2024-03-17 03:14:28 [log]当前人气值：1
+2024-03-17 03:14:58 [log]当前人气值：1
+2024-03-17 03:15:29 [log]当前人气值：1
+2024-03-17 03:15:59 [log]当前人气值：1
+2024-03-17 03:16:29 [log]当前人气值：1
+2024-03-17 03:16:59 [log]当前人气值：1
+2024-03-17 03:17:29 [log]当前人气值：1
+2024-03-17 03:17:59 [log]当前人气值：1
+2024-03-17 03:18:29 [log]当前人气值：1
+2024-03-17 03:18:59 [log]当前人气值：1
+2024-03-17 03:19:29 [log]当前人气值：1
+2024-03-17 03:19:59 [log]当前人气值：1
+2024-03-17 03:20:29 [log]当前人气值：1
+2024-03-17 03:20:59 [log]当前人气值：1
+2024-03-17 03:21:29 [log]当前人气值：1
+2024-03-17 03:21:59 [log]当前人气值：1
+2024-03-17 03:22:29 [log]当前人气值：1
+2024-03-17 03:22:59 [log]当前人气值：1
+2024-03-17 03:23:29 [log]当前人气值：1
+2024-03-17 03:23:59 [log]当前人气值：1
+2024-03-17 03:24:29 [log]当前人气值：1
+2024-03-17 03:24:59 [log]当前人气值：1
+2024-03-17 03:25:29 [log]当前人气值：1
+2024-03-17 03:25:59 [log]当前人气值：1
+2024-03-17 03:26:26 [log]听众[头号铁杆小黑粉] 进入直播……
+2024-03-17 03:26:27 [log]发送弹幕：欢迎【头号铁杆小黑粉】进入直播间！欢迎点播歌曲！
+2024-03-17 03:26:29 [log]kavencat：欢迎【头号铁杆小黑粉】进入直播间！欢迎点播歌曲！
+2024-03-17 03:26:29 [log]写入记录失败！
+2024-03-17 03:26:29 [log]当前人气值：1
+2024-03-17 03:26:59 [log]当前人气值：1
+2024-03-17 03:27:29 [log]当前人气值：1
+2024-03-17 03:27:59 [log]当前人气值：1
+2024-03-17 03:28:29 [log]当前人气值：1
+2024-03-17 03:28:59 [log]当前人气值：1
+2024-03-17 03:29:29 [log]当前人气值：1
+2024-03-17 03:29:59 [log]当前人气值：1
+2024-03-17 03:30:29 [log]当前人气值：1
+2024-03-17 03:30:59 [log]当前人气值：1
+2024-03-17 03:31:29 [log]当前人气值：1
+2024-03-17 03:31:59 [log]当前人气值：1
+2024-03-17 03:32:29 [log]当前人气值：1
+2024-03-17 03:32:59 [log]当前人气值：1
+2024-03-17 03:33:29 [log]当前人气值：1
+2024-03-17 03:33:59 [log]当前人气值：1
+2024-03-17 03:34:29 [log]当前人气值：1
+2024-03-17 03:34:59 [log]当前人气值：1
+2024-03-17 03:35:29 [log]当前人气值：1
+2024-03-17 03:35:59 [log]当前人气值：1
+2024-03-17 03:36:29 [log]当前人气值：1
+2024-03-17 03:36:59 [log]当前人气值：1
+2024-03-17 03:37:29 [log]当前人气值：1
+2024-03-17 03:37:59 [log]当前人气值：1
+2024-03-17 03:38:29 [log]当前人气值：1
+2024-03-17 03:38:59 [log]当前人气值：1
+2024-03-17 03:39:29 [log]当前人气值：1
+2024-03-17 03:39:59 [log]当前人气值：1
+2024-03-17 03:40:29 [log]当前人气值：1
+2024-03-17 03:40:59 [log]当前人气值：1
+2024-03-17 03:41:29 [log]当前人气值：1
+2024-03-17 03:41:59 [log]当前人气值：1
+2024-03-17 03:42:29 [log]当前人气值：1
+2024-03-17 03:42:59 [log]当前人气值：1
+2024-03-17 03:43:29 [log]当前人气值：1
+2024-03-17 03:43:59 [log]当前人气值：1
+2024-03-17 03:44:29 [log]当前人气值：1
+2024-03-17 03:44:59 [log]当前人气值：1
+2024-03-17 03:45:29 [log]当前人气值：1
+2024-03-17 03:45:59 [log]当前人气值：1
+2024-03-17 03:46:29 [log]当前人气值：1
+2024-03-17 03:46:59 [log]当前人气值：1
+2024-03-17 03:47:29 [log]当前人气值：1
+2024-03-17 03:47:59 [log]当前人气值：1
+2024-03-17 03:48:29 [log]当前人气值：1
+2024-03-17 03:48:59 [log]当前人气值：1
+2024-03-17 03:49:29 [log]当前人气值：1
+2024-03-17 03:49:59 [log]当前人气值：1
+2024-03-17 03:50:29 [log]当前人气值：1
+2024-03-17 03:50:59 [log]当前人气值：1
+2024-03-17 03:51:29 [log]当前人气值：1
+2024-03-17 03:51:59 [log]当前人气值：1
+2024-03-17 03:52:29 [log]当前人气值：1
+2024-03-17 03:52:59 [log]当前人气值：1
+2024-03-17 03:53:29 [log]当前人气值：1
+2024-03-17 03:53:59 [log]当前人气值：1
+2024-03-17 03:54:29 [log]当前人气值：1
+2024-03-17 03:54:59 [log]当前人气值：1
+2024-03-17 03:55:29 [log]当前人气值：1
+2024-03-17 03:55:59 [log]当前人气值：1
+2024-03-17 03:56:29 [log]当前人气值：1
+2024-03-17 03:56:59 [log]当前人气值：1
+2024-03-17 03:57:29 [log]当前人气值：1
+2024-03-17 03:57:59 [log]当前人气值：1
+2024-03-17 03:58:29 [log]当前人气值：1
+2024-03-17 03:58:59 [log]当前人气值：1
+2024-03-17 03:59:29 [log]当前人气值：1
+2024-03-17 03:59:59 [log]当前人气值：1
+2024-03-17 04:00:29 [log]当前人气值：1
+2024-03-17 04:00:59 [log]当前人气值：1
+2024-03-17 04:01:29 [log]当前人气值：1
+2024-03-17 04:01:59 [log]当前人气值：1
+2024-03-17 04:02:29 [log]当前人气值：1
+2024-03-17 04:02:59 [log]当前人气值：1
+2024-03-17 04:03:29 [log]当前人气值：1
+2024-03-17 04:03:59 [log]当前人气值：1
+2024-03-17 04:04:29 [log]当前人气值：1
+2024-03-17 04:04:59 [log]当前人气值：1
+2024-03-17 04:05:29 [log]当前人气值：1
+2024-03-17 04:05:59 [log]当前人气值：1
+2024-03-17 04:06:29 [log]当前人气值：1
+2024-03-17 04:06:59 [log]当前人气值：1
+2024-03-17 04:07:29 [log]当前人气值：1
+2024-03-17 04:07:59 [log]当前人气值：1
+2024-03-17 04:08:29 [log]当前人气值：1
+2024-03-17 04:08:59 [log]当前人气值：1
+2024-03-17 04:09:29 [log]当前人气值：1
+2024-03-17 04:09:59 [log]当前人气值：1
+2024-03-17 04:10:29 [log]当前人气值：1
+2024-03-17 04:10:59 [log]当前人气值：1
+2024-03-17 04:11:29 [log]当前人气值：1
+2024-03-17 04:11:59 [log]当前人气值：1
+2024-03-17 04:12:29 [log]当前人气值：1
+2024-03-17 04:12:59 [log]当前人气值：1
+2024-03-17 04:13:29 [log]当前人气值：1
+2024-03-17 04:13:59 [log]当前人气值：1
+2024-03-17 04:14:29 [log]当前人气值：1
+2024-03-17 04:14:59 [log]当前人气值：1
+2024-03-17 04:15:29 [log]当前人气值：1
+2024-03-17 04:15:59 [log]当前人气值：1
+2024-03-17 04:16:29 [log]当前人气值：1
+2024-03-17 04:16:59 [log]当前人气值：1
+2024-03-17 04:17:29 [log]当前人气值：1
+2024-03-17 04:17:59 [log]当前人气值：1
+2024-03-17 04:18:29 [log]当前人气值：1
+2024-03-17 04:18:59 [log]当前人气值：1
+2024-03-17 04:19:29 [log]当前人气值：1
+2024-03-17 04:19:59 [log]当前人气值：1
+2024-03-17 04:20:29 [log]当前人气值：1
+2024-03-17 04:20:59 [log]当前人气值：1
+2024-03-17 04:21:29 [log]当前人气值：1
+2024-03-17 04:21:59 [log]当前人气值：1
+2024-03-17 04:22:29 [log]当前人气值：1
+2024-03-17 04:22:59 [log]当前人气值：1
+2024-03-17 04:23:29 [log]当前人气值：1
+2024-03-17 04:23:59 [log]当前人气值：1
+2024-03-17 04:24:29 [log]当前人气值：1
+2024-03-17 04:24:59 [log]当前人气值：1
+2024-03-17 04:25:29 [log]当前人气值：1
+2024-03-17 04:25:59 [log]当前人气值：1
+2024-03-17 04:26:29 [log]当前人气值：1
+2024-03-17 04:26:59 [log]当前人气值：1
+2024-03-17 04:27:29 [log]当前人气值：1
+2024-03-17 04:27:59 [log]当前人气值：1
+2024-03-17 04:28:29 [log]当前人气值：1
+2024-03-17 04:28:59 [log]当前人气值：1
+2024-03-17 04:29:29 [log]当前人气值：1
+2024-03-17 04:29:59 [log]当前人气值：1
+2024-03-17 04:30:29 [log]当前人气值：1
+2024-03-17 04:30:59 [log]当前人气值：1
+2024-03-17 04:31:05 [log]听众[新-人类] 进入直播……
+2024-03-17 04:31:06 [log]发送弹幕：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-17 04:31:08 [log]kavencat：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-17 04:31:08 [log]写入记录失败！
+2024-03-17 04:31:29 [log]当前人气值：1
+2024-03-17 04:31:59 [log]当前人气值：1
+2024-03-17 04:32:29 [log]当前人气值：1
+2024-03-17 04:32:59 [log]当前人气值：1
+2024-03-17 04:33:29 [log]当前人气值：1
+2024-03-17 04:33:59 [log]当前人气值：1
+2024-03-17 04:34:29 [log]当前人气值：1
+2024-03-17 04:34:59 [log]当前人气值：1
+2024-03-17 04:35:29 [log]当前人气值：1
+2024-03-17 04:35:59 [log]当前人气值：1
+2024-03-17 04:36:29 [log]当前人气值：1
+2024-03-17 04:36:59 [log]当前人气值：1
+2024-03-17 04:37:29 [log]当前人气值：1
+2024-03-17 04:37:59 [log]当前人气值：1
+2024-03-17 04:38:29 [log]当前人气值：1
+2024-03-17 04:38:59 [log]当前人气值：1
+2024-03-17 04:39:29 [log]当前人气值：1
+2024-03-17 04:39:59 [log]当前人气值：1
+2024-03-17 04:40:29 [log]当前人气值：1
+2024-03-17 04:40:59 [log]当前人气值：1
+2024-03-17 04:41:29 [log]当前人气值：1
+2024-03-17 04:41:59 [log]当前人气值：1
+2024-03-17 04:42:29 [log]当前人气值：1
+2024-03-17 04:42:59 [log]当前人气值：1
+2024-03-17 04:43:29 [log]当前人气值：1
+2024-03-17 04:43:59 [log]当前人气值：1
+2024-03-17 04:44:29 [log]当前人气值：1
+2024-03-17 04:44:59 [log]当前人气值：1
+2024-03-17 04:45:29 [log]当前人气值：1
+2024-03-17 04:45:59 [log]当前人气值：1
+2024-03-17 04:46:29 [log]当前人气值：1
+2024-03-17 04:46:59 [log]当前人气值：1
+2024-03-17 04:47:29 [log]当前人气值：1
+2024-03-17 04:47:59 [log]当前人气值：1
+2024-03-17 04:48:29 [log]当前人气值：1
+2024-03-17 04:48:59 [log]当前人气值：1
+2024-03-17 04:49:29 [log]当前人气值：1
+2024-03-17 04:49:59 [log]当前人气值：1
+2024-03-17 04:50:29 [log]当前人气值：1
+2024-03-17 04:50:59 [log]当前人气值：1
+2024-03-17 04:51:29 [log]当前人气值：1
+2024-03-17 04:51:59 [log]当前人气值：1
+2024-03-17 04:52:23 [log]听众[新-人类] 进入直播……
+2024-03-17 04:52:24 [log]发送弹幕：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-17 04:52:26 [log]kavencat：欢迎【新-人类】进入直播间！欢迎点播歌曲！
+2024-03-17 04:52:26 [log]写入记录失败！
+2024-03-17 04:52:29 [log]当前人气值：1
+2024-03-17 04:52:39 [log]新-人类：点歌 春歌
+4
+2024-03-17 04:52:39 [log]发送弹幕：已收到新-人类的指令
+2024-03-17 04:52:41 [log]searching song:春歌
+2024-03-17 04:52:41 [log]写入记录失败！
+2024-03-17 04:52:41 [log]kavencat：已收到新-人类的指令
+2024-03-17 04:52:41 [log]写入记录失败！
+2024-03-17 04:52:42 [log]发送弹幕：正在下载id93948
+2024-03-17 04:52:43 [log]getting url:id93948
+2024-03-17 04:52:44 [log]kavencat：正在下载id93948
+2024-03-17 04:52:44 [log]写入记录失败！
+2024-03-17 04:52:45 get info: 春歌 http://p2.music.126.net/wD9rMoHloQn-ZESfZxW9zA==/113249697666670.jpg
+pic_urlhttp://p2.music.126.net/wD9rMoHloQn-ZESfZxW9zA==/113249697666670.jpg
+2024-03-17 04:52:45 [log]mp3时长:00:03:47
+2024-03-17 04:52:45 [log]发送弹幕：歌曲[春歌]下载完成，加入播放队列
+2024-03-17 04:52:47 [log]kavencat：歌曲[春歌]下载完成，加入播放队列
+2024-03-17 04:52:47 [log]写入记录失败！
+2024-03-17 04:52:51 [log]已添加排队项目：id93948
+2024-03-17 04:52:59 [log]当前人气值：1
+2024-03-17 04:53:29 [log]当前人气值：1
+2024-03-17 04:53:59 [log]当前人气值：1
+2024-03-17 04:54:29 [log]当前人气值：1
+2024-03-17 04:54:59 [log]当前人气值：1
+2024-03-17 04:55:29 [log]当前人气值：1
+2024-03-17 04:55:59 [log]当前人气值：1
+2024-03-17 04:56:29 [log]当前人气值：1
+2024-03-17 04:56:59 [log]当前人气值：1
+2024-03-17 04:57:29 [log]当前人气值：1
+2024-03-17 04:57:59 [log]当前人气值：1
+2024-03-17 04:58:29 [log]当前人气值：1
+2024-03-17 04:58:59 [log]当前人气值：1
+2024-03-17 04:59:29 [log]当前人气值：1
+2024-03-17 04:59:59 [log]当前人气值：1
+2024-03-17 05:00:29 [log]当前人气值：1
+2024-03-17 05:00:59 [log]当前人气值：1
+2024-03-17 05:01:29 [log]当前人气值：1
+2024-03-17 05:01:59 [log]当前人气值：1
+2024-03-17 05:02:29 [log]当前人气值：1
+2024-03-17 05:02:59 [log]当前人气值：1
+2024-03-17 05:03:29 [log]当前人气值：1
+2024-03-17 05:03:59 [log]当前人气值：1
+2024-03-17 05:04:29 [log]当前人气值：1
+2024-03-17 05:04:59 [log]当前人气值：1
+2024-03-17 05:05:29 [log]当前人气值：1
+2024-03-17 05:05:59 [log]当前人气值：1
+2024-03-17 05:06:29 [log]当前人气值：1
+2024-03-17 05:06:59 [log]当前人气值：1
+2024-03-17 05:07:29 [log]当前人气值：1
+2024-03-17 05:07:59 [log]当前人气值：1
+2024-03-17 05:08:29 [log]当前人气值：1
+2024-03-17 05:08:59 [log]当前人气值：1
+2024-03-17 05:09:29 [log]当前人气值：1
+2024-03-17 05:09:59 [log]当前人气值：1
+2024-03-17 05:10:29 [log]当前人气值：1
+2024-03-17 05:10:59 [log]当前人气值：1
+2024-03-17 05:11:29 [log]当前人气值：1
+2024-03-17 05:11:59 [log]当前人气值：1
+2024-03-17 05:12:29 [log]当前人气值：1
+2024-03-17 05:12:59 [log]当前人气值：1
+2024-03-17 05:13:29 [log]当前人气值：1
+2024-03-17 05:13:59 [log]当前人气值：1
+2024-03-17 05:14:29 [log]当前人气值：1
+2024-03-17 05:14:59 [log]当前人气值：1
+2024-03-17 05:15:29 [log]当前人气值：1
+room=3702914 is reconnecting, retry_count=1, total_retry_count=1
+2024-03-17 05:16:16 [log]当前人气值：1
+2024-03-17 05:16:46 [log]当前人气值：1
+2024-03-17 05:17:16 [log]当前人气值：1
+2024-03-17 05:17:46 [log]当前人气值：1
+2024-03-17 05:18:16 [log]当前人气值：1
+2024-03-17 05:18:46 [log]当前人气值：1
+2024-03-17 05:19:16 [log]当前人气值：1
+2024-03-17 05:19:46 [log]当前人气值：1
+2024-03-17 05:20:16 [log]当前人气值：1
+2024-03-17 05:20:46 [log]当前人气值：1
+2024-03-17 05:21:16 [log]当前人气值：1
+2024-03-17 05:21:46 [log]当前人气值：1
+2024-03-17 05:22:16 [log]当前人气值：1
+2024-03-17 05:22:46 [log]当前人气值：1
+2024-03-17 05:23:16 [log]当前人气值：1
+2024-03-17 05:23:46 [log]当前人气值：1
+2024-03-17 05:24:16 [log]当前人气值：1
+2024-03-17 05:24:46 [log]当前人气值：1
+2024-03-17 05:25:16 [log]当前人气值：1
+2024-03-17 05:25:46 [log]当前人气值：1
+2024-03-17 05:26:16 [log]当前人气值：1
+2024-03-17 05:26:46 [log]当前人气值：1
+2024-03-17 05:27:16 [log]当前人气值：1
+2024-03-17 05:27:46 [log]当前人气值：1
+2024-03-17 05:28:16 [log]当前人气值：1
+2024-03-17 05:28:46 [log]当前人气值：1
+2024-03-17 05:29:16 [log]当前人气值：1
+2024-03-17 05:29:46 [log]当前人气值：1
+2024-03-17 05:30:16 [log]当前人气值：1
+2024-03-17 05:30:46 [log]当前人气值：1
+2024-03-17 05:31:16 [log]当前人气值：1
+2024-03-17 05:31:46 [log]当前人气值：1
+2024-03-17 05:32:16 [log]当前人气值：1
+2024-03-17 05:32:46 [log]当前人气值：1
+2024-03-17 05:33:16 [log]当前人气值：1
+2024-03-17 05:33:46 [log]当前人气值：1
+2024-03-17 05:34:16 [log]当前人气值：1
+2024-03-17 05:34:46 [log]当前人气值：1
+2024-03-17 05:35:16 [log]当前人气值：1
+2024-03-17 05:35:46 [log]当前人气值：1
+2024-03-17 05:36:16 [log]当前人气值：1
+2024-03-17 05:36:46 [log]当前人气值：1
+2024-03-17 05:37:16 [log]当前人气值：1
+2024-03-17 05:37:46 [log]当前人气值：1
+2024-03-17 05:38:16 [log]当前人气值：1
+2024-03-17 05:38:46 [log]当前人气值：1
+2024-03-17 05:39:16 [log]当前人气值：1
+2024-03-17 05:39:46 [log]当前人气值：1
+2024-03-17 05:40:16 [log]当前人气值：1
+2024-03-17 05:40:46 [log]当前人气值：1
+2024-03-17 05:41:16 [log]当前人气值：1
+2024-03-17 05:41:46 [log]当前人气值：1
+2024-03-17 05:42:16 [log]当前人气值：1
+2024-03-17 05:42:46 [log]当前人气值：1
+2024-03-17 05:43:16 [log]当前人气值：1
+2024-03-17 05:43:46 [log]当前人气值：1
+2024-03-17 05:44:16 [log]当前人气值：1
+2024-03-17 05:44:46 [log]当前人气值：1
+2024-03-17 05:45:16 [log]当前人气值：1
+2024-03-17 05:45:46 [log]当前人气值：1
+2024-03-17 05:46:16 [log]当前人气值：1
+2024-03-17 05:46:46 [log]当前人气值：1
+2024-03-17 05:47:16 [log]当前人气值：1
+2024-03-17 05:47:46 [log]当前人气值：1
+2024-03-17 05:48:16 [log]当前人气值：1
+2024-03-17 05:48:46 [log]当前人气值：1
+2024-03-17 05:49:16 [log]当前人气值：1
+2024-03-17 05:49:46 [log]当前人气值：1
+2024-03-17 05:50:16 [log]当前人气值：1
+2024-03-17 05:50:46 [log]当前人气值：1
+2024-03-17 05:51:16 [log]当前人气值：1
+2024-03-17 05:51:46 [log]当前人气值：1
+2024-03-17 05:52:16 [log]当前人气值：1
+2024-03-17 05:52:46 [log]当前人气值：1
+2024-03-17 05:53:16 [log]当前人气值：1
+2024-03-17 05:53:46 [log]当前人气值：1
+2024-03-17 05:54:17 [log]当前人气值：1
+2024-03-17 05:54:47 [log]当前人气值：1
+2024-03-17 05:55:17 [log]当前人气值：1
+2024-03-17 05:55:47 [log]当前人气值：1
+2024-03-17 05:56:17 [log]当前人气值：1
+2024-03-17 05:56:47 [log]当前人气值：1
+2024-03-17 05:57:17 [log]当前人气值：1
+2024-03-17 05:57:47 [log]当前人气值：1
+2024-03-17 05:58:17 [log]当前人气值：1
+2024-03-17 05:58:47 [log]当前人气值：1
+2024-03-17 05:59:17 [log]当前人气值：1
+2024-03-17 05:59:47 [log]当前人气值：1
+2024-03-17 06:00:17 [log]当前人气值：1
+2024-03-17 06:00:47 [log]当前人气值：1
+2024-03-17 06:01:17 [log]当前人气值：1
+2024-03-17 06:01:47 [log]当前人气值：1
+2024-03-17 06:02:17 [log]当前人气值：1
+2024-03-17 06:02:47 [log]当前人气值：1
+2024-03-17 06:03:17 [log]当前人气值：1
+2024-03-17 06:03:47 [log]当前人气值：1
+2024-03-17 06:04:17 [log]当前人气值：1
+2024-03-17 06:04:47 [log]当前人气值：1
+2024-03-17 06:05:17 [log]当前人气值：1
+2024-03-17 06:05:47 [log]当前人气值：1
+2024-03-17 06:06:17 [log]当前人气值：1
+2024-03-17 06:06:47 [log]当前人气值：1
+2024-03-17 06:07:17 [log]当前人气值：1
+2024-03-17 06:07:47 [log]当前人气值：1
+2024-03-17 06:08:17 [log]当前人气值：1
+2024-03-17 06:08:47 [log]当前人气值：1
+2024-03-17 06:09:17 [log]当前人气值：1
+2024-03-17 06:09:47 [log]当前人气值：1
+2024-03-17 06:10:17 [log]当前人气值：1
+2024-03-17 06:10:47 [log]当前人气值：1
+2024-03-17 06:11:17 [log]当前人气值：1
+2024-03-17 06:11:47 [log]当前人气值：1
+2024-03-17 06:12:17 [log]当前人气值：1
+2024-03-17 06:12:47 [log]当前人气值：1
+2024-03-17 06:13:17 [log]当前人气值：1
+2024-03-17 06:13:47 [log]当前人气值：1
+2024-03-17 06:14:17 [log]当前人气值：1
+2024-03-17 06:14:47 [log]当前人气值：1
+2024-03-17 06:15:17 [log]当前人气值：1
+2024-03-17 06:15:47 [log]当前人气值：1
+2024-03-17 06:16:17 [log]当前人气值：1
+2024-03-17 06:16:47 [log]当前人气值：1
+2024-03-17 06:17:17 [log]当前人气值：1
+2024-03-17 06:17:47 [log]当前人气值：1
+2024-03-17 06:18:17 [log]当前人气值：1
+2024-03-17 06:18:47 [log]当前人气值：1
+2024-03-17 06:19:17 [log]当前人气值：1
+2024-03-17 06:19:47 [log]当前人气值：1
+2024-03-17 06:20:17 [log]当前人气值：1
+2024-03-17 06:20:47 [log]当前人气值：1
+2024-03-17 06:21:17 [log]当前人气值：1
+2024-03-17 06:21:47 [log]当前人气值：1
+2024-03-17 06:22:17 [log]当前人气值：1
+2024-03-17 06:22:47 [log]当前人气值：1
+2024-03-17 06:23:17 [log]当前人气值：1
+2024-03-17 06:23:47 [log]当前人气值：1
+2024-03-17 06:24:17 [log]当前人气值：1
+2024-03-17 06:24:47 [log]当前人气值：1
+2024-03-17 06:25:17 [log]当前人气值：1
+2024-03-17 06:25:47 [log]当前人气值：1
+2024-03-17 06:26:17 [log]当前人气值：1
+2024-03-17 06:26:47 [log]当前人气值：1
+2024-03-17 06:27:17 [log]当前人气值：1
+2024-03-17 06:27:47 [log]当前人气值：1
+2024-03-17 06:28:17 [log]当前人气值：1
+2024-03-17 06:28:47 [log]当前人气值：1
+2024-03-17 06:29:17 [log]当前人气值：1
+2024-03-17 06:29:47 [log]当前人气值：1
+2024-03-17 06:30:17 [log]当前人气值：1
+2024-03-17 06:30:47 [log]当前人气值：1
+2024-03-17 06:31:17 [log]当前人气值：1
+2024-03-17 06:31:47 [log]当前人气值：1
+2024-03-17 06:32:18 [log]当前人气值：1
+2024-03-17 06:32:48 [log]当前人气值：1
+2024-03-17 06:33:18 [log]当前人气值：1
+2024-03-17 06:33:48 [log]当前人气值：1
+2024-03-17 06:34:18 [log]当前人气值：1
+2024-03-17 06:34:48 [log]当前人气值：1
+2024-03-17 06:35:18 [log]当前人气值：1
+2024-03-17 06:35:48 [log]当前人气值：1
+2024-03-17 06:36:18 [log]当前人气值：1
+2024-03-17 06:36:48 [log]当前人气值：1
+2024-03-17 06:37:18 [log]当前人气值：1
+2024-03-17 06:37:48 [log]当前人气值：1
+2024-03-17 06:38:18 [log]当前人气值：1
+2024-03-17 06:38:48 [log]当前人气值：1
+2024-03-17 06:39:18 [log]当前人气值：1
+2024-03-17 06:39:48 [log]当前人气值：1
+2024-03-17 06:40:18 [log]当前人气值：1
+2024-03-17 06:40:48 [log]当前人气值：1
+2024-03-17 06:41:18 [log]当前人气值：1
+2024-03-17 06:41:48 [log]当前人气值：1
+2024-03-17 06:42:18 [log]当前人气值：1
+2024-03-17 06:42:48 [log]当前人气值：1
+2024-03-17 06:43:18 [log]当前人气值：1
+2024-03-17 06:43:48 [log]当前人气值：1
+2024-03-17 06:44:18 [log]当前人气值：1
+2024-03-17 06:44:48 [log]当前人气值：1
+2024-03-17 06:45:18 [log]当前人气值：1
+2024-03-17 06:45:48 [log]当前人气值：1
+2024-03-17 06:46:18 [log]当前人气值：1
+2024-03-17 06:46:48 [log]当前人气值：1
+2024-03-17 06:47:18 [log]当前人气值：1
+2024-03-17 06:47:48 [log]当前人气值：1
+2024-03-17 06:48:18 [log]当前人气值：1
+2024-03-17 06:48:48 [log]当前人气值：1
+2024-03-17 06:49:18 [log]当前人气值：1
+2024-03-17 06:49:48 [log]当前人气值：1
+2024-03-17 06:50:18 [log]当前人气值：1
+2024-03-17 06:50:48 [log]当前人气值：1
+2024-03-17 06:51:18 [log]当前人气值：1
+2024-03-17 06:51:48 [log]当前人气值：1
+2024-03-17 06:52:18 [log]当前人气值：1
+2024-03-17 06:52:48 [log]当前人气值：1
+2024-03-17 06:53:18 [log]当前人气值：1
+2024-03-17 06:53:48 [log]当前人气值：1
+2024-03-17 06:54:18 [log]当前人气值：1
+2024-03-17 06:54:48 [log]当前人气值：1
+2024-03-17 06:55:18 [log]当前人气值：1
+2024-03-17 06:55:48 [log]当前人气值：1
+2024-03-17 06:56:18 [log]当前人气值：1
+2024-03-17 06:56:48 [log]当前人气值：1
+2024-03-17 06:57:18 [log]当前人气值：1
+2024-03-17 06:57:48 [log]当前人气值：1
+2024-03-17 06:58:18 [log]当前人气值：1
+2024-03-17 06:58:48 [log]当前人气值：1
+2024-03-17 06:59:18 [log]当前人气值：1
+2024-03-17 06:59:48 [log]当前人气值：1
+2024-03-17 07:00:18 [log]当前人气值：1
+2024-03-17 07:00:48 [log]当前人气值：1
+2024-03-17 07:01:18 [log]当前人气值：1
+2024-03-17 07:01:48 [log]当前人气值：1
+2024-03-17 07:02:18 [log]当前人气值：1
+2024-03-17 07:02:48 [log]当前人气值：1
+2024-03-17 07:03:18 [log]当前人气值：1
+2024-03-17 07:03:48 [log]当前人气值：1
+2024-03-17 07:04:18 [log]当前人气值：1
+2024-03-17 07:04:48 [log]当前人气值：1
+2024-03-17 07:05:18 [log]当前人气值：1
+2024-03-17 07:05:48 [log]当前人气值：1
+2024-03-17 07:06:18 [log]当前人气值：1
+2024-03-17 07:06:48 [log]当前人气值：1
+2024-03-17 07:07:19 [log]当前人气值：1
+2024-03-17 07:07:49 [log]当前人气值：1
+2024-03-17 07:08:19 [log]当前人气值：1
+2024-03-17 07:08:49 [log]当前人气值：1
+2024-03-17 07:09:19 [log]当前人气值：1
+2024-03-17 07:09:49 [log]当前人气值：1
+2024-03-17 07:10:19 [log]当前人气值：1
+2024-03-17 07:10:49 [log]当前人气值：1
+2024-03-17 07:11:19 [log]当前人气值：1
+2024-03-17 07:11:49 [log]当前人气值：1
+2024-03-17 07:12:19 [log]当前人气值：1
+2024-03-17 07:12:49 [log]当前人气值：1
+2024-03-17 07:13:19 [log]当前人气值：1
+2024-03-17 07:13:49 [log]当前人气值：1
+2024-03-17 07:14:19 [log]当前人气值：1
+2024-03-17 07:14:49 [log]当前人气值：1
+2024-03-17 07:14:49 [log]听众[宿小伟] 进入直播……
+2024-03-17 07:14:50 [log]发送弹幕：欢迎【宿小伟】进入直播间！欢迎点播歌曲！
+2024-03-17 07:14:52 [log]kavencat：欢迎【宿小伟】进入直播间！欢迎点播歌曲！
+2024-03-17 07:14:52 [log]写入记录失败！
+2024-03-17 07:15:19 [log]当前人气值：1
+2024-03-17 07:15:49 [log]当前人气值：1
+2024-03-17 07:16:19 [log]当前人气值：1
+2024-03-17 07:16:49 [log]当前人气值：1
+2024-03-17 07:17:19 [log]当前人气值：1
+2024-03-17 07:17:49 [log]当前人气值：1
+2024-03-17 07:18:19 [log]当前人气值：1
+2024-03-17 07:18:49 [log]当前人气值：1
+2024-03-17 07:19:19 [log]当前人气值：1
+2024-03-17 07:19:49 [log]当前人气值：1
+2024-03-17 07:20:19 [log]当前人气值：1
+2024-03-17 07:20:49 [log]当前人气值：1
+2024-03-17 07:21:19 [log]当前人气值：1
+2024-03-17 07:21:49 [log]当前人气值：1
+2024-03-17 07:22:19 [log]当前人气值：1
+2024-03-17 07:22:49 [log]当前人气值：1
+2024-03-17 07:23:19 [log]当前人气值：1
+2024-03-17 07:23:49 [log]当前人气值：1
+2024-03-17 07:24:19 [log]当前人气值：1
+2024-03-17 07:24:49 [log]当前人气值：1
+2024-03-17 07:25:19 [log]当前人气值：1
+2024-03-17 07:25:49 [log]当前人气值：1
+2024-03-17 07:26:19 [log]当前人气值：1
+2024-03-17 07:26:49 [log]当前人气值：1
+2024-03-17 07:27:19 [log]当前人气值：1
+2024-03-17 07:27:49 [log]当前人气值：1
+2024-03-17 07:28:19 [log]当前人气值：1
+2024-03-17 07:28:49 [log]当前人气值：1
+2024-03-17 07:29:19 [log]当前人气值：1
+2024-03-17 07:29:28 [log]听众[kavencat] 进入直播……
+2024-03-17 07:29:29 [log]发送弹幕：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-17 07:29:31 [log]kavencat：欢迎【kavencat】进入直播间！欢迎点播歌曲！
+2024-03-17 07:29:31 [log]写入记录失败！
+2024-03-17 07:29:49 [log]当前人气值：1
+2024-03-17 07:30:19 [log]当前人气值：1
+2024-03-17 07:30:49 [log]当前人气值：1
+2024-03-17 07:31:19 [log]当前人气值：1
+2024-03-17 07:31:49 [log]当前人气值：1
+2024-03-17 07:31:58 [log]听众[柠檬_cat] 进入直播……
+2024-03-17 07:31:58 [log]发送弹幕：欢迎【柠檬_cat】进入直播间！欢迎点播歌曲！
+2024-03-17 07:32:00 [log]kavencat：欢迎【柠檬_cat】进入直播间！欢迎点播歌曲！
+2024-03-17 07:32:00 [log]写入记录失败！
+2024-03-17 07:32:11 [log]柠檬_cat：124
+2024-03-17 07:32:11 [log]写入记录失败！
+2024-03-17 07:32:19 [log]当前人气值：1
+2024-03-17 07:32:49 [log]当前人气值：1
+2024-03-17 07:33:19 [log]当前人气值：1
+2024-03-17 07:33:49 [log]当前人气值：1
+2024-03-17 07:34:19 [log]当前人气值：1
+2024-03-17 07:34:49 [log]当前人气值：1
+2024-03-17 07:35:19 [log]当前人气值：1
+2024-03-17 07:35:49 [log]当前人气值：1
+2024-03-17 07:36:02 [log]kavencat：重启弹幕脚本
+2024-03-17 07:36:03 [log]发送弹幕：弹幕脚本重启中……
+2024-03-17 07:36:05 [log]程序已启动，连接房间id：3702914
+2024-03-17 07:36:06 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-17 07:36:08 [log]当前人气值：1
+2024-03-17 07:36:13 [log]当前人气值：1
+2024-03-17 07:36:43 [log]当前人气值：1
+2024-03-17 07:36:55 [log]柠檬_cat：1
+2024-03-17 07:36:55 [log]写入记录失败！
+2024-03-17 07:37:13 [log]当前人气值：1
+2024-03-17 07:37:43 [log]当前人气值：1
+2024-03-17 07:38:13 [log]当前人气值：1
+2024-03-17 07:38:43 [log]当前人气值：1
+2024-03-17 07:39:13 [log]当前人气值：1
+2024-03-17 07:39:16 [log]听众[人气313342206] 进入直播……
+2024-03-17 07:39:16 [log]发送弹幕：欢迎【人气313342206】进入直播间！欢迎点播歌曲！
+2024-03-17 07:39:18 [log]kavencat：欢迎【人气313342206】进入直播间！欢迎点播歌曲！
+2024-03-17 07:39:18 [log]写入记录失败！
+2024-03-17 07:39:43 [log]当前人气值：1
+2024-03-17 07:40:13 [log]当前人气值：1
+2024-03-17 07:40:43 [log]当前人气值：1
+2024-03-17 07:40:48 [log]kavencat：重启弹幕脚本
+2024-03-17 07:40:49 [log]发送弹幕：弹幕脚本重启中……
+Traceback (most recent call last):
+  File "/home/pi/live/bilibiliClient.py", line 9, in <module>
+    import post_dm
+  File "/home/pi/live/post_dm.py", line 661
+    w_log(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" "+user+":"s+'\r\n',path+'/logs/screenlog_dmlog.log','a+')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2024-03-17 07:42:52 [log]程序已启动，连接房间id：3702914
+2024-03-17 07:42:52 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-17 07:42:55 [log]当前人气值：1
+2024-03-17 07:42:59 [log]当前人气值：1
+2024-03-17 07:43:29 [log]当前人气值：1
+2024-03-17 07:43:44 [log]柠檬_cat：12
+2024-03-17 07:43:44 [log]写入记录失败！
+2024-03-17 07:43:59 [log]当前人气值：1
+2024-03-17 07:44:29 [log]当前人气值：1
+2024-03-17 07:44:59 [log]当前人气值：1
+2024-03-17 07:45:29 [log]当前人气值：1
+2024-03-17 07:45:59 [log]当前人气值：1
+2024-03-17 07:46:29 [log]当前人气值：1
+2024-03-17 07:46:44 [log]kavencat：重启弹幕脚本
+2024-03-17 07:46:44 [log]写入记录失败！
+2024-03-17 07:46:45 [log]发送弹幕：弹幕脚本重启中……
+2024-03-17 07:46:47 [log]程序已启动，连接房间id：3702914
+2024-03-17 07:46:48 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-17 07:46:50 [log]当前人气值：1
+2024-03-17 07:46:55 [log]当前人气值：1
+2024-03-17 07:47:25 [log]当前人气值：1
+2024-03-17 07:47:55 [log]当前人气值：1
+2024-03-17 07:48:25 [log]当前人气值：1
+2024-03-17 07:48:31 [log]柠檬_cat：12
+2024-03-17 07:48:31 [log]写入记录成功！
+2024-03-17 07:48:55 [log]当前人气值：1
+2024-03-17 07:49:25 [log]当前人气值：1
+2024-03-17 07:49:55 [log]当前人气值：1
+2024-03-17 07:50:12 [log]kavencat：重启弹幕脚本
+2024-03-17 07:50:12 [log]写入记录成功！
+2024-03-17 07:50:13 [log]发送弹幕：弹幕脚本重启中……
+2024-03-17 07:50:15 [log]程序已启动，连接房间id：3702914
+2024-03-17 07:50:16 [log]发送弹幕：弹幕监控已启动，可以点歌了
+2024-03-17 07:50:18 [log]当前人气值：1
+2024-03-17 07:50:23 [log]当前人气值：1
+2024-03-17 07:50:53 [log]当前人气值：1
+2024-03-17 07:51:23 [log]当前人气值：1

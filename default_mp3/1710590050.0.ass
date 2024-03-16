@@ -1,0 +1,496 @@
+[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前网易云id：1869074366\N歌名：Cold Heart (PNAU Remix)\N点播人：柠檬_cat
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\N点播日期：2024-03-16 19:54:12
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌(歌曲名)\Nid(网易云歌曲id)\N点歌(歌曲名空格歌手)
+
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down,,0,0,0,,　 作曲 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　\N　It's a human sign　
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down_big,,0,0,0,,　 作词 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:01.00,0:00:15.18,center_down,,0,0,0,,　It's a human sign　\N　When things go wrong　
+Dialogue: 2,0:00:01.00,0:00:15.18,center_down_big,,0,0,0,,　 作曲 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　
+Dialogue: 2,0:00:01.00,0:00:15.18,center_down,,0,0,0,,　 　\N　 作词 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　
+Dialogue: 2,0:00:15.18,0:00:19.28,center_down,,0,0,0,,　When things go wrong　\N　When the scent of her lingers　
+Dialogue: 2,0:00:15.18,0:00:19.28,center_down_big,,0,0,0,,　It's a human sign　
+Dialogue: 2,0:00:15.18,0:00:19.28,center_down,,0,0,0,,　 作词 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　\N　 作曲 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_down,,0,0,0,,　When the scent of her lingers　\N　And temptation's strong　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_down_big,,0,0,0,,　When things go wrong　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_down,,0,0,0,,　 作曲 : Elton John/Nicholas Littlemore/Peter Mayes/Sam Littlemore/Bernie Taupin　\N　It's a human sign　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_down,,0,0,0,,　And temptation's strong　\N　　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_down_big,,0,0,0,,　When the scent of her lingers　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_down,,0,0,0,,　It's a human sign　\N　When things go wrong　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_down_big,,0,0,0,,　And temptation's strong　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_down,,0,0,0,,　When things go wrong　\N　When the scent of her lingers　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_down,,0,0,0,,　When the scent of her lingers　\N　And temptation's strong　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_down_big,,0,0,0,,　Cold, cold heart (Oh)　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_down,,0,0,0,,　And temptation's strong　\N　　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_down_big,,0,0,0,,　Hard done by you　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_down_big,,0,0,0,,　Some things looking better, baby (Oh)　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_down_big,,0,0,0,,　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　I am not the man they think I am at home　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_down_big,,0,0,0,,　And I think it's gonna be a long, long time　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_down,,0,0,0,,　I am not the man they think I am at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_down_big,,0,0,0,,　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_down_big,,0,0,0,,　I am not the man they think I am at home　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_down,,0,0,0,,　And this is what I should have ever said　\N　Well I thought it, but I kept it hid　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_down_big,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　I am not the man they think I am at home　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_down,,0,0,0,,　Well I thought it, but I kept it hid　\N　　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_down_big,,0,0,0,,　And this is what I should have ever said　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_down,,0,0,0,,　I am not the man they think I am at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_down_big,,0,0,0,,　Well I thought it, but I kept it hid　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_down,,0,0,0,,　And this is what I should have ever said　\N　Well I thought it, but I kept it hid　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_down_big,,0,0,0,,　Cold, cold heart (Oh)　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_down,,0,0,0,,　Well I thought it, but I kept it hid　\N　　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_down_big,,0,0,0,,　Hard done by you　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_down_big,,0,0,0,,　Some things looking better, baby (Oh)　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_down_big,,0,0,0,,　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　I'm not the man they think I'm at home　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_down_big,,0,0,0,,　And I think it's gonna be a long, long time　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_down,,0,0,0,,　I'm not the man they think I'm at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_down_big,,0,0,0,,　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_down_big,,0,0,0,,　I'm not the man they think I'm at home　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_down,,0,0,0,,　And this is what I should have ever said　\N　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_down_big,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　I'm not the man they think I'm at home　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_down,,0,0,0,,　When I'm fallin', but I kept it hid　\N　　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_down_big,,0,0,0,,　And this is what I should have ever said　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_down,,0,0,0,,　I'm not the man they think I'm at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_down_big,,0,0,0,,　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_down,,0,0,0,,　And this is what I should have ever said　\N　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_down_big,,0,0,0,,　Cold, cold heart (Oh)　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_down,,0,0,0,,　When I'm fallin', but I kept it hid　\N　　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_down_big,,0,0,0,,　Hard done by you　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_down,,0,0,0,,　　\N　Cold, cold heart (Oh)　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_down_big,,0,0,0,,　Some things looking better, baby (Oh)　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_down,,0,0,0,,　Cold, cold heart (Oh)　\N　Hard done by you　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_down_big,,0,0,0,,　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_down,,0,0,0,,　Hard done by you　\N　Some things looking better, baby (Oh)　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_down,,0,0,0,,　Some things looking better, baby (Oh)　\N　Just passin' through (Oh no, no, no, no)　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　Another man that think I am at home　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_down_big,,0,0,0,,　And I think it's gonna be a long, long time　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_down,,0,0,0,,　Just passin' through (Oh no, no, no, no)　\N　　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_down,,0,0,0,,　Another man that think I am at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_down_big,,0,0,0,,　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_down,,0,0,0,,　　\N　And I think it's gonna be a long, long time　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_down_big,,0,0,0,,　Another man that think I am at home　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_down,,0,0,0,,　And I think it's gonna be a long, long time　\N　'Til touchdown brings me 'round again to find　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_down,,0,0,0,,　And this is what I should have ever said　\N　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_down_big,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_down,,0,0,0,,　'Til touchdown brings me 'round again to find　\N　Another man that think I am at home　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_down,,0,0,0,,　When I'm fallin', but I kept it hid　\N　　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_down_big,,0,0,0,,　And this is what I should have ever said　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_down,,0,0,0,,　Another man that think I am at home　\N　Oh no, no, no, no (No, no, no, no)　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_down,,0,0,0,,　　\N　Uh, shoorah　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_down_big,,0,0,0,,　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_down,,0,0,0,,　Oh no, no, no, no (No, no, no, no)　\N　And this is what I should have ever said　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_down,,0,0,0,,　Uh, shoorah　\N　(Oh no, no, no, no)　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_down,,0,0,0,,　And this is what I should have ever said　\N　When I'm fallin', but I kept it hid　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_down,,0,0,0,,　(Oh no, no, no, no)　\N　 　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_down_big,,0,0,0,,　Uh, shoorah　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_down,,0,0,0,,　When I'm fallin', but I kept it hid　\N　　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_down_big,,0,0,0,,　(Oh no, no, no, no)　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_down,,0,0,0,,　　\N　Uh, shoorah　
+
+Dialogue: 2,0:00:15.18,0:00:19.28,center_up,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:15.18,0:00:19.28,center_up_big,,0,0,0,,　人的本性显露　
+Dialogue: 2,0:00:15.18,0:00:19.28,center_up,,0,0,0,,　当事态开始恶化　\N　当她气息萦绕　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_up,,0,0,0,,　 　\N　人的本性显露　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_up_big,,0,0,0,,　当事态开始恶化　
+Dialogue: 2,0:00:19.28,0:00:23.42,center_up,,0,0,0,,　当她气息萦绕　\N　诱惑强烈时　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_up,,0,0,0,,　人的本性显露　\N　当事态开始恶化　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_up_big,,0,0,0,,　当她气息萦绕　
+Dialogue: 2,0:00:23.42,0:00:27.32,center_up,,0,0,0,,　诱惑强烈时　\N　　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_up,,0,0,0,,　当事态开始恶化　\N　当她气息萦绕　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_up_big,,0,0,0,,　诱惑强烈时　
+Dialogue: 2,0:00:27.32,0:00:31.12,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_up,,0,0,0,,　当她气息萦绕　\N　诱惑强烈时　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:31.12,0:00:32.00,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_up,,0,0,0,,　诱惑强烈时　\N　　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_up_big,,0,0,0,,　铁石心肠　
+Dialogue: 2,0:00:32.00,0:00:35.78,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_up_big,,0,0,0,,　因你而牢固　
+Dialogue: 2,0:00:35.78,0:00:39.89,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_up_big,,0,0,0,,　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:00:39.89,0:00:44.20,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_up_big,,0,0,0,,　却只是 转瞬即逝　
+Dialogue: 2,0:00:44.20,0:00:49.63,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:49.63,0:00:50.18,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_up_big,,0,0,0,,　于我而言 还需寻觅许久　
+Dialogue: 2,0:00:50.18,0:00:54.43,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_up_big,,0,0,0,,　我才能心神安放 找到　
+Dialogue: 2,0:00:54.43,0:00:58.71,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_up_big,,0,0,0,,　能让我有归宿感的人　
+Dialogue: 2,0:00:58.71,0:01:02.61,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:02.61,0:01:05.60,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_up_big,,0,0,0,,　我本就该说出这些话　
+Dialogue: 2,0:01:05.60,0:01:13.65,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_up_big,,0,0,0,,　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:01:13.65,0:01:20.88,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:20.88,0:01:21.62,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_up_big,,0,0,0,,　铁石心肠　
+Dialogue: 2,0:01:21.62,0:01:25.47,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_up_big,,0,0,0,,　因你而牢固　
+Dialogue: 2,0:01:25.47,0:01:29.71,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_up_big,,0,0,0,,　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:01:29.71,0:01:33.71,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_up_big,,0,0,0,,　却只是 转瞬即逝　
+Dialogue: 2,0:01:33.71,0:01:39.15,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:39.15,0:01:39.96,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_up_big,,0,0,0,,　于我而言 还需寻觅许久　
+Dialogue: 2,0:01:39.96,0:01:44.00,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_up_big,,0,0,0,,　我才能心神安放 找到　
+Dialogue: 2,0:01:44.00,0:01:48.41,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_up_big,,0,0,0,,　能让我有归宿感的人　
+Dialogue: 2,0:01:48.41,0:01:52.02,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:52.02,0:01:55.42,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_up_big,,0,0,0,,　我本就该说出这些话　
+Dialogue: 2,0:01:55.42,0:02:03.44,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_up_big,,0,0,0,,　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:02:03.44,0:02:10.37,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:10.37,0:02:11.06,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_up_big,,0,0,0,,　铁石心肠　
+Dialogue: 2,0:02:11.06,0:02:14.99,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_up,,0,0,0,,　　\N　铁石心肠　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_up_big,,0,0,0,,　因你而牢固　
+Dialogue: 2,0:02:14.99,0:02:19.16,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_up,,0,0,0,,　铁石心肠　\N　因你而牢固　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_up_big,,0,0,0,,　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:02:19.16,0:02:23.52,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_up,,0,0,0,,　因你而牢固　\N　亲爱的 那些华丽蜕变　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_up_big,,0,0,0,,　却只是 转瞬即逝　
+Dialogue: 2,0:02:23.52,0:02:28.75,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_up,,0,0,0,,　亲爱的 那些华丽蜕变　\N　却只是 转瞬即逝　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:28.75,0:02:29.48,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_up,,0,0,0,,　却只是 转瞬即逝　\N　　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_up_big,,0,0,0,,　于我而言 还需寻觅许久　
+Dialogue: 2,0:02:29.48,0:02:33.69,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_up,,0,0,0,,　　\N　于我而言 还需寻觅许久　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_up_big,,0,0,0,,　我才能心神安放 找到　
+Dialogue: 2,0:02:33.69,0:02:38.12,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_up,,0,0,0,,　于我而言 还需寻觅许久　\N　我才能心神安放 找到　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_up_big,,0,0,0,,　能让我有归宿感的人　
+Dialogue: 2,0:02:38.12,0:02:41.82,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_up,,0,0,0,,　我才能心神安放 找到　\N　能让我有归宿感的人　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:41.82,0:02:45.16,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_up,,0,0,0,,　能让我有归宿感的人　\N　　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_up_big,,0,0,0,,　我本就该说出这些话　
+Dialogue: 2,0:02:45.16,0:02:53.21,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_up,,0,0,0,,　　\N　我本就该说出这些话　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_up_big,,0,0,0,,　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:02:53.21,0:03:00.11,center_up,,0,0,0,,　　\N　甜心　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_up,,0,0,0,,　我本就该说出这些话　\N　早在我坠落时 但那时我无法起舞　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:00.11,0:03:02.25,center_up,,0,0,0,,　甜心　\N　　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_up,,0,0,0,,　早在我坠落时 但那时我无法起舞　\N　　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_up_big,,0,0,0,,　甜心　
+Dialogue: 2,0:03:02.25,0:03:16.13,center_up,,0,0,0,,　　\N　 　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_up,,0,0,0,,　　\N　甜心　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:16.13,0:10:00.00,center_up,,0,0,0,,　 　\N　 　
+
+Dialogue: 2,0:00:00.00,0:00:01.00,right_down,,0,0,0,,歌曲时间:0:00:01/0:03:22
+Dialogue: 2,0:00:01.00,0:00:02.00,right_down,,0,0,0,,歌曲时间:0:00:02/0:03:22
+Dialogue: 2,0:00:02.00,0:00:03.00,right_down,,0,0,0,,歌曲时间:0:00:03/0:03:22
+Dialogue: 2,0:00:03.00,0:00:04.00,right_down,,0,0,0,,歌曲时间:0:00:04/0:03:22
+Dialogue: 2,0:00:04.00,0:00:05.00,right_down,,0,0,0,,歌曲时间:0:00:05/0:03:22
+Dialogue: 2,0:00:05.00,0:00:06.00,right_down,,0,0,0,,歌曲时间:0:00:06/0:03:22
+Dialogue: 2,0:00:06.00,0:00:07.00,right_down,,0,0,0,,歌曲时间:0:00:07/0:03:22
+Dialogue: 2,0:00:07.00,0:00:08.00,right_down,,0,0,0,,歌曲时间:0:00:08/0:03:22
+Dialogue: 2,0:00:08.00,0:00:09.00,right_down,,0,0,0,,歌曲时间:0:00:09/0:03:22
+Dialogue: 2,0:00:09.00,0:00:10.00,right_down,,0,0,0,,歌曲时间:0:00:10/0:03:22
+Dialogue: 2,0:00:10.00,0:00:11.00,right_down,,0,0,0,,歌曲时间:0:00:11/0:03:22
+Dialogue: 2,0:00:11.00,0:00:12.00,right_down,,0,0,0,,歌曲时间:0:00:12/0:03:22
+Dialogue: 2,0:00:12.00,0:00:13.00,right_down,,0,0,0,,歌曲时间:0:00:13/0:03:22
+Dialogue: 2,0:00:13.00,0:00:14.00,right_down,,0,0,0,,歌曲时间:0:00:14/0:03:22
+Dialogue: 2,0:00:14.00,0:00:15.00,right_down,,0,0,0,,歌曲时间:0:00:15/0:03:22
+Dialogue: 2,0:00:15.00,0:00:16.00,right_down,,0,0,0,,歌曲时间:0:00:16/0:03:22
+Dialogue: 2,0:00:16.00,0:00:17.00,right_down,,0,0,0,,歌曲时间:0:00:17/0:03:22
+Dialogue: 2,0:00:17.00,0:00:18.00,right_down,,0,0,0,,歌曲时间:0:00:18/0:03:22
+Dialogue: 2,0:00:18.00,0:00:19.00,right_down,,0,0,0,,歌曲时间:0:00:19/0:03:22
+Dialogue: 2,0:00:19.00,0:00:20.00,right_down,,0,0,0,,歌曲时间:0:00:20/0:03:22
+Dialogue: 2,0:00:20.00,0:00:21.00,right_down,,0,0,0,,歌曲时间:0:00:21/0:03:22
+Dialogue: 2,0:00:21.00,0:00:22.00,right_down,,0,0,0,,歌曲时间:0:00:22/0:03:22
+Dialogue: 2,0:00:22.00,0:00:23.00,right_down,,0,0,0,,歌曲时间:0:00:23/0:03:22
+Dialogue: 2,0:00:23.00,0:00:24.00,right_down,,0,0,0,,歌曲时间:0:00:24/0:03:22
+Dialogue: 2,0:00:24.00,0:00:25.00,right_down,,0,0,0,,歌曲时间:0:00:25/0:03:22
+Dialogue: 2,0:00:25.00,0:00:26.00,right_down,,0,0,0,,歌曲时间:0:00:26/0:03:22
+Dialogue: 2,0:00:26.00,0:00:27.00,right_down,,0,0,0,,歌曲时间:0:00:27/0:03:22
+Dialogue: 2,0:00:27.00,0:00:28.00,right_down,,0,0,0,,歌曲时间:0:00:28/0:03:22
+Dialogue: 2,0:00:28.00,0:00:29.00,right_down,,0,0,0,,歌曲时间:0:00:29/0:03:22
+Dialogue: 2,0:00:29.00,0:00:30.00,right_down,,0,0,0,,歌曲时间:0:00:30/0:03:22
+Dialogue: 2,0:00:30.00,0:00:31.00,right_down,,0,0,0,,歌曲时间:0:00:31/0:03:22
+Dialogue: 2,0:00:31.00,0:00:32.00,right_down,,0,0,0,,歌曲时间:0:00:32/0:03:22
+Dialogue: 2,0:00:32.00,0:00:33.00,right_down,,0,0,0,,歌曲时间:0:00:33/0:03:22
+Dialogue: 2,0:00:33.00,0:00:34.00,right_down,,0,0,0,,歌曲时间:0:00:34/0:03:22
+Dialogue: 2,0:00:34.00,0:00:35.00,right_down,,0,0,0,,歌曲时间:0:00:35/0:03:22
+Dialogue: 2,0:00:35.00,0:00:36.00,right_down,,0,0,0,,歌曲时间:0:00:36/0:03:22
+Dialogue: 2,0:00:36.00,0:00:37.00,right_down,,0,0,0,,歌曲时间:0:00:37/0:03:22
+Dialogue: 2,0:00:37.00,0:00:38.00,right_down,,0,0,0,,歌曲时间:0:00:38/0:03:22
+Dialogue: 2,0:00:38.00,0:00:39.00,right_down,,0,0,0,,歌曲时间:0:00:39/0:03:22
+Dialogue: 2,0:00:39.00,0:00:40.00,right_down,,0,0,0,,歌曲时间:0:00:40/0:03:22
+Dialogue: 2,0:00:40.00,0:00:41.00,right_down,,0,0,0,,歌曲时间:0:00:41/0:03:22
+Dialogue: 2,0:00:41.00,0:00:42.00,right_down,,0,0,0,,歌曲时间:0:00:42/0:03:22
+Dialogue: 2,0:00:42.00,0:00:43.00,right_down,,0,0,0,,歌曲时间:0:00:43/0:03:22
+Dialogue: 2,0:00:43.00,0:00:44.00,right_down,,0,0,0,,歌曲时间:0:00:44/0:03:22
+Dialogue: 2,0:00:44.00,0:00:45.00,right_down,,0,0,0,,歌曲时间:0:00:45/0:03:22
+Dialogue: 2,0:00:45.00,0:00:46.00,right_down,,0,0,0,,歌曲时间:0:00:46/0:03:22
+Dialogue: 2,0:00:46.00,0:00:47.00,right_down,,0,0,0,,歌曲时间:0:00:47/0:03:22
+Dialogue: 2,0:00:47.00,0:00:48.00,right_down,,0,0,0,,歌曲时间:0:00:48/0:03:22
+Dialogue: 2,0:00:48.00,0:00:49.00,right_down,,0,0,0,,歌曲时间:0:00:49/0:03:22
+Dialogue: 2,0:00:49.00,0:00:50.00,right_down,,0,0,0,,歌曲时间:0:00:50/0:03:22
+Dialogue: 2,0:00:50.00,0:00:51.00,right_down,,0,0,0,,歌曲时间:0:00:51/0:03:22
+Dialogue: 2,0:00:51.00,0:00:52.00,right_down,,0,0,0,,歌曲时间:0:00:52/0:03:22
+Dialogue: 2,0:00:52.00,0:00:53.00,right_down,,0,0,0,,歌曲时间:0:00:53/0:03:22
+Dialogue: 2,0:00:53.00,0:00:54.00,right_down,,0,0,0,,歌曲时间:0:00:54/0:03:22
+Dialogue: 2,0:00:54.00,0:00:55.00,right_down,,0,0,0,,歌曲时间:0:00:55/0:03:22
+Dialogue: 2,0:00:55.00,0:00:56.00,right_down,,0,0,0,,歌曲时间:0:00:56/0:03:22
+Dialogue: 2,0:00:56.00,0:00:57.00,right_down,,0,0,0,,歌曲时间:0:00:57/0:03:22
+Dialogue: 2,0:00:57.00,0:00:58.00,right_down,,0,0,0,,歌曲时间:0:00:58/0:03:22
+Dialogue: 2,0:00:58.00,0:00:59.00,right_down,,0,0,0,,歌曲时间:0:00:59/0:03:22
+Dialogue: 2,0:00:59.00,0:01:00.00,right_down,,0,0,0,,歌曲时间:0:01:00/0:03:22
+Dialogue: 2,0:01:00.00,0:01:01.00,right_down,,0,0,0,,歌曲时间:0:01:01/0:03:22
+Dialogue: 2,0:01:01.00,0:01:02.00,right_down,,0,0,0,,歌曲时间:0:01:02/0:03:22
+Dialogue: 2,0:01:02.00,0:01:03.00,right_down,,0,0,0,,歌曲时间:0:01:03/0:03:22
+Dialogue: 2,0:01:03.00,0:01:04.00,right_down,,0,0,0,,歌曲时间:0:01:04/0:03:22
+Dialogue: 2,0:01:04.00,0:01:05.00,right_down,,0,0,0,,歌曲时间:0:01:05/0:03:22
+Dialogue: 2,0:01:05.00,0:01:06.00,right_down,,0,0,0,,歌曲时间:0:01:06/0:03:22
+Dialogue: 2,0:01:06.00,0:01:07.00,right_down,,0,0,0,,歌曲时间:0:01:07/0:03:22
+Dialogue: 2,0:01:07.00,0:01:08.00,right_down,,0,0,0,,歌曲时间:0:01:08/0:03:22
+Dialogue: 2,0:01:08.00,0:01:09.00,right_down,,0,0,0,,歌曲时间:0:01:09/0:03:22
+Dialogue: 2,0:01:09.00,0:01:10.00,right_down,,0,0,0,,歌曲时间:0:01:10/0:03:22
+Dialogue: 2,0:01:10.00,0:01:11.00,right_down,,0,0,0,,歌曲时间:0:01:11/0:03:22
+Dialogue: 2,0:01:11.00,0:01:12.00,right_down,,0,0,0,,歌曲时间:0:01:12/0:03:22
+Dialogue: 2,0:01:12.00,0:01:13.00,right_down,,0,0,0,,歌曲时间:0:01:13/0:03:22
+Dialogue: 2,0:01:13.00,0:01:14.00,right_down,,0,0,0,,歌曲时间:0:01:14/0:03:22
+Dialogue: 2,0:01:14.00,0:01:15.00,right_down,,0,0,0,,歌曲时间:0:01:15/0:03:22
+Dialogue: 2,0:01:15.00,0:01:16.00,right_down,,0,0,0,,歌曲时间:0:01:16/0:03:22
+Dialogue: 2,0:01:16.00,0:01:17.00,right_down,,0,0,0,,歌曲时间:0:01:17/0:03:22
+Dialogue: 2,0:01:17.00,0:01:18.00,right_down,,0,0,0,,歌曲时间:0:01:18/0:03:22
+Dialogue: 2,0:01:18.00,0:01:19.00,right_down,,0,0,0,,歌曲时间:0:01:19/0:03:22
+Dialogue: 2,0:01:19.00,0:01:20.00,right_down,,0,0,0,,歌曲时间:0:01:20/0:03:22
+Dialogue: 2,0:01:20.00,0:01:21.00,right_down,,0,0,0,,歌曲时间:0:01:21/0:03:22
+Dialogue: 2,0:01:21.00,0:01:22.00,right_down,,0,0,0,,歌曲时间:0:01:22/0:03:22
+Dialogue: 2,0:01:22.00,0:01:23.00,right_down,,0,0,0,,歌曲时间:0:01:23/0:03:22
+Dialogue: 2,0:01:23.00,0:01:24.00,right_down,,0,0,0,,歌曲时间:0:01:24/0:03:22
+Dialogue: 2,0:01:24.00,0:01:25.00,right_down,,0,0,0,,歌曲时间:0:01:25/0:03:22
+Dialogue: 2,0:01:25.00,0:01:26.00,right_down,,0,0,0,,歌曲时间:0:01:26/0:03:22
+Dialogue: 2,0:01:26.00,0:01:27.00,right_down,,0,0,0,,歌曲时间:0:01:27/0:03:22
+Dialogue: 2,0:01:27.00,0:01:28.00,right_down,,0,0,0,,歌曲时间:0:01:28/0:03:22
+Dialogue: 2,0:01:28.00,0:01:29.00,right_down,,0,0,0,,歌曲时间:0:01:29/0:03:22
+Dialogue: 2,0:01:29.00,0:01:30.00,right_down,,0,0,0,,歌曲时间:0:01:30/0:03:22
+Dialogue: 2,0:01:30.00,0:01:31.00,right_down,,0,0,0,,歌曲时间:0:01:31/0:03:22
+Dialogue: 2,0:01:31.00,0:01:32.00,right_down,,0,0,0,,歌曲时间:0:01:32/0:03:22
+Dialogue: 2,0:01:32.00,0:01:33.00,right_down,,0,0,0,,歌曲时间:0:01:33/0:03:22
+Dialogue: 2,0:01:33.00,0:01:34.00,right_down,,0,0,0,,歌曲时间:0:01:34/0:03:22
+Dialogue: 2,0:01:34.00,0:01:35.00,right_down,,0,0,0,,歌曲时间:0:01:35/0:03:22
+Dialogue: 2,0:01:35.00,0:01:36.00,right_down,,0,0,0,,歌曲时间:0:01:36/0:03:22
+Dialogue: 2,0:01:36.00,0:01:37.00,right_down,,0,0,0,,歌曲时间:0:01:37/0:03:22
+Dialogue: 2,0:01:37.00,0:01:38.00,right_down,,0,0,0,,歌曲时间:0:01:38/0:03:22
+Dialogue: 2,0:01:38.00,0:01:39.00,right_down,,0,0,0,,歌曲时间:0:01:39/0:03:22
+Dialogue: 2,0:01:39.00,0:01:40.00,right_down,,0,0,0,,歌曲时间:0:01:40/0:03:22
+Dialogue: 2,0:01:40.00,0:01:41.00,right_down,,0,0,0,,歌曲时间:0:01:41/0:03:22
+Dialogue: 2,0:01:41.00,0:01:42.00,right_down,,0,0,0,,歌曲时间:0:01:42/0:03:22
+Dialogue: 2,0:01:42.00,0:01:43.00,right_down,,0,0,0,,歌曲时间:0:01:43/0:03:22
+Dialogue: 2,0:01:43.00,0:01:44.00,right_down,,0,0,0,,歌曲时间:0:01:44/0:03:22
+Dialogue: 2,0:01:44.00,0:01:45.00,right_down,,0,0,0,,歌曲时间:0:01:45/0:03:22
+Dialogue: 2,0:01:45.00,0:01:46.00,right_down,,0,0,0,,歌曲时间:0:01:46/0:03:22
+Dialogue: 2,0:01:46.00,0:01:47.00,right_down,,0,0,0,,歌曲时间:0:01:47/0:03:22
+Dialogue: 2,0:01:47.00,0:01:48.00,right_down,,0,0,0,,歌曲时间:0:01:48/0:03:22
+Dialogue: 2,0:01:48.00,0:01:49.00,right_down,,0,0,0,,歌曲时间:0:01:49/0:03:22
+Dialogue: 2,0:01:49.00,0:01:50.00,right_down,,0,0,0,,歌曲时间:0:01:50/0:03:22
+Dialogue: 2,0:01:50.00,0:01:51.00,right_down,,0,0,0,,歌曲时间:0:01:51/0:03:22
+Dialogue: 2,0:01:51.00,0:01:52.00,right_down,,0,0,0,,歌曲时间:0:01:52/0:03:22
+Dialogue: 2,0:01:52.00,0:01:53.00,right_down,,0,0,0,,歌曲时间:0:01:53/0:03:22
+Dialogue: 2,0:01:53.00,0:01:54.00,right_down,,0,0,0,,歌曲时间:0:01:54/0:03:22
+Dialogue: 2,0:01:54.00,0:01:55.00,right_down,,0,0,0,,歌曲时间:0:01:55/0:03:22
+Dialogue: 2,0:01:55.00,0:01:56.00,right_down,,0,0,0,,歌曲时间:0:01:56/0:03:22
+Dialogue: 2,0:01:56.00,0:01:57.00,right_down,,0,0,0,,歌曲时间:0:01:57/0:03:22
+Dialogue: 2,0:01:57.00,0:01:58.00,right_down,,0,0,0,,歌曲时间:0:01:58/0:03:22
+Dialogue: 2,0:01:58.00,0:01:59.00,right_down,,0,0,0,,歌曲时间:0:01:59/0:03:22
+Dialogue: 2,0:01:59.00,0:02:00.00,right_down,,0,0,0,,歌曲时间:0:02:00/0:03:22
+Dialogue: 2,0:02:00.00,0:02:01.00,right_down,,0,0,0,,歌曲时间:0:02:01/0:03:22
+Dialogue: 2,0:02:01.00,0:02:02.00,right_down,,0,0,0,,歌曲时间:0:02:02/0:03:22
+Dialogue: 2,0:02:02.00,0:02:03.00,right_down,,0,0,0,,歌曲时间:0:02:03/0:03:22
+Dialogue: 2,0:02:03.00,0:02:04.00,right_down,,0,0,0,,歌曲时间:0:02:04/0:03:22
+Dialogue: 2,0:02:04.00,0:02:05.00,right_down,,0,0,0,,歌曲时间:0:02:05/0:03:22
+Dialogue: 2,0:02:05.00,0:02:06.00,right_down,,0,0,0,,歌曲时间:0:02:06/0:03:22
+Dialogue: 2,0:02:06.00,0:02:07.00,right_down,,0,0,0,,歌曲时间:0:02:07/0:03:22
+Dialogue: 2,0:02:07.00,0:02:08.00,right_down,,0,0,0,,歌曲时间:0:02:08/0:03:22
+Dialogue: 2,0:02:08.00,0:02:09.00,right_down,,0,0,0,,歌曲时间:0:02:09/0:03:22
+Dialogue: 2,0:02:09.00,0:02:10.00,right_down,,0,0,0,,歌曲时间:0:02:10/0:03:22
+Dialogue: 2,0:02:10.00,0:02:11.00,right_down,,0,0,0,,歌曲时间:0:02:11/0:03:22
+Dialogue: 2,0:02:11.00,0:02:12.00,right_down,,0,0,0,,歌曲时间:0:02:12/0:03:22
+Dialogue: 2,0:02:12.00,0:02:13.00,right_down,,0,0,0,,歌曲时间:0:02:13/0:03:22
+Dialogue: 2,0:02:13.00,0:02:14.00,right_down,,0,0,0,,歌曲时间:0:02:14/0:03:22
+Dialogue: 2,0:02:14.00,0:02:15.00,right_down,,0,0,0,,歌曲时间:0:02:15/0:03:22
+Dialogue: 2,0:02:15.00,0:02:16.00,right_down,,0,0,0,,歌曲时间:0:02:16/0:03:22
+Dialogue: 2,0:02:16.00,0:02:17.00,right_down,,0,0,0,,歌曲时间:0:02:17/0:03:22
+Dialogue: 2,0:02:17.00,0:02:18.00,right_down,,0,0,0,,歌曲时间:0:02:18/0:03:22
+Dialogue: 2,0:02:18.00,0:02:19.00,right_down,,0,0,0,,歌曲时间:0:02:19/0:03:22
+Dialogue: 2,0:02:19.00,0:02:20.00,right_down,,0,0,0,,歌曲时间:0:02:20/0:03:22
+Dialogue: 2,0:02:20.00,0:02:21.00,right_down,,0,0,0,,歌曲时间:0:02:21/0:03:22
+Dialogue: 2,0:02:21.00,0:02:22.00,right_down,,0,0,0,,歌曲时间:0:02:22/0:03:22
+Dialogue: 2,0:02:22.00,0:02:23.00,right_down,,0,0,0,,歌曲时间:0:02:23/0:03:22
+Dialogue: 2,0:02:23.00,0:02:24.00,right_down,,0,0,0,,歌曲时间:0:02:24/0:03:22
+Dialogue: 2,0:02:24.00,0:02:25.00,right_down,,0,0,0,,歌曲时间:0:02:25/0:03:22
+Dialogue: 2,0:02:25.00,0:02:26.00,right_down,,0,0,0,,歌曲时间:0:02:26/0:03:22
+Dialogue: 2,0:02:26.00,0:02:27.00,right_down,,0,0,0,,歌曲时间:0:02:27/0:03:22
+Dialogue: 2,0:02:27.00,0:02:28.00,right_down,,0,0,0,,歌曲时间:0:02:28/0:03:22
+Dialogue: 2,0:02:28.00,0:02:29.00,right_down,,0,0,0,,歌曲时间:0:02:29/0:03:22
+Dialogue: 2,0:02:29.00,0:02:30.00,right_down,,0,0,0,,歌曲时间:0:02:30/0:03:22
+Dialogue: 2,0:02:30.00,0:02:31.00,right_down,,0,0,0,,歌曲时间:0:02:31/0:03:22
+Dialogue: 2,0:02:31.00,0:02:32.00,right_down,,0,0,0,,歌曲时间:0:02:32/0:03:22
+Dialogue: 2,0:02:32.00,0:02:33.00,right_down,,0,0,0,,歌曲时间:0:02:33/0:03:22
+Dialogue: 2,0:02:33.00,0:02:34.00,right_down,,0,0,0,,歌曲时间:0:02:34/0:03:22
+Dialogue: 2,0:02:34.00,0:02:35.00,right_down,,0,0,0,,歌曲时间:0:02:35/0:03:22
+Dialogue: 2,0:02:35.00,0:02:36.00,right_down,,0,0,0,,歌曲时间:0:02:36/0:03:22
+Dialogue: 2,0:02:36.00,0:02:37.00,right_down,,0,0,0,,歌曲时间:0:02:37/0:03:22
+Dialogue: 2,0:02:37.00,0:02:38.00,right_down,,0,0,0,,歌曲时间:0:02:38/0:03:22
+Dialogue: 2,0:02:38.00,0:02:39.00,right_down,,0,0,0,,歌曲时间:0:02:39/0:03:22
+Dialogue: 2,0:02:39.00,0:02:40.00,right_down,,0,0,0,,歌曲时间:0:02:40/0:03:22
+Dialogue: 2,0:02:40.00,0:02:41.00,right_down,,0,0,0,,歌曲时间:0:02:41/0:03:22
+Dialogue: 2,0:02:41.00,0:02:42.00,right_down,,0,0,0,,歌曲时间:0:02:42/0:03:22
+Dialogue: 2,0:02:42.00,0:02:43.00,right_down,,0,0,0,,歌曲时间:0:02:43/0:03:22
+Dialogue: 2,0:02:43.00,0:02:44.00,right_down,,0,0,0,,歌曲时间:0:02:44/0:03:22
+Dialogue: 2,0:02:44.00,0:02:45.00,right_down,,0,0,0,,歌曲时间:0:02:45/0:03:22
+Dialogue: 2,0:02:45.00,0:02:46.00,right_down,,0,0,0,,歌曲时间:0:02:46/0:03:22
+Dialogue: 2,0:02:46.00,0:02:47.00,right_down,,0,0,0,,歌曲时间:0:02:47/0:03:22
+Dialogue: 2,0:02:47.00,0:02:48.00,right_down,,0,0,0,,歌曲时间:0:02:48/0:03:22
+Dialogue: 2,0:02:48.00,0:02:49.00,right_down,,0,0,0,,歌曲时间:0:02:49/0:03:22
+Dialogue: 2,0:02:49.00,0:02:50.00,right_down,,0,0,0,,歌曲时间:0:02:50/0:03:22
+Dialogue: 2,0:02:50.00,0:02:51.00,right_down,,0,0,0,,歌曲时间:0:02:51/0:03:22
+Dialogue: 2,0:02:51.00,0:02:52.00,right_down,,0,0,0,,歌曲时间:0:02:52/0:03:22
+Dialogue: 2,0:02:52.00,0:02:53.00,right_down,,0,0,0,,歌曲时间:0:02:53/0:03:22
+Dialogue: 2,0:02:53.00,0:02:54.00,right_down,,0,0,0,,歌曲时间:0:02:54/0:03:22
+Dialogue: 2,0:02:54.00,0:02:55.00,right_down,,0,0,0,,歌曲时间:0:02:55/0:03:22
+Dialogue: 2,0:02:55.00,0:02:56.00,right_down,,0,0,0,,歌曲时间:0:02:56/0:03:22
+Dialogue: 2,0:02:56.00,0:02:57.00,right_down,,0,0,0,,歌曲时间:0:02:57/0:03:22
+Dialogue: 2,0:02:57.00,0:02:58.00,right_down,,0,0,0,,歌曲时间:0:02:58/0:03:22
+Dialogue: 2,0:02:58.00,0:02:59.00,right_down,,0,0,0,,歌曲时间:0:02:59/0:03:22
+Dialogue: 2,0:02:59.00,0:03:00.00,right_down,,0,0,0,,歌曲时间:0:03:00/0:03:22
+Dialogue: 2,0:03:00.00,0:03:01.00,right_down,,0,0,0,,歌曲时间:0:03:01/0:03:22
+Dialogue: 2,0:03:01.00,0:03:02.00,right_down,,0,0,0,,歌曲时间:0:03:02/0:03:22
+Dialogue: 2,0:03:02.00,0:03:03.00,right_down,,0,0,0,,歌曲时间:0:03:03/0:03:22
+Dialogue: 2,0:03:03.00,0:03:04.00,right_down,,0,0,0,,歌曲时间:0:03:04/0:03:22
+Dialogue: 2,0:03:04.00,0:03:05.00,right_down,,0,0,0,,歌曲时间:0:03:05/0:03:22
+Dialogue: 2,0:03:05.00,0:03:06.00,right_down,,0,0,0,,歌曲时间:0:03:06/0:03:22
+Dialogue: 2,0:03:06.00,0:03:07.00,right_down,,0,0,0,,歌曲时间:0:03:07/0:03:22
+Dialogue: 2,0:03:07.00,0:03:08.00,right_down,,0,0,0,,歌曲时间:0:03:08/0:03:22
+Dialogue: 2,0:03:08.00,0:03:09.00,right_down,,0,0,0,,歌曲时间:0:03:09/0:03:22
+Dialogue: 2,0:03:09.00,0:03:10.00,right_down,,0,0,0,,歌曲时间:0:03:10/0:03:22
+Dialogue: 2,0:03:10.00,0:03:11.00,right_down,,0,0,0,,歌曲时间:0:03:11/0:03:22
+Dialogue: 2,0:03:11.00,0:03:12.00,right_down,,0,0,0,,歌曲时间:0:03:12/0:03:22
+Dialogue: 2,0:03:12.00,0:03:13.00,right_down,,0,0,0,,歌曲时间:0:03:13/0:03:22
+Dialogue: 2,0:03:13.00,0:03:14.00,right_down,,0,0,0,,歌曲时间:0:03:14/0:03:22
+Dialogue: 2,0:03:14.00,0:03:15.00,right_down,,0,0,0,,歌曲时间:0:03:15/0:03:22
+Dialogue: 2,0:03:15.00,0:03:16.00,right_down,,0,0,0,,歌曲时间:0:03:16/0:03:22
+Dialogue: 2,0:03:16.00,0:03:17.00,right_down,,0,0,0,,歌曲时间:0:03:17/0:03:22
+Dialogue: 2,0:03:17.00,0:03:18.00,right_down,,0,0,0,,歌曲时间:0:03:18/0:03:22
+Dialogue: 2,0:03:18.00,0:03:19.00,right_down,,0,0,0,,歌曲时间:0:03:19/0:03:22
+Dialogue: 2,0:03:19.00,0:03:20.00,right_down,,0,0,0,,歌曲时间:0:03:20/0:03:22
+Dialogue: 2,0:03:20.00,0:03:21.00,right_down,,0,0,0,,歌曲时间:0:03:21/0:03:22

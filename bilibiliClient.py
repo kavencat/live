@@ -126,7 +126,6 @@ class MyHandler(blivedm.BaseHandler):
         #print(f'[{client.room_id}][ {message.uid}] {message.uname}：{message.msg}')
         print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+f' [log]{message.uname}：{message.msg}')
         post_dm.pick_msg(message.msg,message.uname,message.uid)
-        post_dm.w_log(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" "+message.uname+":"+message.msg+'\r\n',var_set.path+'/log/screenlog_dmlog.log','a')
 
     def _on_gift(self, client: blivedm.BLiveClient, message: web_models.GiftMessage):
         #print(f'[{client.room_id}] {message.uname} 赠送{message.gift_name}x{message.num}'

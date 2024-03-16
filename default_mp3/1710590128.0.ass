@@ -1,0 +1,478 @@
+[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前网易云id：1887215864\N歌名：Happy Now?\N点播人：柠檬_cat
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\N点播日期：2024-03-16 19:55:30
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌(歌曲名)\Nid(网易云歌曲id)\N点歌(歌曲名空格歌手)
+
+Dialogue: 2,0:00:00.00,0:00:00.01,center_down,,0,0,0,,　 作曲 : FINNEAS　\N　 Aren't I supposed to be happy now?　
+Dialogue: 2,0:00:00.00,0:00:00.01,center_down_big,,0,0,0,,　 作词 : FINNEAS　
+Dialogue: 2,0:00:00.00,0:00:00.01,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:00.01,0:00:00.03,center_down,,0,0,0,,　 Aren't I supposed to be happy now?　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:00:00.01,0:00:00.03,center_down_big,,0,0,0,,　 作曲 : FINNEAS　
+Dialogue: 2,0:00:00.01,0:00:00.03,center_down,,0,0,0,,　 　\N　 作词 : FINNEAS　
+Dialogue: 2,0:00:00.03,0:00:04.72,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 Happy now　
+Dialogue: 2,0:00:00.03,0:00:04.72,center_down_big,,0,0,0,,　 Aren't I supposed to be happy now?　
+Dialogue: 2,0:00:00.03,0:00:04.72,center_down,,0,0,0,,　 作词 : FINNEAS　\N　 作曲 : FINNEAS　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_down,,0,0,0,,　 Happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_down_big,,0,0,0,,　 There's nothing left for me to laugh about　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_down,,0,0,0,,　 作曲 : FINNEAS　\N　 Aren't I supposed to be happy now?　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_down_big,,0,0,0,,　 Happy now　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_down,,0,0,0,,　 Aren't I supposed to be happy now?　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_down,,0,0,0,,　　\N　 So take a drive around town in my douchebag car　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_down_big,,0,0,0,,　 They're all so happy for me　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 Happy now　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_down,,0,0,0,,　 So take a drive around town in my douchebag car　\N　 Like the superstar that I pretend to be　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_down,,0,0,0,,　 Happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_down,,0,0,0,,　 Like the superstar that I pretend to be　\N　 Nothing feels better than buying love　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_down_big,,0,0,0,,　 So take a drive around town in my douchebag car　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_down,,0,0,0,,　 Nothing feels better than buying love　\N　 When push comes to shove, I'm lonely　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_down_big,,0,0,0,,　 Like the superstar that I pretend to be　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_down,,0,0,0,,　　\N　 So take a drive around town in my douchebag car　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_down,,0,0,0,,　 When push comes to shove, I'm lonely　\N　　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_down_big,,0,0,0,,　 Nothing feels better than buying love　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_down,,0,0,0,,　 So take a drive around town in my douchebag car　\N　 Like the superstar that I pretend to be　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_down,,0,0,0,,　　\N　 With everybody talking 'bout you　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_down_big,,0,0,0,,　 When push comes to shove, I'm lonely　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_down,,0,0,0,,　 Like the superstar that I pretend to be　\N　 Nothing feels better than buying love　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_down,,0,0,0,,　 With everybody talking 'bout you　\N　 You won’t remember who you are　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_down,,0,0,0,,　 Nothing feels better than buying love　\N　 When push comes to shove, I'm lonely　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_down,,0,0,0,,　 You won’t remember who you are　\N　 Everybody talking 'bout you　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_down_big,,0,0,0,,　 With everybody talking 'bout you　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_down,,0,0,0,,　 When push comes to shove, I'm lonely　\N　　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_down,,0,0,0,,　 Everybody talking 'bout you　\N　 Doesn't get you far　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_down_big,,0,0,0,,　 You won’t remember who you are　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_down,,0,0,0,,　　\N　 With everybody talking 'bout you　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_down,,0,0,0,,　 Doesn't get you far　\N　　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_down_big,,0,0,0,,　 Everybody talking 'bout you　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_down,,0,0,0,,　 With everybody talking 'bout you　\N　 You won’t remember who you are　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_down,,0,0,0,,　　\N　 I was supposed to be happy now　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_down_big,,0,0,0,,　 Doesn't get you far　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_down,,0,0,0,,　 You won’t remember who you are　\N　 Everybody talking 'bout you　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_down,,0,0,0,,　 Everybody talking 'bout you　\N　 Doesn't get you far　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to bе happy now　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_down_big,,0,0,0,,　 I was supposed to be happy now　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_down,,0,0,0,,　 Doesn't get you far　\N　　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_down,,0,0,0,,　 I was supposed to bе happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_down_big,,0,0,0,,　 There's nothing left for me to laugh about　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_down,,0,0,0,,　　\N　 I was supposed to be happy now　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_down_big,,0,0,0,,　 I was supposed to bе happy now　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_down,,0,0,0,,　　\N　 Always such an anxious child　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_down_big,,0,0,0,,　 They're all so happy for me　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to bе happy now　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_down,,0,0,0,,　 Always such an anxious child　\N　 Nеver wild　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_down,,0,0,0,,　 I was supposed to bе happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_down,,0,0,0,,　 Nеver wild　\N　 Always worryin'　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_down_big,,0,0,0,,　 Always such an anxious child　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_down,,0,0,0,,　 Always worryin'　\N　 Never any good with surprises　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_down_big,,0,0,0,,　 Nеver wild　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_down,,0,0,0,,　　\N　 Always such an anxious child　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_down,,0,0,0,,　 Never any good with surprises　\N　 Compromises　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_down_big,,0,0,0,,　 Always worryin'　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_down,,0,0,0,,　 Always such an anxious child　\N　 Nеver wild　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_down,,0,0,0,,　 Compromises　\N　 I wanted everything　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_down_big,,0,0,0,,　 Never any good with surprises　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_down,,0,0,0,,　 Nеver wild　\N　 Always worryin'　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_down,,0,0,0,,　 I wanted everything　\N　　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_down_big,,0,0,0,,　 Compromises　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_down,,0,0,0,,　 Always worryin'　\N　 Never any good with surprises　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_down,,0,0,0,,　　\N　 They'd tell me, "Everything is not about you　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_down_big,,0,0,0,,　 I wanted everything　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_down,,0,0,0,,　 Never any good with surprises　\N　 Compromises　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_down,,0,0,0,,　 They'd tell me, "Everything is not about you　\N　 It doesn't matter who you are　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_down,,0,0,0,,　 Compromises　\N　 I wanted everything　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_down,,0,0,0,,　 It doesn't matter who you are　\N　 Everything is not about you　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_down_big,,0,0,0,,　 They'd tell me, "Everything is not about you　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_down,,0,0,0,,　 I wanted everything　\N　　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_down,,0,0,0,,　 Everything is not about you　\N　 But if you work hard"　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_down_big,,0,0,0,,　 It doesn't matter who you are　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_down,,0,0,0,,　　\N　 They'd tell me, "Everything is not about you　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_down,,0,0,0,,　 But if you work hard"　\N　　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_down_big,,0,0,0,,　 Everything is not about you　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_down,,0,0,0,,　 They'd tell me, "Everything is not about you　\N　 It doesn't matter who you are　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_down,,0,0,0,,　　\N　 Aren't we supposed to be happy now?　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_down_big,,0,0,0,,　 But if you work hard"　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_down,,0,0,0,,　 It doesn't matter who you are　\N　 Everything is not about you　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_down,,0,0,0,,　 Aren't we supposed to be happy now?　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_down,,0,0,0,,　 Everything is not about you　\N　 But if you work hard"　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to be happy now　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_down_big,,0,0,0,,　 Aren't we supposed to be happy now?　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_down,,0,0,0,,　 But if you work hard"　\N　　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_down_big,,0,0,0,,　 There's nothing left for me to laugh about　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_down,,0,0,0,,　　\N　 Aren't we supposed to be happy now?　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_down_big,,0,0,0,,　 I was supposed to be happy now　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_down,,0,0,0,,　 Aren't we supposed to be happy now?　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_down,,0,0,0,,　　\N　 Happy now　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_down_big,,0,0,0,,　 They're all so happy for me　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to be happy now　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_down,,0,0,0,,　 Happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to be happy now　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_down_big,,0,0,0,,　 Happy now　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_down,,0,0,0,,　 They're all so happy for me　\N　　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_down_big,,0,0,0,,　 There's nothing left for me to laugh about　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_down,,0,0,0,,　　\N　 Happy now　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_down,,0,0,0,,　 They're all so happy for me　\N　 And if I'm not, I'll never be happy now　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_down_big,,0,0,0,,　 I was supposed to be happy now　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_down,,0,0,0,,　 Happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_down,,0,0,0,,　 And if I'm not, I'll never be happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_down_big,,0,0,0,,　 They're all so happy for me　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 I was supposed to be happy now　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 Maybe I'll never be happy now　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_down_big,,0,0,0,,　 And if I'm not, I'll never be happy now　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_down,,0,0,0,,　 I was supposed to be happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_down,,0,0,0,,　 Maybe I'll never be happy now　\N　 They're all so happy for me　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_down_big,,0,0,0,,　 There's nothing left for me to laugh about　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_down,,0,0,0,,　 They're all so happy for me　\N　 And if I'm not, I'll never be happy now　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_down,,0,0,0,,　 They're all so happy for me　\N　 　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_down_big,,0,0,0,,　 Maybe I'll never be happy now　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_down,,0,0,0,,　 And if I'm not, I'll never be happy now　\N　 There's nothing left for me to laugh about　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_down_big,,0,0,0,,　 They're all so happy for me　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_down,,0,0,0,,　 There's nothing left for me to laugh about　\N　 Maybe I'll never be happy now　
+
+Dialogue: 2,0:00:00.03,0:00:04.72,center_up,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:00.03,0:00:04.72,center_up_big,,0,0,0,,　我现在不该高兴吗　
+Dialogue: 2,0:00:00.03,0:00:04.72,center_up,,0,0,0,,　没什么好笑的　\N　此刻欣喜万分　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_up,,0,0,0,,　 　\N　我现在不该高兴吗　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_up_big,,0,0,0,,　没什么好笑的　
+Dialogue: 2,0:00:04.72,0:00:11.64,center_up,,0,0,0,,　此刻欣喜万分　\N　他们都替我高兴　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_up,,0,0,0,,　我现在不该高兴吗　\N　没什么好笑的　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_up_big,,0,0,0,,　此刻欣喜万分　
+Dialogue: 2,0:00:11.64,0:00:14.39,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_up,,0,0,0,,　没什么好笑的　\N　此刻欣喜万分　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_up_big,,0,0,0,,　他们都替我高兴　
+Dialogue: 2,0:00:14.39,0:00:18.24,center_up,,0,0,0,,　　\N　所以我开着破车在镇上闲逛　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_up,,0,0,0,,　此刻欣喜万分　\N　他们都替我高兴　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:18.24,0:00:19.00,center_up,,0,0,0,,　所以我开着破车在镇上闲逛　\N　假装我是超级巨星　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_up_big,,0,0,0,,　所以我开着破车在镇上闲逛　
+Dialogue: 2,0:00:19.00,0:00:23.13,center_up,,0,0,0,,　假装我是超级巨星　\N　没什么比物质爱情更棒了　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_up,,0,0,0,,　　\N　所以我开着破车在镇上闲逛　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_up_big,,0,0,0,,　假装我是超级巨星　
+Dialogue: 2,0:00:23.13,0:00:27.47,center_up,,0,0,0,,　没什么比物质爱情更棒了　\N　危急之时 我却倍感孤独　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_up,,0,0,0,,　所以我开着破车在镇上闲逛　\N　假装我是超级巨星　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_up_big,,0,0,0,,　没什么比物质爱情更棒了　
+Dialogue: 2,0:00:27.47,0:00:31.15,center_up,,0,0,0,,　危急之时 我却倍感孤独　\N　　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_up,,0,0,0,,　假装我是超级巨星　\N　没什么比物质爱情更棒了　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_up_big,,0,0,0,,　危急之时 我却倍感孤独　
+Dialogue: 2,0:00:31.15,0:00:35.25,center_up,,0,0,0,,　　\N　人人都在谈论你　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_up,,0,0,0,,　没什么比物质爱情更棒了　\N　危急之时 我却倍感孤独　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:35.25,0:00:35.41,center_up,,0,0,0,,　人人都在谈论你　\N　你无法认清自己　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_up,,0,0,0,,　危急之时 我却倍感孤独　\N　　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_up_big,,0,0,0,,　人人都在谈论你　
+Dialogue: 2,0:00:35.41,0:00:38.69,center_up,,0,0,0,,　你无法认清自己　\N　人人都在谈论你　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_up,,0,0,0,,　　\N　人人都在谈论你　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_up_big,,0,0,0,,　你无法认清自己　
+Dialogue: 2,0:00:38.69,0:00:43.44,center_up,,0,0,0,,　人人都在谈论你　\N　却让你难以远行　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_up,,0,0,0,,　人人都在谈论你　\N　你无法认清自己　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_up_big,,0,0,0,,　人人都在谈论你　
+Dialogue: 2,0:00:43.44,0:00:47.96,center_up,,0,0,0,,　却让你难以远行　\N　　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_up,,0,0,0,,　你无法认清自己　\N　人人都在谈论你　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_up_big,,0,0,0,,　却让你难以远行　
+Dialogue: 2,0:00:47.96,0:00:51.49,center_up,,0,0,0,,　　\N　我现在本该高兴　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_up,,0,0,0,,　人人都在谈论你　\N　却让你难以远行　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:51.49,0:00:51.75,center_up,,0,0,0,,　我现在本该高兴　\N　没什么好笑的　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_up,,0,0,0,,　却让你难以远行　\N　　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_up_big,,0,0,0,,　我现在本该高兴　
+Dialogue: 2,0:00:51.75,0:00:55.79,center_up,,0,0,0,,　没什么好笑的　\N　我此刻本该开心　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_up,,0,0,0,,　　\N　我现在本该高兴　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_up_big,,0,0,0,,　没什么好笑的　
+Dialogue: 2,0:00:55.79,0:00:59.86,center_up,,0,0,0,,　我此刻本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_up,,0,0,0,,　我现在本该高兴　\N　没什么好笑的　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_up_big,,0,0,0,,　我此刻本该开心　
+Dialogue: 2,0:00:59.86,0:01:03.75,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_up,,0,0,0,,　没什么好笑的　\N　我此刻本该开心　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_up_big,,0,0,0,,　他们都替我高兴　
+Dialogue: 2,0:01:03.75,0:01:07.04,center_up,,0,0,0,,　　\N　我总像个焦虑的孩子　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_up,,0,0,0,,　我此刻本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:07.04,0:01:07.44,center_up,,0,0,0,,　我总像个焦虑的孩子　\N　从未放肆　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_up_big,,0,0,0,,　我总像个焦虑的孩子　
+Dialogue: 2,0:01:07.44,0:01:10.98,center_up,,0,0,0,,　从未放肆　\N　总是忧心　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_up,,0,0,0,,　　\N　我总像个焦虑的孩子　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_up_big,,0,0,0,,　从未放肆　
+Dialogue: 2,0:01:10.98,0:01:12.79,center_up,,0,0,0,,　总是忧心　\N　从没惊喜　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_up,,0,0,0,,　我总像个焦虑的孩子　\N　从未放肆　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_up_big,,0,0,0,,　总是忧心　
+Dialogue: 2,0:01:12.79,0:01:15.13,center_up,,0,0,0,,　从没惊喜　\N　事事妥协　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_up,,0,0,0,,　从未放肆　\N　总是忧心　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_up_big,,0,0,0,,　从没惊喜　
+Dialogue: 2,0:01:15.13,0:01:18.90,center_up,,0,0,0,,　事事妥协　\N　却想要一切　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_up,,0,0,0,,　总是忧心　\N　从没惊喜　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_up_big,,0,0,0,,　事事妥协　
+Dialogue: 2,0:01:18.90,0:01:20.68,center_up,,0,0,0,,　却想要一切　\N　　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_up,,0,0,0,,　从没惊喜　\N　事事妥协　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_up_big,,0,0,0,,　却想要一切　
+Dialogue: 2,0:01:20.68,0:01:22.86,center_up,,0,0,0,,　　\N　他们会对我说 一切与你无缘　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_up,,0,0,0,,　事事妥协　\N　却想要一切　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:22.86,0:01:23.01,center_up,,0,0,0,,　他们会对我说 一切与你无缘　\N　不管你是谁　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_up,,0,0,0,,　却想要一切　\N　　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_up_big,,0,0,0,,　他们会对我说 一切与你无缘　
+Dialogue: 2,0:01:23.01,0:01:28.00,center_up,,0,0,0,,　不管你是谁　\N　都与你毫不相干　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_up,,0,0,0,,　　\N　他们会对我说 一切与你无缘　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_up_big,,0,0,0,,　不管你是谁　
+Dialogue: 2,0:01:28.00,0:01:31.25,center_up,,0,0,0,,　都与你毫不相干　\N　除非你辛勤工作　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_up,,0,0,0,,　他们会对我说 一切与你无缘　\N　不管你是谁　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_up_big,,0,0,0,,　都与你毫不相干　
+Dialogue: 2,0:01:31.25,0:01:35.88,center_up,,0,0,0,,　除非你辛勤工作　\N　　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_up,,0,0,0,,　不管你是谁　\N　都与你毫不相干　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_up_big,,0,0,0,,　除非你辛勤工作　
+Dialogue: 2,0:01:35.88,0:01:39.06,center_up,,0,0,0,,　　\N　我们现在不该高兴吗　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_up,,0,0,0,,　都与你毫不相干　\N　除非你辛勤工作　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:39.06,0:01:39.73,center_up,,0,0,0,,　我们现在不该高兴吗　\N　没什么好笑的　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_up,,0,0,0,,　除非你辛勤工作　\N　　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_up_big,,0,0,0,,　我们现在不该高兴吗　
+Dialogue: 2,0:01:39.73,0:01:43.74,center_up,,0,0,0,,　没什么好笑的　\N　我此刻本该开心　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_up,,0,0,0,,　　\N　我们现在不该高兴吗　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_up_big,,0,0,0,,　没什么好笑的　
+Dialogue: 2,0:01:43.74,0:01:47.72,center_up,,0,0,0,,　我此刻本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_up,,0,0,0,,　我们现在不该高兴吗　\N　没什么好笑的　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_up_big,,0,0,0,,　我此刻本该开心　
+Dialogue: 2,0:01:47.72,0:01:51.85,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_up,,0,0,0,,　没什么好笑的　\N　我此刻本该开心　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_up_big,,0,0,0,,　他们都替我高兴　
+Dialogue: 2,0:01:51.85,0:01:55.68,center_up,,0,0,0,,　　\N　此刻欣喜万分　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_up,,0,0,0,,　我此刻本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:55.68,0:02:17.65,center_up,,0,0,0,,　此刻欣喜万分　\N　没什么好笑的　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_up,,0,0,0,,　他们都替我高兴　\N　　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_up_big,,0,0,0,,　此刻欣喜万分　
+Dialogue: 2,0:02:17.65,0:02:19.76,center_up,,0,0,0,,　没什么好笑的　\N　我现在本该开心　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_up,,0,0,0,,　　\N　此刻欣喜万分　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_up_big,,0,0,0,,　没什么好笑的　
+Dialogue: 2,0:02:19.76,0:02:23.83,center_up,,0,0,0,,　我现在本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_up,,0,0,0,,　此刻欣喜万分　\N　没什么好笑的　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_up_big,,0,0,0,,　我现在本该开心　
+Dialogue: 2,0:02:23.83,0:02:27.69,center_up,,0,0,0,,　他们都替我高兴　\N　假使我闷闷不乐 那将永远得不到快乐　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_up,,0,0,0,,　没什么好笑的　\N　我现在本该开心　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_up_big,,0,0,0,,　他们都替我高兴　
+Dialogue: 2,0:02:27.69,0:02:31.37,center_up,,0,0,0,,　假使我闷闷不乐 那将永远得不到快乐　\N　没什么好笑的　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_up,,0,0,0,,　我现在本该开心　\N　他们都替我高兴　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_up_big,,0,0,0,,　假使我闷闷不乐 那将永远得不到快乐　
+Dialogue: 2,0:02:31.37,0:02:35.77,center_up,,0,0,0,,　没什么好笑的　\N　或许我再也开心不起来了　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_up,,0,0,0,,　他们都替我高兴　\N　假使我闷闷不乐 那将永远得不到快乐　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_up_big,,0,0,0,,　没什么好笑的　
+Dialogue: 2,0:02:35.77,0:02:39.88,center_up,,0,0,0,,　或许我再也开心不起来了　\N　他们都替我高兴　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_up,,0,0,0,,　假使我闷闷不乐 那将永远得不到快乐　\N　没什么好笑的　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_up_big,,0,0,0,,　或许我再也开心不起来了　
+Dialogue: 2,0:02:39.88,0:02:43.87,center_up,,0,0,0,,　他们都替我高兴　\N　 　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_up,,0,0,0,,　没什么好笑的　\N　或许我再也开心不起来了　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_up_big,,0,0,0,,　他们都替我高兴　
+Dialogue: 2,0:02:43.87,0:10:00.00,center_up,,0,0,0,,　 　\N　 　
+
+Dialogue: 2,0:00:00.00,0:00:01.00,right_down,,0,0,0,,歌曲时间:0:00:01/0:02:52
+Dialogue: 2,0:00:01.00,0:00:02.00,right_down,,0,0,0,,歌曲时间:0:00:02/0:02:52
+Dialogue: 2,0:00:02.00,0:00:03.00,right_down,,0,0,0,,歌曲时间:0:00:03/0:02:52
+Dialogue: 2,0:00:03.00,0:00:04.00,right_down,,0,0,0,,歌曲时间:0:00:04/0:02:52
+Dialogue: 2,0:00:04.00,0:00:05.00,right_down,,0,0,0,,歌曲时间:0:00:05/0:02:52
+Dialogue: 2,0:00:05.00,0:00:06.00,right_down,,0,0,0,,歌曲时间:0:00:06/0:02:52
+Dialogue: 2,0:00:06.00,0:00:07.00,right_down,,0,0,0,,歌曲时间:0:00:07/0:02:52
+Dialogue: 2,0:00:07.00,0:00:08.00,right_down,,0,0,0,,歌曲时间:0:00:08/0:02:52
+Dialogue: 2,0:00:08.00,0:00:09.00,right_down,,0,0,0,,歌曲时间:0:00:09/0:02:52
+Dialogue: 2,0:00:09.00,0:00:10.00,right_down,,0,0,0,,歌曲时间:0:00:10/0:02:52
+Dialogue: 2,0:00:10.00,0:00:11.00,right_down,,0,0,0,,歌曲时间:0:00:11/0:02:52
+Dialogue: 2,0:00:11.00,0:00:12.00,right_down,,0,0,0,,歌曲时间:0:00:12/0:02:52
+Dialogue: 2,0:00:12.00,0:00:13.00,right_down,,0,0,0,,歌曲时间:0:00:13/0:02:52
+Dialogue: 2,0:00:13.00,0:00:14.00,right_down,,0,0,0,,歌曲时间:0:00:14/0:02:52
+Dialogue: 2,0:00:14.00,0:00:15.00,right_down,,0,0,0,,歌曲时间:0:00:15/0:02:52
+Dialogue: 2,0:00:15.00,0:00:16.00,right_down,,0,0,0,,歌曲时间:0:00:16/0:02:52
+Dialogue: 2,0:00:16.00,0:00:17.00,right_down,,0,0,0,,歌曲时间:0:00:17/0:02:52
+Dialogue: 2,0:00:17.00,0:00:18.00,right_down,,0,0,0,,歌曲时间:0:00:18/0:02:52
+Dialogue: 2,0:00:18.00,0:00:19.00,right_down,,0,0,0,,歌曲时间:0:00:19/0:02:52
+Dialogue: 2,0:00:19.00,0:00:20.00,right_down,,0,0,0,,歌曲时间:0:00:20/0:02:52
+Dialogue: 2,0:00:20.00,0:00:21.00,right_down,,0,0,0,,歌曲时间:0:00:21/0:02:52
+Dialogue: 2,0:00:21.00,0:00:22.00,right_down,,0,0,0,,歌曲时间:0:00:22/0:02:52
+Dialogue: 2,0:00:22.00,0:00:23.00,right_down,,0,0,0,,歌曲时间:0:00:23/0:02:52
+Dialogue: 2,0:00:23.00,0:00:24.00,right_down,,0,0,0,,歌曲时间:0:00:24/0:02:52
+Dialogue: 2,0:00:24.00,0:00:25.00,right_down,,0,0,0,,歌曲时间:0:00:25/0:02:52
+Dialogue: 2,0:00:25.00,0:00:26.00,right_down,,0,0,0,,歌曲时间:0:00:26/0:02:52
+Dialogue: 2,0:00:26.00,0:00:27.00,right_down,,0,0,0,,歌曲时间:0:00:27/0:02:52
+Dialogue: 2,0:00:27.00,0:00:28.00,right_down,,0,0,0,,歌曲时间:0:00:28/0:02:52
+Dialogue: 2,0:00:28.00,0:00:29.00,right_down,,0,0,0,,歌曲时间:0:00:29/0:02:52
+Dialogue: 2,0:00:29.00,0:00:30.00,right_down,,0,0,0,,歌曲时间:0:00:30/0:02:52
+Dialogue: 2,0:00:30.00,0:00:31.00,right_down,,0,0,0,,歌曲时间:0:00:31/0:02:52
+Dialogue: 2,0:00:31.00,0:00:32.00,right_down,,0,0,0,,歌曲时间:0:00:32/0:02:52
+Dialogue: 2,0:00:32.00,0:00:33.00,right_down,,0,0,0,,歌曲时间:0:00:33/0:02:52
+Dialogue: 2,0:00:33.00,0:00:34.00,right_down,,0,0,0,,歌曲时间:0:00:34/0:02:52
+Dialogue: 2,0:00:34.00,0:00:35.00,right_down,,0,0,0,,歌曲时间:0:00:35/0:02:52
+Dialogue: 2,0:00:35.00,0:00:36.00,right_down,,0,0,0,,歌曲时间:0:00:36/0:02:52
+Dialogue: 2,0:00:36.00,0:00:37.00,right_down,,0,0,0,,歌曲时间:0:00:37/0:02:52
+Dialogue: 2,0:00:37.00,0:00:38.00,right_down,,0,0,0,,歌曲时间:0:00:38/0:02:52
+Dialogue: 2,0:00:38.00,0:00:39.00,right_down,,0,0,0,,歌曲时间:0:00:39/0:02:52
+Dialogue: 2,0:00:39.00,0:00:40.00,right_down,,0,0,0,,歌曲时间:0:00:40/0:02:52
+Dialogue: 2,0:00:40.00,0:00:41.00,right_down,,0,0,0,,歌曲时间:0:00:41/0:02:52
+Dialogue: 2,0:00:41.00,0:00:42.00,right_down,,0,0,0,,歌曲时间:0:00:42/0:02:52
+Dialogue: 2,0:00:42.00,0:00:43.00,right_down,,0,0,0,,歌曲时间:0:00:43/0:02:52
+Dialogue: 2,0:00:43.00,0:00:44.00,right_down,,0,0,0,,歌曲时间:0:00:44/0:02:52
+Dialogue: 2,0:00:44.00,0:00:45.00,right_down,,0,0,0,,歌曲时间:0:00:45/0:02:52
+Dialogue: 2,0:00:45.00,0:00:46.00,right_down,,0,0,0,,歌曲时间:0:00:46/0:02:52
+Dialogue: 2,0:00:46.00,0:00:47.00,right_down,,0,0,0,,歌曲时间:0:00:47/0:02:52
+Dialogue: 2,0:00:47.00,0:00:48.00,right_down,,0,0,0,,歌曲时间:0:00:48/0:02:52
+Dialogue: 2,0:00:48.00,0:00:49.00,right_down,,0,0,0,,歌曲时间:0:00:49/0:02:52
+Dialogue: 2,0:00:49.00,0:00:50.00,right_down,,0,0,0,,歌曲时间:0:00:50/0:02:52
+Dialogue: 2,0:00:50.00,0:00:51.00,right_down,,0,0,0,,歌曲时间:0:00:51/0:02:52
+Dialogue: 2,0:00:51.00,0:00:52.00,right_down,,0,0,0,,歌曲时间:0:00:52/0:02:52
+Dialogue: 2,0:00:52.00,0:00:53.00,right_down,,0,0,0,,歌曲时间:0:00:53/0:02:52
+Dialogue: 2,0:00:53.00,0:00:54.00,right_down,,0,0,0,,歌曲时间:0:00:54/0:02:52
+Dialogue: 2,0:00:54.00,0:00:55.00,right_down,,0,0,0,,歌曲时间:0:00:55/0:02:52
+Dialogue: 2,0:00:55.00,0:00:56.00,right_down,,0,0,0,,歌曲时间:0:00:56/0:02:52
+Dialogue: 2,0:00:56.00,0:00:57.00,right_down,,0,0,0,,歌曲时间:0:00:57/0:02:52
+Dialogue: 2,0:00:57.00,0:00:58.00,right_down,,0,0,0,,歌曲时间:0:00:58/0:02:52
+Dialogue: 2,0:00:58.00,0:00:59.00,right_down,,0,0,0,,歌曲时间:0:00:59/0:02:52
+Dialogue: 2,0:00:59.00,0:01:00.00,right_down,,0,0,0,,歌曲时间:0:01:00/0:02:52
+Dialogue: 2,0:01:00.00,0:01:01.00,right_down,,0,0,0,,歌曲时间:0:01:01/0:02:52
+Dialogue: 2,0:01:01.00,0:01:02.00,right_down,,0,0,0,,歌曲时间:0:01:02/0:02:52
+Dialogue: 2,0:01:02.00,0:01:03.00,right_down,,0,0,0,,歌曲时间:0:01:03/0:02:52
+Dialogue: 2,0:01:03.00,0:01:04.00,right_down,,0,0,0,,歌曲时间:0:01:04/0:02:52
+Dialogue: 2,0:01:04.00,0:01:05.00,right_down,,0,0,0,,歌曲时间:0:01:05/0:02:52
+Dialogue: 2,0:01:05.00,0:01:06.00,right_down,,0,0,0,,歌曲时间:0:01:06/0:02:52
+Dialogue: 2,0:01:06.00,0:01:07.00,right_down,,0,0,0,,歌曲时间:0:01:07/0:02:52
+Dialogue: 2,0:01:07.00,0:01:08.00,right_down,,0,0,0,,歌曲时间:0:01:08/0:02:52
+Dialogue: 2,0:01:08.00,0:01:09.00,right_down,,0,0,0,,歌曲时间:0:01:09/0:02:52
+Dialogue: 2,0:01:09.00,0:01:10.00,right_down,,0,0,0,,歌曲时间:0:01:10/0:02:52
+Dialogue: 2,0:01:10.00,0:01:11.00,right_down,,0,0,0,,歌曲时间:0:01:11/0:02:52
+Dialogue: 2,0:01:11.00,0:01:12.00,right_down,,0,0,0,,歌曲时间:0:01:12/0:02:52
+Dialogue: 2,0:01:12.00,0:01:13.00,right_down,,0,0,0,,歌曲时间:0:01:13/0:02:52
+Dialogue: 2,0:01:13.00,0:01:14.00,right_down,,0,0,0,,歌曲时间:0:01:14/0:02:52
+Dialogue: 2,0:01:14.00,0:01:15.00,right_down,,0,0,0,,歌曲时间:0:01:15/0:02:52
+Dialogue: 2,0:01:15.00,0:01:16.00,right_down,,0,0,0,,歌曲时间:0:01:16/0:02:52
+Dialogue: 2,0:01:16.00,0:01:17.00,right_down,,0,0,0,,歌曲时间:0:01:17/0:02:52
+Dialogue: 2,0:01:17.00,0:01:18.00,right_down,,0,0,0,,歌曲时间:0:01:18/0:02:52
+Dialogue: 2,0:01:18.00,0:01:19.00,right_down,,0,0,0,,歌曲时间:0:01:19/0:02:52
+Dialogue: 2,0:01:19.00,0:01:20.00,right_down,,0,0,0,,歌曲时间:0:01:20/0:02:52
+Dialogue: 2,0:01:20.00,0:01:21.00,right_down,,0,0,0,,歌曲时间:0:01:21/0:02:52
+Dialogue: 2,0:01:21.00,0:01:22.00,right_down,,0,0,0,,歌曲时间:0:01:22/0:02:52
+Dialogue: 2,0:01:22.00,0:01:23.00,right_down,,0,0,0,,歌曲时间:0:01:23/0:02:52
+Dialogue: 2,0:01:23.00,0:01:24.00,right_down,,0,0,0,,歌曲时间:0:01:24/0:02:52
+Dialogue: 2,0:01:24.00,0:01:25.00,right_down,,0,0,0,,歌曲时间:0:01:25/0:02:52
+Dialogue: 2,0:01:25.00,0:01:26.00,right_down,,0,0,0,,歌曲时间:0:01:26/0:02:52
+Dialogue: 2,0:01:26.00,0:01:27.00,right_down,,0,0,0,,歌曲时间:0:01:27/0:02:52
+Dialogue: 2,0:01:27.00,0:01:28.00,right_down,,0,0,0,,歌曲时间:0:01:28/0:02:52
+Dialogue: 2,0:01:28.00,0:01:29.00,right_down,,0,0,0,,歌曲时间:0:01:29/0:02:52
+Dialogue: 2,0:01:29.00,0:01:30.00,right_down,,0,0,0,,歌曲时间:0:01:30/0:02:52
+Dialogue: 2,0:01:30.00,0:01:31.00,right_down,,0,0,0,,歌曲时间:0:01:31/0:02:52
+Dialogue: 2,0:01:31.00,0:01:32.00,right_down,,0,0,0,,歌曲时间:0:01:32/0:02:52
+Dialogue: 2,0:01:32.00,0:01:33.00,right_down,,0,0,0,,歌曲时间:0:01:33/0:02:52
+Dialogue: 2,0:01:33.00,0:01:34.00,right_down,,0,0,0,,歌曲时间:0:01:34/0:02:52
+Dialogue: 2,0:01:34.00,0:01:35.00,right_down,,0,0,0,,歌曲时间:0:01:35/0:02:52
+Dialogue: 2,0:01:35.00,0:01:36.00,right_down,,0,0,0,,歌曲时间:0:01:36/0:02:52
+Dialogue: 2,0:01:36.00,0:01:37.00,right_down,,0,0,0,,歌曲时间:0:01:37/0:02:52
+Dialogue: 2,0:01:37.00,0:01:38.00,right_down,,0,0,0,,歌曲时间:0:01:38/0:02:52
+Dialogue: 2,0:01:38.00,0:01:39.00,right_down,,0,0,0,,歌曲时间:0:01:39/0:02:52
+Dialogue: 2,0:01:39.00,0:01:40.00,right_down,,0,0,0,,歌曲时间:0:01:40/0:02:52
+Dialogue: 2,0:01:40.00,0:01:41.00,right_down,,0,0,0,,歌曲时间:0:01:41/0:02:52
+Dialogue: 2,0:01:41.00,0:01:42.00,right_down,,0,0,0,,歌曲时间:0:01:42/0:02:52
+Dialogue: 2,0:01:42.00,0:01:43.00,right_down,,0,0,0,,歌曲时间:0:01:43/0:02:52
+Dialogue: 2,0:01:43.00,0:01:44.00,right_down,,0,0,0,,歌曲时间:0:01:44/0:02:52
+Dialogue: 2,0:01:44.00,0:01:45.00,right_down,,0,0,0,,歌曲时间:0:01:45/0:02:52
+Dialogue: 2,0:01:45.00,0:01:46.00,right_down,,0,0,0,,歌曲时间:0:01:46/0:02:52
+Dialogue: 2,0:01:46.00,0:01:47.00,right_down,,0,0,0,,歌曲时间:0:01:47/0:02:52
+Dialogue: 2,0:01:47.00,0:01:48.00,right_down,,0,0,0,,歌曲时间:0:01:48/0:02:52
+Dialogue: 2,0:01:48.00,0:01:49.00,right_down,,0,0,0,,歌曲时间:0:01:49/0:02:52
+Dialogue: 2,0:01:49.00,0:01:50.00,right_down,,0,0,0,,歌曲时间:0:01:50/0:02:52
+Dialogue: 2,0:01:50.00,0:01:51.00,right_down,,0,0,0,,歌曲时间:0:01:51/0:02:52
+Dialogue: 2,0:01:51.00,0:01:52.00,right_down,,0,0,0,,歌曲时间:0:01:52/0:02:52
+Dialogue: 2,0:01:52.00,0:01:53.00,right_down,,0,0,0,,歌曲时间:0:01:53/0:02:52
+Dialogue: 2,0:01:53.00,0:01:54.00,right_down,,0,0,0,,歌曲时间:0:01:54/0:02:52
+Dialogue: 2,0:01:54.00,0:01:55.00,right_down,,0,0,0,,歌曲时间:0:01:55/0:02:52
+Dialogue: 2,0:01:55.00,0:01:56.00,right_down,,0,0,0,,歌曲时间:0:01:56/0:02:52
+Dialogue: 2,0:01:56.00,0:01:57.00,right_down,,0,0,0,,歌曲时间:0:01:57/0:02:52
+Dialogue: 2,0:01:57.00,0:01:58.00,right_down,,0,0,0,,歌曲时间:0:01:58/0:02:52
+Dialogue: 2,0:01:58.00,0:01:59.00,right_down,,0,0,0,,歌曲时间:0:01:59/0:02:52
+Dialogue: 2,0:01:59.00,0:02:00.00,right_down,,0,0,0,,歌曲时间:0:02:00/0:02:52
+Dialogue: 2,0:02:00.00,0:02:01.00,right_down,,0,0,0,,歌曲时间:0:02:01/0:02:52
+Dialogue: 2,0:02:01.00,0:02:02.00,right_down,,0,0,0,,歌曲时间:0:02:02/0:02:52
+Dialogue: 2,0:02:02.00,0:02:03.00,right_down,,0,0,0,,歌曲时间:0:02:03/0:02:52
+Dialogue: 2,0:02:03.00,0:02:04.00,right_down,,0,0,0,,歌曲时间:0:02:04/0:02:52
+Dialogue: 2,0:02:04.00,0:02:05.00,right_down,,0,0,0,,歌曲时间:0:02:05/0:02:52
+Dialogue: 2,0:02:05.00,0:02:06.00,right_down,,0,0,0,,歌曲时间:0:02:06/0:02:52
+Dialogue: 2,0:02:06.00,0:02:07.00,right_down,,0,0,0,,歌曲时间:0:02:07/0:02:52
+Dialogue: 2,0:02:07.00,0:02:08.00,right_down,,0,0,0,,歌曲时间:0:02:08/0:02:52
+Dialogue: 2,0:02:08.00,0:02:09.00,right_down,,0,0,0,,歌曲时间:0:02:09/0:02:52
+Dialogue: 2,0:02:09.00,0:02:10.00,right_down,,0,0,0,,歌曲时间:0:02:10/0:02:52
+Dialogue: 2,0:02:10.00,0:02:11.00,right_down,,0,0,0,,歌曲时间:0:02:11/0:02:52
+Dialogue: 2,0:02:11.00,0:02:12.00,right_down,,0,0,0,,歌曲时间:0:02:12/0:02:52
+Dialogue: 2,0:02:12.00,0:02:13.00,right_down,,0,0,0,,歌曲时间:0:02:13/0:02:52
+Dialogue: 2,0:02:13.00,0:02:14.00,right_down,,0,0,0,,歌曲时间:0:02:14/0:02:52
+Dialogue: 2,0:02:14.00,0:02:15.00,right_down,,0,0,0,,歌曲时间:0:02:15/0:02:52
+Dialogue: 2,0:02:15.00,0:02:16.00,right_down,,0,0,0,,歌曲时间:0:02:16/0:02:52
+Dialogue: 2,0:02:16.00,0:02:17.00,right_down,,0,0,0,,歌曲时间:0:02:17/0:02:52
+Dialogue: 2,0:02:17.00,0:02:18.00,right_down,,0,0,0,,歌曲时间:0:02:18/0:02:52
+Dialogue: 2,0:02:18.00,0:02:19.00,right_down,,0,0,0,,歌曲时间:0:02:19/0:02:52
+Dialogue: 2,0:02:19.00,0:02:20.00,right_down,,0,0,0,,歌曲时间:0:02:20/0:02:52
+Dialogue: 2,0:02:20.00,0:02:21.00,right_down,,0,0,0,,歌曲时间:0:02:21/0:02:52
+Dialogue: 2,0:02:21.00,0:02:22.00,right_down,,0,0,0,,歌曲时间:0:02:22/0:02:52
+Dialogue: 2,0:02:22.00,0:02:23.00,right_down,,0,0,0,,歌曲时间:0:02:23/0:02:52
+Dialogue: 2,0:02:23.00,0:02:24.00,right_down,,0,0,0,,歌曲时间:0:02:24/0:02:52
+Dialogue: 2,0:02:24.00,0:02:25.00,right_down,,0,0,0,,歌曲时间:0:02:25/0:02:52
+Dialogue: 2,0:02:25.00,0:02:26.00,right_down,,0,0,0,,歌曲时间:0:02:26/0:02:52
+Dialogue: 2,0:02:26.00,0:02:27.00,right_down,,0,0,0,,歌曲时间:0:02:27/0:02:52
+Dialogue: 2,0:02:27.00,0:02:28.00,right_down,,0,0,0,,歌曲时间:0:02:28/0:02:52
+Dialogue: 2,0:02:28.00,0:02:29.00,right_down,,0,0,0,,歌曲时间:0:02:29/0:02:52
+Dialogue: 2,0:02:29.00,0:02:30.00,right_down,,0,0,0,,歌曲时间:0:02:30/0:02:52
+Dialogue: 2,0:02:30.00,0:02:31.00,right_down,,0,0,0,,歌曲时间:0:02:31/0:02:52
+Dialogue: 2,0:02:31.00,0:02:32.00,right_down,,0,0,0,,歌曲时间:0:02:32/0:02:52
+Dialogue: 2,0:02:32.00,0:02:33.00,right_down,,0,0,0,,歌曲时间:0:02:33/0:02:52
+Dialogue: 2,0:02:33.00,0:02:34.00,right_down,,0,0,0,,歌曲时间:0:02:34/0:02:52
+Dialogue: 2,0:02:34.00,0:02:35.00,right_down,,0,0,0,,歌曲时间:0:02:35/0:02:52
+Dialogue: 2,0:02:35.00,0:02:36.00,right_down,,0,0,0,,歌曲时间:0:02:36/0:02:52
+Dialogue: 2,0:02:36.00,0:02:37.00,right_down,,0,0,0,,歌曲时间:0:02:37/0:02:52
+Dialogue: 2,0:02:37.00,0:02:38.00,right_down,,0,0,0,,歌曲时间:0:02:38/0:02:52
+Dialogue: 2,0:02:38.00,0:02:39.00,right_down,,0,0,0,,歌曲时间:0:02:39/0:02:52
+Dialogue: 2,0:02:39.00,0:02:40.00,right_down,,0,0,0,,歌曲时间:0:02:40/0:02:52
+Dialogue: 2,0:02:40.00,0:02:41.00,right_down,,0,0,0,,歌曲时间:0:02:41/0:02:52
+Dialogue: 2,0:02:41.00,0:02:42.00,right_down,,0,0,0,,歌曲时间:0:02:42/0:02:52
+Dialogue: 2,0:02:42.00,0:02:43.00,right_down,,0,0,0,,歌曲时间:0:02:43/0:02:52
+Dialogue: 2,0:02:43.00,0:02:44.00,right_down,,0,0,0,,歌曲时间:0:02:44/0:02:52
+Dialogue: 2,0:02:44.00,0:02:45.00,right_down,,0,0,0,,歌曲时间:0:02:45/0:02:52
+Dialogue: 2,0:02:45.00,0:02:46.00,right_down,,0,0,0,,歌曲时间:0:02:46/0:02:52
+Dialogue: 2,0:02:46.00,0:02:47.00,right_down,,0,0,0,,歌曲时间:0:02:47/0:02:52
+Dialogue: 2,0:02:47.00,0:02:48.00,right_down,,0,0,0,,歌曲时间:0:02:48/0:02:52
+Dialogue: 2,0:02:48.00,0:02:49.00,right_down,,0,0,0,,歌曲时间:0:02:49/0:02:52
+Dialogue: 2,0:02:49.00,0:02:50.00,right_down,,0,0,0,,歌曲时间:0:02:50/0:02:52
+Dialogue: 2,0:02:50.00,0:02:51.00,right_down,,0,0,0,,歌曲时间:0:02:51/0:02:52

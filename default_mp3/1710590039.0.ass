@@ -1,0 +1,611 @@
+[Script Info]
+Title: Default ASS file
+ScriptType: v4.00+
+WrapStyle: 2
+Collisions: Normal
+PlayResX: 960
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Zoom Percent: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: left_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,1,10,10,5,1
+Style: right_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,3,10,10,5,1
+Style: left_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,7,10,10,5,1
+Style: right_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,9,10,10,5,1
+Style: center_up,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_up_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,8,10,10,5,1
+Style: center_down,WenQuanYi Zen Hei,20,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+Style: center_down_big,WenQuanYi Zen Hei,28,&H00FFFFFF,&H00FFFFFF,&H28533B3B,&H500E0A00,0,0,0,0,100.0,100.0,0.0,0.0,1,3.5546875,3.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,9:00:00.00,left_down,,0,0,0,,当前网易云id：1804879213\N歌名：过\N点播人：柠檬_cat
+Dialogue: 2,0:00:00.00,9:00:00.00,right_down,,0,0,0,,树莓派4B\N点播日期：2024-03-16 19:54:01
+Dialogue: 2,0:00:00.00,9:00:00.00,left_up,,0,0,0,,基于晨旭的树莓派点播台~
+Dialogue: 2,0:00:00.00,9:00:00.00,right_up,,0,0,0,,点播歌曲命令：\N点歌(歌曲名)\Nid(网易云歌曲id)\N点歌(歌曲名空格歌手)
+
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down,,0,0,0,,　 作曲 : 林俊杰/王嘉尔　\N　 编曲 : Boytoy/林俊杰/王嘉尔　
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down_big,,0,0,0,,　 作词 : 林怡凤　
+Dialogue: 2,0:00:00.00,0:00:01.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:01.00,0:00:02.00,center_down,,0,0,0,,　 编曲 : Boytoy/林俊杰/王嘉尔　\N　 制作人 : 林俊杰/王嘉尔/Boytoy　
+Dialogue: 2,0:00:01.00,0:00:02.00,center_down_big,,0,0,0,,　 作曲 : 林俊杰/王嘉尔　
+Dialogue: 2,0:00:01.00,0:00:02.00,center_down,,0,0,0,,　 　\N　 作词 : 林怡凤　
+Dialogue: 2,0:00:02.00,0:00:03.00,center_down,,0,0,0,,　 制作人 : 林俊杰/王嘉尔/Boytoy　\N　回不去的路口 Oh Oh　
+Dialogue: 2,0:00:02.00,0:00:03.00,center_down_big,,0,0,0,,　 编曲 : Boytoy/林俊杰/王嘉尔　
+Dialogue: 2,0:00:02.00,0:00:03.00,center_down,,0,0,0,,　 作词 : 林怡凤　\N　 作曲 : 林俊杰/王嘉尔　
+Dialogue: 2,0:00:03.00,0:00:15.52,center_down,,0,0,0,,　回不去的路口 Oh Oh　\N　像过敏扎了根 Oh Oh　
+Dialogue: 2,0:00:03.00,0:00:15.52,center_down_big,,0,0,0,,　 制作人 : 林俊杰/王嘉尔/Boytoy　
+Dialogue: 2,0:00:03.00,0:00:15.52,center_down,,0,0,0,,　 作曲 : 林俊杰/王嘉尔　\N　 编曲 : Boytoy/林俊杰/王嘉尔　
+Dialogue: 2,0:00:15.52,0:00:19.04,center_down,,0,0,0,,　像过敏扎了根 Oh Oh　\N　我想起某个人 Oh Oh　
+Dialogue: 2,0:00:15.52,0:00:19.04,center_down_big,,0,0,0,,　回不去的路口 Oh Oh　
+Dialogue: 2,0:00:15.52,0:00:19.04,center_down,,0,0,0,,　 编曲 : Boytoy/林俊杰/王嘉尔　\N　 制作人 : 林俊杰/王嘉尔/Boytoy　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_down,,0,0,0,,　我想起某个人 Oh Oh　\N　在我心中被淡化的人 Oh　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_down_big,,0,0,0,,　像过敏扎了根 Oh Oh　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_down,,0,0,0,,　 制作人 : 林俊杰/王嘉尔/Boytoy　\N　回不去的路口 Oh Oh　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_down,,0,0,0,,　在我心中被淡化的人 Oh　\N　我也有某个人逗留 Oh Oh　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_down_big,,0,0,0,,　我想起某个人 Oh Oh　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_down,,0,0,0,,　回不去的路口 Oh Oh　\N　像过敏扎了根 Oh Oh　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_down,,0,0,0,,　我也有某个人逗留 Oh Oh　\N　是无法根治的疼痛 Oh Oh　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_down_big,,0,0,0,,　在我心中被淡化的人 Oh　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_down,,0,0,0,,　像过敏扎了根 Oh Oh　\N　我想起某个人 Oh Oh　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_down,,0,0,0,,　是无法根治的疼痛 Oh Oh　\N　我以为只能这样了 Oh Oh　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_down_big,,0,0,0,,　我也有某个人逗留 Oh Oh　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_down,,0,0,0,,　我想起某个人 Oh Oh　\N　在我心中被淡化的人 Oh　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_down,,0,0,0,,　我以为只能这样了 Oh Oh　\N　但回忆发作 思念难以负荷　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_down_big,,0,0,0,,　是无法根治的疼痛 Oh Oh　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_down,,0,0,0,,　在我心中被淡化的人 Oh　\N　我也有某个人逗留 Oh Oh　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_down,,0,0,0,,　但回忆发作 思念难以负荷　\N　爱情自带寂寞 Yeah　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_down_big,,0,0,0,,　我以为只能这样了 Oh Oh　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_down,,0,0,0,,　我也有某个人逗留 Oh Oh　\N　是无法根治的疼痛 Oh Oh　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_down,,0,0,0,,　爱情自带寂寞 Yeah　\N　爱情各种错过 Oh Oh　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_down_big,,0,0,0,,　但回忆发作 思念难以负荷　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_down,,0,0,0,,　是无法根治的疼痛 Oh Oh　\N　我以为只能这样了 Oh Oh　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_down,,0,0,0,,　爱情各种错过 Oh Oh　\N　却在多年以后　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_down_big,,0,0,0,,　爱情自带寂寞 Yeah　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_down,,0,0,0,,　我以为只能这样了 Oh Oh　\N　但回忆发作 思念难以负荷　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_down,,0,0,0,,　却在多年以后　\N　还想回头　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_down_big,,0,0,0,,　爱情各种错过 Oh Oh　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_down,,0,0,0,,　但回忆发作 思念难以负荷　\N　爱情自带寂寞 Yeah　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_down,,0,0,0,,　还想回头　\N　Should've let go Mmm　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_down_big,,0,0,0,,　却在多年以后　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_down,,0,0,0,,　爱情自带寂寞 Yeah　\N　爱情各种错过 Oh Oh　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_down,,0,0,0,,　Should've let go Mmm　\N　不见天日的伤口　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_down_big,,0,0,0,,　还想回头　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_down,,0,0,0,,　爱情各种错过 Oh Oh　\N　却在多年以后　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_down,,0,0,0,,　不见天日的伤口　\N　残留的快乐是无底漩涡　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_down_big,,0,0,0,,　Should've let go Mmm　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_down,,0,0,0,,　却在多年以后　\N　还想回头　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_down,,0,0,0,,　残留的快乐是无底漩涡　\N　快把我淹没　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_down_big,,0,0,0,,　不见天日的伤口　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_down,,0,0,0,,　还想回头　\N　Should've let go Mmm　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_down,,0,0,0,,　快把我淹没　\N　Should've let go Hey　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_down_big,,0,0,0,,　残留的快乐是无底漩涡　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_down,,0,0,0,,　Should've let go Mmm　\N　不见天日的伤口　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_down,,0,0,0,,　Should've let go Hey　\N　没有如果的结果　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_down_big,,0,0,0,,　快把我淹没　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_down,,0,0,0,,　不见天日的伤口　\N　残留的快乐是无底漩涡　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_down,,0,0,0,,　没有如果的结果　\N　我来不及说的话在永远里沉没　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_down_big,,0,0,0,,　Should've let go Hey　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_down,,0,0,0,,　残留的快乐是无底漩涡　\N　快把我淹没　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_down,,0,0,0,,　我来不及说的话在永远里沉没　\N　Without you　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_down_big,,0,0,0,,　没有如果的结果　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_down,,0,0,0,,　快把我淹没　\N　Should've let go Hey　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_down,,0,0,0,,　Without you　\N　I fall apart　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_down_big,,0,0,0,,　我来不及说的话在永远里沉没　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_down,,0,0,0,,　Should've let go Hey　\N　没有如果的结果　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_down,,0,0,0,,　I fall apart　\N　Ooh I fall apart　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_down_big,,0,0,0,,　Without you　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_down,,0,0,0,,　没有如果的结果　\N　我来不及说的话在永远里沉没　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_down,,0,0,0,,　Ooh I fall apart　\N　Woah I fall apart　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_down_big,,0,0,0,,　I fall apart　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_down,,0,0,0,,　我来不及说的话在永远里沉没　\N　Without you　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_down,,0,0,0,,　Woah I fall apart　\N　付出过 所以我念旧 Oh Oh　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_down_big,,0,0,0,,　Ooh I fall apart　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_down,,0,0,0,,　Without you　\N　I fall apart　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_down,,0,0,0,,　付出过 所以我念旧 Oh Oh　\N　在遗憾里没有对错 Oh Oh　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_down_big,,0,0,0,,　Woah I fall apart　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_down,,0,0,0,,　I fall apart　\N　Ooh I fall apart　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_down,,0,0,0,,　在遗憾里没有对错 Oh Oh　\N　怎么我心还有点痛 Oh Oh　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_down_big,,0,0,0,,　付出过 所以我念旧 Oh Oh　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_down,,0,0,0,,　Ooh I fall apart　\N　Woah I fall apart　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_down,,0,0,0,,　怎么我心还有点痛 Oh Oh　\N　在这一刻 我想起某个人　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_down_big,,0,0,0,,　在遗憾里没有对错 Oh Oh　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_down,,0,0,0,,　Woah I fall apart　\N　付出过 所以我念旧 Oh Oh　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_down,,0,0,0,,　在这一刻 我想起某个人　\N　不得不习惯来去匆匆　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_down_big,,0,0,0,,　怎么我心还有点痛 Oh Oh　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_down,,0,0,0,,　付出过 所以我念旧 Oh Oh　\N　在遗憾里没有对错 Oh Oh　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_down,,0,0,0,,　不得不习惯来去匆匆　\N　不得不隐藏心事重重　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_down_big,,0,0,0,,　在这一刻 我想起某个人　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_down,,0,0,0,,　在遗憾里没有对错 Oh Oh　\N　怎么我心还有点痛 Oh Oh　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_down,,0,0,0,,　不得不隐藏心事重重　\N　当世界越来越多不得不做的选择　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_down_big,,0,0,0,,　不得不习惯来去匆匆　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_down,,0,0,0,,　怎么我心还有点痛 Oh Oh　\N　在这一刻 我想起某个人　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_down,,0,0,0,,　当世界越来越多不得不做的选择　\N　能放手才能再次拥有　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_down_big,,0,0,0,,　不得不隐藏心事重重　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_down,,0,0,0,,　在这一刻 我想起某个人　\N　不得不习惯来去匆匆　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_down,,0,0,0,,　能放手才能再次拥有　\N　Should've let go Mmm　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_down_big,,0,0,0,,　当世界越来越多不得不做的选择　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_down,,0,0,0,,　不得不习惯来去匆匆　\N　不得不隐藏心事重重　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_down,,0,0,0,,　Should've let go Mmm　\N　不见天日的伤口　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_down_big,,0,0,0,,　能放手才能再次拥有　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_down,,0,0,0,,　不得不隐藏心事重重　\N　当世界越来越多不得不做的选择　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_down,,0,0,0,,　不见天日的伤口　\N　残留的快乐是无底漩涡　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_down_big,,0,0,0,,　Should've let go Mmm　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_down,,0,0,0,,　当世界越来越多不得不做的选择　\N　能放手才能再次拥有　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_down,,0,0,0,,　残留的快乐是无底漩涡　\N　早已经把我淹没　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_down_big,,0,0,0,,　不见天日的伤口　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_down,,0,0,0,,　能放手才能再次拥有　\N　Should've let go Mmm　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_down,,0,0,0,,　早已经把我淹没　\N　Should've let go Hey　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_down_big,,0,0,0,,　残留的快乐是无底漩涡　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_down,,0,0,0,,　Should've let go Mmm　\N　不见天日的伤口　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_down,,0,0,0,,　Should've let go Hey　\N　没有如果的结果　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_down_big,,0,0,0,,　早已经把我淹没　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_down,,0,0,0,,　不见天日的伤口　\N　残留的快乐是无底漩涡　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_down,,0,0,0,,　没有如果的结果　\N　我来不及说的话在永远里沉没　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_down_big,,0,0,0,,　Should've let go Hey　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_down,,0,0,0,,　残留的快乐是无底漩涡　\N　早已经把我淹没　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_down,,0,0,0,,　我来不及说的话在永远里沉没　\N　Without you　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_down_big,,0,0,0,,　没有如果的结果　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_down,,0,0,0,,　早已经把我淹没　\N　Should've let go Hey　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_down,,0,0,0,,　Without you　\N　I fall apart　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_down_big,,0,0,0,,　我来不及说的话在永远里沉没　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_down,,0,0,0,,　Should've let go Hey　\N　没有如果的结果　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_down,,0,0,0,,　I fall apart　\N　Mmm I fall apart　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_down_big,,0,0,0,,　Without you　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_down,,0,0,0,,　没有如果的结果　\N　我来不及说的话在永远里沉没　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_down,,0,0,0,,　Mmm I fall apart　\N　Fall apart　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_down_big,,0,0,0,,　I fall apart　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_down,,0,0,0,,　我来不及说的话在永远里沉没　\N　Without you　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_down,,0,0,0,,　Fall apart　\N　Fall apart　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_down_big,,0,0,0,,　Mmm I fall apart　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_down,,0,0,0,,　Without you　\N　I fall apart　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_down,,0,0,0,,　Fall apart　\N　Mmm I fall apart　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_down_big,,0,0,0,,　Fall apart　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_down,,0,0,0,,　I fall apart　\N　Mmm I fall apart　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_down,,0,0,0,,　Mmm I fall apart　\N　Fall apart　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_down_big,,0,0,0,,　Fall apart　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_down,,0,0,0,,　Mmm I fall apart　\N　Fall apart　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_down,,0,0,0,,　Fall apart　\N　Fall apart　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_down_big,,0,0,0,,　Mmm I fall apart　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_down,,0,0,0,,　Fall apart　\N　Fall apart　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_down,,0,0,0,,　Fall apart　\N　　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_down_big,,0,0,0,,　Fall apart　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_down,,0,0,0,,　Fall apart　\N　Mmm I fall apart　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_down,,0,0,0,,　　\N　 配唱编写 : 林俊杰/王凯玉/郭舒文　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_down_big,,0,0,0,,　Fall apart　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_down,,0,0,0,,　Mmm I fall apart　\N　Fall apart　
+Dialogue: 2,0:03:21.48,0:03:21.65,center_down,,0,0,0,,　 配唱编写 : 林俊杰/王凯玉/郭舒文　\N　 制作协力 : 黄冠龙/周信廷/蔡沛蓁　
+Dialogue: 2,0:03:21.48,0:03:21.65,center_down_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.48,0:03:21.65,center_down,,0,0,0,,　Fall apart　\N　Fall apart　
+Dialogue: 2,0:03:21.65,0:03:21.83,center_down,,0,0,0,,　 制作协力 : 黄冠龙/周信廷/蔡沛蓁　\N　 键盘 : Boytoy/林俊杰　
+Dialogue: 2,0:03:21.65,0:03:21.83,center_down_big,,0,0,0,,　 配唱编写 : 林俊杰/王凯玉/郭舒文　
+Dialogue: 2,0:03:21.65,0:03:21.83,center_down,,0,0,0,,　Fall apart　\N　　
+Dialogue: 2,0:03:21.83,0:03:22.01,center_down,,0,0,0,,　 键盘 : Boytoy/林俊杰　\N　 吉他 : Disko/黄冠龙　
+Dialogue: 2,0:03:21.83,0:03:22.01,center_down_big,,0,0,0,,　 制作协力 : 黄冠龙/周信廷/蔡沛蓁　
+Dialogue: 2,0:03:21.83,0:03:22.01,center_down,,0,0,0,,　　\N　 配唱编写 : 林俊杰/王凯玉/郭舒文　
+Dialogue: 2,0:03:22.01,0:03:22.18,center_down,,0,0,0,,　 吉他 : Disko/黄冠龙　\N　 录音室 : JFJ Sanctuary (Taipei)/The JFJ Lab (Taipei)/Newband Studio (Shanghai)　
+Dialogue: 2,0:03:22.01,0:03:22.18,center_down_big,,0,0,0,,　 键盘 : Boytoy/林俊杰　
+Dialogue: 2,0:03:22.01,0:03:22.18,center_down,,0,0,0,,　 配唱编写 : 林俊杰/王凯玉/郭舒文　\N　 制作协力 : 黄冠龙/周信廷/蔡沛蓁　
+Dialogue: 2,0:03:22.18,0:03:22.36,center_down,,0,0,0,,　 录音室 : JFJ Sanctuary (Taipei)/The JFJ Lab (Taipei)/Newband Studio (Shanghai)　\N　 录音师 : 周信廷/林俊杰　
+Dialogue: 2,0:03:22.18,0:03:22.36,center_down_big,,0,0,0,,　 吉他 : Disko/黄冠龙　
+Dialogue: 2,0:03:22.18,0:03:22.36,center_down,,0,0,0,,　 制作协力 : 黄冠龙/周信廷/蔡沛蓁　\N　 键盘 : Boytoy/林俊杰　
+Dialogue: 2,0:03:22.36,0:03:22.54,center_down,,0,0,0,,　 录音师 : 周信廷/林俊杰　\N　 混音 : Richard Furch　
+Dialogue: 2,0:03:22.36,0:03:22.54,center_down_big,,0,0,0,,　 录音室 : JFJ Sanctuary (Taipei)/The JFJ Lab (Taipei)/Newband Studio (Shanghai)　
+Dialogue: 2,0:03:22.36,0:03:22.54,center_down,,0,0,0,,　 键盘 : Boytoy/林俊杰　\N　 吉他 : Disko/黄冠龙　
+Dialogue: 2,0:03:22.54,0:03:22.71,center_down,,0,0,0,,　 混音 : Richard Furch　\N　 混音助理 : Domenic Tenaglia　
+Dialogue: 2,0:03:22.54,0:03:22.71,center_down_big,,0,0,0,,　 录音师 : 周信廷/林俊杰　
+Dialogue: 2,0:03:22.54,0:03:22.71,center_down,,0,0,0,,　 吉他 : Disko/黄冠龙　\N　 录音室 : JFJ Sanctuary (Taipei)/The JFJ Lab (Taipei)/Newband Studio (Shanghai)　
+Dialogue: 2,0:03:22.71,0:03:22.89,center_down,,0,0,0,,　 混音助理 : Domenic Tenaglia　\N　 混音室 : mixHaus Studios (Los Angeles)　
+Dialogue: 2,0:03:22.71,0:03:22.89,center_down_big,,0,0,0,,　 混音 : Richard Furch　
+Dialogue: 2,0:03:22.71,0:03:22.89,center_down,,0,0,0,,　 录音室 : JFJ Sanctuary (Taipei)/The JFJ Lab (Taipei)/Newband Studio (Shanghai)　\N　 录音师 : 周信廷/林俊杰　
+Dialogue: 2,0:03:22.89,0:03:23.07,center_down,,0,0,0,,　 混音室 : mixHaus Studios (Los Angeles)　\N　 母带 : Mike Bozzi　
+Dialogue: 2,0:03:22.89,0:03:23.07,center_down_big,,0,0,0,,　 混音助理 : Domenic Tenaglia　
+Dialogue: 2,0:03:22.89,0:03:23.07,center_down,,0,0,0,,　 录音师 : 周信廷/林俊杰　\N　 混音 : Richard Furch　
+Dialogue: 2,0:03:23.07,0:03:23.25,center_down,,0,0,0,,　 母带 : Mike Bozzi　\N　 OP : RYCE Publishing Group白米范文化传播有限公司/Amusic Rights Management Pte Ltd　
+Dialogue: 2,0:03:23.07,0:03:23.25,center_down_big,,0,0,0,,　 混音室 : mixHaus Studios (Los Angeles)　
+Dialogue: 2,0:03:23.07,0:03:23.25,center_down,,0,0,0,,　 混音 : Richard Furch　\N　 混音助理 : Domenic Tenaglia　
+Dialogue: 2,0:03:23.25,0:03:23.42,center_down,,0,0,0,,　 OP : RYCE Publishing Group白米范文化传播有限公司/Amusic Rights Management Pte Ltd　\N　 SP : RYCE Publishing Group白米范文化传播有限公司/One Asia Music Inc. 酷亚音乐股份有限公司　
+Dialogue: 2,0:03:23.25,0:03:23.42,center_down_big,,0,0,0,,　 母带 : Mike Bozzi　
+Dialogue: 2,0:03:23.25,0:03:23.42,center_down,,0,0,0,,　 混音助理 : Domenic Tenaglia　\N　 混音室 : mixHaus Studios (Los Angeles)　
+Dialogue: 2,0:03:23.42,0:03:23.60,center_down,,0,0,0,,　 SP : RYCE Publishing Group白米范文化传播有限公司/One Asia Music Inc. 酷亚音乐股份有限公司　\N　 出品 : TEAM WANG　
+Dialogue: 2,0:03:23.42,0:03:23.60,center_down_big,,0,0,0,,　 OP : RYCE Publishing Group白米范文化传播有限公司/Amusic Rights Management Pte Ltd　
+Dialogue: 2,0:03:23.42,0:03:23.60,center_down,,0,0,0,,　 混音室 : mixHaus Studios (Los Angeles)　\N　 母带 : Mike Bozzi　
+Dialogue: 2,0:03:23.60,0:03:23.78,center_down,,0,0,0,,　 出品 : TEAM WANG　\N　 　
+Dialogue: 2,0:03:23.60,0:03:23.78,center_down_big,,0,0,0,,　 SP : RYCE Publishing Group白米范文化传播有限公司/One Asia Music Inc. 酷亚音乐股份有限公司　
+Dialogue: 2,0:03:23.60,0:03:23.78,center_down,,0,0,0,,　 母带 : Mike Bozzi　\N　 OP : RYCE Publishing Group白米范文化传播有限公司/Amusic Rights Management Pte Ltd　
+Dialogue: 2,0:03:23.78,0:10:00.00,center_down,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:03:23.78,0:10:00.00,center_down_big,,0,0,0,,　 出品 : TEAM WANG　
+Dialogue: 2,0:03:23.78,0:10:00.00,center_down,,0,0,0,,　 OP : RYCE Publishing Group白米范文化传播有限公司/Amusic Rights Management Pte Ltd　\N　 SP : RYCE Publishing Group白米范文化传播有限公司/One Asia Music Inc. 酷亚音乐股份有限公司　
+
+Dialogue: 2,0:00:15.52,0:00:19.04,center_up,,0,0,0,,　 　\N　 　
+Dialogue: 2,0:00:15.52,0:00:19.04,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:15.52,0:00:19.04,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_up,,0,0,0,,　 　\N　　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:19.04,0:00:22.54,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:22.54,0:00:26.10,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:26.10,0:00:30.44,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:30.44,0:00:33.90,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:33.90,0:00:37.55,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:37.55,0:00:41.02,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:41.02,0:00:45.13,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:45.13,0:00:48.76,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:48.76,0:00:52.47,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:52.47,0:00:55.41,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:00:55.41,0:00:59.00,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_up_big,,0,0,0,,　我应该选择放手　
+Dialogue: 2,0:00:59.00,0:01:03.89,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:03.89,0:01:07.50,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:07.50,0:01:10.99,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:10.99,0:01:13.96,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_up_big,,0,0,0,,　我应该选择放手　
+Dialogue: 2,0:01:13.96,0:01:18.86,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:18.86,0:01:22.41,center_up,,0,0,0,,　　\N　没有你的陪伴　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:22.41,0:01:29.91,center_up,,0,0,0,,　没有你的陪伴　\N　我便崩溃瓦解　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_up_big,,0,0,0,,　没有你的陪伴　
+Dialogue: 2,0:01:29.91,0:01:32.78,center_up,,0,0,0,,　我便崩溃瓦解　\N　噢 我便崩溃瓦解　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_up,,0,0,0,,　　\N　没有你的陪伴　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_up_big,,0,0,0,,　我便崩溃瓦解　
+Dialogue: 2,0:01:32.78,0:01:36.59,center_up,,0,0,0,,　噢 我便崩溃瓦解　\N　喔 我便崩溃瓦解　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_up,,0,0,0,,　没有你的陪伴　\N　我便崩溃瓦解　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_up_big,,0,0,0,,　噢 我便崩溃瓦解　
+Dialogue: 2,0:01:36.59,0:01:41.36,center_up,,0,0,0,,　喔 我便崩溃瓦解　\N　　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_up,,0,0,0,,　我便崩溃瓦解　\N　噢 我便崩溃瓦解　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_up_big,,0,0,0,,　喔 我便崩溃瓦解　
+Dialogue: 2,0:01:41.36,0:01:49.07,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_up,,0,0,0,,　噢 我便崩溃瓦解　\N　喔 我便崩溃瓦解　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:49.07,0:01:52.59,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_up,,0,0,0,,　喔 我便崩溃瓦解　\N　　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:52.59,0:01:56.61,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:56.61,0:01:59.91,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:01:59.91,0:02:03.64,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:03.64,0:02:07.17,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:07.17,0:02:11.06,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:11.06,0:02:14.95,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:14.95,0:02:17.72,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_up_big,,0,0,0,,　我应该选择放手　
+Dialogue: 2,0:02:17.72,0:02:22.56,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:22.56,0:02:26.01,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:26.01,0:02:29.49,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:29.49,0:02:32.70,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_up_big,,0,0,0,,　我应该选择放手　
+Dialogue: 2,0:02:32.70,0:02:37.54,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_up,,0,0,0,,　　\N　我应该选择放手　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:37.54,0:02:41.14,center_up,,0,0,0,,　　\N　没有你的陪伴　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_up,,0,0,0,,　我应该选择放手　\N　　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:02:41.14,0:02:48.66,center_up,,0,0,0,,　没有你的陪伴　\N　我便崩溃瓦解　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_up_big,,0,0,0,,　没有你的陪伴　
+Dialogue: 2,0:02:48.66,0:02:51.56,center_up,,0,0,0,,　我便崩溃瓦解　\N　我便崩溃瓦解　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_up,,0,0,0,,　　\N　没有你的陪伴　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_up_big,,0,0,0,,　我便崩溃瓦解　
+Dialogue: 2,0:02:51.56,0:02:52.84,center_up,,0,0,0,,　我便崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_up,,0,0,0,,　没有你的陪伴　\N　我便崩溃瓦解　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_up_big,,0,0,0,,　我便崩溃瓦解　
+Dialogue: 2,0:02:52.84,0:02:59.01,center_up,,0,0,0,,　崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_up,,0,0,0,,　我便崩溃瓦解　\N　我便崩溃瓦解　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_up_big,,0,0,0,,　崩溃瓦解　
+Dialogue: 2,0:02:59.01,0:03:02.75,center_up,,0,0,0,,　崩溃瓦解　\N　我便崩溃瓦解　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_up,,0,0,0,,　我便崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_up_big,,0,0,0,,　崩溃瓦解　
+Dialogue: 2,0:03:02.75,0:03:07.12,center_up,,0,0,0,,　我便崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_up,,0,0,0,,　崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_up_big,,0,0,0,,　我便崩溃瓦解　
+Dialogue: 2,0:03:07.12,0:03:14.04,center_up,,0,0,0,,　崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_up,,0,0,0,,　崩溃瓦解　\N　我便崩溃瓦解　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_up_big,,0,0,0,,　崩溃瓦解　
+Dialogue: 2,0:03:14.04,0:03:17.58,center_up,,0,0,0,,　崩溃瓦解　\N　　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_up,,0,0,0,,　我便崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_up_big,,0,0,0,,　崩溃瓦解　
+Dialogue: 2,0:03:17.58,0:03:21.48,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.48,0:03:21.58,center_up,,0,0,0,,　崩溃瓦解　\N　崩溃瓦解　
+Dialogue: 2,0:03:21.48,0:03:21.58,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.48,0:03:21.58,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.58,0:03:21.64,center_up,,0,0,0,,　崩溃瓦解　\N　　
+Dialogue: 2,0:03:21.58,0:03:21.64,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.58,0:03:21.64,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.64,0:03:21.71,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.64,0:03:21.71,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.64,0:03:21.71,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.71,0:03:21.85,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.71,0:03:21.85,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.71,0:03:21.85,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.85,0:03:21.97,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.85,0:03:21.97,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.85,0:03:21.97,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.97,0:03:22.02,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:21.97,0:03:22.02,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:21.97,0:03:22.02,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.02,0:03:22.11,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.02,0:03:22.11,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.02,0:03:22.11,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.11,0:03:22.27,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.11,0:03:22.27,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.11,0:03:22.27,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.27,0:03:22.39,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.27,0:03:22.39,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.27,0:03:22.39,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.39,0:03:22.56,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.39,0:03:22.56,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.39,0:03:22.56,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.56,0:03:22.68,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.56,0:03:22.68,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.56,0:03:22.68,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.68,0:03:22.78,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.68,0:03:22.78,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.68,0:03:22.78,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.78,0:03:22.81,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.78,0:03:22.81,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.78,0:03:22.81,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.81,0:03:22.98,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.81,0:03:22.98,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.81,0:03:22.98,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.98,0:03:23.01,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:22.98,0:03:23.01,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:22.98,0:03:23.01,center_up,,0,0,0,,　　\N　 　
+Dialogue: 2,0:03:23.01,0:10:00.00,center_up,,0,0,0,,　　\N　　
+Dialogue: 2,0:03:23.01,0:10:00.00,center_up_big,,0,0,0,,　　
+Dialogue: 2,0:03:23.01,0:10:00.00,center_up,,0,0,0,,　 　\N　 　
+
+Dialogue: 2,0:00:00.00,0:00:01.00,right_down,,0,0,0,,歌曲时间:0:00:01/0:03:23
+Dialogue: 2,0:00:01.00,0:00:02.00,right_down,,0,0,0,,歌曲时间:0:00:02/0:03:23
+Dialogue: 2,0:00:02.00,0:00:03.00,right_down,,0,0,0,,歌曲时间:0:00:03/0:03:23
+Dialogue: 2,0:00:03.00,0:00:04.00,right_down,,0,0,0,,歌曲时间:0:00:04/0:03:23
+Dialogue: 2,0:00:04.00,0:00:05.00,right_down,,0,0,0,,歌曲时间:0:00:05/0:03:23
+Dialogue: 2,0:00:05.00,0:00:06.00,right_down,,0,0,0,,歌曲时间:0:00:06/0:03:23
+Dialogue: 2,0:00:06.00,0:00:07.00,right_down,,0,0,0,,歌曲时间:0:00:07/0:03:23
+Dialogue: 2,0:00:07.00,0:00:08.00,right_down,,0,0,0,,歌曲时间:0:00:08/0:03:23
+Dialogue: 2,0:00:08.00,0:00:09.00,right_down,,0,0,0,,歌曲时间:0:00:09/0:03:23
+Dialogue: 2,0:00:09.00,0:00:10.00,right_down,,0,0,0,,歌曲时间:0:00:10/0:03:23
+Dialogue: 2,0:00:10.00,0:00:11.00,right_down,,0,0,0,,歌曲时间:0:00:11/0:03:23
+Dialogue: 2,0:00:11.00,0:00:12.00,right_down,,0,0,0,,歌曲时间:0:00:12/0:03:23
+Dialogue: 2,0:00:12.00,0:00:13.00,right_down,,0,0,0,,歌曲时间:0:00:13/0:03:23
+Dialogue: 2,0:00:13.00,0:00:14.00,right_down,,0,0,0,,歌曲时间:0:00:14/0:03:23
+Dialogue: 2,0:00:14.00,0:00:15.00,right_down,,0,0,0,,歌曲时间:0:00:15/0:03:23
+Dialogue: 2,0:00:15.00,0:00:16.00,right_down,,0,0,0,,歌曲时间:0:00:16/0:03:23
+Dialogue: 2,0:00:16.00,0:00:17.00,right_down,,0,0,0,,歌曲时间:0:00:17/0:03:23
+Dialogue: 2,0:00:17.00,0:00:18.00,right_down,,0,0,0,,歌曲时间:0:00:18/0:03:23
+Dialogue: 2,0:00:18.00,0:00:19.00,right_down,,0,0,0,,歌曲时间:0:00:19/0:03:23
+Dialogue: 2,0:00:19.00,0:00:20.00,right_down,,0,0,0,,歌曲时间:0:00:20/0:03:23
+Dialogue: 2,0:00:20.00,0:00:21.00,right_down,,0,0,0,,歌曲时间:0:00:21/0:03:23
+Dialogue: 2,0:00:21.00,0:00:22.00,right_down,,0,0,0,,歌曲时间:0:00:22/0:03:23
+Dialogue: 2,0:00:22.00,0:00:23.00,right_down,,0,0,0,,歌曲时间:0:00:23/0:03:23
+Dialogue: 2,0:00:23.00,0:00:24.00,right_down,,0,0,0,,歌曲时间:0:00:24/0:03:23
+Dialogue: 2,0:00:24.00,0:00:25.00,right_down,,0,0,0,,歌曲时间:0:00:25/0:03:23
+Dialogue: 2,0:00:25.00,0:00:26.00,right_down,,0,0,0,,歌曲时间:0:00:26/0:03:23
+Dialogue: 2,0:00:26.00,0:00:27.00,right_down,,0,0,0,,歌曲时间:0:00:27/0:03:23
+Dialogue: 2,0:00:27.00,0:00:28.00,right_down,,0,0,0,,歌曲时间:0:00:28/0:03:23
+Dialogue: 2,0:00:28.00,0:00:29.00,right_down,,0,0,0,,歌曲时间:0:00:29/0:03:23
+Dialogue: 2,0:00:29.00,0:00:30.00,right_down,,0,0,0,,歌曲时间:0:00:30/0:03:23
+Dialogue: 2,0:00:30.00,0:00:31.00,right_down,,0,0,0,,歌曲时间:0:00:31/0:03:23
+Dialogue: 2,0:00:31.00,0:00:32.00,right_down,,0,0,0,,歌曲时间:0:00:32/0:03:23
+Dialogue: 2,0:00:32.00,0:00:33.00,right_down,,0,0,0,,歌曲时间:0:00:33/0:03:23
+Dialogue: 2,0:00:33.00,0:00:34.00,right_down,,0,0,0,,歌曲时间:0:00:34/0:03:23
+Dialogue: 2,0:00:34.00,0:00:35.00,right_down,,0,0,0,,歌曲时间:0:00:35/0:03:23
+Dialogue: 2,0:00:35.00,0:00:36.00,right_down,,0,0,0,,歌曲时间:0:00:36/0:03:23
+Dialogue: 2,0:00:36.00,0:00:37.00,right_down,,0,0,0,,歌曲时间:0:00:37/0:03:23
+Dialogue: 2,0:00:37.00,0:00:38.00,right_down,,0,0,0,,歌曲时间:0:00:38/0:03:23
+Dialogue: 2,0:00:38.00,0:00:39.00,right_down,,0,0,0,,歌曲时间:0:00:39/0:03:23
+Dialogue: 2,0:00:39.00,0:00:40.00,right_down,,0,0,0,,歌曲时间:0:00:40/0:03:23
+Dialogue: 2,0:00:40.00,0:00:41.00,right_down,,0,0,0,,歌曲时间:0:00:41/0:03:23
+Dialogue: 2,0:00:41.00,0:00:42.00,right_down,,0,0,0,,歌曲时间:0:00:42/0:03:23
+Dialogue: 2,0:00:42.00,0:00:43.00,right_down,,0,0,0,,歌曲时间:0:00:43/0:03:23
+Dialogue: 2,0:00:43.00,0:00:44.00,right_down,,0,0,0,,歌曲时间:0:00:44/0:03:23
+Dialogue: 2,0:00:44.00,0:00:45.00,right_down,,0,0,0,,歌曲时间:0:00:45/0:03:23
+Dialogue: 2,0:00:45.00,0:00:46.00,right_down,,0,0,0,,歌曲时间:0:00:46/0:03:23
+Dialogue: 2,0:00:46.00,0:00:47.00,right_down,,0,0,0,,歌曲时间:0:00:47/0:03:23
+Dialogue: 2,0:00:47.00,0:00:48.00,right_down,,0,0,0,,歌曲时间:0:00:48/0:03:23
+Dialogue: 2,0:00:48.00,0:00:49.00,right_down,,0,0,0,,歌曲时间:0:00:49/0:03:23
+Dialogue: 2,0:00:49.00,0:00:50.00,right_down,,0,0,0,,歌曲时间:0:00:50/0:03:23
+Dialogue: 2,0:00:50.00,0:00:51.00,right_down,,0,0,0,,歌曲时间:0:00:51/0:03:23
+Dialogue: 2,0:00:51.00,0:00:52.00,right_down,,0,0,0,,歌曲时间:0:00:52/0:03:23
+Dialogue: 2,0:00:52.00,0:00:53.00,right_down,,0,0,0,,歌曲时间:0:00:53/0:03:23
+Dialogue: 2,0:00:53.00,0:00:54.00,right_down,,0,0,0,,歌曲时间:0:00:54/0:03:23
+Dialogue: 2,0:00:54.00,0:00:55.00,right_down,,0,0,0,,歌曲时间:0:00:55/0:03:23
+Dialogue: 2,0:00:55.00,0:00:56.00,right_down,,0,0,0,,歌曲时间:0:00:56/0:03:23
+Dialogue: 2,0:00:56.00,0:00:57.00,right_down,,0,0,0,,歌曲时间:0:00:57/0:03:23
+Dialogue: 2,0:00:57.00,0:00:58.00,right_down,,0,0,0,,歌曲时间:0:00:58/0:03:23
+Dialogue: 2,0:00:58.00,0:00:59.00,right_down,,0,0,0,,歌曲时间:0:00:59/0:03:23
+Dialogue: 2,0:00:59.00,0:01:00.00,right_down,,0,0,0,,歌曲时间:0:01:00/0:03:23
+Dialogue: 2,0:01:00.00,0:01:01.00,right_down,,0,0,0,,歌曲时间:0:01:01/0:03:23
+Dialogue: 2,0:01:01.00,0:01:02.00,right_down,,0,0,0,,歌曲时间:0:01:02/0:03:23
+Dialogue: 2,0:01:02.00,0:01:03.00,right_down,,0,0,0,,歌曲时间:0:01:03/0:03:23
+Dialogue: 2,0:01:03.00,0:01:04.00,right_down,,0,0,0,,歌曲时间:0:01:04/0:03:23
+Dialogue: 2,0:01:04.00,0:01:05.00,right_down,,0,0,0,,歌曲时间:0:01:05/0:03:23
+Dialogue: 2,0:01:05.00,0:01:06.00,right_down,,0,0,0,,歌曲时间:0:01:06/0:03:23
+Dialogue: 2,0:01:06.00,0:01:07.00,right_down,,0,0,0,,歌曲时间:0:01:07/0:03:23
+Dialogue: 2,0:01:07.00,0:01:08.00,right_down,,0,0,0,,歌曲时间:0:01:08/0:03:23
+Dialogue: 2,0:01:08.00,0:01:09.00,right_down,,0,0,0,,歌曲时间:0:01:09/0:03:23
+Dialogue: 2,0:01:09.00,0:01:10.00,right_down,,0,0,0,,歌曲时间:0:01:10/0:03:23
+Dialogue: 2,0:01:10.00,0:01:11.00,right_down,,0,0,0,,歌曲时间:0:01:11/0:03:23
+Dialogue: 2,0:01:11.00,0:01:12.00,right_down,,0,0,0,,歌曲时间:0:01:12/0:03:23
+Dialogue: 2,0:01:12.00,0:01:13.00,right_down,,0,0,0,,歌曲时间:0:01:13/0:03:23
+Dialogue: 2,0:01:13.00,0:01:14.00,right_down,,0,0,0,,歌曲时间:0:01:14/0:03:23
+Dialogue: 2,0:01:14.00,0:01:15.00,right_down,,0,0,0,,歌曲时间:0:01:15/0:03:23
+Dialogue: 2,0:01:15.00,0:01:16.00,right_down,,0,0,0,,歌曲时间:0:01:16/0:03:23
+Dialogue: 2,0:01:16.00,0:01:17.00,right_down,,0,0,0,,歌曲时间:0:01:17/0:03:23
+Dialogue: 2,0:01:17.00,0:01:18.00,right_down,,0,0,0,,歌曲时间:0:01:18/0:03:23
+Dialogue: 2,0:01:18.00,0:01:19.00,right_down,,0,0,0,,歌曲时间:0:01:19/0:03:23
+Dialogue: 2,0:01:19.00,0:01:20.00,right_down,,0,0,0,,歌曲时间:0:01:20/0:03:23
+Dialogue: 2,0:01:20.00,0:01:21.00,right_down,,0,0,0,,歌曲时间:0:01:21/0:03:23
+Dialogue: 2,0:01:21.00,0:01:22.00,right_down,,0,0,0,,歌曲时间:0:01:22/0:03:23
+Dialogue: 2,0:01:22.00,0:01:23.00,right_down,,0,0,0,,歌曲时间:0:01:23/0:03:23
+Dialogue: 2,0:01:23.00,0:01:24.00,right_down,,0,0,0,,歌曲时间:0:01:24/0:03:23
+Dialogue: 2,0:01:24.00,0:01:25.00,right_down,,0,0,0,,歌曲时间:0:01:25/0:03:23
+Dialogue: 2,0:01:25.00,0:01:26.00,right_down,,0,0,0,,歌曲时间:0:01:26/0:03:23
+Dialogue: 2,0:01:26.00,0:01:27.00,right_down,,0,0,0,,歌曲时间:0:01:27/0:03:23
+Dialogue: 2,0:01:27.00,0:01:28.00,right_down,,0,0,0,,歌曲时间:0:01:28/0:03:23
+Dialogue: 2,0:01:28.00,0:01:29.00,right_down,,0,0,0,,歌曲时间:0:01:29/0:03:23
+Dialogue: 2,0:01:29.00,0:01:30.00,right_down,,0,0,0,,歌曲时间:0:01:30/0:03:23
+Dialogue: 2,0:01:30.00,0:01:31.00,right_down,,0,0,0,,歌曲时间:0:01:31/0:03:23
+Dialogue: 2,0:01:31.00,0:01:32.00,right_down,,0,0,0,,歌曲时间:0:01:32/0:03:23
+Dialogue: 2,0:01:32.00,0:01:33.00,right_down,,0,0,0,,歌曲时间:0:01:33/0:03:23
+Dialogue: 2,0:01:33.00,0:01:34.00,right_down,,0,0,0,,歌曲时间:0:01:34/0:03:23
+Dialogue: 2,0:01:34.00,0:01:35.00,right_down,,0,0,0,,歌曲时间:0:01:35/0:03:23
+Dialogue: 2,0:01:35.00,0:01:36.00,right_down,,0,0,0,,歌曲时间:0:01:36/0:03:23
+Dialogue: 2,0:01:36.00,0:01:37.00,right_down,,0,0,0,,歌曲时间:0:01:37/0:03:23
+Dialogue: 2,0:01:37.00,0:01:38.00,right_down,,0,0,0,,歌曲时间:0:01:38/0:03:23
+Dialogue: 2,0:01:38.00,0:01:39.00,right_down,,0,0,0,,歌曲时间:0:01:39/0:03:23
+Dialogue: 2,0:01:39.00,0:01:40.00,right_down,,0,0,0,,歌曲时间:0:01:40/0:03:23
+Dialogue: 2,0:01:40.00,0:01:41.00,right_down,,0,0,0,,歌曲时间:0:01:41/0:03:23
+Dialogue: 2,0:01:41.00,0:01:42.00,right_down,,0,0,0,,歌曲时间:0:01:42/0:03:23
+Dialogue: 2,0:01:42.00,0:01:43.00,right_down,,0,0,0,,歌曲时间:0:01:43/0:03:23
+Dialogue: 2,0:01:43.00,0:01:44.00,right_down,,0,0,0,,歌曲时间:0:01:44/0:03:23
+Dialogue: 2,0:01:44.00,0:01:45.00,right_down,,0,0,0,,歌曲时间:0:01:45/0:03:23
+Dialogue: 2,0:01:45.00,0:01:46.00,right_down,,0,0,0,,歌曲时间:0:01:46/0:03:23
+Dialogue: 2,0:01:46.00,0:01:47.00,right_down,,0,0,0,,歌曲时间:0:01:47/0:03:23
+Dialogue: 2,0:01:47.00,0:01:48.00,right_down,,0,0,0,,歌曲时间:0:01:48/0:03:23
+Dialogue: 2,0:01:48.00,0:01:49.00,right_down,,0,0,0,,歌曲时间:0:01:49/0:03:23
+Dialogue: 2,0:01:49.00,0:01:50.00,right_down,,0,0,0,,歌曲时间:0:01:50/0:03:23
+Dialogue: 2,0:01:50.00,0:01:51.00,right_down,,0,0,0,,歌曲时间:0:01:51/0:03:23
+Dialogue: 2,0:01:51.00,0:01:52.00,right_down,,0,0,0,,歌曲时间:0:01:52/0:03:23
+Dialogue: 2,0:01:52.00,0:01:53.00,right_down,,0,0,0,,歌曲时间:0:01:53/0:03:23
+Dialogue: 2,0:01:53.00,0:01:54.00,right_down,,0,0,0,,歌曲时间:0:01:54/0:03:23
+Dialogue: 2,0:01:54.00,0:01:55.00,right_down,,0,0,0,,歌曲时间:0:01:55/0:03:23
+Dialogue: 2,0:01:55.00,0:01:56.00,right_down,,0,0,0,,歌曲时间:0:01:56/0:03:23
+Dialogue: 2,0:01:56.00,0:01:57.00,right_down,,0,0,0,,歌曲时间:0:01:57/0:03:23
+Dialogue: 2,0:01:57.00,0:01:58.00,right_down,,0,0,0,,歌曲时间:0:01:58/0:03:23
+Dialogue: 2,0:01:58.00,0:01:59.00,right_down,,0,0,0,,歌曲时间:0:01:59/0:03:23
+Dialogue: 2,0:01:59.00,0:02:00.00,right_down,,0,0,0,,歌曲时间:0:02:00/0:03:23
+Dialogue: 2,0:02:00.00,0:02:01.00,right_down,,0,0,0,,歌曲时间:0:02:01/0:03:23
+Dialogue: 2,0:02:01.00,0:02:02.00,right_down,,0,0,0,,歌曲时间:0:02:02/0:03:23
+Dialogue: 2,0:02:02.00,0:02:03.00,right_down,,0,0,0,,歌曲时间:0:02:03/0:03:23
+Dialogue: 2,0:02:03.00,0:02:04.00,right_down,,0,0,0,,歌曲时间:0:02:04/0:03:23
+Dialogue: 2,0:02:04.00,0:02:05.00,right_down,,0,0,0,,歌曲时间:0:02:05/0:03:23
+Dialogue: 2,0:02:05.00,0:02:06.00,right_down,,0,0,0,,歌曲时间:0:02:06/0:03:23
+Dialogue: 2,0:02:06.00,0:02:07.00,right_down,,0,0,0,,歌曲时间:0:02:07/0:03:23
+Dialogue: 2,0:02:07.00,0:02:08.00,right_down,,0,0,0,,歌曲时间:0:02:08/0:03:23
+Dialogue: 2,0:02:08.00,0:02:09.00,right_down,,0,0,0,,歌曲时间:0:02:09/0:03:23
+Dialogue: 2,0:02:09.00,0:02:10.00,right_down,,0,0,0,,歌曲时间:0:02:10/0:03:23
+Dialogue: 2,0:02:10.00,0:02:11.00,right_down,,0,0,0,,歌曲时间:0:02:11/0:03:23
+Dialogue: 2,0:02:11.00,0:02:12.00,right_down,,0,0,0,,歌曲时间:0:02:12/0:03:23
+Dialogue: 2,0:02:12.00,0:02:13.00,right_down,,0,0,0,,歌曲时间:0:02:13/0:03:23
+Dialogue: 2,0:02:13.00,0:02:14.00,right_down,,0,0,0,,歌曲时间:0:02:14/0:03:23
+Dialogue: 2,0:02:14.00,0:02:15.00,right_down,,0,0,0,,歌曲时间:0:02:15/0:03:23
+Dialogue: 2,0:02:15.00,0:02:16.00,right_down,,0,0,0,,歌曲时间:0:02:16/0:03:23
+Dialogue: 2,0:02:16.00,0:02:17.00,right_down,,0,0,0,,歌曲时间:0:02:17/0:03:23
+Dialogue: 2,0:02:17.00,0:02:18.00,right_down,,0,0,0,,歌曲时间:0:02:18/0:03:23
+Dialogue: 2,0:02:18.00,0:02:19.00,right_down,,0,0,0,,歌曲时间:0:02:19/0:03:23
+Dialogue: 2,0:02:19.00,0:02:20.00,right_down,,0,0,0,,歌曲时间:0:02:20/0:03:23
+Dialogue: 2,0:02:20.00,0:02:21.00,right_down,,0,0,0,,歌曲时间:0:02:21/0:03:23
+Dialogue: 2,0:02:21.00,0:02:22.00,right_down,,0,0,0,,歌曲时间:0:02:22/0:03:23
+Dialogue: 2,0:02:22.00,0:02:23.00,right_down,,0,0,0,,歌曲时间:0:02:23/0:03:23
+Dialogue: 2,0:02:23.00,0:02:24.00,right_down,,0,0,0,,歌曲时间:0:02:24/0:03:23
+Dialogue: 2,0:02:24.00,0:02:25.00,right_down,,0,0,0,,歌曲时间:0:02:25/0:03:23
+Dialogue: 2,0:02:25.00,0:02:26.00,right_down,,0,0,0,,歌曲时间:0:02:26/0:03:23
+Dialogue: 2,0:02:26.00,0:02:27.00,right_down,,0,0,0,,歌曲时间:0:02:27/0:03:23
+Dialogue: 2,0:02:27.00,0:02:28.00,right_down,,0,0,0,,歌曲时间:0:02:28/0:03:23
+Dialogue: 2,0:02:28.00,0:02:29.00,right_down,,0,0,0,,歌曲时间:0:02:29/0:03:23
+Dialogue: 2,0:02:29.00,0:02:30.00,right_down,,0,0,0,,歌曲时间:0:02:30/0:03:23
+Dialogue: 2,0:02:30.00,0:02:31.00,right_down,,0,0,0,,歌曲时间:0:02:31/0:03:23
+Dialogue: 2,0:02:31.00,0:02:32.00,right_down,,0,0,0,,歌曲时间:0:02:32/0:03:23
+Dialogue: 2,0:02:32.00,0:02:33.00,right_down,,0,0,0,,歌曲时间:0:02:33/0:03:23
+Dialogue: 2,0:02:33.00,0:02:34.00,right_down,,0,0,0,,歌曲时间:0:02:34/0:03:23
+Dialogue: 2,0:02:34.00,0:02:35.00,right_down,,0,0,0,,歌曲时间:0:02:35/0:03:23
+Dialogue: 2,0:02:35.00,0:02:36.00,right_down,,0,0,0,,歌曲时间:0:02:36/0:03:23
+Dialogue: 2,0:02:36.00,0:02:37.00,right_down,,0,0,0,,歌曲时间:0:02:37/0:03:23
+Dialogue: 2,0:02:37.00,0:02:38.00,right_down,,0,0,0,,歌曲时间:0:02:38/0:03:23
+Dialogue: 2,0:02:38.00,0:02:39.00,right_down,,0,0,0,,歌曲时间:0:02:39/0:03:23
+Dialogue: 2,0:02:39.00,0:02:40.00,right_down,,0,0,0,,歌曲时间:0:02:40/0:03:23
+Dialogue: 2,0:02:40.00,0:02:41.00,right_down,,0,0,0,,歌曲时间:0:02:41/0:03:23
+Dialogue: 2,0:02:41.00,0:02:42.00,right_down,,0,0,0,,歌曲时间:0:02:42/0:03:23
+Dialogue: 2,0:02:42.00,0:02:43.00,right_down,,0,0,0,,歌曲时间:0:02:43/0:03:23
+Dialogue: 2,0:02:43.00,0:02:44.00,right_down,,0,0,0,,歌曲时间:0:02:44/0:03:23
+Dialogue: 2,0:02:44.00,0:02:45.00,right_down,,0,0,0,,歌曲时间:0:02:45/0:03:23
+Dialogue: 2,0:02:45.00,0:02:46.00,right_down,,0,0,0,,歌曲时间:0:02:46/0:03:23
+Dialogue: 2,0:02:46.00,0:02:47.00,right_down,,0,0,0,,歌曲时间:0:02:47/0:03:23
+Dialogue: 2,0:02:47.00,0:02:48.00,right_down,,0,0,0,,歌曲时间:0:02:48/0:03:23
+Dialogue: 2,0:02:48.00,0:02:49.00,right_down,,0,0,0,,歌曲时间:0:02:49/0:03:23
+Dialogue: 2,0:02:49.00,0:02:50.00,right_down,,0,0,0,,歌曲时间:0:02:50/0:03:23
+Dialogue: 2,0:02:50.00,0:02:51.00,right_down,,0,0,0,,歌曲时间:0:02:51/0:03:23
+Dialogue: 2,0:02:51.00,0:02:52.00,right_down,,0,0,0,,歌曲时间:0:02:52/0:03:23
+Dialogue: 2,0:02:52.00,0:02:53.00,right_down,,0,0,0,,歌曲时间:0:02:53/0:03:23
+Dialogue: 2,0:02:53.00,0:02:54.00,right_down,,0,0,0,,歌曲时间:0:02:54/0:03:23
+Dialogue: 2,0:02:54.00,0:02:55.00,right_down,,0,0,0,,歌曲时间:0:02:55/0:03:23
+Dialogue: 2,0:02:55.00,0:02:56.00,right_down,,0,0,0,,歌曲时间:0:02:56/0:03:23
+Dialogue: 2,0:02:56.00,0:02:57.00,right_down,,0,0,0,,歌曲时间:0:02:57/0:03:23
+Dialogue: 2,0:02:57.00,0:02:58.00,right_down,,0,0,0,,歌曲时间:0:02:58/0:03:23
+Dialogue: 2,0:02:58.00,0:02:59.00,right_down,,0,0,0,,歌曲时间:0:02:59/0:03:23
+Dialogue: 2,0:02:59.00,0:03:00.00,right_down,,0,0,0,,歌曲时间:0:03:00/0:03:23
+Dialogue: 2,0:03:00.00,0:03:01.00,right_down,,0,0,0,,歌曲时间:0:03:01/0:03:23
+Dialogue: 2,0:03:01.00,0:03:02.00,right_down,,0,0,0,,歌曲时间:0:03:02/0:03:23
+Dialogue: 2,0:03:02.00,0:03:03.00,right_down,,0,0,0,,歌曲时间:0:03:03/0:03:23
+Dialogue: 2,0:03:03.00,0:03:04.00,right_down,,0,0,0,,歌曲时间:0:03:04/0:03:23
+Dialogue: 2,0:03:04.00,0:03:05.00,right_down,,0,0,0,,歌曲时间:0:03:05/0:03:23
+Dialogue: 2,0:03:05.00,0:03:06.00,right_down,,0,0,0,,歌曲时间:0:03:06/0:03:23
+Dialogue: 2,0:03:06.00,0:03:07.00,right_down,,0,0,0,,歌曲时间:0:03:07/0:03:23
+Dialogue: 2,0:03:07.00,0:03:08.00,right_down,,0,0,0,,歌曲时间:0:03:08/0:03:23
+Dialogue: 2,0:03:08.00,0:03:09.00,right_down,,0,0,0,,歌曲时间:0:03:09/0:03:23
+Dialogue: 2,0:03:09.00,0:03:10.00,right_down,,0,0,0,,歌曲时间:0:03:10/0:03:23
+Dialogue: 2,0:03:10.00,0:03:11.00,right_down,,0,0,0,,歌曲时间:0:03:11/0:03:23
+Dialogue: 2,0:03:11.00,0:03:12.00,right_down,,0,0,0,,歌曲时间:0:03:12/0:03:23
+Dialogue: 2,0:03:12.00,0:03:13.00,right_down,,0,0,0,,歌曲时间:0:03:13/0:03:23
+Dialogue: 2,0:03:13.00,0:03:14.00,right_down,,0,0,0,,歌曲时间:0:03:14/0:03:23
+Dialogue: 2,0:03:14.00,0:03:15.00,right_down,,0,0,0,,歌曲时间:0:03:15/0:03:23
+Dialogue: 2,0:03:15.00,0:03:16.00,right_down,,0,0,0,,歌曲时间:0:03:16/0:03:23
+Dialogue: 2,0:03:16.00,0:03:17.00,right_down,,0,0,0,,歌曲时间:0:03:17/0:03:23
+Dialogue: 2,0:03:17.00,0:03:18.00,right_down,,0,0,0,,歌曲时间:0:03:18/0:03:23
+Dialogue: 2,0:03:18.00,0:03:19.00,right_down,,0,0,0,,歌曲时间:0:03:19/0:03:23
+Dialogue: 2,0:03:19.00,0:03:20.00,right_down,,0,0,0,,歌曲时间:0:03:20/0:03:23
+Dialogue: 2,0:03:20.00,0:03:21.00,right_down,,0,0,0,,歌曲时间:0:03:21/0:03:23
+Dialogue: 2,0:03:21.00,0:03:22.00,right_down,,0,0,0,,歌曲时间:0:03:22/0:03:23
