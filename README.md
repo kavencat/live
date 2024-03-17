@@ -170,12 +170,6 @@ sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple aiohttp
 sudo apt-get install libatlas-base-dev
 ```
 
-安装python3的numpy库：
-
-```Bash
-sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
-```
-
 安装python3的brotli库：
 
 ```Bash
@@ -192,6 +186,12 @@ sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
 
 ```Bash
 sudo apt install screen
+```
+
+设置API支持:
+
+```Bash
+将PHP文件夹复制到var_set设置的download_api_url值位置，确保download_api_url能被访问
 ```
 
 安装中文字体
