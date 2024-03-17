@@ -13,10 +13,10 @@ roomid = '3702914'
 maxsum = 20
 #最大点播数量
 
-cookie = "buvid3=1C77F26D-D369-4C3D-A667-956FD14152BA27566infoc; buvid4=718CF30F-A8CA-2C6D-51FB-69CC81C2D46903566-024022603-PZQXQrT1%2FA0OUWf6PmrR9smxHQ57ORqHQe1m9RhYAiHXoXTm6f%2BPl0G5mibCqH80; LIVE_BUVID=AUTO1517089196099778; _uuid=1838BB16-41046-1107C-38410-4856F5B6CF51000238infoc; fingerprint=3484128cd87d5439209cfba8657e5e78; buvid_fp_plain=undefined; SESSDATA=0b25b07d%2C1724471819%2C7ba51%2A21CjDwTGLjSCi-t51kb9-CGSyxsDYcm2QYzvuqwIeZwga8kR3RRQeXE8p-oulJ-V6I6QESVi1sR2dtdmNvcmdKTTNCWmRoREtKazRPZE9oYzlJMUpHNDBaWmhFcUtRT3pja1RORXF6Rnk1RF9xVEYxQlJVQ3Fzb0RRa2NVQ1FVNm1WWEpuMmlBcVNnIIEC; bili_jct=aed1c01f44880273b0cbaa9c2187d6f1; DedeUserID=31438300; DedeUserID__ckMd5=45b96a085d845b70; sid=6f84fn5c; buvid_fp=3484128cd87d5439209cfba8657e5e78; b_nut=100; enable_web_push=DISABLE; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; home_feed_column=4; browser_resolution=1358-646; CURRENT_FNVAL=4048; rpdid=|(um)~JkumuR0J'u~u|uRRRmu; bp_video_offset_31438300=907295700833796144; bp_article_offset_31438300=907295700833796144; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA2Nzg2MDQsImlhdCI6MTcxMDQxOTM0NCwicGx0IjotMX0.HdY1kJQ9nIaaXVl5UxWTy5HdkeZGz1i-sPY5ngfSQkc; bili_ticket_expires=1710678544; Hm_lvt_8a6e55dbd2870f0f5bc9194cddf32a02=1709692447,1710521103; b_lsid=F22D29DF_18E46A7C670; bsource=search_bing; PVID=9"
+cookie = ""
 #发送弹幕用的cookie
 
-csrf_token = 'aed1c01f44880273b0cbaa9c2187d6f1'
+csrf_token = ''
 #发送弹幕用的csrf_token
 
 download_api_url = 'http://localhost/php/'
